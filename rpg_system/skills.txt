@@ -1,0 +1,1705 @@
+//
+//					S K I L L S 			F I L E
+//
+// ***************************************************************************
+//	This file contains all the data related to the skills. Remember that skills
+//	add new powerfull features to the game, and have their own levels
+//
+//
+//	Structure:
+//
+//	"survivor_crawl" //This is the skill tag. Can be modified, but leave it intact just in case
+//	{
+//		"name"	"Crawling"	//Name displayed
+//		"id"	"1"			//Id of the skill. Changing this will break the plugin
+//		"desc"	"Allows you to crawl while incapped"	//Description
+//		"sk_levels"	"2"		//Total levels of the skill / Max level
+//
+//		"lv1"		"10"	//Value of the modifier for this skill on level 1
+//		"lv2"		"20"	//Modifier level 2 and so on.
+//		//Note: Each variable has a different value type, check the previous variables
+//		//or guide yourself for the description, come on use your brain :)
+//
+//		"infected"	"9"		//Infected specific. Specified on the "reference.txt" file!
+//
+//		"req_lv1"		"1"		//Level requirement to buy for lv 1 (initial)
+//		"req_lv2"		"7"		//Level requirement to buy for lv 2 and so on..
+//		"base_cost"		"200"	//Base Cost
+//		"cost_factor"	"1.77"	//Cost factor
+//
+//		//What is shown on the "Effect" part of the menu. Note: Long text = Incomplete menu.
+//		"leg"	"50 topspeed"
+//		"leg_lv2"	"60 topspeed"
+//
+"skills"
+{
+	//Survivor Skils
+	
+	//Crawling -> Unable to change speed, added as a buff
+	//"survivor_crawl"
+	//{
+	//	"name"	"Crawling"
+	//	"id"	"1"
+	//	"desc"	"Allows you to crawl while you are incapacitated"
+	//	
+	//	"sk_levels"	"6"
+	//	
+	//	//Value works as the maximum crawl speed!
+	//	"lv1"	"30"
+	//	"lv2"	"40"
+	//	"lv3"	"50"
+	//	"lv4"	"60"
+	//	"lv5"	"70"
+	//	"lv6"	"80"
+	//	
+	//	"infected"	"9"
+	//	
+	//	"req_lv1"	"1"
+	//	"req_lv2"	"4"
+	//	"req_lv3"	"8"
+	//	"req_lv4"	"16"
+	//	"req_lv5"	"32"
+	//	"req_lv6"	"48"
+	//	
+	//	"base_cost"		"20"	
+	//	"cost_factor"	"3.5" 
+	//	
+	//	"leg"		"Allow crawling with a maximum 30 top-speed"
+	//	"leg_lv2"		"Allow crawling with a maximum 40 top-speed"
+	//	"leg_lv3"		"Allow crawling with a maximum 50 top-speed"
+	//	"leg_lv4"		"Allow crawling with a maximum 60 top-speed"
+	//	"leg_lv5"		"Allow crawling with a maximum 70 top-speed"
+	//	"leg_lv6"		"Allow crawling with a maximum 80 top-speed"
+	//}
+	
+	//Self-revive
+	"survivor_selfrevive"
+	{
+		"name"	"Self-Revive"
+		"name_es"	"Auto-Ayuda"
+		"name_br"	"Auto-Ajuda"
+		"id"	"2"
+		"desc"	"Allows you to self-revive with a medkit, or revive a teammate with pills"
+		"desc_es"	"Te permite levantarte cuando estas incapacitado, usando tus pildoras o botiquines"
+		"desc_br"	"Permite que voce se auto levante com um kit medico ou levante um companheiro com pilulas"
+		
+		"sk_levels"	"7"
+		
+		//Value works as the revive delay
+		"lv1"	"7.0"
+		"lv2"	"6.0"
+		"lv3"	"5.0"
+		"lv4"	"4.5"
+		"lv5"	"3.5"
+		"lv6"	"3.0"
+		"lv7"	"2.5"
+		"lv8"	"2.0"
+		
+		"infected"	"9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"32"
+		"req_lv7"	"40"
+		"req_lv8"	"48"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Delay: {v} second(s)"
+		"leg_es"	"Demora: {v} segundo(s)"
+        "leg_br"        "Demora: {v} segundo(s)"
+	}
+	
+	//Smoker Skills
+	
+	//Smoke IT!
+	"smoker_moveanddrag"
+	{
+		"name"	"Drag And Move"
+		"name_es"	"Tirar y Caminar"
+		"name_br"	"Puxar e Mover"
+		"id"	"3"
+		"desc"	"Allows you to move while pulling survivors"
+        "desc_br"  "Permite que voce se movente enquanto estiver puxando sobreviventes"
+		
+		"sk_levels"	"7"
+		
+		//Value works as the speed 0.0 = NOTHIN, 1.0 = NORMAL.
+		"lv1"	"0.10"
+		"lv2"	"0.20"
+		"lv3"	"0.30" 
+		"lv4"	"0.40"
+		"lv5"	"0.50"
+		"lv6"	"0.60"
+		"lv7"	"0.70" //Default smoke it values is 0.42 -> 42%
+		
+		"infected"	"1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"16"
+		"req_lv6"	"24"
+		"req_lv7"	"32"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		"leg_mode" "1"
+		"leg_lv1"		"Pull and move with a speed of 10%"
+		"leg_lv2"		"Pull and move with a speed of 20%"
+		"leg_lv3"		"Pull and move with a speed of 30%"
+		"leg_lv4"		"Pull and move with a speed of 40%"
+		"leg_lv5"		"Pull and move with a speed of 50%"
+		"leg_lv6"		"Pull and move with a speed of 60%"
+		"leg_lv7"		"Pull and move with a speed of 70%"
+		"leg_lv1_es"	"Velocidade de movimento de 10%"
+		"leg_lv2_es"	"Velocidade de movimento de 20%"
+		"leg_lv3_es"	"Velocidade de movimento de 30%"
+		"leg_lv4_es"	"Velocidade de movimento de 40%"
+		"leg_lv5_es"	"Velocidade de movimento de 50%"
+		"leg_lv6_es"	"Velocidade de movimento de 60%"
+		"leg_lv7_es"	"Velocidade de movimento de 70%"
+		"leg_lv1_br"	"Velocidade de movimento de 10%"
+		"leg_lv2_br"	"Velocidade de movimento de 20%"
+		"leg_lv3_br"	"Velocidade de movimento de 30%"
+		"leg_lv4_br"	"Velocidade de movimento de 40%"
+		"leg_lv5_br"	"Velocidade de movimento de 50%"
+		"leg_lv6_br"	"Velocidade de movimento de 60%"
+		"leg_lv7_br"	"Velocidade de movimento de 70%"
+	}
+	
+	//Smoker Cloud
+	"smoker_cloud"
+	{
+		"name"	"Toxic Cloud"
+		"name_es"	"Nube Toxica"
+		"name_br"	"Nuvem Toxica"
+		"id"	"4"
+		"desc"	"Leaves a toxic cloud when you die that harms survivors"
+		"desc_es"	"Deja una nube toxica cuando mueres como smoker, que dana a los sobrevivientes"
+		"desc_br"	"Deixa uma nuvem toxica causadora de danos aos sobreviventes quando voce morre sendo Smoker"
+		
+		"sk_levels"	"6"
+		
+		//Value works as the smoker cloud damage
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3" 
+		"lv4"	"4"
+		"lv5"	"5"
+		"lv6"	"6"
+		
+		"infected"	"1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Smoker cloud damage: {v} per second"
+		"leg_es"	"Dano de la nube: {v} por segundo"
+                "leg_br"        "Dano da nuvem: {v} por segundo"
+	}
+	
+	//Volutary Release :)
+	"smoker_release"
+	{
+		"name"	"Mercy Tongue"
+		"name_es"	"Lengua Compasiva"
+		"name_br"	"Lingua Misericordiosa"
+		"id"	"5"
+		"desc"	"Allows you to voluntarily release your victim"
+		"desc_es" "Te permite liberar a tu victima como smoker"
+		"desc_br" "Permite que voce solte a vitima sendo smoker"
+		
+		"sk_levels"	"6"
+		
+		//Value works as the release delay
+		"lv1"	"3.0"
+		"lv2"	"2.5"
+		"lv3"	"2.0" 
+		"lv4"	"1.5"
+		"lv5"	"1.0"
+		"lv6"	"0.0"
+		
+		"infected"	"1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Release victim with a delay of {v} second(s)"
+		"leg_es"	"Demora para liberar de {v} segundo(s)"
+		"leg_br"	"Demora para liberar de {v} segundo(s)"
+	}
+	
+	//Boomer skills
+	
+	//Bitch Slap!
+	"boomer_slap"
+	{
+		"name"	"Bitch Slap"
+		"name_es"	"Bofetada"
+		"name_br"	"Bofetada"
+		"id"	"6"
+		"desc"	"Allows you to deal a powerful slap towards survivor"
+		"desc_es"	"Te permite dar un poderoso golpe con el boomer"
+		"desc_br"	"Permite que voce de um poderoso tapa no sobrevivente"
+		
+		"sk_levels"	"9"
+		
+		//Value works as the slap power
+		"lv1"	"150"
+		"lv2"	"180"
+		"lv3"	"210" 
+		"lv4"	"240"
+		"lv5"	"270"
+		"lv6"	"300"
+		"lv7"	"350"
+		"lv8"	"400"
+		"lv9"	"450"
+		"lv10"	"500"
+		
+		"infected"	"2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		"req_lv8"	"105"
+		"req_lv9"	"149"
+		"req_lv10"	"205"
+		
+		"stone"	"9"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Slap Power: {v}"
+		"leg_es"	"Poder: {v}"
+		"leg_br"	"Poder do tapa: {v}"
+	}
+	
+	//Acid boomer
+	"boomer_acid"
+	{
+		"name"	"Acid Vomit"
+		"name_es"	"Vomito Acido"
+		"name_br"	"Vomito Acido"
+		"id"	"18"
+		"desc"	"Allows you to randomly drop an acid spill when you die"
+		"desc_es"	"Aleatoriamente, dejaras un charco de acido cuando mueras como boomer"
+		"desc_br"	"Permite que voce deixe uma poca de acido quando morrer"
+		
+		"sk_levels"	"7"
+		
+		//Value works as the % chance
+		"lv1"	"5"
+		"lv2"	"15"
+		"lv3"	"25" 
+		"lv4"	"35"
+		"lv5"	"45"
+		"lv6"	"60"
+		"lv7"	"80"
+		
+		"infected"	"2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"64"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% probability of dropping an acid spill"
+		"leg_es"	"{v}% probabilidad de dejar acido"
+		"leg_br"	"{v}% probabilidade de deixar poca de acido"
+	}
+	
+	//Boomer Horde
+	"boomer_horde"
+	{
+		"name"	"Accurate Vomit"
+		"name_es"	"Vomito Fermentado"
+		"name_br"	"Vomito Preciso"
+		"id"	"7"
+		"desc"	"Your vomit will randomly create a massive panic event"
+		"desc_es"	"Tu vomito, aleatoriamente, llamara una masiva cantidad de infectados"
+		"desc_br"	"Seu vomito, eventualmente, criara um evento de panico massivo"
+		
+		"sk_levels"	"7"
+		
+		//Value works as the % chance
+		"lv1"	"5"
+		"lv2"	"15"
+		"lv3"	"25" 
+		"lv4"	"35"
+		"lv5"	"45"
+		"lv6"	"60"
+		"lv7"	"80"
+		
+		"infected"	"2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% probability of a panic event"
+		"leg_es"	"{v}% probabilidad de una horda masiva"
+		"leg_br"	"{v}% probabilidade de gerar evento de panico"
+	}
+	
+	//Blind Vomit
+	"boomer_blind"
+	{
+		"name"	"Dark Vomit"
+		"name_es"	"Vomito Oscuro"
+		"name_br"	"Vomito Escuro"
+		"id"	"8"
+		"desc"	"Your vomit will blind the survivors"
+		"desc_es"	"Tu vomito dejara mas ciegos aun a los sobrevivientes"
+		"desc_br"	"Seu vomito ira cegar os sobreviventes"		
+
+		"sk_levels"	"8"
+		
+		//Value works as a percent of the blindness
+		"lv1"	"10"
+		"lv2"	"20"
+		"lv3"	"30" 
+		"lv4"	"40"
+		"lv5"	"50"
+		"lv6"	"60"
+		"lv7"	"70"
+		"lv8"	"80"
+		
+		"infected"	"2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		"req_lv8"	"76"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% survivors visibility decrease"
+		"leg_es"	"{v}% visibilidad disminuida"
+		"leg_br"	"{v}% visibilidade diminuida"
+	}
+	
+	//Hunter skills
+	
+	//Hunter Repounce
+	"hunter_repounce"
+	{
+		"name"	"Hunter Repounce"
+		"name_es"	"Multi Saltos"
+		"name_br"	"Multi Saltos"
+		"id"	"9"
+		"desc"	"Allows you to leave your current victim, and inmediatly pounce"
+		"desc_es"	"Te permite dejar a tu victima, y saltar inmediatamanete hacia otra"
+		"desc_br"	"Permite que voce deixa sua vitima atual e imediatamente salte em outra"
+		
+		"sk_levels"	"6"
+		
+		//Value works as the repounce interval
+		"lv1"	"5"
+		"lv2"	"4"
+		"lv3"	"3" 
+		"lv4"	"2"
+		"lv5"	"1"
+		"lv6"	"0"
+		
+		"infected"	"3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Repounce recharge interval: {v} second(s)"
+		"leg_es"	"Intervalo de descanso: {v} segundo(s)"
+		"leg_br"	"Intervalo de descanso: {v} segundo(s)"
+	}
+	
+	//Spitter skills
+	
+	//Supergirl
+	"spitter_godmode"
+	{
+		"name"	"Super Girl"
+		"name_es"	"Mujer Maravilla"
+		"name_br"	"Super Mulher"
+		"id"	"10"
+		"desc"	"Makes you invulnerable after spitting"
+		"desc_es"	"Te hace indestructible luego de escupir"
+		"desc_br"	"Te deixa invulneravel apos cuspir"
+		
+		"sk_levels"	"7"
+		
+		//Invulnerability time
+		"lv1"	"1.0"
+		"lv2"	"1.5"
+		"lv3"	"2.0" 
+		"lv4"	"2.5"
+		"lv5"	"3.0"
+		"lv6"	"3.5"
+		"lv7"	"4.0"
+		
+		"infected"	"4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Invulnerability for {v} seconds"
+		"leg_es"	"Inmunidad por {v} segundo(s)"
+		"leg_br"	"Invulnerabilidade por {v} segundo(s)"
+	}
+	
+	//Sticky Goo
+	"spitter_sticky"
+	{
+		"name"	"Sticky Goo"
+		"name_es"	"Acido Pegajoso"
+		"name_br"	"Acido Pegajoso"
+		"id"	"11"
+		"desc"	"Slows down survivors while they are on your spit"
+		"desc_es"	"Disminuye la velocidad de los sobrevivientes que pasan por tu acido"
+		"desc_br"	"Diminui a velocidade dos sobreviventes enquanto eles estiverem no acido"
+		
+		"sk_levels"	"10"
+		
+		// % of survivors speed decreased
+		"lv1"	"10"
+		"lv2"	"15"
+		"lv3"	"20" 
+		"lv4"	"25"
+		"lv5"	"30"
+		"lv6"	"35"
+		"lv7"	"40"
+		"lv8"	"55"
+		"lv9"	"75"
+		"lv10"	"82"
+		
+		"stone"	"8"
+		
+		"infected"	"4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		"req_lv8"	"100"
+		"req_lv9"	"162"
+		"req_lv10"	"204"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% speed decrease"
+		"leg_es"	"{v}% velocidad disminuida"
+		"leg_br"	"{v}% da velocidade diminuida"
+	}
+	
+	//Acid Claws
+	"spitter_acid_claws"
+	{
+		"name"	"Acid Claws"
+		"name_es"	"Garras Acidas"
+		"name_br"	"Garras Acidas"
+		"id"	"12"
+		"desc"	"Keeps inflicting damage to survivors after a claw hit"
+		"desc_es"	"Sigue inflingiendo dano luego de golpear con la garra"
+		"desc_br"	"Continua infligindo dano aos sobreviventes apos serem atingidos pela garra"
+		
+		"sk_levels"	"7"
+		
+		//Duration of the damage
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3" 
+		"lv4"	"4"
+		"lv5"	"5"
+		"lv6"	"6"
+		"lv7"	"7"
+		
+		"infected"	"4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"56"
+		"req_lv7"	"72"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Damage duration: {v} second(s)"
+		"leg_es"	"Duracion del dano: {v} segundo(s)"
+		"leg_br"	"Duracao do dano: {v} segundo(s)"
+	}
+	
+	//Jockey skills
+	
+	//Jockey Jump
+	"jockey_jump"
+	{
+		"name"	"Humpy Jump"
+		"name_es"	"Salto Violador"
+		"name_br"	"Pulo do Corcunda"
+		"id"	"13"
+		"desc"	"Allows you to jump when riding a survivor"
+		"desc_es"	"Te permite saltar mientras montas a un sobreviviente"
+		"desc_br"	"Pemite que voce pule enquanto monta um sobrevivente"
+		
+		"sk_levels"	"7"
+		
+		//Power of the jump
+		"lv1"	"200"
+		"lv2"	"240"
+		"lv3"	"270" 
+		"lv4"	"300"
+		"lv5"	"330"
+		"lv6"	"360"
+		"lv7"	"400"
+		
+		"infected"	"5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Jump power of {v}"
+		"leg_es"	"Poder del salto: {v}"
+		"leg_br"	"Poder do pulo: {v}"
+	}
+	
+	//Invisible Jockey
+	"jockey_stalker"
+	{
+		"name"	"Invisible Danger"
+		"name_es"	"Peligro Invisible"
+		"name_br"	"Ameaca Invisivel"
+		"id"	"14"
+		"desc"	"Decreases your visibility when you are not riding"
+		"desc_es"	"Disminuye la visibilidad del jockey, cuando no esta montando"
+		"desc_br"	"Diminui sua visibilidade quando voce nao esta montando"
+		
+		"sk_levels"	"7"
+		
+		//Alhpa %
+		"lv1"	"15"
+		"lv2"	"30"
+		"lv3"	"45" 
+		"lv4"	"60"
+		"lv5"	"75"
+		"lv6"	"90"
+		"lv7"	"100"
+		
+		"infected"	"5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% visibility decrease"
+		"leg_es"	"{v}% visibilidad disminuida"
+		"leg_br"	"{v}% visibilidade diminuida"
+	}
+	
+	//Charger skills
+	
+	//Move Objects
+	"charger_power"
+	{
+		"name"	"Charger Power"
+		"name_es"	"Poder de Carga"
+		"name_br"	"Poder de Carregar"
+		"id"	"15"
+		"desc"	"Allows you to move cars with your charge"
+		"desc_es"	"Te permite mover automoviles cuando cargas"
+		"desc_br"	"Permite que voce mova carros com seu carregar"
+		
+		"sk_levels"	"7"
+		
+		//Power applied to objects
+		"lv1"	"200"
+		"lv2"	"250"
+		"lv3"	"300" 
+		"lv4"	"350"
+		"lv5"	"400"
+		"lv6"	"450"
+		"lv7"	"500"
+		
+		"infected"	"6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Charge and move the car with a power of {v}"
+		"leg_es"	"Fuerza con que son movidos: {v}"
+		"leg_br"	"Move o carro com forca de: {v}"
+	}
+	
+	//Tank skills
+	
+	//Tank explosive rock
+	"tank_explosive_rock"
+	{
+		"name"	"Dynamite Rock"
+		"name_es"	"Roca Dinamita"
+		"name_br"	"Pedra Explosiva"
+		"id"	"16"
+		"desc"	"The tank rock will explode when it collides with something, harming anything around"
+		"desc_es"	"La roca del Tank se vuelve explosiva y dana todo alrededor"
+		"desc_br"	"A pedra lancada pelo Tank ira explodir quando colidir com algo, causando dano em todos ao seu redor"
+		
+		"sk_levels"	"7"
+		
+		//Power of the explosion
+		"lv1"	"35"
+		"lv2"	"70"
+		"lv3"	"105" 
+		"lv4"	"140"
+		"lv5"	"175"
+		"lv6"	"210"
+		"lv7"	"245"
+		
+		"infected"	"8"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"60"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Rock explodes with a power of {v}"
+		"leg_es" 	"La rock explota con un poder de {v}"
+		"leg_br" 	"A pedra explode com poder de {v}"
+	}
+	
+	//Infected general
+	
+	"infected_silence"
+	{
+		"name"	"Silenced Attack"
+		"name_es"	"Ataque Silencioso"
+		"name_br"	"Ataque Silencioso"
+		"id"	"17"
+		"desc"	"Decreases the infected sounds emitted from you"
+		"desc_es"	"Disminuye el ruido proveniente de ti"
+		"desc_br"	"Diminui os sons emitidos por voce quando for um infectado"
+		
+		"sk_levels"	"5"
+		
+		//% reduced, works as a probability of blocking one sound
+		"lv1"	"20"
+		"lv2"	"40"
+		"lv3"	"60" 
+		"lv4"	"80"
+		"lv5"	"100"
+		
+		"infected"	"7"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Reduces infected noise by {v}%"
+		"leg_es"	"Reduce el ruido un {v}%"
+		"leg_br"	"Reduz o som em {v}%"
+	}
+	
+	"acid_vomit_jar"
+	{
+		"name"	"Acid Jar"
+		"name_es"	"Jarra Acida"
+		"name_br"	"Jarra Acida"
+		"id"	"19"
+		"desc"	"Deals damage to the infected you cover with boomer bile jars"
+		"desc_es"	"Dana a los infectados cuviertos por tu botella de bilis"
+		"desc_br"	"Causa dano aos infectados que voce atingir com a Jarra de Vomito"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"5"
+		"lv2"	"10"
+		"lv3"	"15" 
+		"lv4"	"20"
+		"lv5"	"25"
+		"lv6"	"30"
+		"lv7"	"35"
+		
+		"infected"	"9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"18"
+		"req_lv3"	"29"
+		"req_lv4"	"36"
+		"req_lv5"	"48"
+		"req_lv6"	"60"
+		"req_lv7"	"78"
+		
+		"base_cost"		"40"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Deals {v} damage per second"
+		"leg_es"	"{v} de dano por segundo"
+		"leg_br"	"{v} de dano por segundo"
+	}
+	
+	"regen"
+	{
+		"name"	"Regeneration"
+		"name_es"	"Regeneracion"
+		"name_br"	"Regeneracao"
+		"id"	"20"
+		"desc"	"Heals all your wounds over time"
+		"desc_es"	"Cura tus heridas en el tiempo"
+		"desc_br"	"Cura suas feridas com o tempo"
+		
+		"sk_levels"	"9"
+		
+		"lv1"	"5"
+		"lv2"	"10"
+		"lv3"	"15" 
+		"lv4"	"20"
+		"lv5"	"25"
+		"lv6"	"30"
+		"lv7"	"35"
+		"lv8"	"100"
+		"lv9"	"200"
+		
+		"infected"	"7"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"14"
+		"req_lv3"	"28"
+		"req_lv4"	"35"
+		"req_lv5"	"48"
+		"req_lv6"	"60"
+		"req_lv7"	"85"
+		"req_lv8"	"201"
+		"req_lv9"	"210"
+		
+		"base_cost"		"55"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Heals {v} HP each second"
+		"leg_es"	"Cura {v} de salud cada segundo"
+		"leg_br"	"Cura {v} de saude a cada segundo"
+	}
+	
+	"charger_leg_impact"
+	{
+		"name"	"Impact Stun"
+		"name_es"	"Noqueo"
+		"name_br"	"Impacto Chocante"
+		"id"	"21"
+		"desc"	"When you impact a survivor as a charger, you will break his legs, slowing him down for a fixed time"
+		"desc_es"	"Cuando impactas a un sobreviviente, tuerces sus piernas reduciendo su velocidad"
+		"desc_br"	"Quando voce impactar um sobrevivente, voce ira quebrar-lhe as pernas, reduzindo-lhe a velocidade por um determinado tempo"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"2"
+		"lv2"	"3"
+		"lv3"	"4" 
+		"lv4"	"5"
+		"lv5"	"6"
+		"lv6"	"7"
+		"lv7"	"9"
+		
+		"infected"	"6"
+		
+		"req_lv1"	"5"
+		"req_lv2"	"15"
+		"req_lv3"	"28"
+		"req_lv4"	"35"
+		"req_lv5"	"48"
+		"req_lv6"	"60"
+		"req_lv7"	"80"
+		
+		"base_cost"		"37"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"The pain lasts {v} seconds"
+		"leg_es"	"El dano dura {v} segundos"
+		"leg_br"	"A dor dura {v} segundos"
+	}
+	
+	"boomer_explosion"
+	{
+		"name"	"Damaging Explosion"
+		"name_es"	"Explosion Grande"
+		"name_br"	"Explosao Ofensiva"
+		"id"	"22"
+		"desc"	"When you explode near survivors, you will deal damage to them"
+		"desc_es"	"Cuando explotas cerca de sobrevivientes, los danaras"
+		"desc_br"	"Quando voce explodir perto de sobreviventes, causara dano a eles"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"3"
+		"lv2"	"5"
+		"lv3"	"7" 
+		"lv4"	"9"
+		"lv5"	"11"
+		"lv6"	"13"
+		"lv7"	"15"
+		
+		"infected"	"2"
+		
+		"req_lv1"	"10"
+		"req_lv2"	"18"
+		"req_lv3"	"29"
+		"req_lv4"	"35"
+		"req_lv5"	"48"
+		"req_lv6"	"60"
+		"req_lv7"	"80"
+		
+		"base_cost"		"37"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"Deals {v} damage to survivors"
+		"leg_es"	"Otorga {v} dano a sobrevivientes"
+		"leg_br"	"Causa {v} de dano aos sobrevivientes"
+	}
+	
+	"slow_vomit"
+	{
+		"name"	"Heavy Vomit"
+		"name_es"	"Vomito Pesado"
+		"name_br"	"Vomito Pesado"
+		"id"	"23"
+		"desc"	"Decreases the survivor speed while they are covered by your vomit"
+		"desc_es"	"Disminuye la velocidad de los obrevivientes cuando estan vomitados"
+		"desc_br"	"Diminui a velocidade dos sobreviventes cobertos pelo seu vomito"
+		
+		"sk_levels"	"10"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"4" 
+		"lv4"	"6"
+		"lv5"	"8"
+		"lv6"	"10"
+		"lv7"	"12"
+		"lv8"	"18"
+		"lv9"	"25"
+		"lv10"	"30"
+		
+		"infected"	"2"
+		
+		"req_lv1"	"10"
+		"req_lv2"	"18"
+		"req_lv3"	"29"
+		"req_lv4"	"35"
+		"req_lv5"	"48"
+		"req_lv6"	"60"
+		"req_lv7"	"80"
+		"req_lv8"	"100"
+		"req_lv9"	"120"
+		"req_lv10"	"150"
+		
+		"base_cost"		"37"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% speed decrease"
+		"leg_es"	"{v}% velocidad reducida"
+		"leg_br"	"{v}% velocidade reduzida"
+	}
+	
+	"jockey_pounce"
+	{
+		"name"	"Jockey Pounce"
+		"name_es"	"Tumbador"
+		"name_br"	"Salto do Jockey"
+		"id"	"24"
+		"desc"	"Inflicts damage when you attach to a survivor from high heights"
+		"desc_es"	"Inflinje dano cuando montas a sobrevivientes desde una gran altura"
+		"desc_br"	"Inflige dano quando voce monta do alto em um sobrevivente"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"5"
+		"lv2"	"10"
+		"lv3"	"15" 
+		"lv4"	"20"
+		"lv5"	"25"
+		"lv6"	"30"
+		"lv7"	"35"
+		
+		"infected"	"5"
+		
+		"req_lv1"	"10"
+		"req_lv2"	"18"
+		"req_lv3"	"29"
+		"req_lv4"	"35"
+		"req_lv5"	"48"
+		"req_lv6"	"60"
+		"req_lv7"	"80"
+		
+		"base_cost"		"41"	
+		"cost_factor"	"3.6" 
+		
+		"leg"		"Maximum Damage: {v}"
+		"leg_es"	"Dano maximo: {v}"
+		"leg_br"	"Dano maximo: {v}"
+	}
+	
+	"transparent_charger"
+	{
+		"name"	"Surprising Charge"
+		"name_es"	"Carga Sorpresa"
+		"name_br"	"Carregamento Surpresa"
+		"id"	"25"
+		"desc"	"Decreases your transparency while you are charging"
+		"desc_es"	"Disminuye tu visibilidad cuando cargas"
+		"desc_br"	"Diminui sua visibilidade quando voce esta carregando"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"10"
+		"lv2"	"20"
+		"lv3"	"30" 
+		"lv4"	"50"
+		"lv5"	"60"
+		"lv6"	"80"
+		"lv7"	"100"
+		
+		"infected"	"6"
+		
+		"req_lv1"	"10"
+		"req_lv2"	"25"
+		"req_lv3"	"30"
+		"req_lv4"	"52"
+		"req_lv5"	"65"
+		"req_lv6"	"80"
+		"req_lv7"	"90"
+		
+		"base_cost"		"41"	
+		"cost_factor"	"3.6" 
+		
+		"leg"		"{v}% transparency increase"
+		"leg_es"	"{v}% visibilidad disminuida"
+		"leg_br"	"{v}% visibilidade diminuida"
+	}
+	
+	"elec_plus"
+	{
+		"name"	"|*| Increased Electricity"
+		"name_es" "|*| Electricidad"
+		"name_br" "|*| Electricidade Aumentada"
+		"id"	"26"
+		"desc"	"When a defibrillator is used, all death bodies around will be also affected"
+		"desc_es"	"Cuando un desfibrilador es usado, todos los cuerpos alrededor seran afectados"
+		"desc_br"	"Quando um desfibrilador e usado, todos os corpos mortos ao redor serao afetados"
+		
+		"sk_levels"	"8"
+		
+		"lv1"	"150"
+		"lv2"	"180"
+		"lv3"	"210" 
+		"lv4"	"240"
+		"lv5"	"270"
+		"lv6"	"300"
+		"lv7"	"350"
+		"lv8"	"500"
+		
+		"infected"	"9"
+		
+		"req_lv1"	"0"
+		"req_lv2"	"0"
+		"req_lv3"	"0"
+		"req_lv4"	"0"
+		"req_lv5"	"0"
+		"req_lv6"	"0"
+		"req_lv7"	"0"
+		"req_lv8"	"175"
+		
+		"stone" "8"
+		
+		"gem_base_cost"		"5"
+		"gem_cost_factor"   "1.5"
+		
+		"leg"		"Range: {v}"
+		"leg_es"	"Rango: {v}"
+		"leg_br"	"Alcance: {v}"
+	}
+	
+	"heal_plus"
+	{
+		"name"	"|*| Pure Pray"
+		"name_es"	"|*| Predica Pura"
+		"name_br"	"|*| Reza Pura"
+		"id"	"27"
+		"desc"	"Using a first aid kit will also heal your teammates around"
+		"desc_es"	"Usando un botiquin, curaras a tus companeros alrededor"
+		"desc_br"	"Usar um kit de primeiro socorros ira curar tambem os companheiros ao seu redor"
+		
+		"sk_levels"	"8"
+		
+		"lv1"	"150"
+		"lv2"	"180"
+		"lv3"	"210" 
+		"lv4"	"240"
+		"lv5"	"270"
+		"lv6"	"300"
+		"lv7"	"350"
+		"lv8"	"500"
+		
+		"infected"	"9"
+		
+		"req_lv1"	"0"
+		"req_lv2"	"0"
+		"req_lv3"	"0"
+		"req_lv4"	"0"
+		"req_lv5"	"0"
+		"req_lv6"	"0"
+		"req_lv7"	"0"
+		"req_lv8"	"175"
+		
+		"stone"	"8"
+		
+		"gem_base_cost"		"4"	
+		"gem_cost_factor"	"1.2" 
+		
+		"leg"		"Range: {v}"
+		"leg_es"	"Rango: {v}"
+		"leg_br"	"Alcance: {v}"
+	}
+	
+	"revive_plus"
+	{
+		"name"	"|*| Extended Hand"
+		"name_es"	"|*| Mano Extendida"
+		"name_br"	"|*| Mao Extendida"
+		"id"	"28"
+		"desc"	"Helping one player will give others hope, and they will stand up by themselves"
+		"desc_es"	"Ayudar a un companero le subira la moral a otros, y se pondran de pie por ellos mismos"
+		"desc_br"	"Ajudar um companheiro a levantar-se, ira dar aos outros esperanca e eles irao se levantar sozinhos"
+		
+		"sk_levels"	"8"
+		
+		"lv1"	"150"
+		"lv2"	"180"
+		"lv3"	"210" 
+		"lv4"	"240"
+		"lv5"	"270"
+		"lv6"	"300"
+		"lv7"	"350"
+		"lv8"	"500"
+		
+		"infected"	"9"
+		
+		"req_lv1"	"0"
+		"req_lv2"	"0"
+		"req_lv3"	"0"
+		"req_lv4"	"0"
+		"req_lv5"	"0"
+		"req_lv6"	"0"
+		"req_lv7"	"0"
+		"req_lv8"	"175"
+		
+		"stone"	"8"
+		
+		"gem_base_cost"		"4"	
+		"gem_cost_factor"	"1.2" 
+		
+		"leg"		"Range: {v}"
+		"leg_es"	"Rango: {v}"
+		"leg_br"	"Alcance: {v}"
+	}
+	
+	"rock_explosion"
+	{
+		"name"	"|*| Corrosive Rock"
+		"name_es"	"|*| Roca Corrosiva"
+		"name_br"	"|*| Pedra Corrosiva"
+		"id"	"29"
+		"desc"	"Randomly, your Tank's rock will explode and leave acid around"
+		"desc_es"	"Aleatoriamente, la roca del Tank dejara acido"
+		"desc_br"	"Aleatoriamente, a pedra lancada pelo Tank ira explodir deixando uma poca de acido"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"10"
+		"lv2"	"15"
+		"lv3"	"20" 
+		"lv4"	"25"
+		"lv5"	"30"
+		"lv6"	"35"
+		"lv7"	"40"
+		
+		"infected"	"8"
+		
+		"req_lv1"	"0"
+		"req_lv2"	"0"
+		"req_lv3"	"0"
+		"req_lv4"	"0"
+		"req_lv5"	"0"
+		"req_lv6"	"0"
+		"req_lv7"	"0"
+		
+		"gem_base_cost"		"5"	
+		"gem_cost_factor"	"1.2" 
+		
+		"leg"		"{v}% Chance"
+		"leg_es"	"{v}% probabilidad"
+		"leg_br"	"{v}% probabilidade"
+	}
+	
+	"penetration_acid"
+	{
+		"name"	"|*| Defense Wrecker"
+		"name_es"	"|*| Violador de Defensas"
+		"name_br"	"|*| Violador de Defesas"
+		"id"	"30"
+		"desc"	"Your spit is heavier than before, and will hurt survivors upon collition (Projectile)"
+		"desc_es"	"Tu escupitajo dana a los sobrevivientes que se cruzen"
+		"desc_br"	"Sua cuspida se torna mais pesada e ira causar dano aos sobreviventes ao colidir com eles"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3" 
+		"lv4"	"4"
+		"lv5"	"5"
+		"lv6"	"6"
+		"lv7"	"7"
+		
+		"infected"	"4"
+		
+		"req_lv1"	"50"
+		"req_lv2"	"60"
+		"req_lv3"	"70"
+		"req_lv4"	"80"
+		"req_lv5"	"90"
+		"req_lv6"	"100"
+		"req_lv7"	"115"
+		
+		"base_cost"		"5"	
+		"cost_factor"	"1.2"
+		"gem_base_cost"	"2"
+		"gem_cost_factor"	"2.334"
+		
+		"leg"		"{v} Damage applied"
+		"leg_es"	"{v} dano aplicado"
+		"leg_br"	"{v} de dano causado"
+	}
+	
+	"no_glow_when_attacking"
+	{
+		"name"	"|*| Hidden Massacre"
+		"name_es"	"|*| Masacre Escondida"
+		"name_br"	"|*| Massacre Escondido"
+		"id"	"31"
+		"desc"	"Randomly, when you pounce, pummel, choke or ride a survivor, his glow will not be visible to his mates"
+		"desc_es"	"Cuando atrapes a un sobreviviente, existe la probabilidad de que su resplandor desaparesca"
+		"desc_br"	"Quando voce salta e agarra, esmurra, estrangula ou monta um sobrevivente, ha uma probabilidade de seu brilho nao ser visivel para os demais"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3" 
+		"lv4"	"4"
+		"lv5"	"5"
+		"lv6"	"10"
+		"lv7"	"15"
+		
+		"infected"	"7"
+		
+		"req_lv1"	"30"
+		"req_lv2"	"35"
+		"req_lv3"	"45"
+		"req_lv4"	"60"
+		"req_lv5"	"80"
+		"req_lv6"	"105"
+		"req_lv7"	"125"
+		
+		"base_cost"		"5"	
+		"cost_factor"	"1.2"
+		"gem_base_cost"	"1"
+		"gem_cost_factor"	"2.334"
+		
+		"leg"		"{v}% Chance"
+		"leg_es"	"{v}% de probabilidad"
+		"leg_br"	"{v}% de probabilidade"
+	}
+	
+	"evil_toaster"
+	{
+		"name"	"|*| Evil Toaster Drop"
+		"name_es"	"|*| Items Malignos"
+		"name_br"	"|*| Itens Malignos"
+		"id"	"32"
+		"desc"	"Randomly, you will drop one evil toaster as infected"
+		"desc_es"	"Aleatoriamente, dejaras un item maligno en el suelo"
+		"desc_br"	"Aleatoriamente, sendo infectado voce ira deixar uma torradeira maligna quando morrer"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3" 
+		"lv4"	"4"
+		"lv5"	"5"
+		"lv6"	"6"
+		"lv7"	"7"
+		
+		"infected"	"7"
+		
+		"req_lv1"	"15"
+		"req_lv2"	"30"
+		"req_lv3"	"45"
+		"req_lv4"	"60"
+		"req_lv5"	"75"
+		"req_lv6"	"90"
+		"req_lv7"	"105"
+		
+		"base_cost"		"5"	
+		"cost_factor"	"1.2"
+		"gem_base_cost"	"1"
+		"gem_cost_factor"	"5.334"
+		
+		"leg"		"{v}% Drop chance"
+		"leg_es"	"{v}% probabilidad"
+		"leg_br"	"{v}% probabilidade"
+	}
+	
+	"mutation_desease"
+	{
+		"name"	"|*| Mutated Disease"
+		"name_es"	"|*| Enfermedad Mutada"
+		"id"	"33"
+		"desc"	"After hitting a survivor, there is a random chance of triggering a mutation on him"
+		"desc_es"	"Al golpear a un sobreviviente, existe la probabilidad de mutarlo"
+		"sk_levels"	"7"
+		
+		"lv1"	"0.1"
+		"lv2"	"0.2"
+		"lv3"	"0.3" 
+		"lv4"	"0.5"
+		"lv5"	"0.7"
+		"lv6"	"0.9"
+		"lv7"	"1.0"
+		
+		"infected"	"7"
+		
+		"req_lv1"	"115"
+		"req_lv2"	"120"
+		"req_lv3"	"125"
+		"req_lv4"	"130"
+		"req_lv5"	"135"
+		"req_lv6"	"140"
+		"req_lv7"	"150"
+		
+		"stone"	"1"
+		
+		"base_cost"		"200"	
+		"cost_factor"	"1.2"
+		"gem_base_cost"	"1"
+		"gem_cost_factor"	"2.734"
+		
+		"leg"	"{v}% change of mutating"
+		"leg_es"	"{v}% probabilidad de mutarlo"
+	}
+	
+	//"Snow_Shield"
+	//{
+	//	"name"	"|*| Snow Shield"
+	//	"id"	"34"
+	//	"desc"	"When a heat missile reaches you, it will desintegrate and cause no damage"
+	//	
+	//	"sk_levels"	"7"
+	//	
+	//	"lv1"	"10"
+	//	"lv2"	"20"
+	//	"lv3"	"30" 
+	//	"lv4"	"40"
+	//	"lv5"	"50"
+	//	"lv6"	"60"
+	//	"lv7"	"70"
+	//	
+	//	"infected"	"7"
+	//	
+	//	"req_lv1"	"60"
+	//	"req_lv2"	"75"
+	//	"req_lv3"	"90"
+	//	"req_lv4"	"105"
+	//	"req_lv5"	"115"
+	//	"req_lv6"	"125"
+	//	"req_lv7"	"140"
+	//
+	//	"base_cost"	"103"
+	//	"cost_factor"	"5.1834"
+	//	"gem_base_cost"	"1"
+	//	"gem_cost_factor"	"1.1"
+	//	
+	//	"leg"		"10% Chance of desintegrating"
+	//	"leg_lv2"		"20% Chance of desintegrating"
+	//	"leg_lv3"		"30% Chance of desintegrating"
+	//	"leg_lv4"		"40% Chance of desintegrating"
+	//	"leg_lv5"		"50% Chance of desintegrating"
+	//	"leg_lv6"		"60% Chance of desintegrating"
+	//	"leg_lv7"		"70% Chance of desintegrating"
+	//}
+	
+	"moustachio"
+	{
+		"name"	"Moustachio Bless"
+		"name_es"	"Bendicion Moustachio"
+		"desc"	"After using a first aid kit, you will be immune to any damage for a fixed time"
+		"desc_es"	"Luego de curarte, sera inmune a cualquier dano por un tiempo definido"
+		"id" "35"
+		
+		"sk_levels"	"6"
+		
+		"lv1"	"5"
+		"lv2"	"6"
+		"lv3"	"7"
+		"lv4"	"8"
+		"lv5"	"9"
+		"lv6"	"10"
+		
+		"infected" "9"
+		
+		"req_lv1"	"105"
+		"req_lv2"	"110"
+		"req_lv3"	"120"
+		"req_lv4"	"135"
+		"req_lv5"	"150"
+		"req_lv6"	"170"
+		
+		"base_cost"	"231"
+		"cost_factor"	"5.3234"
+		
+		"leg"	"Bless Duration: {v} second(s)"
+		"leg_es"	"Duracion: {v} segundo(s)"
+	}
+	
+	"buff_enabler"
+	{
+		"name"	"|*| Desperation"
+		"name_es"	"|*| Desesperacion"
+		"desc"	"All your buffs will work, even if they are not equipped"
+		"desc_es"	"Todos tus buffs funcionaran, incluso si no estan equipados"
+		
+		"id" "36"
+		
+		"sk_levels"	"5"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3"
+		"lv4"	"4"
+		"lv5"	"5"
+		
+		"infected" "9"
+		
+		"req_lv1"	"110"
+		"req_lv2"	"127"
+		"req_lv3"	"138"
+		"req_lv4"	"155"
+		"req_lv5"	"170"
+		
+		"stone"	"3"
+		
+		"base_cost"	"3741"
+		"cost_factor"	"2.4321"
+		"gem_cost"	"1"
+		"cost_factor"	"15.354"
+		
+		"leg"	"Effect is applied when {v} survivors or less are alive"
+		"leg_es"	"Efecto aplicado si {v} sobrevivientes o menos estan vivos"
+	}
+	
+	"sharing"
+	{
+		"name"	"|*| Charity"
+		"name_es"	"|*| Caridad"
+		"desc"	"The exp that you win, will be automatically shared with your team. No EXP loss."
+		"desc_es"	"La exp que ganes, sera compartidad con tu equipo. No hay perdida de EXP"
+		
+		"id" "37"
+		
+		"sk_levels"	"10"
+		
+		"lv1"	"1"
+		"lv2"	"3"
+		"lv3"	"5"
+		"lv4"	"7"
+		"lv5"	"9"
+		"lv6"	"11"
+		"lv7"	"20"
+		"lv8"	"50"
+		"lv9"	"65"
+		"lv10"	"100"
+		
+		"stone"	"7"
+		
+		"infected" "12"
+		
+		"req_lv1"	"95"
+		"req_lv2"	"100"
+		"req_lv3"	"105"
+		"req_lv4"	"110"
+		"req_lv5"	"119"
+		"req_lv6"	"131"
+		"req_lv7"	"150"
+		"req_lv8"	"195"
+		"req_lv9"	"200"
+		"req_lv10"	"210"
+		
+		"stone"	"6"
+		
+		"base_cost"	"650"
+		"cost_factor"	"4.4321"
+		"gem_cost"	"1"
+		"cost_factor"	"7.354"
+		
+		"leg"	"{v}% of your exp is shared with your teammates"
+		"leg_es"	"{v}% exp compartida con tu equipo"
+	}
+	
+	"hunter_inv"
+	{
+		"name"	"|*| Hunter Disguise"
+		"desc"	"Decreases the hunter visibility when not attacking a survivor"
+		
+		"id" "38"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"15"
+		"lv2"	"30"
+		"lv3"	"45"
+		"lv4"	"60"
+		"lv5"	"75"
+		"lv6"	"90"
+		"lv7"	"100"
+		
+		"stone"	"7"
+		
+		"infected" "3"
+		
+		"req_lv1"	"201"
+		"req_lv2"	"202"
+		"req_lv3"	"204"
+		"req_lv4"	"206"
+		"req_lv5"	"207"
+		"req_lv6"	"208"
+		"req_lv7"	"210"
+		
+		"stone"	"1"
+		
+		"base_cost"	"1000"
+		"cost_factor"	"5.3260"
+		"gem_cost"	"4"
+		"cost_factor"	"7.354"
+		
+		"leg"	"{v}% hunter visibility decrease"
+	}
+	
+	"vengeance"
+	{
+		"name"	"|*| Vengeance"
+		"desc"	"Increases the exp from killing the same player who killed you before (VS)"
+		
+		"id" "39"
+		
+		"sk_levels"	"7"
+		
+		"lv1"	"1000"
+		"lv2"	"2000"
+		"lv3"	"3500"
+		"lv4"	"5000"
+		"lv5"	"8000"
+		"lv6"	"10500"
+		"lv7"	"15000"
+		
+		"stone"	"7"
+		
+		"infected" "7"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"100"
+		"req_lv3"	"200"
+		"req_lv4"	"201"
+		"req_lv5"	"203"
+		"req_lv6"	"205"
+		"req_lv7"	"207"
+		
+		"stone"	"1"
+		
+		"base_cost"	"350"
+		"cost_factor"	"15.3260"
+		"gem_cost"	"4"
+		"cost_factor"	"7.354"
+		
+		"leg"	"{v}% exp points increased"
+	}
+	
+	"skill40"
+	{
+		"name"	"Charge Block"
+		"desc"	"The skill will let you randomly free yourself from a charger, when charge starts or when you take damage"
+		
+		"id" "40"
+		"premium"	"1"
+		"sk_levels"	"5"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3"
+		"lv4"	"4"
+		"lv5"	"5"
+		
+		"stone"	"5"
+		
+		"infected" "7"
+		
+		"req_lv1"	"82"
+		"req_lv2"	"100"
+		"req_lv3"	"180"
+		"req_lv4"	"201"
+		"req_lv5"	"210"
+		
+		"stone"	"1"
+		
+		"base_cost"	"980"
+		"cost_factor"	"15.3260"
+		
+		"leg"	"{v}% probability of freeing yourself"
+	}
+	
+	"skill41"
+	{
+		"name"	"|*| Berserker"
+		"desc"	"Will enable berserker mode for 30 seconds when ready. (Crouch + Zoom + Walk buttons)"
+		
+		"id" "41"
+		"premium"	"0"
+		"sk_levels"	"10"
+		
+		"lv1"	"10"
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		"lv6"	"60"
+		"lv7"	"70"
+		"lv8"	"80"
+		"lv9"	"90"
+		"lv10"	"100"
+		
+		"stone"	"1"
+		
+		"infected" "7"
+		
+		"req_lv1"	"208"
+		"req_lv2"	"209"
+		"req_lv3"	"210"
+		"req_lv4"	"210"
+		"req_lv5"	"210"
+		"req_lv6"	"210"
+		"req_lv7"	"210"
+		"req_lv8"	"210"
+		"req_lv9"	"210"
+		"req_lv10"	"210"
+		
+		"stone"	"1"
+		
+		"base_cost"	"3000"
+		"cost_factor"	"15.3260"
+		
+		"leg"	"{v}% rates increased (speed, health, etc)"
+	}
+}

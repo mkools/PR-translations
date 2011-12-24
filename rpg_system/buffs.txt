@@ -1,0 +1,617 @@
+//
+//					B U F F S			 F I L E
+//
+// ***************************************************************************
+//	This file contains all the data related to the buffs. Remember that buffs
+//	are similar to skills, but they dont have any levels and only a limit of them
+//	can be equipped.
+//
+//
+//	Structure:
+//
+//		"survivor_crawl"	//Tag, which can be changed but should be left intact, just in case
+//		{
+//			"name" "Crawling" //Name of the buff
+//			"desc" "Allow crawling while incapacitated" //Description
+//			"id"	"1" //ID, do not change
+//			"infected"	"9" //Infected specific, see reference.txt
+//			"cost"	"250"	//Cost of the buff
+//			"level"	"10"	//Level requirement of the buff
+//		}
+//
+//
+"buffs"
+{
+	//Survivor
+	"survivor_crawl"
+	{
+		"name" "Crawling"
+		"name_es"	"Arrastrarse"
+		"name_br"	"Arrastar"
+		"desc" "Allow crawling while incapacitated"
+		"desc_es"	"Permite moverte cuando estas incapacitado"
+		"desc_br"	"Permite se mover quando incapacitado"
+		"id"	"1"
+		"infected"	"9"
+		"cost"	"95"
+		"level"	"5"
+	}
+	
+	"survivor_fire_ball"
+	{
+		"name"	"Anger Fire Ball"
+		"name_es"	"Bola de Fuego"
+		"name_br"	"Bola de Fogo"
+		"desc"	"When you are hit by an infected, there is a 1% chance that you ignite anything around you"
+		"desc_es"	"Cuando eres golpeado por un infectado, existe un 1% de probabilidad de que quemes todo alrededor"
+		"desc_br"	"Quando voce for atingido por um infectado, tem 1% de chance de queimar tudo a sua volta"
+		"id"	"2"
+		"infected"		"9"
+		"cost"			"70"
+		"level"			"5"
+	}
+	
+	"survivor_vomit_revenge"
+	{
+		"name"	"Vomit Revenge"
+		"name_es"	"Venganza Verde"
+		"name_br"	"Vinganca Verde"
+		"desc"	"When you are vomitted on, there is a 5% chance that the boomer gets vomitted aswell"
+		"desc_es"	"Cuando eres vomitado, existe un 5% de probabilidad de vomitar de vuelta"
+		"desc_br"	"Quando voce for vomitado, o boomer tem 5% de chance ser vomitado tambem"
+		"id"	"3"
+		"infected"		"9"
+		"cost"			"270"
+		"level"			"20"
+	}
+	
+	"survivor_adren"
+	{
+		"name" "Adrenaline Run"
+		"name_es"	"Adrenalinico"
+		"name_br"	"Corrida com Adrenalina"
+		"desc" "Gives you infinite adrenaline effect, while there are tanks in game"
+		"desc_es"	"Te otorga el efecto de la adrenalina si hay Tanks cerca"
+		"desc_br"	"Fornece efeito de adrenalina infinito enquanto o Tank estiver no jogo"
+		"id"	"4"
+		"infected"	"9"
+		"cost"	"400"
+		"level"	"35"
+	}
+	
+	"survivor_shove"
+	{
+		"name"	"Shoving Expert"
+		"name_es"	"Sin Fatiga"
+		"name_br"	"Sem barreiras"
+		"desc"	"Disable the shoving penalty as survivor"
+		"desc_es"	"No te cansas de empujar a los infectados"
+		"desc_br"	"Conseguira se mover incapacitado mesmo quando os infectados lhe cercarem"
+		"id"	"13"
+		"infected"	"9"
+		"cost"	"250"
+		"level"	"20"
+	}
+	
+	"double_projectile"
+	{
+		"name"	"Double Projectile"
+		"name_es"	"Projectil Doble"
+		"name_br"	"Projeteis em Dobro"
+		"desc"	"You throw 2 pipe bomb and vomit jar projectiles instead of one"
+		"desc_es"	"Lanzaras 2 granadas en vez de una"
+		"desc_br"	"Voce joga 2 granadas e 2 jarras de vomito no lugar de uma"
+		"id"	"14"
+		"infected"	"9"
+		"cost"	"750"
+		"level"	"5"
+	}
+	
+	"help_when_dead"
+	{
+		"name"	"Death Bait"
+		"name_es"	"Carnada Muerta"
+		"name_br"	"Isca Morta"
+		"desc"	"When you die, all common infected will stay eating your body, leaving your teammates a chance to escape"
+		"desc_es"	"Cuando mueras, tu cuerpo llamara la atencion de los infectados, dandole una ventaja a tus companeros"
+		"desc_br"	"Quando voce morrer, todos infectados comuns irao ficar comendo seu corpo, deixando a seus companheiros uma chance de escapar"
+		"id"	"15"
+		"cost"	"350"
+		"level"	"9"
+		"infected"	"9"
+	}
+	
+	//Boomer
+	"boomer_extingish"
+	{
+		"name" "Extingisher Bile"
+		"name_es"	"Vomito Extingidor"
+		"name_br"	"Vomito Extinguidor"
+		"desc" "Extingishes other special infected's fire with your boomer vomit"
+		"desc_es"	"El vomito de Boomer extingira a tus companeros infectados en llamas"
+		"desc_br"	"O vomito do Boomer extinguira o fogo em infectados especiais"
+		"id"	"5"
+		"infected"	"7"
+		"cost"	"100"
+		"level"	"5"
+	}
+	
+	
+	//"vomit_walk"
+	//{
+	//	"name"	"Booming Run"
+	//	"desc"		"You can move while vomiting as a boomer"
+	//	"id"		"12"
+	//	"infected"		"7"
+	//	"cost"		"200"
+	//	"level"		"10"
+	//}
+	
+	//Charger
+	"charger_pummel"
+	{
+		"name"	"Pummel Incapped"
+		"name_es"	"Machaca Debiles"
+		"name_br"	"Esmurrar Incapacitados"
+		"desc"	"You can grab incapped survivors as a charger and start pummeling them"
+		"desc_es"	"Podras agarrar a sobrevivientes incapacitados como charger"
+		"desc_br"	"Voce pode pegar sobreviventes incapacitados como Charger e começar a esmurra-los"
+		"id"	"6"
+		"infected"	"7"
+		"cost"	"150"
+		"level"	"1"
+		
+		"us_total"	"2"
+		"us_1"	"Go near the victim that is incapacitated, aim him, crouch and then"
+		"us_2"	"press the right click button (Claw)"
+		"us_1_es"	"Acercate a la victima que este incapacitada, apuntale con el mouse, agachate y"
+		"us_2_es"	"por ultimo, presiona el boton derecho del mouse (Garra)"
+		"us_1_br"	"Chegue proximo da vitima que esta incapacitada, mire nela, abaixe e"
+		"us_2_br"	"pressione o botao direito (Garra)"
+	}
+	
+	//Infected General
+	//"infected_ghostfly"
+	//{
+	//	"name" "Ghost Fly"
+	//	"desc" "Allows you to fly as a ghost"
+	//	"id"	"7"
+	//	"infected"	"7"
+	//	"cost"	"70"
+	//	"level"	"1"
+	//}
+	
+	//"infected_change"
+	//{
+	//	"name" "Class Switch"
+	//	"desc" "Allows you switch of infected class as a ghost"
+	//	"id"	"8"
+	//	"infected"	"7"
+	//	"cost"	"100"
+	//	"level"	"1"
+	//}
+	
+	"infected_noghostdmg"
+	{
+		"name" "Ghost God"
+		"name_es"	"Fantasma Inmune"
+		"name_br"	"Fantasma Imune"
+		"desc" "You dont receive any kind of damage as a ghost"
+		"desc_es" "No recibes nada de dano como fantasma"
+		"desc_br" "Voce nao recebe nenhum tipo de dano como Fantasma"
+		"id"	"9"
+		"infected"	"7"
+		"cost"	"100"
+		"level"	"20"
+	}
+	
+	"infected_vampire"
+	{
+		"name" "Vampire"
+		"name_es"	"Vampiro"
+		"name_br"	"Vampiro"
+		"desc" "You heal yourself for the half amount of damage you deal to survivors"
+		"desc_es"	"Te curas por el 50% de dano que inflijes hacia sobrevivientes"
+		"desc_br"	"Voce se cura pela metade de dano que faz aos sobreviventes"
+		"id"	"10"
+		"infected"	"7"
+		"cost"	"170"
+		"level"	"35"
+	}
+	
+	//Tank
+	"tank_stalk"
+	{
+		"name"	"Undercover Tank"
+		"name_es"	"Tank Encubierto"
+		"name_br"	"Tank Clandestino"
+		"desc"	"You are not visible to survivors until you receive damage as a Tank"
+		"desc_es"	"No eres visible para los sobrevivientes mientras no recibas dano como Tank"
+		"desc_br"	"Como Tank voce nao fica visivel para os sobreviventes ate receber dano"
+		"id"	"11"
+		"infected"	"7"
+		"cost"		"100"
+		"level"		"30"
+	}
+	
+	"sprint_my_ass"
+	{
+		"name"	"Sprint Override"
+		"name_es"	"Ignorar Sprint"
+		"name_br"	"Corrida Anulada"
+		"desc"	"Overrides the Sprint Upgrade effect on the jockey when you ride a survivor"
+		"desc_es"	"Ignora la disminucion de velocidad que produce el Sprint de sobrevivientes sobre ti"
+		"desc_br"	"Anula o efeito do <Aprimoramento Corrida> do sobrevivente quando voce nele monta com o Jockey"
+		"id"	"16"
+		"infected"	"7"
+		"cost"	"500"
+		"level"	"10"
+	}
+	
+	"my_knife"
+	{
+		"name"	"Knife"
+		"name_es"	"Daga"
+		"name_br"	"Faca"
+		"desc"	"Gives you a knife that can be used to release yourself from an SI attack once (Melee button)"
+		"desc_es"	"Te otorga una daga que puedes utilizar para escapar (Boton Derecho)"
+		"desc_br"	"Fornece uma faca que pode ser usada para se salvar de um ataque de Infectado especial (Botao direito) "
+		"id"	"17"
+		"infected"	"9"
+		"cost"	"750"
+		"level"	"1"
+	}
+	
+	"no_water"
+	{
+		"name"	"Speedy Water"
+		"name_es"	"Agua Liviana"
+		"name_br"	"Rapidez na agua"
+		"desc"	"Instead of reducing your speed in the water, it will increase"
+		"desc_es"	"El agua no reducira tu velocidad"
+		"desc_br"	"Ao Inves de reduzir sua velocidade na agua, ira aumentar"
+		"id"	"18"
+		"infected"	"9"
+		"cost"	"1000"
+		"level"	"1"
+	}
+	
+	//"adrenaline_hit"
+	//{
+	//	"name"	"Fatal Swing"
+	//	"desc"	"1% chance of shoving all infected around after hitting with your melee weapon"
+	//	"id"	"19"
+	//	"infected"	"9"
+	//	"cost"	"350"
+	//	"level"	"10"
+	//}
+	
+	"booming_damage"
+	{
+		"name"	"Boiling Vomit"
+		"name_es"	"Vomito Hirviendo"
+		"name_br"	"Vomito Fervendo"
+		"desc"	"Your vomit causes damage to survivors"
+		"desc_es"	"Tu vomito causa dano a los sobrevivientes"
+		"desc_br"	"Seu vomito causa dano aos sobreviventes"
+		"id"	"20"
+		"infected"	"7"
+		"cost"	"800"
+		"level"	"30"
+	}
+	
+	"hunter_escape"
+	{
+		"name"	"Escape Leap"
+		"name_es"	"Salto Urgente"
+		"name_br"	"Salto Urgente"
+		"desc"	"Allows you to leap as a hunter (without crouching) to escape faster (Attack Button)"
+		"desc_es"	"Te permite saltar rapidamente como hunter (sin estar agachado)"
+		"desc_br"	"Permite saltar, sendo hunter, (sem precisar agachar) para escapar mais rapido (Botao de Ataque)"
+		"id"	"21"
+		"infected"	"7"
+		"cost"	"3000"
+		"level"	"1"
+	}
+	
+	//"closet"
+	//{
+	//	"name"	"Rescue Me"
+	//	"desc"	"Allows you to be rescued from closet in versus games"
+	//	"id"	"22"
+	//	"infected"	"9"
+	//	"cost"	"15000"
+	//	"level"	"60"
+	//}
+	
+	"on_fire"
+	{
+		"name"	"On Fire"
+		"name_es"	"Hechando Humo"
+		"name_br"	"Em Fogo"
+		"desc"	"When hitting an infected, there is a 1% chance of burning it"
+		"desc_Es"	"Cuando golpeas a un infectado, existe un 1% de probabilidad de quemarlo"
+		"desc_br"	"Quando atingir um infectado, tem 1% de chance de queima-lo"
+		"id"	"23"
+		"infected"	"9"
+		"cost"	"500"
+		"level"	"29"
+	}
+	
+	"magnum"
+	{
+		"name"	"Hidden Magnum"
+		"name_es"	"Magnum de Reserva"
+		"name_br"	"Magnum de Reserva"
+		"desc"	"When incapacitated, a Magnum is given instead of a pistol"
+		"desc_es"	"Al incapacitarte, sacaras una Magnum escondida"
+		"desc_br"	"Quando incapacitado, uma Magnum e dada em vez de uma pistola"
+		"id"	"24"
+		"infected"	"9"
+		"cost"	"1000"
+		"level"	"30"
+	}
+	
+	"horde_dmg"
+	{
+		"name"	"Horde Power"
+		"name_es"	"Horda Poderosa"
+		"name_br"	"Horda Poderosa"
+		"desc"	"The horde you invoke as a boomer will deal double damage"
+		"desc_es"	"La horda que invoques como boomer hara mas dano"
+		"desc_br"	"A horda que voce invoca sendo boomer ira causar o dobro de dano"
+		"id"	"25"
+		"infected"	"7"
+		"cost"	"950"
+		"level"	"15"
+	}
+	
+	"inf_yell"
+	{
+		"name"	"Infected Yell"
+		"name_es"	"Grito Masivo"
+		"name_br"	"Grito Infectado"
+		"desc"	"Upon death, there is a 3% chance of launching survivors near far away"
+		"desc_es"	"Cuando mueres, existe un 3% de probabilidad de lanzar a los sobrevivientes por el aire"
+		"desc_br"	"Quando morrer, tem 3% de chance de lancar para longe os sobreviventes proximos"
+		"id"	"26"
+		"infected"	"7"
+		"cost"	"300"
+		"level"	"3"
+	}
+	
+	//"shove_resistance"
+	//{
+	//	"name"	"Shoving Resistance"
+	//	"desc"	"You cannot die when you get shoved by survivors"
+	//	"id"	"27"
+	//	"infected"	"7"
+	//	"cost"		"1500"
+	//	"level"		"30"
+	//}
+	
+	"grenade_trap"
+	{
+		"name"	"Grenade Trap"
+		"name_es"	"Trampas Sensoriales"
+		"name_br"	"Armadilha de granada"
+		"desc"	"You can setup traps for the infected on the floor using your throwable"
+		"desc_es"	"Podras colocar trampas para infectados en el suelo, usando tu granada"
+		"desc_br"	"Voce pode fazer armadilhas no chao para infectados, usando sua granada"
+		"id"	"28"
+		"cost"	"500"
+		"infected"	"9"
+		"level"	"25"
+		"us_total"	"2"
+		"us_1" "With your throwable (molotov, pipe bomb or vomit jar) in hand, aim to the floor, crouch"
+		"us_2" "and then press your Melee Button (Mouse 2) to leave the deadly trap in the floor."
+		"us_1_es"	"Con una granada en mano, apunta hacia el suelo, agachate y presiona"
+		"us_2_es"	"el Click Derecho del Mouse para dejar la trampa."
+		"us_1_br"	"Com sua granada em maos, mire no chao, abaixe"
+		"us_2_br"	"e pressione o botao direito para deixar a armadilha no chao"
+	}
+	
+	"mud_glasses"
+	{
+		"name"	"|*| Eye Threatment"
+		"name_es"	"|*| Tratamiento Ocular"
+		"name_br"	"|*| Tratamento Ocular"
+		"desc"	"Your eyes rarelly mutated in your favor. You wont get blind by mud, blood nor skills. (Normal Vomit still affects your sight)"
+		"desc_es"	"Tus ojos mutaran en tu favor. No quedaras ciego por barro, sangre or por habilidades. (El vomito si te afectara)"
+		"desc_br"	"Seus olhos mudam para seu favor. Voce nao ira ficar cego pela lama, sangue ou habilidades. (Vomito normal ainda afetara sua visao)"
+		"id"	"29"
+		"gem_cost"	"10"
+		"infected"	"7"
+		"level"		"0"
+	}
+	
+	"healing_gnome"
+	{
+		"name"	"Little Gnome"
+		"name_es" "Pequeño Gnomo"
+		"desc"	"Due to a better understanding of the gnome, you will heal overtime when it is equipped"
+		"id"	"30"
+		"cost"	"0"
+		"infected"	"9"
+		"level"		"-1"
+		"unique"	"1"
+	}
+	
+	"freezing_bullets"
+	{
+		"name"	"Cold Heart"
+		"desc"	"While your heart freezes, so do your guns. There will be 50% chance of freezing enemies when Black & White"
+		"id"	"31"
+		"cost"	"0"
+		"infected"	"9"
+		"level"		"-1"
+		"unique"	"1"
+	}
+	
+	"tank_punch"
+	{
+		"name"	"|*| Wet Skin"
+		"name_es"	"|*| Piel Humeda"
+		"name_br"	"|*| Pele umida"
+		"desc"	"You do not take damage from fire as a Tank"
+		"desc_es"	"No recibes dano por fuego como Tank"
+		"desc_br"	"Voce nao recebe dano por fogo sendo Tank"
+		"id"	"32"
+		"gem_cost"	"15"
+		"infected"	"7"
+		"level"	"0"
+	}
+	
+	"trap"
+	{
+		"name"	"|*| Little Trap"
+		"name_es"	"|*| Ilucion"
+		"name_br"	"|*| Pequena Armadilha"
+		"desc"	"When you die as infected, a trap for survivors will randomly spawn"
+		"desc_es"	"Cuando mueras, podras dejar un olograma que confundira a los infectados"
+		"desc_br"	"Sendo infectado, quando voce morrer, uma armadilha para os sobreviventes sera criada aleatoriamente"
+		"id"	"33"
+		"gem_cost"	"10"
+		"infected"	"7"
+		"level"	"0"
+	}
+	
+	"missile"
+	{
+		"name"	"|*| Heat Missile"
+		"name_es"	"|*| Misil de Calor"
+		"name_br"	"|*| Missil de Calor"
+		"desc"	"Your grenade launcher's projectile will chase infected"
+		"desc_es"	"El proyectil del lanzagranadas persegira a los infectados"
+		"desc_br"	"O projetil do seu lancador de granada ira perseguir infectados"
+		"id"	"34"
+		"gem_cost"	"6"
+		"infected"	"9"
+		"level"	"0"
+	}
+	
+	"follow_rock"
+	{
+		"name"	"|*| Mind Controlled Rock"
+		"name_es"	"|*| Tank Psiquico"
+		"name_br"	"|*| Tank Psiquico"
+		"desc"	"Your tank's rock will chase survivors, just like a missile"
+		"desc_es"	"Tu roca persegira a los sobrevivientes"
+		"desc_br"	"A pedra lancada por seu Tank ira seguir os sobreviventes, tal qual um missil"
+		"id"	"35"
+		"gem_cost"	"65"
+		"infected"	"7"
+		"level"	"0"
+	}
+	
+	"forget_bounty"
+	{
+		"name"	"|*| Negotiator"
+		"name_es"	"|*| Negociador"
+		"desc"	"Bounty cost is reduced by 25%, and health items price wont increase"
+		"desc_es"	"El coste de bounty es reducido un 25%, y los items de salud se mantendran"
+		"id"	"36"
+		"gem_cost"	"100"
+		"infected"	"12"
+		"level"	"155"
+	}
+	
+	"paranoia"
+	{
+		"name"	"|P| Paranoia"
+		"name_es"	"|P| Paranoia"
+		"desc"	"The tank will randomly enter on a rage state"
+		"desc_es"	"El tank entrara aleatoriamente en un estado de furia total"
+		"id"	"37"
+		"gem_cost"	"99999"
+		"cost"		"99999"
+		"infected"	"7"
+		"level"	"200"
+		"us_total"	"5"
+		"premium" "1"
+		
+		//EN
+		"us_1"	"When you become a tank, there is a random chance that you enter the"
+		"us_2"	"Paranoia state. On this state, you will receive 40.000 HP, you will"
+		"us_3"	"create an earthquake when hitting incapped survivors, hitting a"
+		"us_4"	"player will launch him far away, and you will be immune to fire"
+		"us_5"	"and melee weapon damage. And more..."
+		
+		//ES
+		"us_1"	"Cuando te conviertas en tank, hay una posibilidad de que entres en"
+		"us_2"	"el estado Paranoia. En este estado, recibiras 40.000 HP, crearas un"
+		"us_3"	"terremoto al golpear sobrevivientes incapacitados, golpeando a"
+		"us_4"	"otros sobrevivientes los mandaras lejos, y seras inmune al fuego"
+		"us_5"	"y a los golpes con armas blancas (melee). Entre otras..."
+	}
+	
+	"anti_mutation"
+	{
+		"name"	"|P| Mutation Shield (1 month)"
+		"desc"	"Prevents you from getting mutated"
+		"id"	"38"
+		"premium"	"0"
+		"level"	"50"
+		"gem_cost"	"750"
+		"cost"	"30590"
+		"infected"	"9"
+		"expire" "1"
+		
+		"us_total" "2"
+		
+		"us_1"	"Your cells will now generate anti-bodies against the mutated bacteria and are"
+		"us_2"	"able to kick it out of your system. Mutation skill will not affect you at all!"
+	}
+	
+	"no_cars"
+	{
+		"name"	"|*| Explosion Resistance"
+		"desc"	"You will not get affected by cars explosions"
+		"id"	"39"
+		"premium"	"0"
+		"level"	"201"
+		"gem_cost"	"5"
+		"cost"	"950"
+		"infected"	"9"
+		"expire"	"0"
+		
+		"us_total"	"2"
+		"us_1"		"If a car explodes near you, you will not get stunned nor result damaged from"
+		"us_2"		"the impact."
+	}
+	
+	"penalty_safety"
+	{
+		"name"	"|Q| Penalty Escaper"
+		"desc"	"You won't take exp nor points penalties"
+		"id"	"40"
+		"premium"	"1"
+		"level"	"1"
+		"gem_cost"	"0"
+		"cost"	"1"
+		"infected"	"9"
+		"expire"	"0"
+		
+		"us_total"	"2"
+		"us_1"		"This buff will allow your teammates to forgive you if you attack them"
+		"us_2"		"or do any agressive actions. You won't take exp nor points penalties."
+	}
+	
+	"poison_shield"
+	{
+		"name"	"|Q| Poison Shield"
+		"desc"	"Prevents you from getting mutated"
+		"id"	"41"
+		"premium"	"1"
+		"level"	"1"
+		"gem_cost"	"0"
+		"cost"	"1"
+		"infected"	"9"
+		"expire" "0"
+		
+		"us_total" "2"
+		
+		"us_1"	"The antidote against poison will make you immune to it. The antidote must"
+		"us_2"	"be applied once, and it will last forever."
+	}
+}

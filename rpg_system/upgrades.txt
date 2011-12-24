@@ -1,0 +1,2149 @@
+//
+//					U P G R A D E S 			F I L E
+//
+// ***************************************************************************
+//	This file contains all the data related to the upgrades. Remember that
+//	upgrades enhance normal aspects of the game. The basics.
+//
+//
+//	Structure:
+//
+//	"less_ff" //This is the upgrade tag. Can be modified, but leave it intact just in case
+//	{
+//		"name"	"Iron Skin"	//Name displayed
+//		"id"	"1"			//Id of the upgrade. Changing this will break the plugin
+//		"desc"	"Reduce FF"	//Description
+//		"up_levels"	"2"		//Total levels of the upgrade / Max level
+//
+//		"lv1"		"10"	//Value of the modifier for this upgrade on level 1
+//		"lv2"		"20"	//Modifier level 2 and so on.
+//		//Note: Each variable has a different value type, check the previous variables
+//		//or guide yourself for the description, come on use your brain :)
+//
+//		"infected"	"9"		//Infected specific. Specified on the "reference.txt" file!
+//
+//		"req_lv1"		"1"		//Level requirement to buy for lv 1 (initial)
+//		"req_lv2"		"13"		//Level requirement to buy for lv 2 and so on..
+//		"base_cost"		"15"	//Base Cost
+//		"cost_factor"	"3.2"	//Cost factor
+//
+//		//What is shown on the "Effect" part of the menu. Note: Long text = Incomplete menu.
+//		"leg"	"10% reduce"
+//		"leg_lv2"	"20% reduce"
+//
+"upgrades"
+{
+	//Survivor Upgrades
+	"less_ff"
+	{
+		"name"	"Iron Skin"
+		"name_es" "Piel Metalizada"
+		"name_br" "Pele de Ferro"
+		"id"	"1"
+		"desc"	"Allows you to reduce the damage received by friendly fire"
+		"desc_es"	"Reduce el dano producido por las balas de tus companeros"
+		"desc_br"	"Reduz o dano recebido de companheiro de time"
+		"up_levels"	"9"
+		
+		"lv1"	"5"
+		"lv2"	"10"
+		"lv3"	"15"
+		"lv4"	"25"
+		"lv5"	"35"
+		"lv6"	"50"
+		"lv7"	"65"
+		"lv8"	"80"
+		"lv9"	"99"
+		
+		"infected"	"9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"36"
+		"req_lv7"	"48"
+		"req_lv8"	"60"
+		"req_lv9"	"107"
+		
+		"stone"	"9"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg" "{v}% friendly fire damage decrease"
+		"leg_es" "{v}% dano por balas reducido"
+		"leg_br" "{v}% dano reduzido"
+	}
+	
+
+	"more_damage"
+	{
+		"name"	"Hawk Eye"
+		"name_es"	"Ojo de Alcon"
+		"name_br"	"Olho de Aguia"
+		"id"	"2"
+		"desc"	"Increases damage done to special infected"
+		"desc_es"	"Incrementa el dano hacia los infectados especiales"
+		"desc_br"	"Aumenta dano causado a Infectado Especial"
+		"up_levels"	"9"
+		
+		"lv1"	"5"	
+		"lv2"	"10"
+		"lv3"	"15"
+		"lv4"	"25"
+		"lv5"	"35"
+		"lv6"	"45"
+		"lv7"	"60"
+		"lv8"	"80"
+		"lv9"	"100"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"32"
+		"req_lv7"	"44"
+		"req_lv8"	"60"
+		"req_lv9"	"130"
+		
+		"stone"	"9"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"infected" "9"
+		
+		"leg" "{v}% damage to SI increase"
+		"leg_es" "{v}% dano adicional"
+		"leg_br" "{v}% dano adicional"
+	}
+	
+	"more_speed"
+	{
+		"name"	"Sprint"
+		"name_es" "Sprint"
+		"name_br" "Corrida"
+		"id"	"3"
+		"desc"	"Increases running speed and decreases it when ridden by a jockey"
+		"desc_es"	"Aumenta la velocidad al correr y la disminuye al ser montado por jockeys"
+		"desc_br"	"Aumenta a velocidade de corrida e diminui a velocidade quando um jockey monta em voce."
+		"up_levels"	"9"
+		"lv1"	"1"	
+		"lv2"	"2"
+		"lv3"	"3"
+		"lv4"	"4"
+		"lv5"	"6"
+		"lv6"	"8"
+		"lv7"	"10"
+		"lv8"	"15"
+		"lv9"	"20"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"20"
+		"req_lv6"	"28"
+		"req_lv7"	"36"
+		"req_lv8"	"107"
+		"req_lv9"	"120"
+		
+		"stone"	"9"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% speed increase"
+		"leg_es"	"{v}% mas velocidad"
+		"leg_br"	"{v}% aumento de velocidade"
+	}
+	
+	"more_ammo"
+	{
+		"name"	"Bullet Carrier"
+		"name_es" "Abastecido"
+		"name_br" "Carregador de Bala"
+		"id"	"4"
+		"desc"	"Increases reserve ammunition and clip size"
+		"desc_es"	"Incrementa la cantidad de municion que puedes llevar"
+		"desc_br"	"Aumenta a quantidade de municao que voce pode ter na arma e no cartucho"
+		"up_levels"	"7"
+		
+		"lv1"	"6"	
+		"lv2"	"12"
+		"lv3"	"18"
+		"lv4"	"24"
+		"lv5"	"30"
+		"lv6"	"36"
+		"lv7"	"42"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"72"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"	"{v}% reserve ammo and clip size increase"
+		"leg_es" "{v}% mas municion cargada"
+		"leg_br" "{v}% aumento de municao da arma e municao reserva"
+	}
+	
+	"block_damage"
+	{
+		"name"	"Unstoppable"
+		"name_es" "Imparable"
+		"name_br" "Invencivel"
+		"id"	"5"
+		"desc"	"Block certain damage type"
+		"desc_es" "Bloquea disintos tipos de dano"
+		"desc_br" "Bloqueia certos tipos de dano"
+		"up_levels"	"2"
+		"lv1"	"1"
+		"lv2"	"7"
+		"lv3"	"7"
+		
+		"infected" "9"
+		
+		"req_lv1"	"50"
+		"req_lv2"	"10"
+		
+		"base_cost"		"1000"	
+		"cost_factor"	"3.025" 
+		
+		"leg_mode" "1"
+		"leg_lv1"		"Block Fire damage"
+		"leg_lv2"		"Block Fire and Preasure (Cars) damage"
+		"leg_lv3"		"Block Fire and Preasure (Cars) damage"
+		"leg_lv1_es"	"Bloquea el dano por Fuego"
+		"leg_lv2_es"	"Bloquea el dano por Fuego y Presion"
+		"leg_lv3_es"	"Bloquea el dano por Fuego y Presion"
+		"leg_lv1_br"	"Bloqueia o dano de Fogo"
+		"leg_lv2_br"	"Bloqueia o dano de Fogo e Pressao"
+		"leg_lv3_br"	"Bloqueia o dano de Fogo e Pressao"
+	}
+	
+	"more_weapon_speed"
+	{
+		"name"	"Fast Reflex"
+		"name_es"	"Reflejos Rapidos"
+		"name_br"	"Reflexos Rapidos"
+		"id"	"6"
+		"desc"	"Increases both fire and reload speed"
+		"desc_es" "Aumenta la velocidad de recarga"
+		"desc_br" "Aumenta velocidade do tiro e do recarregamento"
+		"up_levels"	"8"
+
+		"lv1"	"5"	
+		"lv2"	"8"
+		"lv3"	"11"
+		"lv4"	"17"
+		"lv5"	"23"
+		"lv6"	"29"
+		"lv7"	"35"
+		"lv8"	"45"
+
+		"infected" "9"
+		
+		"req_lv1"	"1"	
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"32"
+		"req_lv7"	"48"
+		"req_lv8"	"68"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		 
+		"leg"	"{v}% reload speed increase"
+		"leg_es" "{v}% velocidad de recarga adicional"
+		"leg_br" "{v}% velocidade de recarga adicional"
+	}
+	
+	"more_melee_speed"
+	{
+		"name"	"Expert Swinger"
+		"name_es" "Ninja Experto"
+		"name_br" "Batedor Expert"
+		"id"	"7"
+		"desc"	"Increases the melee swing speed"
+		"desc_es" "Aumenta la velocidad de las armas blancas (melee)"
+		"desc_br" "Aumenta a velocidade de ataque com arma corpo a corpo (melee)"
+		"up_levels"	"7"
+		"lv1"	"5"	
+		"lv2"	"10"
+		"lv3"	"15"
+		"lv4"	"25"
+		"lv5"	"35"
+		"lv6"	"50"
+		"lv7"	"56"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"	
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"36"
+		"req_lv7"	"130"
+		"stone"	"7"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5"  
+		
+		"leg"	"{v}% melee swing speed increase"
+		"leg_es" "{v}% aumento de velocidad"
+		"leg_br" "{v}% aumento de velocidade"
+	}
+	
+	"more_health"
+	{
+		"name"	"Immortal Blood"
+		"name_es"	"Sangre Inmortal"
+		"name_br"	"Sangue Imortal"
+		"id"	"8"
+		"desc"	"Increases the maximum health"
+		"desc_es"	"Incrementa tu salud maxima"
+		"desc_br"	"Aumenta sua vida maxima"
+		"up_levels"	"9"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"35"
+		"lv4"	"50"
+		"lv5"	"80"
+		"lv6"	"90"
+		"lv7"	"100"
+		"lv8"	"125"
+		"lv9"	"175"
+		
+		"req_lv1"	"1"	
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"32"
+		"req_lv6"	"60"
+		"req_lv7"	"105"
+		"req_lv8"	"120"
+		"req_lv9"	"156"
+		
+		"stone"	"9"
+		
+		
+		"infected" "9"
+		
+		"base_cost"		"15"	
+		"cost_factor"	"3.5" 
+		
+		"leg" "{v}% maximum health increase"
+		"leg_es" "{v}% salud maxima incrementada"
+		"leg_br" "{v}% maxima vida aumentada"
+	}
+	
+	"more_incap_health"
+	{
+		"name"	"Last Strength"
+		"name_es" "Ultima Fuerza"
+		"name_br" "Ultimas Forcas"
+		"id"	"9"
+		"desc"	"Increases the maximum incapacitated health"
+		"desc_es" "Incrementa tu salud cuando estas incapacitado"
+		"desc_br" "Aumenta sua vida maxima quando incapacitado"
+		"up_levels"	"8"
+		"lv1"	"10"	
+		"lv2"	"30"
+		"lv3"	"50"
+		"lv4"	"70"
+		"lv5"	"100"
+		"lv6"	"150"
+		"lv7"	"200"
+		"lv8"	"300"
+		
+		"req_lv1"	"1"	
+		"req_lv2"	"8"
+		"req_lv3"	"16"
+		"req_lv4"	"24"
+		"req_lv5"	"36"
+		"req_lv6"	"101"
+		"req_lv7"	"125"
+		"req_lv8"	"155"
+		
+		"stone"	"8"
+		
+		"infected" "9"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.2"  
+		
+		"leg" "{v}% maximum health increase"
+		"leg_es" "{v}% salud maxima incrementada"
+		"leg_br" "{v}% vida maxima aumentada"
+	}
+	
+	"more_lives"
+	{
+		"name"	"Keep Coming Back"
+		"name_es" "Siempre de Vuelta"
+		"name_br" "Sempre Voltando"
+		"id"	"10"
+		"desc"	"Increases the maximum amount of lives before black and white"
+		"desc_es" "Aumenta el numero de incapacitaciones antes de ver en blanco y negro"
+		"desc_br" "Aumenta a quantidade de revividas antes de enxergar em Preto e Branco"
+		"up_levels"	"4"
+		"lv1"	"1"	
+		"lv2"	"2"
+		"lv3"	"3"
+		"lv4"	"4"
+		
+		"req_lv1"	"1"	
+		"req_lv2"	"8"
+		"req_lv3"	"16"
+		"req_lv4"	"48"
+		
+		"infected" "9"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"4.0" 
+		
+		"leg"		"{v} additional life(s)"
+		"leg_es"	"{v} vida(s) adicionales"
+		"leg_br"	"{v} vida(s) adicional"
+	}
+	
+	"more_temph"
+	{
+		"name"	"Pain Handler"
+		"name_es" "Resistencia al Dolor"
+		"name_br" "Resistente as Dores"
+		"id"	"11"
+		"desc"	"Increases the amount of health received by pain pills and adrenaline"
+		"desc_es" "Aumenta la cantidad de salud obtenida de las pildoras y adrenalina"
+		"desc_br" "Aumenta a quantidade de vida recebida pelas pílulas e pela adrenalina"
+		"up_levels"	"6"
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"25"
+		"lv4"	"40"
+		"lv5"	"60"
+		"lv6"	"100"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"40"
+		"req_lv6"	"113"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		
+		"leg"		"{v}% bonus health"
+		"leg_es"	"{v}% salud adicional"
+		"leg_br"	"{v}% de vida adicional"
+	}
+	
+	"revive_speed"
+	{
+		"name"	"Team Helper"
+		"name_es"	"Sporte de Equipo"
+		"name_br"	"Ajudante do Time"
+		"id"	"12"
+		"desc"	"Decreases the revive duration"
+		"desc_es" "Disminuye el tiempo en que ayudas a companeros abatidos"
+		"desc_br" "Diminui o tempo de duracao para levantar incapacitados"
+		"up_levels"	"8"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		"lv6"	"60"
+		"lv7"	"80"
+		"lv8"	"95"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"16"
+		"req_lv6"	"20"
+		"req_lv7"	"121"
+		"req_lv8"	"165"
+		
+		"stone"	"8"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% revive time decrease"
+		"leg_es"		"{v}% tiempo de ayuda disminuido"
+		"leg_br"		"{v}% de tempo gasto para reviver diminuido"
+	}
+	
+	"heal_speed"
+	{
+		"name"	"Fast Medic"
+		"name_es" "Medico Rapido"
+		"name_br" "Medico Rapido"  
+		"id"	"13"
+		"desc"	"Decreases the healing duration"
+		"desc_es"	"Disminuye el tiempo de curacion"
+		"desc_br"	"Diminui o tempo requerido parar se curar"
+		"up_levels"	"8"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		"lv6"	"60"
+		"lv7"	"80"
+		"lv8"	"95"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"16"
+		"req_lv6"	"20" 
+		"req_lv7"	"103"
+		"req_lv8"	"145"
+		
+		"stone"	"7"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% healing time decrease"
+		"leg_es"	"{v}% tiempo de curacion disminuido"
+		"leg_br"	"{v}% tempo de curar diminuido"
+	}
+	
+	//Smoker
+	"tongue_health"
+	{
+		"name"	"Tongue Resistance"
+		"name_es"	"Lengua Resistente"
+		"name_br"	"Lingua Resistente"
+		"desc"	"Increases the smoker tongue's health"
+		"desc_es"	"Incrementa la fuerza de tu lengua"
+		"desc_br"	"Aumenta a vida da lingua do smoker"
+		"id"	"14"
+		"up_levels"	"5"
+		"lv1"	"50"	
+		"lv2"	"100"
+		"lv3"	"150"
+		"lv4"	"200"
+		"lv5"	"250"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% tongue health increase"
+		"leg_es"	"{v}% resistencia de lengua incrementada"
+		"leg_br"	"{v}% vida da lingua aumentada"
+	}
+	
+	"tongue_speed"
+	{
+		"name"	"The fastest pull"
+		"name_es" "Tiron Rapido"
+		"name_br" "Puxada Rapida"
+		"desc"	"Increases the smoker pull speed"
+		"desc_es"	"Incrementa la velocidad de la lengua"
+		"desc_br"	"Aumenta a velocidade da lingua do Smoker ao puxar"
+		"id"	"15"
+		"up_levels"	"5"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"90"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"32"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% tongue pull speed increase"
+		"leg_es"	"{v}% velocidad de lengua aumentada"
+		"leg_br"	"{v}% velocidade da lingua aumentada"
+	}
+	
+	"tongue_damage"
+	{
+		"name"	"Choke Expert"
+		"name_es"	"Asfixiador"
+		"name_br"	"Asfixiador"
+		"desc"	"Increases the damage done to grabbed survivors"
+		"desc_es"	"Incrementa el daño hacia sobrevivientes atrapados"
+		"desc_br"	"Aumenta o dano causado aos sobreviventes agarrados"
+		"id"	"16"
+		"up_levels"	"7"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"50"
+		"lv5"	"70"
+		"lv6"	"100"
+		"lv7"	"130"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"36"
+		"req_lv7"	"100"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% choke and grab damage increase"
+		"leg_es"	"{v}% dano aumentado"
+		"leg_br"	"{v}% dano aumentado"
+	}
+	
+	"smoker_claw_damage"
+	{
+		"name"	"Asphyxiation Claw"
+		"name_es" "Garra asfixiante"
+		"name_br" "Garra asfixiante"
+		"desc"	"Increases the smoker claw damage"
+		"desc_es"	"Incrementa el dano hecho por tu garra"
+		"desc_br"	"Aumenta o dano da garra do smoker"
+		"id"	"17"
+		"up_levels"	"6"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"50"
+		"lv5"	"70"
+		"lv6"	"100"
+		"lv7"	"300"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"36"
+		"req_lv7"	"178"
+		
+		"stone"	"7"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% smoker claw damage increase"
+		"leg_es"	"{v}% dano de la garra incrementado"
+		"leg_br"	"{v}% dano da garra aumentando"
+	}
+	"smoker_speed"
+	{
+		"name"	"Smoking Speed"
+		"name_es" "Caminata Humeante"
+		"name_br" "Velocidade Esfumacada"
+		"desc"	"Increases the smoker running speed"
+		"desc_es"	"Incrementa la velocidad del smoker"
+		"desc_br"	"Aumenta a velocidade do smoker"
+		"id"	"18"
+		"up_levels"	"5"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"28"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% smoker speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"smoker_health"
+	{
+		"name"	"Smoke Power"
+		"name_es" "Vitalidad Toxica"
+		"name_br" "Vitalidade Toxica"
+		"desc"	"Increases the smoker maximum health"
+		"desc_es"	"Incrementa la salud maxima del smoker"
+		"desc_br"	"Aumenta a vida maxima do smoker"
+		"id"	"19"
+		"up_levels"	"5"
+		"lv1"	"20"	
+		"lv2"	"40"
+		"lv3"	"60"
+		"lv4"	"100"
+		"lv5"	"140"
+		"lv6"	"215"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"118"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% smoker health increase"
+		"leg_es"	"{v}% salud del smoker incrementado"
+		"leg_br"	"{v}% vida maxima aumentada"
+	}
+	
+	"smoker_delay"
+	{
+		"name"	"Multi Tongues"
+		"name_es"	"Lenguas de Reserva"
+		"name_br"	"Linguas Reservas"
+		"desc"	"Decreases the ability recharge interval of the smoker"
+		"desc_es"	"Disminuye el intervalo de uso de la lengua"
+		"desc_br"	"Diminui o tempo de recarga para novo uso da lingua"
+		"id"	"20"
+		"up_levels"	"7"
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		"lv6"	"60"
+		"lv7"	"70"
+		
+		"infected" "1"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"32"
+		"req_lv7"	"40"
+		
+		"base_cost"		"20"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% smoker tongue delay decrease"
+		"leg_es"	"{v}% tiempo de uso disminuido"
+		"leg_br"	"{v}% tempo de recarga diminuido"
+	}
+	
+	//Hunter
+	"pounce_dmg"
+	{
+		"name"	"Pounce Expert"
+		"name_es"	"Tumbador"
+		"name_br"	"Saltador Expert"
+		"desc"	"Increases the maximum pounce damage"
+		"desc_es"	"Incrementa el maximo dano de [Pounce]"
+		"desc_br"	"Aumenta o dano maximo do salto do hunter"
+		"id"	"21"
+		"up_levels"	"5"
+		
+		"lv1"	"25"	
+		"lv2"	"50"
+		"lv3"	"100"
+		"lv4"	"175"
+		"lv5"	"250"
+		
+		"infected" "3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"36"
+		
+		"base_cost"		"50"	
+		"cost_factor"	"2.5" 
+		
+		"leg"		"{v}% maximum pounce damage increase"
+		"leg_es"	"{v}% maximo dano de [Pounce] incrementado"
+		"leg_br"	"{v}% dano maximo aumentado"
+	}
+	
+	"pounce_power"
+	{
+		"name"	"Bunny Legs"
+		"name_es" "Saltarin"
+		"name_br" "Pernas de Coelho"
+		"desc"	"Increases the lunge power of the hunter"
+		"desc_es"	"Aumenta el poder de salto del hunter"
+		"desc_br"	"Aumenta o poder de salto do hunter"
+		"id"	"22"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		
+		"infected" "3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		
+		"base_cost"		"8"	
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% lunge power increase"
+		"leg_es"	"{v}% poder de salto aumentado"
+		"leg_br"	"{v}% poder de salto aumentado"
+	}
+	
+	"hunter_health"
+	{
+		"name"	"Hunting Stamina"
+		"name_es" "Resistencia de Cazador"
+		"name_br" "Resistencia de Cacador"
+		"desc"	"Increases the hunter maximum health"
+		"desc_es"	"Aumenta la salud maxima del hunter"
+		"desc_br"	"Aumenta a vida maxima do hunter"
+		"id"	"23"
+		"up_levels"	"7"
+		
+		"lv1"	"25"	
+		"lv2"	"50"
+		"lv3"	"100"
+		"lv4"	"150"
+		"lv5"	"250"
+		"lv6"	"300"
+		"lv7"	"400"
+		
+		"infected" "3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		"req_lv6"	"98"
+		"req_lv7"	"135"
+		
+		"stone"	"7"
+		
+		"base_cost"		"12"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% maximum hunter health increase"
+		"leg_es"	"{v}% saludo maxima aumentada"
+		"leg_br"	"{v}% vida maxima aumentada"
+	}
+	
+	"hunter_speed"
+	{
+		"name"	"Hunting Sprint"
+		"name_es"	"Rapidez Cazadora"
+		"name_br"	"Rapidez de Cacador"
+		"desc"	"Increases the hunter running speed"
+		"desc_es" "Incrementa la velocidad del hunter"
+		"desc_br" "Aumenta a velocidade do hunter"
+		"id"	"24"
+		"up_levels"	"7"
+		
+		"lv1"	"2"	
+		"lv2"	"4"
+		"lv3"	"8"
+		"lv4"	"12"
+		"lv5"	"20" 
+		"lv6"	"28"
+		"lv7"	"36" 
+		
+		"infected" "3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"30"
+		"req_lv6"	"60"
+		"req_lv7"	"90"
+		
+		"base_cost"		"15"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% running speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"hunter_claw"
+	{
+		"name"	"Hunting Claws"
+		"name_es"	"Garras Letales"
+		"name_br"	"Garras de Cacador"
+		"desc"	"Increases the hunter claw damage"
+		"desc_es"	"Incrementa el dano de la garra"
+		"desc_br"	"Aumenta o dano da garra do hunter"
+		"id"	"25"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		"lv6"	"70"
+		"lv7"	"100"
+		
+		"infected" "3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"72"
+		
+		"base_cost"		"21"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% claw damage increase"
+		"leg_es"	"{v}% dano de garra"
+		"leg_br"	"{v}% dano da garra"
+	}
+	
+	"hunter_pounce_damage"
+	{
+		"name"	"Heavy Ripper"
+		"name_es"	"Destripador"
+		"name_br"	"Estripador"
+		"desc"	"Increases the damage done to pounced survivors"
+		"desc_es"	"Aumenta el dano hecho hacia sobrevivientes tumbados"
+		"desc_br"	"Aumenta o dano causado a sobreviventes agarrados pelo salto do hunter"
+		"id"	"26"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"40"
+		"lv6"	"60"
+		"lv7"	"80"
+		
+		"infected" "3"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"40"
+		"req_lv7"	"56"
+		
+		"base_cost"		"35"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% damage while pouncing increase"
+		"leg_es"	"{v}% dano aumentado"
+		"leg_br"	"{v}% de aumento no dano"
+	}
+	
+	//Boomer
+	"vomit_duration"
+	{
+		"name"	"Huge Stomach"
+		"name_es"	"Estomago Grande"
+		"name_br"	"Grande Estomago"
+		"desc"	"Increases the boomer vomit duration"
+		"desc_es"	"Aumenta la duracion del vomito"
+		"desc_br"	"Aumenta a duracao do vomito do boomer"
+		"id"	"27"
+		"up_levels"	"5"
+		
+		"lv1"	"20"	
+		"lv2"	"40"
+		"lv3"	"60"
+		"lv4"	"100"
+		"lv5"	"140"
+		
+		"infected" "2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"28"
+		
+		"base_cost"		"15"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% vomit duration increase"
+		"leg_es"	"{v}% duracion de vomito aumentada"
+		"leg_br"	"{v}% duracao do vomito aumentada"
+	}
+	
+	"vomit_range"
+	{
+		"name"	"Bigger mouth"
+		"name_es"	"Boca Amplia"
+		"name_br"	"Boca Grande"
+		"desc"	"Increases the boomer vomit range"
+		"desc_es"	"Aumenta el rango del vomito"
+		"desc_br"	"Aumenta o alcance do vomito do boomer"
+		"id"	"28"
+		"up_levels"	"5"
+		
+		"lv1"	"20"	
+		"lv2"	"30"
+		"lv3"	"50"
+		"lv4"	"80"
+		"lv5"	"120"
+		
+		"infected" "2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"40"
+		
+		"base_cost"		"15"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% vomit range increase"
+		"leg_es"	"{v}% rango de vomito incrementado"
+		"leg_br"	"{v}% vomito alcance aumentado"
+	}
+	
+	
+	"boomer_delay"
+	{
+		"name"	"Rapid Belch"
+		"name_es"	"Higado Rapido"
+		"name_br"	"Arroto Rapido"
+		"desc"	"Decreases the vomit recharge on boomers"
+		"desc_es"	"Disminuye el intervalo de vomito"
+		"desc_br"	"Diminui o tempo de recarga do vomito"
+		"id"	"29"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"60"
+		"lv6"	"80"
+		"lv7"	"100"
+		
+		"infected" "2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"20"
+		"req_lv6"	"28"
+		"req_lv7"	"36"
+		
+		"base_cost"		"23"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% vomit recharge interval decrease"
+		"leg_es"	"{v}% intervalo de vomito disminuido"
+		"leg_br"	"{v}% de diminuicao no tempo de recarga do vomito"
+	}
+	
+	"boomer_speed"
+	{
+		"name"	"Burning Fat"
+		"name_es"	"Quemando Grasas"
+		"name_br"	"Queimando Calorias"
+		"desc"	"Increases boomer running speed"
+		"desc_es"	"Aumenta la velocidad del boomer"
+		"desc_br"	"Aumenta a velocidade do boomer"
+		"id"	"30"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		
+		"infected" "2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"36"
+		
+		"base_cost"		"15"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% running speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"boomer_claw" //31 +Claw damage
+	{
+		"name"	"Strong Claws"
+		"name_es"	"Garras Fuertes"
+		"name_br"	"Garras Fortes"
+		"desc"	"Increases the boomer claw damage"
+		"desc_es"	"Aumenta el dano de las garras de boomer"
+		"desc_br"	"Aumenta o dano das garras do boomer"
+		"id"	"31"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"70"
+		"lv5"	"100"
+		
+		"infected" "2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"36"
+		
+		"base_cost"		"35"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% claw damage increase"
+		"leg_es"	"{v}% dano de la garra aumentado"
+		"leg_br"	"{v}% dano da garra aumentado"
+	}
+	
+	"boomer_explode_radius" //32 +Explode radius
+	{
+		"name"	"Vomit Dynamite"
+		"name_es"	"Vomito Explosivo"
+		"name_br"	"Vomito Explosivo"
+		"desc"	"Increases boomer explosion radius"
+		"desc_es"	"Aumenta el rango de vomito al explotar"
+		"desc_br"	"Aumenta o alcance do vomito do boomer ao explodir"
+		"id"	"32"
+		"up_levels"	"7"
+		
+		"lv1"	"5"	
+		"lv2"	"10"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		"lv6"	"70"
+		"lv7"	"100"
+		
+		"infected" "2"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		"req_lv6"	"52"
+		"req_lv7"	"68"
+		
+		"base_cost"		"15"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% vomit explosion range increase"
+		"leg_es"	"{v}% radio de explosion aumentada"
+		"leg_br"	"{v}% alcance de explosao aumentando"
+	}
+	
+	
+	//Spitter
+	"spitter_speed" //33 +Speed
+	{
+		"name"	"Spitter Sprint"
+		"name_es"	"Caminata Rapida"
+		"name_br"	"Corrida da Spitter"
+		"desc"	"Increases spitter running speed"
+		"desc_es"	"Aumenta la velocidad de la spitter"
+		"desc_br"	"Aumenta a velocidade da spitter"
+		"id"	"33"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		
+		"infected" "4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"52"
+		
+		"base_cost"		"30"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% running speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"spitter_health" //34 +Health
+	{
+		"name"	"Acid Shield"
+		"name_es"	"Escudo Acido"
+		"name_br"	"Escudo Acido"
+		"desc"	"Increases spitter maximum health"
+		"desc_es"	"Aumenta la salud maxima de la spitter"
+		"desc_br"	"Aumenta a vida maxima da spitter"
+		"id"	"34"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"90"
+		"lv6"	"120"
+		"lv7"	"160"
+		
+		"infected" "4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"32"
+		"req_lv6"	"44"
+		"req_lv7"	"60"
+		
+		"base_cost"		"27"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% max health increase"
+		"leg_es"	"{v}% salud maxima aumentada"
+		"leg_br"	"{v}% vida maxima aumentada"
+	}
+	
+	"spitter_claw" //35 +Claw Dmg
+	{
+		"name"	"Large Claws"
+		"name_es"	"Garras Largas"
+		"name_br"	"Garras Largas"
+		"desc"	"Increases spitter claw damage"
+		"desc_es" "Aumenta el dano de la garra de Spitter"
+		"desc_br" "Aumenta o dano da garra da Spitter"
+		"id"	"35"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"100"
+		
+		"infected" "4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"40"
+		
+		"base_cost"		"34"
+		"cost_factor"	"2.3" 
+		
+		"leg"		"{v}% claw damage increase"
+		"leg_es"	"{v}% dano de la garra aumentado"
+		"leg_br"	"{v}% dano da garra aumentado"
+	}
+	
+	"spitter_delay" //36 -Spit Interval
+	{
+		"name"	"Fastest Spit"
+		"name_es"	"Escupitajo Rapido"
+		"name_br"	"Cuspe Rapido"
+		"desc"	"Decreases spitter's spit interval"
+		"desc_es"	"Disminuye el intervalo del escupitajo de la spitter"
+		"desc_br"	"Diminui o tempo de recarga do cuspe da spitter"
+		"id"	"36"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"40"
+		"lv6"	"55"
+		"lv7"	"68"
+		
+		"infected" "4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"24"
+		"req_lv6"	"48"
+		"req_lv7"	"72"
+		
+		"base_cost"		"25"
+		"cost_factor"	"2.7" 
+		
+		"leg"		"{v}% spit interval decrease"
+		"leg_es"	"{v}% intervalo disminuido"
+		"leg_br"	"{v}% tempo de recarga diminuido"
+	}
+	
+	"acid_projectile_speed" //37 +Acid travel speed
+	{
+		"name"	"Spit Velocity"
+		"name_es"	"Resistencia al Aire"
+		"name_br"	"Velocidade do Cuspe"
+		"desc"	"Increases spitter's spit speed"
+		"desc_es"	"Aumenta la velocidad del escupitajo en el aire"
+		"desc_br"	"Aumenta a velocidade em que se move o cuspe"
+		"id"	"37"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		"lv6"	"70"
+		"lv7"	"100"
+		
+		"infected" "4"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		"req_lv6"	"52"
+		"req_lv7"	"76"
+		
+		"base_cost"		"100"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% spit speed increase"
+		"leg_es"	"{v}% velocidad del escupitajo incrementada"
+		"leg_br"	"{v}% velocidade do cuspe aumentada"
+	}
+	
+	//Jockey
+	"jockey_speed" //38 +Speed
+	{
+		"name"	"Rapid Legs"
+		"name_es"	"Piernas Rapidas"
+		"name_br"	"Pernas Rapidas"
+		"desc"	"Increases jockey running speed"
+		"desc_es"	"Aumenta la velocidad del Jockey"
+		"desc_br"	"Aumenta a velocidade do Jockey"
+		"id"	"38"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		
+		"infected" "5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		
+		"base_cost"		"30"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% running speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"jockey_health" //39 +Health
+	{
+		"name"	"Endurance"
+		"name_es"	"Resistencia"
+		"name_br"	"Resistencia"
+		"desc"	"Increases jockey maximum health"
+		"desc_es"	"Aumenta la salud maxima del jockey"
+		"desc_br"	"Aumenta a vida maxima do jockey"
+		"id"	"39"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"90"
+		"lv6"	"120"
+		"lv7"	"160"
+		
+		"infected" "5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"32"
+		"req_lv6"	"44"
+		"req_lv7"	"60"
+		
+		"base_cost"		"27"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% max health increase"
+		"leg_es"	"{v}% salud maxima incrementada"
+		"leg_br"	"{v}% vida maxima aumentada"
+	}
+	
+	"jockey_claw" //40 +Claw Dmg
+	{
+		"name"	"Deadly Claws"
+		"name_es"	"Garras Mortales"
+		"name_br"	"Garras Mortiferas"
+		"desc"	"Increases jockey claw damage"
+		"desc_es"	"Aumenta el dano de la garra de jockey"
+		"desc_br"	"Aumenta o dano da garra do jockey"
+		"id"	"40"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"100"
+		
+		"infected" "5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		
+		"base_cost"		"34"
+		"cost_factor"	"2.3" 
+		
+		"leg"		"{v}% claw damage increase"
+		"leg_es"	"{v}% dano de la garra aumentado"
+		"leg_br"	"{v}% dano da garra aumentado"
+	}	
+	
+	"jockey_delay" //41 -Leap interval after dismount
+	{
+		"name"	"Grown Muscles"
+		"name_es"	"Musculos Grandes"
+		"name_br"	"Musculos Crescidos"
+		"desc"	"Decreases jockey leap interval after dismount"
+		"desc_es"	"Disminuye el intervalo de descanso del jockey"
+		"desc_br"	"Diminui tempo de recarga da habilidade de montar do jockey"
+		"id"	"41"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		"lv6"	"70"
+		"lv7"	"100"
+		
+		"infected" "5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"72"
+		
+		"base_cost"		"25"
+		"cost_factor"	"2.7" 
+		
+		"leg"		"{v}% leap interval decrease"
+		"leg_es"	"{v}% intervalo reducido"
+		"leg_br"	"{v}% tempo de recarga diminuido"
+	}
+	
+	//"jockey_ride_control" //42 +Jockey Ride Control <DOES NOT WORK>
+	//{
+	//	"name"	"Mind Control"
+	//	"desc"	"Increases jockey ride control"
+	//	"id"	"42"
+	//	"up_levels"	"7"
+	//	
+	//	"lv1"	"15"	
+	//	"lv2"	"30"
+	//	"lv3"	"45"
+	//	"lv4"	"60"
+	//	"lv5"	"75"
+	//	"lv6"	"90"
+	//	"lv7"	"100"
+	//	
+	//	"infected" "5"
+	//	
+	//	"req_lv1"	"1"
+	//	"req_lv2"	"5"
+	//	"req_lv3"	"10"
+	//	"req_lv4"	"15"
+	//	"req_lv5"	"35"
+	//	
+	//	"base_cost"		"100"
+	//	"cost_factor"	"3.5" 
+	//	
+	//	"leg"		"50% running speed increase"
+	//	"leg_lv2"		"100% running speed increase"
+	//	"leg_lv3"		"150% running speed increase"
+	//	"leg_lv4"		"200% running speed increase"
+	//	"leg_lv5"		"250% running speed increase"
+	//}
+	
+	"jockey_ride_damage" //43 +Damage done while riding
+	{
+		"name"	"Eating Heads"
+		"name_es"	"Come Cabezas"
+		"name_br"	"Comendo Cabecas"
+		"desc"	"Increases jockey damage while riding"
+		"desc_es"	"Aumenta el dano hecho mientras montas"
+		"desc_br"	"Aumenta o dano causado pelo jockey enquanto montado"
+		"id"	"43"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		"lv6"	"70"
+		"lv7"	"100"
+		
+		"infected" "5"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"72"
+		
+		"base_cost"		"35"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% damage while riding increase"
+		"leg_es"	"{v}% dano aumentado"
+		"leg_br"	"{v}% dano aumentado"
+	}
+	
+	
+	//Charger
+	"charger_speed" //44 +run speed
+	{
+		"name"	"Warming Up"
+		"name_es"	"Calentando"
+		"name_br"	"Esquentando"
+		"desc"	"Increases charger running speed"
+		"desc_es"	"Aumenta la velocidad normal del charger"
+		"desc_br"	"Aumenta a velocidade do Charger"
+		"id"	"44"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		
+		"base_cost"		"30"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% running speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"charger_health" //45 +health
+	{
+		"name"	"Mini Tank"
+		"name_es"	"Mini Tank"
+		"name_br"	"Mini Tank"
+		"desc"	"Increases Charger maximum health"
+		"desc_es"	"Aumenta la salud maxima del charger"
+		"desc_br"	"Aumenta a vida maxima do Charger"
+		"id"	"45"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"90"
+		"lv6"	"120"
+		"lv7"	"160"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"32"
+		"req_lv6"	"44"
+		"req_lv7"	"60"
+		
+		"base_cost"		"27"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% max health increase"
+		"leg_es"	"{v}% salud maxima aumentada"
+		"leg_br"	"{v}% vida maxima aumentada"
+	}
+	
+	"charger_charge_speed" //46 +charge speed
+	{
+		"name"	"Hyper Charge"
+		"name_es"	"Hiper Carga"
+		"name_br"	"Hiper Carregamento"
+		"desc"	"Increases charger running speed while charging"
+		"desc_es"	"Aumenta la velocidad del charger mientras carga contra sobrevivientes"
+		"desc_br"	"Aumenta a velocidade do Charger enquanto carrega"
+		"id"	"46"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		
+		"base_cost"		"30"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% charging speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"charger_claw_damage" //47 +claw damage
+	{
+		"name"	"Meat Hammer"
+		"name_es"	"Martillo de Carne"
+		"name_br"	"Martelo de Carne"
+		"desc"	"Increases charger claw damage"
+		"desc_es"	"Aumenta el dano de la garra"
+		"desc_br"	"Aumenta o dano da garra do Charger"
+		"id"	"47"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"70"
+		"lv5"	"100"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"40"
+		
+		"base_cost"		"34"
+		"cost_factor"	"2.3" 
+		
+		"leg"		"{v}% claw damage increase"
+		"leg_es"	"{v}% dano de la garra aumentado"
+		"leg_br"	"{v}% dano da garra aumentado"
+	}
+	
+	"charger_impact_damage" //48 +impact damage -> When you are carrying a survivor and impact others
+	{
+		"name"	"Charging Stun"
+		"name_es"	"Impacto Letal"
+		"name_br"	"Impacto Letal"
+		"desc"	"Increases damage when you impact survivors"
+		"desc_es"	"Aumenta el dano de impacto hacia sobrevivientes, cuando ya tienes uno"
+		"desc_br"	"Aumenta o dano quando impacta sobreviventes"
+		"id"	"48"
+		"up_levels"	"5"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"70"
+		"lv5"	"100"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"24"
+		"req_lv5"	"40"
+		
+		"base_cost"		"34"
+		"cost_factor"	"2.3" 
+		
+		"leg"		"{v}% impact damage increase"
+		"leg_es"	"{v}% dano de impacto aumentado"
+		"leg_br"	"{v}% dano de impacto aumentado"
+	}
+	
+	"charger_pummel_damage" //49 +dmg while pummeling AKA pounding survivor
+	{
+		"name"	"Meat Disintegrator"
+		"name_es"	"Desintegrado de Carne"
+		"name_br"	"Desintegrador de Carne"
+		"desc"	"Increases Charger damage while pummeling"
+		"desc_es"	"Aumenta el dano hacia sobrevivientes atrapados"
+		"desc_br"	"Aumenta o dano enquanto esmurra sobreviventes"
+		"id"	"49"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"15"
+		"lv3"	"20"
+		"lv4"	"30"
+		"lv5"	"50"
+		"lv6"	"70"
+		"lv7"	"100"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"16"
+		"req_lv5"	"32"
+		"req_lv6"	"48"
+		"req_lv7"	"72"
+		
+		"base_cost"		"35"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% damage while pummeling increase"
+		"leg_es"	"{v}% dano aumentado"
+		"leg_br"	"{v}% dano aumentado"
+	}
+	
+	"charger_charge_duration" //50 +Charge duration
+	{
+		"name"	"Trained Legs"
+		"name_es"	"Piernas Entrenadas"
+		"name_br"	"Pernas Treinadas"
+		"desc"	"Increases Charger's charge duration"
+		"desc_es"	"Aumenta el tiempo de carga del charger"
+		"desc_br"	"Aumenta a duracao do carregamento do Charger"
+		"id"	"50"
+		"up_levels"	"7"
+		
+		"lv1"	"25"	
+		"lv2"	"50"
+		"lv3"	"100"
+		"lv4"	"150"
+		"lv5"	"250"
+		"lv6"	"300"
+		"lv7"	"350"
+		
+		"infected" "6"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		"req_lv6"	"50"
+		"req_lv7"	"75"
+		
+		"base_cost"		"100"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% charge duration increase"
+		"leg_es"	"{v}% duracion de carga aumentada"
+		"leg_br"	"{v}% duracao de carregamento aumentado"
+	}
+	
+	
+	//Tank
+	"tank_health" //51 +health
+	{
+		"name"	"Invincible Tank"
+		"name_es"	"Tank Invencible"
+		"name_br"	"Tank Invencivel"
+		"desc"	"Increases Tank's maximum health"
+		"desc_es"	"Aumenta la salud maxima del Tank"
+		"desc_br"	"Aumenta a vida maxima do Tank"
+		"id"	"51"
+		"up_levels"	"7"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"40"
+		"lv4"	"60"
+		"lv5"	"90"
+		"lv6"	"120"
+		"lv7"	"160"
+		"lv8"	"200"
+		"lv9"	"250"
+		"lv10"	"325"
+		
+		"infected" "8"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"12"
+		"req_lv4"	"20"
+		"req_lv5"	"36"
+		"req_lv6"	"48"
+		"req_lv7"	"64"
+		"req_lv8"	"106"
+		"req_lv9"	"133"
+		"req_lv10"	"200"
+		
+		"stone"	"10"
+		
+		"base_cost"		"50"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% max health increase"
+		"leg_es"	"{v}% salud maxima incrementada"
+		"leg_br"	"{v}% vida maxima aumentada"
+	}
+	
+	"tank_speed" //52 +speed
+	{
+		"name"	"Tank Rage"
+		"name_es"	"Furia de Tank"
+		"name_br"	"Furia do Tank"
+		"desc"	"Increases tank's running speed"
+		"desc_es"	"Auementa la velocidad del Tank"
+		"desc_br"	"Aumenta a velocidade do Tank"
+		"id"	"52"
+		"up_levels"	"8"
+		
+		"lv1"	"5"	
+		"lv2"	"10"
+		"lv3"	"15"
+		"lv4"	"20"
+		"lv5"	"25"
+		"lv6"	"30"
+		"lv7"	"40"
+		"lv8"	"49"
+		
+		"infected" "8"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"4"
+		"req_lv3"	"8"
+		"req_lv4"	"12"
+		"req_lv5"	"16"
+		"req_lv6"	"77"
+		"req_lv7"	"125"
+		"req_lv8"	"171"
+		"stone"	"8"
+		
+		"base_cost"		"100"
+		"cost_factor"	"3.5" 
+		
+		"leg"		"{v}% running speed increase"
+		"leg_es"	"{v}% velocidad aumentada"
+		"leg_br"	"{v}% velocidade aumentada"
+	}
+	
+	"helping_hand"
+	{
+		"name"	"Helping Hand"
+		"name_es"	"Mano Amiga"
+		"name_br"	"Mao Amiga"
+		"desc"	"Increases the health that a survivor receives when you revive him"
+		"desc_es"	"Aumenta la salud que le otorgas a los companeros que revivas"
+		"desc_br"	"Aumenta a vida que um sobrevivente recebe quando voce o levanta"
+		"id"	"53"
+		"up_levels"	"11"
+		
+		"lv1"	"10"	
+		"lv2"	"20"
+		"lv3"	"30"
+		"lv4"	"40"
+		"lv5"	"50"
+		"lv6"	"60"
+		"lv7"	"70"
+		"lv8"	"80"
+		"lv9"	"90"
+		"lv10"	"125"
+		"lv11"	"180"
+		
+		"infected" "9"
+		
+		"req_lv1"	"1"
+		"req_lv2"	"7"
+		"req_lv3"	"18"
+		"req_lv4"	"29"
+		"req_lv5"	"35"
+		"req_lv6"	"49"
+		"req_lv7"	"56"
+		"req_lv8"	"65"
+		"req_lv9"	"100"
+		"req_lv10"	"122"
+		"req_lv11"	"150"
+		"stone"	"11"
+		
+		"base_cost"		"46"
+		"cost_factor"	"3.2" 
+		
+		"leg"		"{v} Additional health"
+		"leg_es"	"{v} Salud adicional"
+		"leg_br"	"{v} de Vida Adicional"
+	}
+	
+	"more_luck"
+	{
+		"name"	"|*| Lucky Mind"
+		"name_es"	"|*| Mente Suertuda"
+		"desc"	"Your luck will increase (Lottery, Crafting, Toaster Drop)"
+		"desc_es"	"Tu suerte se incrementara (Loteria, Forjar, Items)"
+		"id" "54"
+		
+		"up_levels"	"6"
+		
+		"lv1"	"1"
+		"lv2"	"2"
+		"lv3"	"3"
+		"lv4"	"4"
+		"lv5"	"5"
+		"lv6"	"6"
+		
+		"infected" "12"
+		
+		"req_lv1"	"85"
+		"req_lv2"	"100"
+		"req_lv3"	"115"
+		"req_lv4"	"128"
+		"req_lv5"	"135"
+		"req_lv6"	"170"
+		
+		"stone"	"4"
+		
+		"base_cost"	"135"
+		"cost_factor"	"15.3234"
+		"gem_cost"	"10"
+		"gem_cost_factor"	"1.354"
+		
+		"leg"	"Increases luck by {v}%"
+		"leg_es"	"{v}% suerte incrementada"
+	}
+	
+	"tank_dmg"
+	{
+		"name"	"Steroid Threatment"
+		"name_es"	"Esteroides"
+		"desc"	"Increases Tank arm damage"
+		"desc_es"	"Aumenta el dano del brazo del Tank"
+		"id" "55"
+		
+		"up_levels"	"6"
+		
+		"lv1"	"45"
+		"lv2"	"60"
+		"lv3"	"80"
+		"lv4"	"100"
+		"lv5"	"150"
+		"lv6"	"300"
+		
+		"infected" "8"
+		
+		"req_lv1"	"70"
+		"req_lv2"	"95"
+		"req_lv3"	"112"
+		"req_lv4"	"131"
+		"req_lv5"	"155"
+		"req_lv6"	"180"
+		
+		"stone"	"6"
+		
+		"base_cost"	"135"
+		"cost_factor"	"5.3234"
+		
+		"leg"	"Increases damage by {v}%"
+		"leg_es"	"{v}% dano incrementado"
+	}
+	
+	"metalized_skin"
+	{
+		"name"	"|*| Metalized Skin"
+		"desc"	"Decreases damage received from ranged weapons"
+		"id" "56"
+		
+		"up_levels"	"6"
+		
+		"lv1"	"10"
+		"lv2"	"20"
+		"lv3"	"35"
+		"lv4"	"50"
+		"lv5"	"60"
+		"lv6"	"80"
+		
+		"infected" "7"
+		
+		"req_lv1"	"201"
+		"req_lv2"	"202"
+		"req_lv3"	"203"
+		"req_lv4"	"204"
+		"req_lv5"	"205"
+		"req_lv6"	"210"
+		
+		"stone"	"1"
+		
+		"base_cost"	"4325"
+		"cost_factor"	"2.221"
+		"gem_cost"	"1"
+		"gem_cost_factor" "8.5"
+		
+		"leg"	"{v}% damage decreased"
+	}
+	
+	"elec_knife"
+	{
+		"name"	"|*| Electrified Knife"
+		"desc"	"Upon using a knife, special and common infected around will die too"
+		"id" "57"
+		
+		"up_levels"	"6"
+		
+		"lv1"	"50"
+		"lv2"	"80"
+		"lv3"	"130"
+		"lv4"	"150"
+		"lv5"	"200"
+		"lv6"	"250"
+		
+		"infected" "9"
+		
+		"req_lv1"	"204"
+		"req_lv2"	"205"
+		"req_lv3"	"206"
+		"req_lv4"	"207"
+		"req_lv5"	"208"
+		"req_lv6"	"209"
+		
+		"stone"	"1"
+		
+		"base_cost"		"6512"
+		"cost_factor"	"2.221"
+		
+		"gem_cost"	"5"
+		"gem_cost_factor" "1.5"
+		
+		"leg"	"Range: {v} units"
+	}
+	
+	"fast_trigger"
+	{
+		"name"	"|*| Fast Trigger"
+		"desc"	"Increase fire rate of fire weapons"
+		"id" "58"
+		
+		"up_levels"	"6"
+		
+		"lv1"	"10"
+		"lv2"	"20"
+		"lv3"	"35"
+		"lv4"	"50"
+		"lv5"	"60"
+		"lv6"	"80"
+		
+		"infected" "9"
+		
+		"req_lv1"	"201"
+		"req_lv2"	"202"
+		"req_lv3"	"203"
+		"req_lv4"	"204"
+		"req_lv5"	"205"
+		"req_lv6"	"208"
+		
+		"stone"	"1"
+		
+		"base_cost"	"2360"
+		"cost_factor"	"2.221"
+		
+		"gem_cost"	"4"
+		"gem_cost_factor" "2.3"
+		
+		"leg"	"{v}% fire rate increase"
+	}
+}

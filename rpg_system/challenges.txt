@@ -1,0 +1,268 @@
+"challenges"
+{
+	"common_infected_killed"
+	{
+		//General
+		"name"	"Zombie Genocide" //Name of the challenge
+		"goal"	"100" //Goal
+		"checked_end" "0" //Is checked at the end: AKA: Must be active at the end to win.
+		"detail_lines" "2" //Total number of detail lines
+		"dt_1"	"" //Detail line 1
+		"dt_2"	"" //Detail line 2
+		"id" "1" //The id
+		"exp_reward"	"1200" //Exp rewarded
+		"points_reward"	"250" //Points rewarded
+		"exp_penalty"	"" //Exp penalty
+		"points_penalty" "" //Points penalty
+		
+		//Special
+		"total_items"	"2" //Total inventory items to give
+		"item1"	"" //Item 1
+		"item2"	"" //Item 2
+		
+		//Category find
+		"difficulty" "" // 1: Easy 2: Normal 3: Hard 4: Veteran 5: Impossible
+		"team"	"2" //Team specific. 2: Survivors 3: Infected
+		
+		//Initial challenge count!
+		"initbuffer" "0"
+		"ignore_goal"	"0"
+	}
+	
+	"friendly_fire"
+	{
+		"name"	"Safe Fire"
+		"detail_lines"	"1"
+		"dt_1" "You must not deal any friendly-fire to teammates on this round to complete this challenge"
+		"id"	"2"
+		"checked_end" "1"
+		"exp_reward"	"5500"
+		"points_reward"	"100"
+		"exp_penalty"	"500"
+		"points_penalty" "50"
+		"difficulty"	"2"
+		"team"	"2"
+		"initbuffer" "1"
+		"goal"	"1"
+	}
+	
+	"witch_killed"
+	{
+		"name"	"Witch Hunt"
+		"detail_lines"	"1"
+		"dt_1"	"You must kill 3 witches on this round to complete this challenge"
+		"id"	"3"
+		"exp_reward"		"3125"
+		"points_reward"		"100"
+		"exp_penalty"		"625"
+		"points_penalty"	"30"
+		"goal"	"3"
+		"difficulty"	"2"
+		"team"	"2"
+		"goal"	"3"
+	}
+	
+	"karma_charges"
+	{
+		"name"	"Karma Speed"
+		"detail_lines" "1"
+		"dt_1"	"You must Karma-Charge 3 survivors on this round to complete this challenge"
+		"id"	"4"
+		"exp_reward"	"8000"
+		"points_reward"	"675"
+		"exp_penalty"	"850"
+		"points_penalty"	"100"
+		"goal"	"3"
+		"difficulty"	"3"
+		"team"	"3"
+		"goal"	"3"
+	}
+	
+	"karma_slaps"
+	{
+		"name"	"Karma Hit"
+		"detail_lines" "1"
+		"dt_1"	"You must Karma-Slap 2 survivors on this round to complete this challenge"
+		"id"	"5"
+		"exp_reward"	"8000"
+		"points_reward"	"1050"
+		"exp_penalty"	"850"
+		"points_penalty"	"100"
+		"goal"	"2"
+		"difficulty"	"3"
+		"team"	"3"
+	}
+	
+	"boss_hunter"
+	{
+		"name"	"Boss Rampage"
+		"detail_lines" "1"
+		"dt_1"	"You must kill 20 Special Infected on this round to complete this challenge"
+		"id"	"6"
+		"exp_reward"	"2235"
+		"points_reward"	"70"
+		"exp_penalty"	"500"
+		"points_penalty" "75"
+		"goal"	"20"
+		"difficulty"	"1"
+		"team"	"2"
+	}
+	
+	"survivor_massacre"
+	{
+		"name"	"Survivor Massacre"
+		"detail_lines"	"1"
+		"dt_1"	"You must kill 3 survivors on this round to complete this challenge"
+		"id"	"7"
+		"exp_reward"	"3500"
+		"points_reward"	"200"
+		"exp_penalty"	"700"
+		"points_penalty" "55"
+		"goal"	"3"
+		"difficulty"	"2"
+		"team"	"3"
+	}
+	
+	"revive"
+	{
+		"name"		"Advanced Care"
+		"detail_lines"	"1"
+		"dt_1"		"You must help 6 incapacitated teammates on this round to complete this challenge"
+		"id"		"8"
+		"exp_reward"	"3000"
+		"points_reward"	"85"
+		"exp_penalty"	"750"
+		"points_penalty"	"35"
+		"goal"	"6"
+		"difficulty"	"2"
+		"team"	"2"
+	}
+	
+	"bounty_hunter"
+	{
+		"name"		"Bounty Hunting"
+		"detail_lines"	"1"
+		"dt_1"		"You must earn 150 Bounty as infected on this round to complete this challenge"
+		"id"		"9"
+		"exp_reward"	"3500"
+		"points_reward"	"550"
+		"exp_penalty"	"800"
+		"points_penalty" "50"
+		"goal"	"150"
+		"difficulty"	"2"
+		"team"	"3"
+	}
+	
+	"standing"
+	{
+		"name"		"Rambo Mission"
+		"goal"	"1"
+		"init_buffer" "1"
+		"checked_end" "1"
+		"detail_lines" "1"
+		"dt_1"		"You must not get incapped during this round to complete this challenge"
+		"id"		"10"
+		"exp_reward"	"4500"
+		"exp_penalty"	"2500"
+		"points_reward"	"150"
+		"points_penalty"	"50"
+		"difficulty"		"2"
+		"team"	"2"
+	}
+	
+	"impossible"
+	{
+		"name"		"Honor Mission"
+		"goal"	"1"
+		"init_buffer"	"1"
+		"checked_end" "1"
+		"detail_lines"	"2"
+		"dt_1"		"You must not get any damage during this round to complete this challenge"
+		"dt_2"     "(60% of the survivors have to make it to the saferoom)"
+		"id"		"11"
+		"exp_reward"	"12500"
+		"exp_penalty"	"4000"
+		"points_reward"	"4500"
+		"points_penalty"	"900"
+		"random_upgrade"	"1"
+		"random_skill"		"1"
+		"buff_slot"			"1"
+		"difficulty"		"3"
+		"team"				"2"
+	}
+	
+	"pounce"
+	{
+		"name"		"Pounce Rampage"
+		"detail_lines"	"1"
+		"dt_1"		"You must pounce 7 times during this round to complete this challenge"
+		"id"		"12"
+		"exp_reward"	"2000"
+		"points_reward"	"20"
+		"exp_penalty"	"1000"
+		"difficulty"	"1"
+		"goal"		"7"
+		"team"	"3"
+	}
+	
+	"burn"
+	{
+		"name"		"Inferno"
+		"detail_lines"
+		"dt_1"		"You must burn 200 common infected on this round to complete this challenge"
+		"id"		"13"
+		"exp_reward"	"3100"
+		"points_reward"	"200"
+		"exp_penalty"	"500"
+		"difficulty"	"2"
+		"goal"			"200"
+		"team"			"2"
+	}
+	
+	"karma_honorcode"
+	{
+		"name"		"Own the creator!"
+		"goal"	"1"
+		"init_buffer"	"0"
+		"checked_end" "1"
+		"detail_lines"	"1"
+		"dt_1"		"You must Karma-Charge HonorCode to win this challenge"
+		"id"		"14"
+		"exp_reward"	"3000"
+		"points_reward"	"100"
+		"gem_reward"	"3"
+		"exp_penalty"	"1500"
+		"difficulty"	"3"
+		"team"		"3"
+	}
+	
+	"helms_deep_victory"
+	{
+		"name"	"The Greatest Battle"
+		"detail_lines"	"1"
+		"goal"	"1"
+		"init_buffer" "0"
+		"dt_1"	"You and 50% of your teammates must survive the helms deep battle"
+		"id"	"15"
+		"exp_reward"	"6500"
+		"points_reward"	"200"
+		"difficulty"	"3"
+		"team"			"2"
+		"total_items" "1"
+		"item1"	"8"
+	}
+	
+	"shaman_deploy"
+	{
+		"name"	"Shaman Fight"
+		"detail_lines"	"1"
+		"goal"	"1"
+		"init_buffer"	"0"
+		"dt_1"	"Defeat the shaman tank"
+		"id" "16"
+		"difficulty"	"3"
+		"team"	"2"
+		"total_items"	"1"
+		"item1"	"14"
+	}
+}

@@ -1,0 +1,774 @@
+//
+//					I T E M S 			F I L E
+//
+// ***************************************************************************
+//	This file contain the data related to the bounty purchase menu. Similar
+//	to l4d2_points_system.
+//
+//	The structure:
+//
+//	"first_aid_kit" //This is the item name. Is not recommended to edit this, just add new items
+//	{
+//		"enabled"	"1"			//Should the item be shown on the menu?
+//		"name"		"Medkit"	//Name displayed
+//		"cost"		"10"		//Bounty cost of the item
+//		"cat"		"1"			//Category ID of the item. See categories.txt for more info
+//		"cmd"		"give"		//Command casted when the item is bought. In this example 'give first_aid_kit' will be enforced
+//		"param"		""			//Additional command parameter. Put "auto" here for infected items. Example: z_spawn boomer auto
+//	}
+//
+//	Misc:
+//
+//	function::panic //Trigger a panic event
+//	function::killattacker //Kills pounce, choke, ride, etc attacker
+//	function::vomit		   //Param: surv or inf
+//	function::createspit   //Create Spit
+//	function::removeinf		//Removes common infected
+//
+//  Note: not all functions might be functional, use at own risk
+//
+"items"
+{
+	//Melee
+	"baseball_bat"
+	{
+		"name"	"Baseball Bat"
+		"name_es"	"Bate de Baseball"
+		"name_br"	"Bastao de Baseball"
+		"enabled"	"1"
+		"cost"		"4"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"chainsaw"
+	{
+		"name"	"Chainsaw"
+		"name_es"	"Motosierra"
+		"name_br"	"Motosserra"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"cricket_bat"
+	{
+		"name"	"Cricket Bat"
+		"name_es"	"Bate de Cricket"
+		"name_br"	"Bastao de Criquete"
+		"enabled"	"1"
+		"cost"		"4"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"crowbar"
+	{
+		"name"	"Crowbar"
+		"name_es"	"Palanca"
+		"name_br"	"Pe de cabra"
+		"enabled"	"1"
+		"cost"		"4"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"electric_guitar"
+	{
+		"name"	"Electric Guitar"
+		"name_es"	"Guitarra Electrica"
+		"name_br"	"Guitarra"
+		"enabled"	"1"
+		"cost"		"4"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"fireaxe"
+	{
+		"name"	"Fire Axe"
+		"name_es"	"Hacha"
+		"name_br"	"Machado"
+		"enabled"	"1"
+		"cost"		"4"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"frying_pan"
+	{
+		"name"	"Frying Pan"
+		"name_es"	"Sarten"
+		"name_br"	"Frigideira"
+		"enabled"	"1"
+		"cost"		"4"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"golfclub"
+	{
+		"name"	"Golfclub"
+		"name_es"	"Palo de Golf"
+		"name_br"	"Taco de Golfe"
+		"enabled"	"1"
+		"cost"		"6"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"katana"
+	{
+		"name"	"Katana"
+		"name_es"	"Katana"
+		"name_br"	"Katana"
+		"enabled"	"1"
+		"cost"		"6"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"machete"
+	{
+		"name"	"Machete"
+		"name_es"	"Machete"
+		"name_br"	"Facao"
+		"enabled"	"1"
+		"cost"		"6"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	"tonfa"
+	{
+		"name"	"Tonfa"
+		"name_es"	"Tonfa"
+		"name_br"	"Cacetete"
+		"enabled"	"1"
+		"cost"		"6"
+		"cat"		"2"
+		"cmd"		"give"
+	}
+	
+	//Rest
+	"adrenaline"
+	{
+		"name"	"Adrenaline Shot"
+		"name_es"	"Adrenalina"
+		"name_br"	"Injecao de Adrenalina"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"ammo"
+	{
+		"name"	"Ammunition"
+		"name_es"	"Municion"
+		"name_br"	"Municao"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"3"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"autoshotgun"
+	{
+		"name"	"Auto Shotgun"
+		"name_es"	"Auto Shotgun"
+		"name_br"	"Auto Espingarda"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"1"
+		"sub_cat"	"3"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"cola_bottles"
+	{
+		"name"	"Cola Bottles"
+		"name_es"	"Botellas de Cola"
+		"name_br"	"Garrafas de Cola"
+		"enabled"	"0"
+		"cost"		"150"
+		"cat"		"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"defibrillator"
+	{
+		"name"	"Defibrillator"
+		"name_es"	"Desfibrilador"
+		"name_br"	"Desfibrilador"
+		"enabled"	"1"
+		"cost"		"20"
+		"cat"		"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"fireworkcrate"
+	{
+		"name"	"Fire Works Crate"
+		"name_es"	"Fuego Artificiales"
+		"name_br"	"Fogos de Artificio"
+		"enabled"	"1"
+		"cost"		"6"
+		"cat"		"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"first_aid_kit"
+	{
+		"name"	"First Aid Kit"
+		"name_es"	"Botiquin"
+		"name_br"	"Kit de Primeiro Socorros"
+		"enabled"	"1"
+		"cost"		"17"
+		"cat"		"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"gascan"
+	{
+		"name"	"Gasoline Can"
+		"name_es"	"Gasolina"
+		"name_br"	"Gasolina"
+		"enabled"	"1"
+		"cost"		"75"
+		"cat"		"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"gnome"
+	{
+		"name"	"Gnome"
+		"name_es"	"Gnomo"
+		"name_br"	"Gnomo"
+		"enabled"	"1"
+		"cost"		"8"
+		"cat"		"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"grenade_launcher"
+	{
+		"name"	"Grenade Launcher"
+		"name_es"	"Lanzagranadas"
+		"name_br"	"Lancador de Granadas"
+		"enabled"	"1"
+		"cost"		"50"
+		"cat"		"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"health"
+	{
+		"name"	"Full Health"
+		"name_es"	"Vida Maxima"
+		"name_br"	"Vida Maxima"
+		"enabled"	"1"
+		"cost"		"20"
+		"cat"		"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"hunting_rifle"
+	{
+		"name"	"Hunting Rifle"
+		"name_es"	"Rifle Cazador"
+		"name_br"	"Rifle de Cacador"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"1"
+		"sub_cat"	"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"molotov"
+	{
+		"name"	"Molotov"
+		"name_es"	"Molotov"
+		"name_br"	"Molotov"
+		"enabled"	"1"
+		"cost"		"8"
+		"cat"		"3"
+		"sub_cat"	"1"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"oxygentank"
+	{
+		"name"	"Oxygen Tank"
+		"name_es"	"Tanque de Oxigeno"
+		"name_br"	"Tanque de Oxigenio"
+		"enabled"	"1"
+		"cost"		"2"
+		"cat"		"5"
+		"cmd"		"give"
+	}
+	
+	"pain_pills"
+	{
+		"name"	"Pills"
+		"name_es"	"Pildoras"
+		"name_br"	"Pilulas"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"pipe_bomb"
+	{
+		"name"	"Pipe Bomb"
+		"name_es"	"Bomba Casera"
+		"name_br"	"Granada"
+		"enabled"	"1"
+		"cost"		"8"
+		"cat"		"3"
+		"sub_cat"	"1"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"pistol"
+	{
+		"name"	"Pistol"
+		"name_es"	"Pistola"
+		"name_br"	"Pistola"
+		"enabled"	"1"
+		"cost"		"5"
+		"cat"		"1"
+		"sub_cat"	"1"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"pistol_magnum"
+	{
+		"name"	"Pistol - Magnum"
+		"name_es"	"Magnum"
+		"name_br"	"Magnum"
+		"enabled"	"1"
+		"cost"		"6"
+		"cat"		"1"
+		"sub_cat"	"1"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"propanetank"
+	{
+		"name"	"Propane Tank"
+		"name_es"	"Tanque de Propano"
+		"name_br"	"Tanque de Propano"
+		"enabled"	"1"
+		"cost"		"3"
+		"cat"		"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"pumpshotgun"
+	{
+		"name"	"Pump Shotgun"
+		"name_es" "Escopeta a Bombeo"
+		"name_br" "Espingarda de bombear"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"1"
+		"sub_cat"	"3"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"rifle"
+	{
+		"name"	"Rifle M16"
+		"name_es"	"Rifle M16"
+		"name_br"	"Rifle M16"
+		"enabled"	"1"
+		"cost"		"12"
+		"cat"		"1"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"rifle_ak47"
+	{
+		"name"	"Rifle AK47"
+		"name_es"	"Rifle AK47"
+		"name_br"	"Rifle AK47"
+		"enabled"	"1"
+		"cost"		"12"
+		"cat"		"1"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"rifle_desert"
+	{
+		"name"	"Rifle Desert"
+		"name_es"	"Rifle Militar"
+		"name_br"	"Rifle Militar"
+		"enabled"	"1"
+		"cost"		"12"
+		"cat"		"1"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"rifle_m60"
+	{
+		"name"	"Rifle M60"
+		"name_es"	"Rifle M60"
+		"name_br"	"Rifle M60"
+		"enabled"	"1"
+		"cost"		"50"
+		"cat"		"1"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"rifle_sg552"
+	{
+		"name"	"Rifle SG552"
+		"name_es"	"Rifle SG552"
+		"name_br"	"Rifle SG552"
+		"enabled"	"1"
+		"cost"		"12"
+		"cat"		"1"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"shotgun_chrome"
+	{
+		"name"	"Chrome Shotgun"
+		"name_es"	"Escopeta de Cromo"
+		"name_br"	"Espingarda Cromada"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"1"
+		"sub_cat"	"3"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"shotgun_spas"
+	{
+		"name"	"Spas Shotgun"
+		"name_es"	"Escopeta Spas"
+		"name_br"	"Espingarda Spas"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"1"
+		"sub_cat"	"3"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"smg"
+	{
+		"name"	"SMG"
+		"name_es"	"SMG"
+		"name_br"	"SMG"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"1"
+		"sub_cat"	"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"smg_mp5"
+	{
+		"name"	"SMG - MP5"
+		"name_es"	"SMG MP5"
+		"name_br"	"SMG MP5"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"1"
+		"sub_cat"	"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"smg_silenced"
+	{
+		"name"	"SMG - Silenced"
+		"name_es"	"SMG Silenciada"
+		"name_br"	"SMG com silenciador"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"1"
+		"sub_cat"	"4"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"sniper_awp"
+	{
+		"name"	"Sniper - Awp"
+		"name_es"	"Francotirador AWP"
+		"name_br"	"Franco atirador AWP"
+		"enabled"	"1"
+		"cost"		"15"
+		"cat"		"1"
+		"sub_cat"	"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"sniper_military"
+	{
+		"name"	"Snipe - Military"
+		"name_es"	"Francotirador Militar"
+		"name_br"	"Franco atirador Militar"
+		"enabled"	"1"
+		"cost"		"14"
+		"cat"		"1"
+		"sub_cat"	"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"sniper_scout"
+	{
+		"name"	"Sniper - Scout"
+		"name_es"	"Francotirador Scout"
+		"name_br"	"Franco atirador Sentinela"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"1"
+		"sub_cat"	"5"
+		"cmd"		"give"
+		"param"		""
+	}
+	"explosive_ammo"
+	{
+		"name"	"Explosive Ammo"
+		"name_es"	"Municion Explosiva"
+		"name_br"	"Municao Explosiva"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"3"
+		"sub_cat"	"2"
+		"cmd"		"upgrade_add"
+		"param"		""
+	}
+	"upgradepack_explosive"
+	{
+		"name"	"Explosive Ammo Pack"
+		"name_es"	"Paquete de Municion Explosiva"
+		"name_br"	"Pacote de Municao Explosiva"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"3"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"incendiary_ammo"
+	{
+		"name"	"Incendiary Ammo"
+		"name_es"	"Municion Incendiaria"
+		"name_br"	"Municao Incendiaria"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"3"
+		"sub_cat"	"2"
+		"cmd"		"upgrade_add"
+		"param"		""
+	}
+	
+	"upgradepack_incendiary"
+	{
+		"name"	"Incendiary Ammo Pack"
+		"name_es"	"Paquete de Municion Incendiaria"
+		"name_br"	"Pacote de Municao Incendiaria"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"3"
+		"sub_cat"	"2"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"laser_sight"
+	{
+		"name"	"Laser Sight"
+		"name_es"	"Mira Laser"
+		"name_br"	"Mira Laser"
+		"enabled"	"1"
+		"cost"		"7"
+		"cat"		"3"
+		"sub_cat"	"2"
+		"cmd"		"upgrade_add"
+		"param"		""
+	}
+	
+	"vomitjar"
+	{
+		"name"	"Vomit Jar"
+		"name_es"	"Botella de Vomito"
+		"name_br"	"Jarra de Vomito"
+		"enabled"	"1"
+		"cost"		"8"
+		"cat"		"3"
+		"sub_cat"	"1"
+		"cmd"		"give"
+		"param"		""
+	}
+	
+	"health "
+	{
+		"name"	"Heal"
+		"name_es"	"Curacion"
+		"name_br"	"Curar"
+		"enabled"	"1"
+		"cost"		"50"
+		"cat"		"0"
+		"cmd"		"give"
+	}
+	
+	"boomer"
+	{
+		"name"	"Boomer"
+		"enabled"	"0"
+		"cost"		"30"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"charger"
+	{
+		"name"	"Charger"
+		"enabled"	"0"
+		"cost"		"6"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"hunter"
+	{
+		"name"	"Hunter"
+		"enabled"	"0"
+		"cost"		"4"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"jockey"
+	{
+		"name"	"Jockey"
+		"enabled"	"0"
+		"cost"		"6"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"smoker"
+	{
+		"name"	"Smoker"
+		"enabled"	"0"
+		"cost"		"4"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"spitter"
+	{
+		"name"	"Spitter"
+		"enabled"	"0"
+		"cost"		"6"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"tank"
+	{
+		"name"	"Tank"
+		"enabled"	"1"
+		"cost"		"60"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"witch"
+	{
+		"name"	"Witch"
+		"enabled"	"1"
+		"cost"		"25"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"mob"
+	{
+		"name"	"Horde"
+		"name_es"	"Horda"
+		"name_br"	"Horda"
+		"enabled"	"1"
+		"cost"		"10"
+		"cat"		"0"
+		"cmd"		"z_spawn"
+		"param"		"auto"
+	}
+	
+	"panic_event"
+	{
+		"name"	"Panic Event"
+		"name_es"	"Horda Masiva"
+		"name_br"	"Evento de Panico"
+		"enabled"	"1"
+		"cost"		"15"
+		"cat"		"0"
+		"cmd"		"function::panic"
+		"param"		""
+	}
+	
+	"vomit_survivors"
+	{
+		"name"	 "Bile Shower (Vomit All)"
+		"name_es"	"Ducha de Vomito (Vomitar a Todos)"
+		"name_br"	"Banho de Vomito (Vomitar a Todos)"
+		"enabled"	"1"
+		"cost"		"30"
+		"cat"		"0"
+		"cmd"		"function::vomit"
+		"param"		"surv"
+	}
+}

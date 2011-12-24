@@ -1,0 +1,234 @@
+//
+//					P R E M I U M 			F I L E
+//
+// ***************************************************************************
+//	This file contains all the data related to premium items. The structure is
+//	no yet defined.
+//
+//
+"premium"
+{
+	"vending_machine"
+	{
+		"id"	"1"
+		"name"	"|Item| Vending Machine"
+		"name_es"	"Maquina Magica"
+	}
+	
+	"gem"
+	{
+		"id"	"2"
+		"name"	"|Item| Gem"
+		"desct"	"1"
+		"desc1"	"Gems are precios exchange items used to get necessary materials to get upgrades and learn skills"
+		"name_es"	"Gema"
+	}
+	
+	"exp_package"
+	{
+		"id"	"3"
+		"name"	"|Item| x2 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+		"name_es"	"Paquete de Exp Doble"
+	}
+	
+	"points"
+	{
+		"id"	"4"
+		"name"	"|Item| Mega Points Pack"
+		"desct"	"1"
+		"desc1"	"A pack containing a lot of points!"
+		"name_es"	"Mega Pack de Puntos"
+	}
+	
+	"exp"
+	{
+		"id"	"5"
+		"name"	"|Item| Mega Exp Pack"
+		"desct"	"1"
+		"desc1"	"A pack containing a lot of wisdom!"
+		"name_es"	"Mega Pack de Exp"
+	}
+	
+	"starter_account"
+	{
+		"id"	"6"
+		"name"	"|Item| Starter Account Summoner"
+		"desct"	"1"
+		"desc1"	"Gives you a boost at start"
+		"name_es"	"Activador Cuenta Novata"
+	}
+	
+	"vending_machine_gold"
+	{
+		"id"	"7"
+		"name"	"|Item| Premium Vending Machine"
+		"name_es"	"Maquina Magica Premium"
+	}
+	"enhancement_stone"
+	{
+		"id"	"8"
+		"name"	"|Auto| Enhancement Stone"
+		"desc1"	"Certain upgrades and skills require this stone to be obtained!"
+		"desct"	"1"
+		"name_es"	"Piedra de Incremento"
+	}
+	"helms_deep_ticket"
+	{
+		"id"	"9"
+		"name"	"|Item| Helms Deep Ticket"
+		"desct"	"1"
+		"desc1"	"The ticket will unlock the Helms Deep main door"
+		"name_es"	"Ticket Helms Deep"
+	}
+	"paranoia_buff"
+	{
+		"id"	"10"
+		"name"	"|Buff| Paranoia"
+		"desct"	"1"
+		"desc1"	"Gives you the Paranoia Buff"
+		"name_es"	"Buff Paranoia"
+	}
+	"none"
+	{
+		"id"	"11"
+		"name"	"|?| Empty Item"
+		"desct"	"1"
+		"desc1"	"An empty item"
+	}
+	"revert_stone"
+	{
+		"id"	"12"
+		"name"	"|Item| Revert Stone"
+		"desct"	"2"
+		"desc1"	"Will allow you to remove an upgrade or skill, and recover all of the wasted points and gems"
+		"desc2"	"The stone, however, is unable to restore enhancement stones"
+	}
+	"Buff_Slot"
+	{
+		"id"	"13"
+		"name"	"|Item| Buff slot unlocker"
+		"desct"	"1"
+		"desc1"	"Increases your buff equipment limit"
+	}
+	"guild_stone"
+	{
+		"id"	"14"
+		"name"	"|Auto| Guild Stone"
+		"desct"	"1"
+		"desc1"	"The stone will let you create a Guild"
+	}
+	"anti_mutation"
+	{
+		"id"	"15"
+		"name"	"|Buff| Mutation Shield (1 Month)"
+		"desct"	"1"
+		"desc1"	"A dose of antibodies that will shield you from mutations"
+	}
+	"item16"
+	{
+		"id"	"16"
+		"name"	"|Buff| Mutation Shield (1 Week)"
+		"desct"	"1"
+		"desc1"	"A dose of antibodies that will shield you from mutations"
+	}
+	"item17"
+	{
+		"id"	"17"
+		"name"	"|Buff| Mutation Shield (1 Day)"
+		"desct"	"1"
+		"desc1"	"A dose of antibodies that will shield you from mutations"
+	}
+	"item18"
+	{
+		"id"	"18"
+		"name"	"|Item| Enhancer"
+		"desct"	"2"
+		"desc1"	"The liquid enhancer is a mix of several mutated cells that will instantly"
+		"desc2"	"level up the user to Lv. 201 and will allow him to rise up to Lv. 210"
+	}
+	"item19"
+	{
+		"id"	"19"
+		"name"	"|Buff| Penalty Escaper"
+		"desct"	"2"
+		"desc1"	"This buff will allow your teammates to forgive you if you attack them"
+		"desc2"	"or do any agressive actions. You won't take exp nor points penalties."
+	}
+	
+	"item20"
+	{
+		"id"	"20"
+		"name"	"|Equip| Advanced Rifle"
+		"desct"	"3"
+		"desc1"	"The Advanced Rifle can be equipped on your account. This rifle will do additional"
+		"desc2"	"damage summed to your upgrades. Also, each kind of weapon has different abilities"
+		"desc3"	"Collect items and equip them to resist or deal more damage"
+	}
+	
+	"item21"
+	{
+		"id"	"21"
+		"name"	"|Buff| Poison Shield"
+		"desct1"	"A dose of Poison antidote. Will shield you from poison"
+		"desct"	"1"
+	}
+	
+	"item22"
+	{
+		"id"	"22"
+		"name"	"|Skill| Charge Block"
+		"desct"	"1"
+		"desct1"	"Will allow you to learn the Charge Block skill"
+	}
+	
+	"item23"
+	{
+		"id"	"23"
+		"name"	"|Item| x3 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+	}
+	
+	"item24"
+	{
+		"id"	"24"
+		"name"	"|Item| x4 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+	}
+	
+	"item25"
+	{
+		"id"	"25"
+		"name"	"|Item| x5 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+	}
+	
+	"item26"
+	{
+		"id"	"26"
+		"name"	"|Item| x10 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+	}
+	
+	"item27"
+	{
+		"id"	"27"
+		"name"	"|Auto| (100%) Upgrade Hammer (Not Yet Functional)"
+		"desct"	"1"
+		"desc1"	"An upgrade hammer with 100% probability of success"
+	}
+	"item28"
+	{
+		"id"	"28"
+		"name"	"|Auto| Grade Enhancer(Veteran)"
+		"desct1"	"1"
+		"desc1"	"The grade booster will enhance your weapon's grade into VETERAN"
+	}
+	
+	
+}

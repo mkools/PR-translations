@@ -1,0 +1,36 @@
+//||||||||||||||||||
+//Infected indexes||
+//||||||||||||||||||
+
+1 = Smoker
+2 = Boomer
+3 = Hunter
+4 = Spitter
+5 = Jockey
+6 = Charger
+7 = Infected in general
+8 = Tank
+9 = Survivors
+12 = ALL
+
+//|||||||||||||||||||||||||||||||||||||||||||||||
+//Cost calculation for both skills and upgrades||
+//|||||||||||||||||||||||||||||||||||||||||||||||
+
+//This is how it works, first i grab the base_cost. (Taking example)
+BaseCost = 10
+
+//Then i grab the desired level to buy
+Level = 2
+
+//Now the cost_factor
+CostFactor = 3.5
+
+//And this is the calculation
+BaseCost*Level*CostFactor = Cost
+
+//So...
+10*2*3.5 = 70
+
+//I send the cost
+Cost: 70

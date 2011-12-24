@@ -1,0 +1,90 @@
+//
+//					C A T E G O R I E S 			F I L E
+//
+// ***************************************************************************
+//	This file contains the data of all the categories displayed on the menu.
+//	The id you specify will work on the items file as a new category. If the
+//	user selects the category you created, only items with "cat" equal to your
+//	category id will be shown. Subcategories currently unsupported
+//
+//	The structure:
+//
+//	"range_weapons"	//Tag of the category, change it at will
+//	{
+//		"name"	"Ranged Weapons" //Name of the category
+//		"id"	"1"		//Id of the category used by items.txt on the "cat" key.
+//		"team"	"2"		//Team specific.
+//		"total_subcat"	"1"//Total subcategories (if any)
+//		"sub_category1"	"SMGs"//Sub category name 1
+//	}
+//
+"categories"
+{
+	"range_weapons"
+	{
+		"name"	"Ranged Weapons"
+		"name_es"	"Armas de Fuego"
+		"name_br"	"Armas de Fogo"
+		"id"	"1"
+		"team"	"2"
+		"total_subcat"	"5"
+		"sub_category1"	"Pistols"
+		"sub_category1_es"	"Pistolas"
+		"sub_category1_br"	"Pistolas"
+		
+		"sub_category2" "Rifles"
+		"sub_category2_es"	"Rifles"
+		"sub_category2_br"	"Rifles"
+		
+		"sub_category3"	"Shotguns"
+		"sub_category3_es"	"Escopetas"
+		"sub_category3_br"	"Espingardas"
+		
+		"sub_category4"	"SMGs"
+		"sub_category4_es"	"SMG"
+		"sub_category4_br"	"SMG"
+		
+		"sub_category5"	"Snipers"
+		"sub_category5_es"	"Francotiradores"
+		"sub_category5_br"	"Franco atiradores"
+	}
+	"melee_weapons"
+	{
+		"name"	"Melee Weapons"
+		"name_es"	"Armas Melee"
+		"name_br"	"Armas de combate corpo-a-corpo"
+		"id"	"2"
+		"team"	"2"
+	}
+	"upgrades"
+	{
+		"name"	"Upgrades and Throwables"
+		"name_es"	"Mejoras y Granadas"
+		"name_br"	"Aprimoramentos e Granadas"
+		"id"	"3"
+		"team"	"2"
+		"total_subcat"	"2"
+		"sub_category1" "Throwables"
+		"sub_category1_es" "Granadas"
+		"sub_category1_br" "Granadas"
+		"sub_category2" "Upgrades"
+		"sub_category2_es" "Mejoras"
+		"sub_category2_br" "Aprimoramentos"
+	}
+	"health"
+	{
+		"name"	"Health Items"
+		"name_es"	"Items de Salud"
+		"name_br"	"Itens de Saude"
+		"id"	"4"
+		"team"	"2"
+	}
+	"misc"
+	{
+		"name"	"Misc"
+		"name_es"	"Extra"
+		"name_br"	"Extra"
+		"id"	"5"
+		"team"	"2"
+	}
+}

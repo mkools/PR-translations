@@ -1,0 +1,265 @@
+//
+//					G U I L D		B U F F S			 F I L E
+//
+// ***************************************************************************
+//	This file contains all the data related to the GUILD buffs. Remember that buffs
+//	are similar to skills, but they dont have any levels and only a limit of them
+//	can be equipped. Not clear yet if guild buffs can be upgraded!
+//
+//
+//	Structure: (Same as buffs, for now)
+//
+//		"survivor_crawl"	//Tag, which can be changed but should be left intact, just in case
+//		{
+//			"name" "Crawling" //Name of the buff
+//			"desc" "Allow crawling while incapacitated" //Description
+//			"id"	"1" //ID, do not change
+//			"infected"	"9" //Infected specific, see reference.txt
+//			"cost"	"250"	//Cost of the buff
+//			"level"	"10"	//Level requirement of the buff
+//		}
+//
+//
+"guildbuffs"
+{
+	"freeze_walk"
+	{
+		"name"	"Freezing Legs"
+		"desc"	"Reduces the speed of the members on the enemy survivor team"
+		"id"	"1"
+		"infected"	"14"
+		"cost"	"4500"
+		"level"	"10"
+		"us_total" "5"
+		"us_1" "Due to the strong loyalty feeling on your guild, enemies will fear you"
+		"us_2" "in battle and will tend to move slowly. This buff will decrease survivor's"
+		"us_3" "speed when your guild is in the infected team. This only works on guild wars."
+		"us_4" "1% speed, multiplied by the current guild level, is reduced from enemy guild"
+		"us_5" "members."
+	}
+	
+	"blackmail"
+	{
+		"name"	"Crafting mastery"
+		"desc"	"Increases the crafting success rate"
+		"id"	"2"
+		"infected"	"12"
+		"cost"	"2000"
+		"level"	"1"
+		"us_total"	"3"
+		"us_1"	"Your guild members will learn the crafting mastery and will"
+		"us_2"	"be able to create gems easier."
+		"us_3"	"1% luck, multiplied by the current guild level, is increased."
+	}
+	
+	"sharing_health"
+	{
+		"name"	"Sharing Health"
+		"desc"	"Adds additional health points to guild members on the survivor team"
+		"id"	"3"
+		"infected"	"9"
+		"cost"	"3500"
+		"level"	"1"
+		"us_total"	"3"
+		"us_1"	"All guild members will receive 5 HP bonus, based on the amount of guild mates on the"
+		"us_2"	"survivor team. For example, if the team has 5 Guild members (including yourself), you"
+		"us_3"	"will receive a total of 20HP bonus for the round."
+	}
+	
+	"keep_going"
+	{
+		"name"	"Extra Knife"
+		"desc"	"Adds an additional knife to all your guild members"
+		"id"	"4"
+		"infected"	"9"
+		"cost"	"2100"
+		"level"	"1"
+		"us_total"	"2"
+		"us_1"	"All guilds members will receive an additional Knife, only if they have the personal"
+		"us_2"	"Knife buff."
+	}
+	
+	"twisted"
+	{
+		"name"	"Evilness Protection"
+		"desc"	"Shields your guild members from evil items"
+		"id"	"5"
+		"infected"	"9"
+		"cost"	"5000"
+		"level"	"2"
+		"us_total"	"1"
+		"us_1"	"Picking up an evil item will not affect your teammates."
+	}
+	
+	"confusion"
+	{
+		"name"	"United Fury"
+		"desc"	"Increases the damage towards survivors that are members of an enemy guild"
+		"id"	"6"
+		"infected"	"14"
+		"cost"	"15000"
+		"level"	"10"
+		"us_total"	"3"
+		"us_1"	"All kind of damage inflicted towards members of an enemy guild that are on"
+		"us_2"	"the survivor team, is increased by 5%, multiplied by the guild level."
+		"us_3"	"<Buff only works on guild war servers>"
+	}
+	
+	"arsenal"
+	{
+		"name"	"Discount"
+		"desc"	"Reduces the bounty requirement to buy ranged weapons on the store"
+		"id"	"7"
+		"infected"	"9"
+		"cost"	"6100"
+		"level"	"5"
+		"us_total"	"3"
+		"us_1"	"This buff will reduce the bounty cost of all ranged weapons on the store"
+		"us_2"	"(!buy menu), however, other kind of items, such as melee will keep the"
+		"us_3"	"normal bounty cost"
+	}
+	
+	"leadership"
+	{
+		"name"	"Leader Fanaticism"
+		"desc"	"Decreases the damage received of guilds members near the guild leader"
+		"id"	"8"
+		"infected"	"9"
+		"cost"	"7000"
+		"level"	"1"
+		"us_total"	"3"
+		"us_1"	"Decreases damage received by 30% of all guild members within a radius of"
+		"us_2"	"250 units from the guild leader. Effect disappears if the guild leader is"
+		"us_3"	"Incapacitated and the guild leader does not get affected at all."
+	}
+	
+	"snow_shield"
+	{
+		"name"	"Ice Shield"
+		"desc"	"Grenade launcher projectiles will not trace your guild members as infected"
+		"id"	"9"
+		"infected"	"7"
+		"cost"	"10000"
+		"level"	"7"
+		"us_total"	"2"
+		"us_1"	"Your guild members skin will mutate as infected, making them impossible to trace"
+		"us_2"	"with intelligent projectiles, making them useless against them"
+	}
+	
+	"mega_laseron"
+	{
+		"name"	"Mega Laser"
+		"desc"	"Survivors are able to shoot a mega laser"
+		"id"	"10"
+		"infected"	"9"
+		"cost"	"21500"
+		"level"	"10"
+		"us_total" "5"
+		"us_1"	"After a lot of technology research, your guild is finally able to play with powerfull"
+		"us_2"	"lasers. With this buff, your guild members will be able to shoot a strong laser using"
+		"us_3"	"hunting rifles. In order to do so, players must crouch and hold the fire button so"
+		"us_4"	"the laser can charge."
+		"us_5"	"<Only usable on coop>"
+	}
+	
+	"sharing_ammo"
+	{
+		"name"	"Special Ammo Sharing"
+		"desc"	"Survivors are able to share special ammo"
+		"id"	"11"
+		"infected"	"9"
+		"cost"	"4250"
+		"level"	"3"
+		"us_total"	"2"
+		"us_1"		"When a survivor picks up special ammo such as fire bullets or explosive bullets"
+		"us_2"		"all guild members (on the same team) will be equipped aswell."
+	}
+	
+	"infected_pickup"
+	{
+		"name"	"Smart Hands"
+		"desc"	"Infected guild members can pick up special items"
+		"id"	"12"
+		"infected"	"7"
+		"cost"	"31550"
+		"level"	"15"
+		"us_total"	"2"
+		"us_1"		"This buff will upgrade the infected minds, making them smarter. This will make them"
+		"us_2"		"able to notice special items (known as toasters) and enable grabbing them."
+	}
+	
+	"spit_protection"
+	{
+		"name"	"Anti gloo"
+		"desc"	"Spitters spit will not slow down your guild members when incapped"
+		"id"	"13"
+		"infected"	"9"
+		"cost"	"1350"
+		"level"	"1"
+		"us_total"	"3"
+		"us_1"		"Your guild members will learn a way to avoid getting stuck on spitters spit"
+		"us_2"		"when they are crawling. Unfortunately, this knownledge cannot be applied to"
+		"us_3"		"their feets."
+	}
+	
+	"no_invisible_jockey"
+	{
+		"name"	"Detect"
+		"desc"	"Guild members are able to see invisible jockeys with this buff"
+		"id"	"17"
+		"infected"	"9"
+		"cost"	"5620"
+		"level"	"7"
+		"us_total"	"3"
+		"us_1"		"After a long research, guild members have finally discovered how to see invisible"
+		"us_2"		"jockeys in small areas. However, it is not possible to fully see them."
+		"us_3"		"Jockeys around 180 Units will experiment a 70% visibility increase."
+	}
+	
+	"veteran_pistols"
+	{
+		"name"	"Veteran Pistols"
+		"desc"	"Guild members are able to use veteran pistols, and deal more damage with them"
+		"id"	"14"
+		"infected"	"9"
+		"cost"	"7890"
+		"level"	"5"
+		"us_total"	"4"
+		"us_1"		"After some training, your guild members have finally learned how to upgrade"
+		"us_2"		"normal pistols fast. Right after they pick up a pistol, it will become a   "
+		"us_3"		"veteran pistol and will deal between 300% and 1500% more damage!"
+		"us_4"		"<Damage bonus is random between 300% - 1500%>"
+	}
+	
+	"wreck"
+	{
+		"name"		"Melee Wrecker"
+		"desc"		"Guild members playing with a tank, will mutate and will break survivors melee weapon randomly"
+		"id"		"15"
+		"infected"	"7"
+		"cost"		"14600"
+		"level"		"6"
+		"us_total"	"4"
+		"us_1"		"When a guild member spawns as a tank, his cells will mutated and will be able to become solid"
+		"us_2"		"for a short period of time, almost undetectable. However, if a melee weapons hits the cells  "
+		"us_3"		"during their solid state, it will break"
+		"us_4"		"Probability of breaking a melee weapon is 0.1%"
+	}
+	
+	"exp"
+	{
+		"name"		"Exp Farmers"
+		"desc"		"Guild members will earn more experience points if they fight together"
+		"id"		"16"
+		"infected"	"9"
+		"cost"		"7810"
+		"level"		"2"
+		"us_total"	"6"
+		"us_1"		"Working alone to survive will eventually make you stronger and more experienced, but"
+		"us_2"		"this gets totally different when you attempt to survive with others. Guild members  "
+		"us_3"		"will gain additional experience points per kill if there are guild mates with them."
+		"us_4"		"Guild members will receive 15% additional exp, multiplied by the amount of guild"
+		"us_5"		"members connected."
+		"us_6"		"<Works on coop servers only>"
+	}
+}

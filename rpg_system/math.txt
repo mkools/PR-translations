@@ -1,0 +1,365 @@
+"math"
+{
+	"low_1"
+	{
+	 "desc" "3+2+1"
+	 "result" "6"
+	}
+
+	"low_2"
+	{
+	 "desc" "1*2*3"
+	 "result" "6"
+	}
+
+	"low_3"
+	{
+	 "desc" "50+50"
+	 "result" "100"
+	}
+
+	"low_4"
+	{
+	 "desc" "9*9"
+	 "result" "81"
+	}
+
+	"low_5"
+	{
+	 "desc" "10-20"
+	 "result" "-10"
+	}
+
+	"low_6"
+	{
+	 "desc" "(99+1)*2"
+	 "result" "200"
+	}
+
+	"low_7"
+	{
+	 "desc" "4*2+2"
+	 "result" "10"
+	}
+
+	"low_8"
+	{
+	 "desc" "9*3"
+	 "result" "27"
+	}
+
+	"low_9"
+	{
+	 "desc" "44+6"
+	 "result" "50"
+	}
+
+	"low_10"
+	{
+	 "desc" "99-9-10"
+	 "result" "80"
+	}
+
+	"low_11"
+	{
+	 "desc" "1*1*2"
+	 "result" "2"
+	}
+
+	"low_12"
+	{
+	 "desc" "5+5+5"
+	 "result" "15"
+	}
+
+	"low_13"
+	{
+	 "desc" "20+20+20"
+	 "result" "60"
+	}
+
+	"low_14"
+	{
+	 "desc" "2*3*4"
+	 "result" "24"
+	}
+
+	"low_15"
+	{
+	 "desc" "9+1+6"
+	 "result" "16"
+	}
+
+	"low_16"
+	{
+	 "desc" "10+20+30"
+	 "result" "60"
+	}
+
+	"low_17"
+	{
+	 "desc" "15*3"
+	 "result" "45"
+	}
+
+	"low_18"
+	{
+	 "desc" "100*10"
+	 "result" "1000"
+	}
+
+	"low_19"
+	{
+	 "desc" "50*2"
+	 "result" "100"
+	}
+
+	"low_20"
+	{
+	 "desc" "99+100"
+	 "result" "6"
+	}
+
+
+
+	"mid_1"
+	{
+	 "desc" "x+15=30. x=?"
+	 "result" "15"
+	}
+
+	"mid_2"
+	{
+	 "desc" "1000/10"
+	 "result" "100"
+	}
+
+	"mid_3"
+	{
+	 "desc" "If x=5, 2X+1"
+	 "result" "11"
+	}
+
+	"mid_4"
+	{
+	 "desc" "If X=0, (200/4)*X"
+	 "result" "0"
+	}
+
+	"mid_5"
+	{
+	 "desc" "2X+10=10. x=?"
+	 "result" "0"
+	}
+
+	"mid_6"
+	{
+	 "desc" "15X=60. X=?"
+	 "result" "6"
+	}
+
+	"mid_7"
+	{
+	 "desc" "1-X=1. x=?"
+	 "result" "0"
+	}
+
+	"mid_8"
+	{
+	 "desc" "X/4=19+1. X=?"
+	 "result" "80"
+	}
+
+	"mid_9"
+	{
+	 "desc" "5<X<7. int x=?"
+	 "result" "6"
+	}
+
+	"mid_10"
+	{
+	 "desc" "10+10=2X. X=?"
+	 "result" "10"
+	}
+
+	"mid_11"
+	{
+	 "desc" "9+9=2X. X=?"
+	 "result" "9"
+	}
+
+	"mid_12"
+	{
+	 "desc" "If X=0, 5X=?"
+	 "result" "0"
+	}
+
+	"mid_13"
+	{
+	 "desc" "If 100<X<102. X=?"
+	 "result" "101"
+	}
+
+	"mid_14"
+	{
+	 "desc" "(1/5)*10=X. X=?"
+	 "result" "2"
+	}
+
+	"mid_15"
+	{
+	 "desc" "3X=15. X=?"
+	 "result" "5"
+	}
+
+	"mid_16"
+	{
+	 "desc" "5X=10. X=?"
+	 "result" "2"
+	}
+
+	"mid_17"
+	{
+	 "desc" "1+X=10. X=?"
+	 "result" "9"
+	}
+
+	"mid_18"
+	{
+	 "desc" "17+3=X. X=?"
+	 "result" "20"
+	}
+
+	"mid_19"
+	{
+	 "desc" "1+9=2X. X=?"
+	 "result" "5"
+	}
+
+	"mid_20"
+	{
+	 "desc" "10X=100. X=?"
+	 "result" "10"
+	}
+
+
+	"high_1"
+	{
+	 "desc" "If f(x)=10X+1, dy/dx of f(x) at x=0?"
+	 "result" "10"
+	}
+
+	"high_2"
+	{
+	 "desc" "sin(90)+cos(90)=?"
+	 "result" "1"
+	}
+
+	"high_3"
+	{
+	 "desc" "4*sin(30)=?"
+	 "result" "2"
+	}
+
+	"high_4"
+	{
+	 "desc" "If f(x) = 1, Integral f(x) dx from 0 to 1=?"
+	 "result" "1"
+	}
+
+	"high_5"
+	{
+	 "desc" "Which is nonreal: 1) X^2=25, 2) x^3=-27, 3) X^2=-15"
+	 "result" "3"
+	}
+
+	"high_6"
+	{
+	 "desc" "How many real roots are in X^2+1"
+	 "result" "0"
+	}
+
+	"high_7"
+	{
+	 "desc" "Derivative of X^X at x=0"
+	 "result" "1"
+	}
+
+	"high_8"
+	{
+	 "desc" "How many real roots are in X^3+100"
+	 "result" "1"
+	}
+
+	"high_9"
+	{
+	 "desc" "Calculus was invented by how many people?"
+	 "result" "2"
+	}
+
+	"high_10"
+	{
+	 "desc" "dy/dx of f(x)=1"
+	 "result" "0"
+	}
+
+	"high_11"
+	{
+	 "desc" "Given a series: 5,25,125,... 5th term is?"
+	 "result" "3125"
+	}
+
+	"high_12"
+	{
+	 "desc" "Which is true? 1) X+10=5, 2) X-X=5, 3) 3X=X/2"
+	 "result" "1"
+	}
+
+	"high_13"
+	{
+	 "desc" "How many real derivatives are in a line?"
+	 "result" "1"
+	}
+
+	"high_14"
+	{
+	 "desc" "Where is the absolute minimum in f(x)=x^2?"
+	 "result" "0"
+	}
+
+	"high_15"
+	{
+	 "desc" "Derivative of y=3X+X+5?"
+	 "result" "4"
+	}
+
+	"high_16"
+	{
+	 "desc" "Next number in sequence?: 0,1,1,2,3,5,8,13"
+	 "result" "21"
+	}
+
+	"high_17"
+	{
+	 "desc" "Lowest y value of X^2+Y^2=16"
+	 "result" "-4"
+	}
+
+	"high_18"
+	{
+	 "desc" "Slope of Y=1/X at x=infinity?"
+	 "result" "0"
+	}
+
+	"high_19"
+	{
+	 "desc" "Limit as x->0 f(x) = sin(x)/x"
+	 "result" "1"
+	}
+
+	"high_20"
+	{
+	 "desc" "Limit as x->infinity f(x) = 1/X"
+	 "result" "0"
+	}
+}

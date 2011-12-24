@@ -1,0 +1,1676 @@
+"quests"
+{
+	"quest1"
+	{
+		"name"			"Welcome To Hell 1" //Quest Name
+		"id"			"1" //Quest Id
+		"cat"			"1" //Quest cat
+		"min_lvl"		"1" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"6" //Total desc lines
+		"line1"			"My name is Kyle, I'm trapped here on a saferoom. I'm not immune to the infection" //line 1...
+		"line2"			"so is really dangerous for me to go out. I heard in the radio that the infection"
+		"line3"			"is airborn, but I'm really sure they are wrong. Atleast, I'm not infected. Anyway"
+		"line4"			"I'm really starting to starve now. Me, among others, have put some empty supply"
+		"line5"			"boxes around the country. Take the snacks there, and I'll go for them later, when"
+		"line6"			"things are calm. Will you help me?"
+		
+		
+		"clines"		"2" //Completition lines
+		"cline1"		"You left the snacks on the box? Good, thanks for your help, hope we talk" //Comp line 1
+		"cline2"		"soon. Good luck out there!"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 5 snacks for Kyle"
+		
+		"qitems"		"1"
+		"qitem1"		"15"
+		"qitemq1"		"5"
+		
+		
+		"rexp"			"850"
+		"rpts"			"120"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest2"
+	{
+		"name"			"Welcome To Hell 2"
+		"id"			"2"
+		"qreq"			"1"
+		"cat"			"1"
+		"min_lvl"		"2"
+		"type"			"1"
+		"tlines"		"2"
+		"line1"			"All I need is some water and I'll be fine"
+		"line2"			"You think you could get me some?"
+		
+		"clines"		"2"
+		"cline1"		"Thanks again, I will last a few weeks if I consume this slowly. Now,"
+		"cline2"		"make sure you stay alive!"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 4 bottles of water for Kyle"
+		
+		"qitems"		"1"
+		"qitem1"		"18"
+		"qitemq1"		"4"
+		
+		"rexp"			"1800"
+		"rpts"			"160"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest3"
+	{
+		"name"			"The Antidote 1"
+		"id"			"3"
+		"qreq"			"2"
+		"cat"			"1"
+		"min_lvl"		"75"
+		"type"			"1"
+		"tlines"		"7"
+		"line1"			"Hey! It's been a long time since we talked, do you remember me?"
+		"line2"			"Oh well, I must warn you about something, I've been watching the infected"
+		"line3"			"out there and they seem to be causing mutations on survivors! The"
+		"line4"			"mutation affects survivors mind, making them dizzy and useless against"
+		"line5"			"the infected. I know how to make an antidote to it, well yes, I'm"
+		"line6"			"actually a doctor. Bring me some mutated blood samples from paranoia"
+		"line7"			"tanks, and I'll make some."
+		
+		"clines"		"2"
+		"cline1"		"Great, I'll go for them as soon as I can. I'll also leave the"
+		"cline2"		"antidote on the supply box, so, take it if you pass near one!"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 1 bag of mutated blood"
+		
+		"qitems"		"1"
+		"qitem1"		"5"
+		"qitemq1"		"1"
+		
+		"rexp"			"45000"
+		"rpts"			"2000"
+		"rgem"			"0"
+		"ritems"		"1"
+		"ritem1"		"17"
+	}
+	"quest4"
+	{
+		"name"			"The Antidote 2"
+		"id"			"4"
+		"qreq"			"3"
+		"cat"			"1"
+		"min_lvl"		"110"
+		"type"			"1"
+		"tlines"		"6"
+		"line1"			"Damn, the previous antidote didn't last too long, did it?"
+		"line2"			"Well, don't worry. I've made some research and i think i found"
+		"line3"			"a way to make it last longer. Bring me more blood from paranoia"
+		"line4"			"tanks and I'll make more antidote for you!"
+		"line5"			" "
+		"line6"			"-Collect 5 bags of mutated blood"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 5 bags of mutated blood"
+		
+		"clines"		"2"
+		"cline1"		"Ok, you know the procedure. I'll leave the antidote on a supply"
+		"cline2"		"box as soon as I'm done. Be safe!"
+		
+		"qitems"		"1"
+		"qitem1"		"5"
+		"qitemq1"		"5"
+		
+		"rexp"			"85720"
+		"rpts"			"2000"
+		"rgem"			"1"
+		"ritems"		"1"
+		"ritem1"		"16"
+	}
+	"quest5"
+	{
+		"name"			"The Antidote 3"
+		"id"			"5"
+		"qreq"			"4"
+		"cat"			"1"
+		"min_lvl"		"165"
+		"type"			"1"
+		"tlines"		"8"
+		"line1"			"Hey, it's me Kyle. I have good and bad news... The good one, well"
+		"line2"			"I found the way to make an antidote that lasts longer. Indeed, it"
+		"line3"			"will give you 1 month of mutation immunity. Yes, the bad news are"
+		"line4"			"that I got bit by an infected unfortunately. I don't think I will"
+		"line5"			"last much longer, so be fast if you want the antidote. God be with"
+		"line6"			"you."
+		"line7"			" "
+		"line8"			"-Collect 15 bags of mutated blood"
+		
+		"clines"		"4"
+		"cline1"		"You *cough* got it there? Ok, i'll go for the bags as soon as I"
+		"cline2"		"*cough* feel better. Be safe, i will make my best to get the"
+		"cline3"		"antidote to the supply *cough* box. Oh god... Be safe, and please"
+		"cline4"		"look for more survivors to help..."
+		
+		"glines"		"1"
+		"gline1"			"-Collect 15 bags of mutated blood"
+		
+		"qitems"		"1"
+		"qitem1"		"5"
+		"qitemq1"		"15"
+		
+		"rexp"			"105000"
+		"rpts"			"5700"
+		"rgem"			"5"
+		"ritems"		"1"
+		"ritem1"		"15"
+	}
+	"quest6"
+	{
+		"name"			"Green Meeting"
+		"id"			"6"
+		"qreq"			"0"
+		"cat"			"2"
+		"min_lvl"		"5"
+		"type"			"1"
+		"tlines"		"8"
+		"line1"			"So you're immune? My name's Roger, but you can call me 'The Hawk'..."
+		"line2"			"Wait, don't switch the channel, i'm not crazy, just a bit nervous"
+		"line3"			"but, still, hawks are awesome, aren't them? Oh god what am I saying."
+		"line4"			"I need some, some weed you know. Come on, can you get me some? Leave it"
+		"line5"			"on the supply boxes. Pssst, leave it on a black bag, so nobody notices it"
+		"line6"			"Please, bring me my love! Oh god. Hurry!!"
+		
+		
+		"clines"		"3"
+		"cline1"			"YOU HAVE IT YET? Ohhhh yeeees! Thanks, THANKS TO YOU! I'll go for it"
+		"cline2"			"as soon as I (*Screams in the back*)... SHUT THE FUCK UP BITCH! Oh"
+		"cline3"			"well I have to go, out!"
+		
+		"glines"		"1"
+		"gline1"		"-Find weed for Roger"
+		
+		"qitems"		"1"
+		"qitem1"		"21"
+		"qitemq1"		"1"
+		
+		"rexp"			"3000"
+		"rpts"			"150"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest7"
+	{
+		"name"			"Sexy Witches"
+		"id"			"7"
+		"qreq"			"6"
+		"cat"			"2"
+		"min_lvl"		"15"
+		"type"			"1"
+		"tlines"		"5"
+		"line1"			"Hey there again! I had one of those witches on my saferoom a few hours ago..."
+		"line2"			"I managed to stun her and, oh boy, she looked so sexy... I know i shouldn't"
+		"line3"			"have done it! Maybe my lil' buddy is infected now! Oh, doesn't matter. She's "
+		"line4"			"gone now and I miss her smell. I know what could help. Bring the hair from "
+		"line5"			"some witches, and i'll be happy!"
+		
+		"qitems"		"1"
+		"qitem1"		"24"
+		"qitemq1"		"5"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 5 witch hair extensions"
+		
+		"clines"		"3"
+		"cline1"		"About time! I'll go for them later. I guess i have to thank"
+		"cline2"		"you, so... thanks. Hope we meet in the future (*Huge Witch Scream*)"
+		"cline3"		"Fuck! I have to go now, good bye..."
+		
+		"rexp"			"8500"
+		"rpts"			"400"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest8"
+	{
+		"name"			"Looking for power 1"
+		"id"			"8"
+		"qreq"			"0"
+		"cat"			"3"
+		"min_lvl"		"200"
+		"type"			"1"
+		"tlines"		"9"
+		"line1"			"Hey you, I know that you are looking for more power and strength"
+		"line2"			"Is not about surviving anymore right? Is about kicking zombie"
+		"line3"			"asses and wiping absolutely every single infected cell from this "
+		"line4"			"world. I know how it feels... You need more power, you need more"
+		"line5"			"everything! I can help you. Your body will not resist the power "
+		"line6"			"I got in my hands, so first you will have to drink mutated blood."
+		"line7"			"Don't ask, just go..."
+		"line8"			" "
+		"line9"			"-Collect 50 bags of mutated blood"
+		
+		"clines"		"1"
+		"cline1"		"Good job. Talk to me when you are ready to continue"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 50 bags of mutated blood"
+		
+		"qitems"		"1"
+		"qitem1"		"5"
+		"qitemq1"		"50"
+		
+		"rexp"			"300000"
+		"rpts"			"10000"
+		"rgem"			"10"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest9"
+	{
+		"name"			"Looking for power 2"
+		"id"			"9"
+		"qreq"			"8"
+		"cat"			"3"
+		"min_lvl"		"200"
+		"type"			"1"
+		"tlines"		"6"
+		"line1"			"The blood you drank will not grant you the power, but is necessary for the"
+		"line2"			"real process. I left a list of things you must to before being part of"
+		"line3"			"the process. Take it, and hope you don't die"
+		"line4"			" "
+		"line5"			"-Collect 1 Shaman Tank Claw"
+		"line6"			"-Collect 1 Shaman Tank Brain"
+		
+		"clines"		"4"
+		"cline1"		"I think you are ready to go now. In order to complete the process"
+		"cline2"		"you have to eat the Shaman Tank's brain, and using the claw, open"
+		"cline3"		"a deep wound on your own skin. Then, pour the liquid enhancer that"
+		"cline4"		"I left on the supply box on the wound. The process will be then complete..."
+		
+		"glines"		"2"
+		"gline1"		"-Collect 1 Shaman Tank Claw"
+		"gline2"		"-Collect 1 Shaman Tank Brain"
+		
+		"qitems"		"2"
+		"qitem1"		"25"
+		"qitem2"		"26"
+		"qitemq1"		"1"
+		"qitemq1"		"1"
+		
+		"rexp"			"850000"
+		"rpts"			"15320"
+		"rgem"			"20"
+		"ritems"		"1"
+		"ritem1"		"18"
+	}
+	
+	"quest10"
+	{
+		"name"			"Regeneration 1" //Quest Name
+		"id"			"10" //Quest Id
+		"cat"			"4" //Quest cat
+		"min_lvl"		"15" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"5" //Total desc lines
+		"line1"			"Thank god you replied to the radio calls! We are like 5 survivors"
+		"line2"			"trapped on a saferoom on New Orleans. We have enough supplies to"
+		"line3"			"last but one of us is infected and we do not know who. The only way"
+		"line4"			"to find out is taking blood samples, but we don't have the necessary"
+		"line5"			"items to do so. Could you help us?"
+		
+		"clines"		"1" //Completition lines
+		"cline1"		"Thanks for the help mate, keep in touch..."
+		
+		"glines"	"2"
+		"gline1"	"-Collect a magnifying glass"
+		"gline2"	"-Collect a syringe"
+		
+		"qitems"		"2"
+		"qitem1"		"27"
+		"qitem2"		"28"
+		"qitemq1"		"1"
+		"qitemq2"		"1"
+		
+		
+		"rexp"			"6520"
+		"rpts"			"200"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest11"
+	{
+		"name"			"Regeneration 2" //Quest Name
+		"id"			"11" //Quest Id
+		"qreq"			"10"
+		"cat"			"4" //Quest cat
+		"min_lvl"		"30" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"6" //Total desc lines
+		"line1"			"Hey there again, we found out who was infected, and something fun happened..."
+		"line2"			"Indeed, some of us got nervous and tried to kill the guy, and after we inflicted"
+		"line3"			"a few wounds on him, we decided to wait until he converted. But, for our surprise"
+		"line4"			"his wounds to healed really fast, and of course he converted after some time, but"
+		"line5"			"we could use this regeneration property to survive, so, collect us some items"
+		"line6"			"for research. We will give you a cure, or whatever we find!"
+		
+		"clines"		"1" //Completition lines
+		"cline1"		"Awesome, we will let you know if we find anything..."
+		
+		"glines"	"3"
+		"gline1"			"-Collect 5 bags of infected blood"
+		"gline2"			"-Collect 2 Syringes"
+		"gline3"			"-Collect a Medical Mask"
+		
+		"qitems"		"3"
+		"qitem1"		"4"
+		"qitem2"		"27"
+		"qitem3"		"29"
+		"qitemq1"		"5"
+		"qitemq2"		"2"
+		"qitemq3"		"1"
+		
+		
+		"rexp"			"16750"
+		"rpts"			"1000"
+		"rgem"			"1"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	"quest12"
+	{
+		"name"			"Regeneration 3" //Quest Name
+		"id"			"12" //Quest Id
+		"qreq"			"11"
+		"cat"			"4" //Quest cat
+		"min_lvl"		"32" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"50"
+		
+		"quest_loc"			"1"
+		"quest_loc_map"		"c5m1_waterfront"
+		"quest_loc_coord"	"-87.287537 1133.075684 -311.677887"
+		"quest_loc_range"	"250.0"
+		
+		"tlines"		"5" //Total desc lines
+		"line1"			"Yes!, thank god you replied. Something terrible happened, one of us went for"
+		"line2"			"the item and got bit by the infected. He didn't warn us and, after he turned"
+		"line3"			"he killed almost all of us. There's only 3 of us left, and there are nearly"
+		"line4"			"30 or more infected out there!. We are near the waterfront market, right"
+		"line5"			"in front of the river. We are on a garage, so, keep an eye. Come quick please!"
+		
+		"clines"		"3" //Completition lines
+		"cline1"		"Oh god bless you! The research is totally lost with the disaster"
+		"cline2"		"so i'm afraid you will have to continue without help. We will change"
+		"cline3"		"of spot, so if we are still alive, we will let you know..."
+		
+		"glines"	"2"
+		"gline1"			"-Kill 50 infected near the mentioned spot"
+		"gline2"			"-Spot is located at The Parish campaign, first map"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"18750"
+		"rpts"			"5000"
+		"rgem"			"1"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	"quest13"
+	{
+		"name"			"Memory" //Quest Name
+		"id"			"13" //Quest Id
+		"qreq"			"12"
+		"cat"			"4" //Quest cat
+		"min_lvl"		"50" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"8" //Total desc lines
+		"line1"			"Hey... It's Keith... The other 2 guys... They are dead"
+		"line2"			"It all happened so quick... We grabbed a boat, they jumped in"
+		"line3"			"and, oh god... One smoker grabbed one of them while the other"
+		"line4"			"guy was swarmed... and... god. I doubt I'll stay alive"
+		"line5"			"any longer. I have one more request for you. I lost my daughter"
+		"line6"			"when the chaos started and I'd like to have a picture of her."
+		"line7"			"Our house is on the Riverside town, dont know if you know it..."
+		"line8"			"Please, bring it back..."
+		
+		"clines"		"4" //Completition lines
+		"cline1"		"Great. Too bad I cannot go for it, 3 tanks are outside the camp"
+		"cline2"		"and they are about to get in. Guess i will not see my darling"
+		"cline3"		"before my death. Now, you should get going, you can still survive!"
+		"cline4"		"If you find any other...(*Transmission ended*)"
+		
+		"glines"			"1"
+		"gline1"			"-Collect Keith's daughter picture"
+		
+		"qitems"		"1"
+		"qitem1"		"30"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"25300"
+		"rpts"			"670"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest14"
+	{
+		"name"			"Charity 1" //Quest Name
+		"id"			"14" //Quest Id
+		"qreq"			"0"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"10" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"4" //Total desc lines
+		"line1"			"Hello? HELLO! Please, you have to help me, I'm alone here and"
+		"line2"			"bleeding! I'm not infected! The building I was in when the flu"
+		"line3"			"hit the town collapsed, and I got hurt by the debris! Please, "
+		"line4"			"help me! I don't have anything to give you, but please help me!!!"
+		
+		"clines"		"3"
+		"cline1"		"Supply box? Hey I can't even walk anymore, how am I supposed"
+		"cline2"		"to go for the bandages? Oh god, this hurts. Talk to me"
+		"cline3"		"in 1 minute please, I'll improvise..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect 5 bandages for Sara"
+		
+		"qitems"		"1"
+		"qitem1"		"43"
+		"qitemq1"		"5"
+		
+		
+		"rexp"			"1"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest15"
+	{
+		"name"			"Charity 2" //Quest Name
+		"id"			"15" //Quest Id
+		"qreq"			"14"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"10" //Min level to take
+		"type"			"4" //Quest Type
+		"tlines"		"6" //Total desc lines
+		"line1"			"OH MY GOD!! I TRIED TO HEAL MYSELF AND THEN THIS ZOMBIE AHHHHH"
+		"line2"			"IS FUCKING BITING MY LEGS, PLEASE YOU HAVE TO COME HERE AND AHHHH"
+		"line3"			"I CAN'T STAND UP, I CAN'T FIGHT THIS THING, PLEASE COME HELP ME"
+		"line4"			"FAST, PLEASE HELP ME OUT! HEEELP! I'M ON THE PARK, THE AMUS...."
+		"line5"			"AHHH, FUCKING ZOMBIE, IM ON WHISPERING OAKS, NEAR THE ENTRANCE"
+		"line6"			"NEAR THAT GAME YOU HAVE TO SHOOT PEANUTS AND... AHHH HELP!"
+		
+		"quest_loc_map"		"c2m2_fairgrounds"
+		"quest_loc_coord"	"3120.181885 -703.968750 62.031250"
+		"quest_loc_range"	"500.0"
+		
+		"clines"		"5"
+		"cline1"		"Hahahahaha! Silly you! It was all fake! I can't belive you went"
+		"cline2"		"and tried to help the 'pour' Sara. Hahahaha, just hilarious! Ok"
+		"cline3"		"mate, I will be sincere. We are more experienced than you on this"
+		"cline4"		"and, we refuse to help noobs, and stupid people like you. Grow some"
+		"cline5"		"some muscles and talk to me later... Hahahaha..."
+		
+		"glines"			"2"
+		"gline1"			"-Go help Sara"
+		"gline2"			"-Location is on Dark Carnival, second map"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"1"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	"quest16"
+	{
+		"name"			"Prove It 1" //Quest Name
+		"id"			"16" //Quest Id
+		"qreq"			"15"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"150" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"50"
+		"tlines"		"6" //Total desc lines
+		"line1"			"Oh... It's you again? You think you are strong enough to talk to me?"
+		"line2"			"AHHH THE ZOMBIE... Hahahaha, I still remember that, oh god I imagine"
+		"line3"			"your expression. Ok, to business then. Before you can make any deals"
+		"line4"			"with us, you gotta prove you are worthy of any skills we can teach you"
+		"line5"			"So to start, hmmm, something easy... Kill 50 Poisonus witches. Hey, we"
+		"line6"			"have killed like 1000 at this point, so is easy. Go and be FAST."
+		
+		"clines"		"2"
+		"cline1"		"Impressive... NOT. Ah, im tired of being rude with you"
+		"cline2"		"is ok I guess... Talk to me when you think you can continue"
+		
+		"glines"			"1"
+		"gline1"			"-Kill 50 Poisonus witches"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"97500"
+		"rpts"			"3750"
+		"rgem"			"2"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest17"
+	{
+		"name"			"Prove It 2" //Quest Name
+		"id"			"17" //Quest Id
+		"qreq"			"16"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"150" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"20"
+		"tlines"		"6" //Total desc lines
+		"line1"			"Ok, you still have to prove yourself. Let me think... Yes!, Carlos, one of"
+		"line2"			"the guys on this team had an idea. At first, we were so fucking scared about"
+		"line3"			"invisible jockeys, that we almost got bitten by our stupidity. Oh well, you"
+		"line4"			"must also use your ears, and not always your eyes. Kill 20 jockeys, while they"
+		"line5"			"are still invisible. Hang on, to add more difficulty, Melee Kills will not count"
+		"line6"			"good luck..."
+		
+		"clines"		"1"
+		"cline1"		"Ok Ok, that's better. Talk to me when you feel ready to go"
+		
+		"glines"			"1"
+		"gline1"			"-Kill 20 Invisible Jockeys without melee weapons"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"99100"
+		"rpts"			"3800"
+		"rgem"			"3"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest18"
+	{
+		"name"			"Prove It 3" //Quest Name
+		"id"			"18" //Quest Id
+		"qreq"			"17"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"150" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"3" //Total desc lines
+		"line1"			"Now, the MAXIMUM CHALLENGE!!!. TAMBOURS PLEASE WHOOOO, SHUUUHSH BOOOOM, TSSSS"
+		"line2"			"WAAAAAA!!! Bring us some snacks please. I know it seems stupid, but, what the"
+		"line3"			"hell, we are starving here. Now, move that ass..."
+		
+		"clines"		"2"
+		"cline1"		"Great, I think you are ready to go, train a bit more, and by"
+		"cline2"		"that I mean, wipe some zombie asses and talk to me later"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 20 Snacks for Sara and her team"
+		
+		"qitems"		"1"
+		"qitem1"		"15"
+		"qitemq1"		"20"
+		
+		
+		"rexp"			"8950"
+		"rpts"			"300"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest19"
+	{
+		"name"			"Power Crysis" //Quest Name
+		"id"			"19" //Quest Id
+		"qreq"			"18"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"151" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"7" //Total desc lines
+		"line1"			"It's you again! I'm so glad you are still alive. Thanks for"
+		"line2"			"the snacks and good job on the previous tasks. Now that you"
+		"line3"			"you are more experienced, I will teach you some skills I know."
+		"line4"			"But, before teaching you, I need you to do me a favor. The"
+		"line5"			"generator we are using at the moment died a few days ago. Is"
+		"line6"			"not about gasoline, it just broke. Could you please bring me"
+		"line7"			"the necessary parts to repair it? Thanks..."
+		
+		"clines"		"1"
+		"cline1"		"Great, I'll send Carlos for the parts then, thanks for your help!"
+		"cline2"		"I'll talk to you as soon as I restore the generator, because radio's"
+		"cline3"		"battery is almost out of power too. Cheers..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect 1 generator replacement"
+		
+		"qitems"		"1"
+		"qitem1"		"31"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"89400"
+		"rpts"			"2000"
+		"rgem"			"2"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest20"
+	{
+		"name"			"Good Bye, Friend" //Quest Name
+		"id"			"20" //Quest Id
+		"qreq"			"19"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"155" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"5" //Total desc lines
+		"line1"			"It's a gray day for us here. Bobby died, our guardian dog. We were playing with him"
+		"line2"			"when suddenly a fucking spitter appeared from nowhere. The acid teared apart his"
+		"line3"			"flesh before we could get him out of there. I don't think i can live without atleast"
+		"line4"			"making him a decent funeral. Everything's ready for his burrial, all we need are flowers."
+		"line5"			"Bring me some, and be safe..."
+		
+		"clines"		"2"
+		"cline1"		"Thank you, Carlos will go for them when zombies get a bit a way"
+		"cline2"		"Talk to me whenever you want..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect flowers for Bobby's funeral"
+		
+		"qitems"		"1"
+		"qitem1"		"32"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"101200"
+		"rpts"			"5670"
+		"rgem"			"5"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest21"
+	{
+		"name"			"Final Trip" //Quest Name
+		"id"			"21" //Quest Id
+		"qreq"			"20"
+		"cat"			"5" //Quest cat
+		"min_lvl"		"159" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"7" //Total desc lines
+		"line1"			"Hey again. Bobby's death really affected all of my team. We decided"
+		"line2"			"to stop hiding. We will try to reach Canada or South American countries"
+		"line3"			"because we think the virus, or whatever it is, doesn't survive on extreme"
+		"line4"			"weathers... Who knows? It's a real shame that you cannot go with us. You"
+		"line5"			"might be immune, but i'm sure that, sharing our meal, our bathrooms and"
+		"line6"			"whatever you do, will get us infected. I need to repair our van first, so"
+		"line7"			"please, get me a working wheel to get the hell out of here!"
+		
+		"clines"		"4"
+		"cline1"		"I appreciate your help. I've left a book on the Supply box"
+		"cline2"		"that I'm sure will help you. It will teach you how to be"
+		"cline3"		"friendly with other people, and maybe survivors will forgive"
+		"cline4"		"you even if you shoot them. I must got now, be safe..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect a Wheel for Sara's van"
+		
+		"qitems"		"1"
+		"qitem1"		"33"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"113560"
+		"rpts"			"7800"
+		"rgem"			"10"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest22"
+	{
+		"name"			"The Beginner 1" //Quest Name
+		"id"			"22" //Quest Id
+		"qreq"			"0"
+		"cat"			"6" //Quest cat
+		"min_lvl"		"20" //Min level to take
+		"type"			"1" //Quest Type
+		"tlines"		"6" //Total desc lines
+		"line1"			"Is anybody out there? How do I use this thing!! OH! Hey can you"
+		"line2"			"hear me? My name is Bryan, im 19 years old and, yes this is stupid"
+		"line3"			"Hey i need your help, i'm too young for this shit, i was used to "
+		"line4"			"kill zombies on video games, but this is some extreme SHIT. Ok, calm"
+		"line5"			"down Bryan, calm down. I left my Survivor Guide on a mall. Get it to"
+		"line6"			"a, damn I forgot, some kind of military boxes and I'll get it later!"
+		
+		"clines"		"2"
+		"cline1"		"Alright, thank you! I'll go for it, read it an everything will be"
+		"cline2"		"just fine. Oh, atleast you are on a team, I'm all alone!"
+		
+		"glines"		"1"
+		"gline1"		"-Get Bryan's survival guide"
+		
+		"qitems"		"1"
+		"qitem1"		"16"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"20300"
+		"rpts"			"1000"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest23"
+	{
+		"name"			"The Beginner 2" //Quest Name
+		"id"			"23" //Quest Id
+		"qreq"			"22"
+		"cat"			"6" //Quest cat
+		"min_lvl"		"23" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"150"
+		
+		"quest_loc"			"1"
+		"quest_loc_map"		"c7m2_barge"
+		"quest_loc_coord"	"-1216.377441 1520.874756 230.031250"
+		"quest_loc_range"	"2500.0"
+		
+		"tlines"		"6" //Total desc lines
+		"line1"			"Hey, It's Bryan again. Well i read the guide, and it doesn't say"
+		"line2"			"ANYTHING USEFULL! It actually tells how to cook rice. Why the fuck"
+		"line3"			"would i want to eat rice, when there are like 10000 zombies out there?"
+		"line4"			"Fuck, they keep knocking!!! You have to help me. Hunt down some zombies"
+		"line5"			"on the area before they all notice im here. Last thing i remember, is"
+		"line6"			"brick factory and some wrecked trucks. Just kill zombies on the area"
+		
+		"clines"		"1"
+		"cline1"		"Cool, thanks. Now I can use my mind without all those knockins..."
+		
+		"glines"		"2"
+		"gline1"		"-Kill 150 infected on the specified location"
+		"gline2"		"-Location is at The Sacrifice campaign, second map"
+		
+		"qitems"		"1"
+		"qitem1"		"33"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"23100"
+		"rpts"			"1230"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest24"
+	{
+		"name"			"The Beginner 3" //Quest Name
+		"id"			"24" //Quest Id
+		"qreq"			"23"
+		"cat"			"6" //Quest cat
+		"min_lvl"		"28" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"150"
+		"tlines"		"5" //Total desc lines
+		"line1"			"Hey, sorry to annoy you but, could you please bring me some rice?"
+		"line2"			"I'm really starving now, and i guess the survival guide is right:"
+		"line3"			"'The survival guide is never wrong'... What a paradox... Anyway"
+		"line4"			"leave the rice the supply boxes, and I'll go for it as soon as"
+		"line5"			"infected go chase you... Hehehe..."
+		
+		"clines"		"1"
+		"cline1"		"Cool, thanks. Now I can use my mind without all those knockins..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect 5 Rice boxes for Bryan"
+		
+		"qitems"		"1"
+		"qitem1"		"34"
+		"qitemq1"		"5"
+		
+		
+		"rexp"			"25200"
+		"rpts"			"1290"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest25"
+	{
+		"name"			"Missing Sister 1" //Quest Name
+		"id"			"25" //Quest Id
+		"qreq"			"24"
+		"cat"			"6" //Quest cat
+		"min_lvl"		"34" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"150"
+		"tlines"		"6" //Total desc lines
+		"line1"			"Sup! Well, I'm starting to get worried about my sister. We got separated"
+		"line2"			"when a tank appeared near the queue line for CEDA inspection. I'm sure she"
+		"line3"			"is fine but, I can't communicate with her with the radio. I lost my "
+		"line4"			"cell phone somewhere, maybe i can use it to talk to her. If you find it... "
+		"line5"			"Could you please bring it to me?"
+		"line6"			"Thanks in advance"
+		
+		"clines"		"1"
+		"cline1"		"Wow you really found it? Thaaanks! Hope you ain't scamming me..."
+		
+		"glines"		"1"
+		"gline1"		"-Find Bryan's cellphone"
+		
+		"qitems"		"1"
+		"qitem1"		"19"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"28771"
+		"rpts"			"1000"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest26"
+	{
+		"name"			"Missing Sister 2" //Quest Name
+		"id"			"26" //Quest Id
+		"qreq"			"25"
+		"cat"			"6" //Quest cat
+		"min_lvl"		"36" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"250"
+		"tlines"		"3" //Total desc lines
+		"line1"			"Hey! I communicated with my sister, she is just fine. I want to join her"
+		"line2"			"on the saferoom she is staying at the moment, but the zombies came back"
+		"line3"			"to my location. Can you please clear the area?"
+		
+		"quest_loc"			"1"
+		"quest_loc_map"		"c7m2_barge"
+		"quest_loc_coord"	"-1216.377441 1520.874756 230.031250"
+		"quest_loc_range"	"2500.0"
+		
+		"clines"		"1"
+		"cline1"		"Thanks, I'll meet my sister then. Wish me luck, and of course, good luck to you..."
+		
+		"glines"		"2"
+		"gline1"		"-Kill 250 infected from the specified location"
+		"gline2"		"-Location is at The Sacrifice campaign, second map"
+		
+		"qitems"		"1"
+		"qitem1"		"19"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"29840"
+		"rpts"			"1500"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest27"
+	{
+		"name"			"Supplies" //Quest Name
+		"id"			"27" //Quest Id
+		"qreq"			"26"
+		"cat"			"6" //Quest cat
+		"min_lvl"		"40" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"250"
+		"tlines"		"2" //Total desc lines
+		"line1"			"Hey there. I'm with my sister now, thanks for helping me out. But, we"
+		"line2"			"are running out of food and water here. Can you get us some supplies?"
+		
+		"clines"		"2"
+		"cline1"		"Thanks! From now on, my sister will talk with you. Her name is Theodora."
+		"cline2"		"I'm so tired and dizzy right now, hope I'm not infected..."
+		
+		"glines"		"2"
+		"gline1"		"-Collect 15 Bottles of water"
+		"gline2"		"-Collect 1 Food box"
+		
+		"qitems"		"2"
+		"qitem1"		"18"
+		"qitem2"		"35"
+		"qitemq1"		"15"
+		"qitemq2"		"1"
+		
+		
+		"rexp"			"32450"
+		"rpts"			"890"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest28"
+	{
+		"name"			"Hunting" //Quest Name
+		"id"			"28" //Quest Id
+		"qreq"			"0"
+		"cat"			"7" //Quest cat
+		"min_lvl"		"50" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"6" //Total desc lines
+		"line1"			"Hello. My name is William and I'm a recognized animal hunter on the local area."
+		"line2"			"Since the infection and my wife's death, I've been hunting rats and some"
+		"line3"			"other random mammals, but I'm getting tired of such 'challenges'. So I have"
+		"line4"			"a request for you. I want to complete my collection, with the sepecial infected"
+		"line5"			"heads on my wall. I can pay you real good, so you can upgrade your items or pay"
+		"line6"			"for some zombie hookers if you want. Interested?"
+		
+		"clines"		"2"
+		"cline1"		"Great. The money is just next to the radio, enjoy it..."
+		"cline2"		"The collection is complete, I can now die in peace (*Shoot Noise*)"
+		
+		"glines"		"7"
+		"gline1"		"-Collect Hunter Head"
+		"gline2"		"-Collect Jockey Head"
+		"gline3"		"-Collect Boomer Head"
+		"gline4"		"-Collect Charger Head"
+		"gline5"		"-Collect Spitter Head"
+		"gline6"		"-Collect Smoker Head"
+		"gline7"		"-Collect Tank Head"
+		
+		"qitems"		"7"
+		"qitem1"		"36"
+		"qitem2"		"37"
+		"qitem3"		"38"
+		"qitem4"		"39"
+		"qitem5"		"40"
+		"qitem6"		"41"
+		"qitem7"		"42"
+		
+		"qitemq1"		"1"
+		"qitemq2"		"1"
+		"qitemq3"		"1"
+		"qitemq4"		"1"
+		"qitemq5"		"1"
+		"qitemq6"		"1"
+		"qitemq7"		"1"
+		
+		
+		"rexp"			"0"
+		"rpts"			"50000"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest29"
+	{
+		"name"			"Inseparable 1" //Quest Name
+		"id"			"29" //Quest Id
+		"qreq"			"27"
+		"cat"			"8" //Quest cat
+		"min_lvl"		"40" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"7" //Total desc lines
+		"line1"			"Hello! My name is Theodora and I'm Bryan's sister. I really have to thank"
+		"line2"			"your for helping us out, and I also appreciate the supplies. But there is"
+		"line3"			"a problem. My Brother has above 39°C fever. I tried giving him water and"
+		"line4"			"every single method I could remember to help him, but is useless, the "
+		"line5"			"fever won't dissapear. He's starting to sweat a lot and he cannot recognize"
+		"line6"			"me anymore. I don't know if he's infected, but he's my little brother and I"
+		"line7"			"won't leave him alone. Could you please bring me something for the fever?"
+		
+		"clines"		"1"
+		"cline1"		"Thank you! I'll try to get to the Supply Box and get the items. Keep in contact"
+		
+		"glines"		"2"
+		"gline1"		"-Collect 2 Towels"
+		"gline2"		"-Collect 5 Antibiotics"
+		
+		"qitems"		"2"
+		"qitem1"		"45"
+		"qitem2"		"46"
+		
+		"qitemq1"		"2"
+		"qitemq2"		"5"
+		
+		
+		"rexp"			"17850"
+		"rpts"			"2780"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest30"
+	{
+		"name"			"Inseparable 2" //Quest Name
+		"id"			"30" //Quest Id
+		"qreq"			"29"
+		"cat"			"8" //Quest cat
+		"min_lvl"		"42" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"6" //Total desc lines
+		"line1"			"Hey again! The items you brang to me helped him a bit. Atleast, he has less"
+		"line2"			"fever than before and he was able to recognize me. Unfortunately last night"
+		"line3"			"while he was sleeping, he woke up from a nightmare and yelled so loud, that"
+		"line4"			"he attracted some infected. I have silenced pistols and a few SMGs, so I can"
+		"line5"			"fight the infected back. Problem is, im starting to run out of ammo and these"
+		"line6"			"weapons are really rare. Collect some ammo for me please"
+		
+		"clines"		"2"
+		"cline1"		"Thanks for your help mate, I'm able to upgrade any kind of weapons, talk"
+		"cline2"		"to me if you are interested"
+		
+		"glines"		"2"
+		"gline1"		"-Collect 5 Rounds of special ammo"
+		
+		"qitems"		"1"
+		"qitem1"		"47"
+		
+		"qitemq1"		"5"
+		
+		
+		"rexp"			"19800"
+		"rpts"			"2990"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest31"
+	{
+		"name"			"Inseparable 3" //Quest Name
+		"id"			"31" //Quest Id
+		"qreq"			"30"
+		"cat"			"8" //Quest cat
+		"min_lvl"		"50" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"5" //Total desc lines
+		"line1"			"We are doing really good so far. My brother's fever is almost gone and I have"
+		"line2"			"enough ammo for 2 weeks. To thank you, I have decided to create an advanced "
+		"line3"			"rifle for you. It will deal more damage, and with some powder, it will wipe"
+		"line4"			"common infected out of this fucking continent. Collect necessary items and I'll"
+		"line5"			"make it in no time."
+		
+		"clines"		"1"
+		"cline1"		"Great, I'll leave the rifle on the Supply Box. Hope we meet again"
+		
+		"glines"		"2"
+		"gline1"		"-Collect 1 Broken Rifle"
+		"gline2"		"-Collect Powder"
+		
+		"qitems"		"2"
+		"qitem1"		"1"
+		"qitem2"		"9"
+		
+		"qitemq1"		"1"
+		"qitemq2"		"1"
+		
+		
+		"rexp"			"23500"
+		"rpts"			"2990"
+		"rgem"			"0"
+		"ritems"		"1"
+		"ritem1"		"20"
+	}
+	
+	"quest32"
+	{
+		"name"			"Darwin's Lab 1" //Quest Name
+		"id"			"32" //Quest Id
+		"qreq"			"0"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"65" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"7" //Total desc lines
+		"line1"			"Hello survivor. My name is Dr. Darwing and I'm scientist. I used to"
+		"line2"			"work for the CEDA special unit, well, until they decided to kill me"
+		"line3"			"by throwing me away of the facility. Silly them, the infected got"
+		"line4"			"inside the building and killed them all, but i managed to survive"
+		"line5"			"Anyway, I'm researching for a cure inside this saferoom, but I lost"
+		"line6"			"the notes I had written when i was analyzing some people. They"
+		"line7"			"should be near CEDA trailers. Bring them back and I'll reward you"
+		
+		"clines"		"1"
+		"cline1"		"Just awesome, talk to me again soon, I have more request for you"
+		
+		"glines"		"1"
+		"gline1"		"-Collect Darwin's notes"
+		
+		"qitems"		"1"
+		"qitem1"		"48"
+		"qitem2"		"0"
+		
+		"qitemq1"		"1"
+		"qitemq2"		"0"
+		
+		
+		"rexp"			"23500"
+		"rpts"			"2990"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest33"
+	{
+		"name"			"Darwin's Lab 2" //Quest Name
+		"id"			"33" //Quest Id
+		"qreq"			"32"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"68" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"8" //Total desc lines
+		"line1"			"Hey there, Dr. Darwin speaking. I've been watching some tapes of these"
+		"line2"			"special kind of infected that CEDA called Witch. The first time I saw"
+		"line3"			"one, she was just there, crying on a corner and never attacked us."
+		"line4"			"Later, witches starting to develop agression against those who got near, and"
+		"line5"			"now they seem to be producing a strong Poison that paralyzes people. But"
+		"line6"			"the poison doesn't affect immune survivors so badly. Anyway, I'd like to"
+		"line7"			"create a cure for the Poison. Bring me research material, and I'll share it"
+		"line8"			"with you."
+		
+		"clines"		"1"
+		"cline1"		"Great, I'll let you know if I need anything else for my research"
+		
+		"glines"		"1"
+		"gline1"		"-Collect 5 Samples of Witch's poison"
+		
+		"qitems"		"1"
+		"qitem1"		"49"
+		"qitem2"		"0"
+		
+		"qitemq1"		"5"
+		"qitemq2"		"0"
+		
+		
+		"rexp"			"32200"
+		"rpts"			"3720"
+		"rgem"			"2"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest34"
+	{
+		"name"			"Darwin's Lab 3" //Quest Names
+		"id"			"34" //Quest Id
+		"qreq"			"33"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"69" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"50"
+		"tlines"		"5" //Total desc lines
+		"line1"			"Hey again, Research is almost complete, but I have one problem. Poison, in high"
+		"line2"			"concentration rates seem to be attracting a lot of special infected. Can you please"
+		"line3"			"clear the area before they get me? I'll then deliver the poison antidote to a Supply Box."
+		"line4"			"I'm between a Mall, and a Hotel. Havannah I belive it's the hotel's name. Just clear the whole"
+		"line5"			"area please."
+		
+		"quest_loc"			"1"
+		"quest_loc_map"		"c1m2_streets"
+		"quest_loc_coord"	"0.0 0.0 0.0"
+		"quest_loc_range"	"50000.0"
+		
+		"clines"		"1"
+		"cline1"		"Fantastic, I'll deliver the poison antidote as soon as I can..."
+		
+		"glines"		"2"
+		"gline1"		"-Kill 50 Special infected on the specified area"
+		"gline2"		"-Location is at Dead Center campaign, second map"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"33200"
+		"rpts"			"4020"
+		"rgem"			"2"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest35"
+	{
+		"name"			"Darwin's Lab 4" //Quest Names
+		"id"			"35" //Quest Id
+		"qreq"			"34"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"80" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"7" //Total desc lines
+		"line1"			"Hello survivor! I'ts Dr. Darwin again. I hope you are enjoying the poisont antidote"
+		"line2"			"I created for you. I'd like to continue my research and maybe I'll find a cure for "
+		"line3"			"this infection. Things are really calm here, and I haven't seen too many infected "
+		"line4"			"so I think I'll be able to collect research material myself. However, in order to "
+		"line5"			"study chargers correctly, I need a sampla of their claw. But hang on, it must be "
+		"line6"			"from one of the firsts chargers that appeared. Go to the swamp, and bring me the"
+		"line7"			"charger's claw please"
+		
+		"clines"		"1"
+		"cline1"		"Great, leave the claw on a supply box and I'll go for it as soon as i can..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect the claw from the first Charger that appeared in the swamp"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"41350"
+		"rpts"			"3100"
+		"rgem"			"1"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest36"
+	{
+		"name"			"Darwin's Friend 1" //Quest Names
+		"id"			"36" //Quest Id
+		"qreq"			"35"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"82" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"350"
+		"tlines"		"6" //Total desc lines
+		"line1"			"The charger's claw you brang me is exactly what I needed. The research is not"
+		"line2"			"yet ready so you will have to wait. While the research is in progress, i want"
+		"line3"			"you to do me a favor. I communicated with a friend yesterday trough the radio"
+		"line4"			"and he said he was trapped near an Airport. He doesn't know very well where he"
+		"line5"			"is. Do me a favor...  Clean the area so he is able to get away from the airport"
+		"line6"			"and has atleast a chance to meet me here. Thanks in advance"
+		
+		"quest_loc"			"1"
+		"quest_loc_map"		"c11m3_garage"
+		"quest_loc_range"	"50000.0"
+		
+		"clines"		"1"
+		"cline1"		"Good Job! I'll let him know that he's now able to leave. Thank you"
+		
+		"glines"		"2"
+		"gline1"		"-Kill 350 infected on the specified area"
+		"gline2"		"-Location is at Dead Air campaign, unknown map"
+		
+		"qitems"		"0"
+		
+		
+		"rexp"			"41350"
+		"rpts"			"3100"
+		"rgem"			"1"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest37"
+	{
+		"name"			"Darwin's Friend 2" //Quest Names
+		"id"			"37" //Quest Id
+		"qreq"			"36"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"82" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"350"
+		"tlines"		"8" //Total desc lines
+		"line1"			"I lost contact with my friend. Last thing he said is that he managed to enter"
+		"line2"			"the airport, and that he heard a lot of gun fire noise. Before the could even"
+		"line3"			"notice, a Military plane was taking off and he couldn't get in. There were so"
+		"line4"			"many infected in the runway that started to run towards him. He managed to get"
+		"line5"			"in a private jet and successfully escape to 2 tanks and 50 or more infected. He"
+		"line6"			"then lost communication. Go check if he's still alive please"
+		
+		"clines"		"2"
+		"cline1"		"Just found his ID? I'm afraid he's dead then. Thanks for the help, I'll let"
+		"cline2"		"you know if I find anything related to chargers"
+		
+		"glines"		"1"
+		"gline1"		"-Check if Darwin's friend is still alive"
+		
+		"qitems"		"1"
+		"qitem1"		"52"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"43150"
+		"rpts"			"3150"
+		"rgem"			"1"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest38"
+	{
+		"name"			"Charge Block" //Quest Names
+		"id"			"38" //Quest Id
+		"qreq"			"37"
+		"cat"			"9" //Quest cat
+		"min_lvl"		"83" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"30"
+		"tlines"		"4" //Total desc lines
+		"line1"			"Hello there again. I found something interesting about the claws. There is"
+		"line2"			"a way to block the chargers main attack. But, before i can give it to you"
+		"line3"			"you must learn to deal with them. Hunt down some chargers and we'll have a"
+		"line4"			"deal. Good luck!"
+		
+		"clines"		"3"
+		"cline1"		"Yes, you are now ready to learn the skill. I left a book with the charger"
+		"cline2"		"flaws explianed on it. Read it and I'm sure charger will be less anoying."
+		"cline3"		"Keep in touch!"
+		
+		"glines"		"1"
+		"gline1"		"-Kill 30 Chargers"
+		
+		"qitems"		"0"
+		"qitem1"		"0"
+		"qitemq1"		"0"
+		
+		
+		"rexp"			"43150"
+		"rpts"			"3150"
+		"rgem"			"2"
+		"ritems"		"1"
+		"ritem1"		"22"
+	}
+	
+	"quest39"
+	{
+		"name"			"Thief's Whims 1" //Quest Names
+		"id"			"39" //Quest Id
+		"qreq"			"0"
+		"cat"			"10" //Quest cat
+		"min_lvl"		"57" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"30"
+		"tlines"		"9" //Total desc lines
+		"line1"			"Another lucky survivor... I cannot tell you my name because I'm sure after"
+		"line2"			"the chaos is over, I'll go jail after what I've done. I know I should only kill "
+		"line3"			"the infected, but I also enjoy shoting at desperated survivors looking for"
+		"line4"			"help. I love shooting children and old people the most, they always cry and"
+		"line5"			"beg for their lives, when indeed they are so useless now. Don't judge me, I"
+		"line6"			"can do whatever i want. Yes... I had stolen a cool Golden Necklace from a "
+		"line7"			"woman and i lost it escaping from a tank. Bring it to me and I'll pay you."
+		
+		"clines"		"2"
+		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
+		"cline2"		"will pay with your blood."
+		
+		"glines"		"1"
+		"gline1"		"-Collect the Golden Necklace"
+		
+		"qitems"		"1"
+		"qitem1"		"44"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"7850"
+		"rpts"			"9500"
+		"rgem"			"5"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest40"
+	{
+		"name"			"Thief's Whims 2" //Quest Names
+		"id"			"40" //Quest Id
+		"qreq"			"39"
+		"cat"			"10" //Quest cat
+		"min_lvl"		"57" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"4" //Total desc lines
+		"line1"			"Lucky you, the necklace was actually there. Thanks. Now, my clothes are so"
+		"line2"			"fucking dirty right now. Get me some clean pants and whatever you find. I"
+		"line3"			"won't pay you anything. Oh wait, maybe this stone I got on my hands will help?"
+		"line4"			"I can't find any use to it, but maybe you will. Hurry the fuck up now..."
+		
+		"clines"		"2"
+		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
+		"cline2"		"will pay with your blood."
+		
+		"glines"		"1"
+		"gline1"		"-Collect Clean clothes for the thief"
+		
+		"qitems"		"1"
+		"qitem1"		"53"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"2500"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"1"
+		"ritem1"		"8"
+	}
+	
+	"quest41"
+	{
+		"name"			"Thief's Whims 3" //Quest Names
+		"id"			"41" //Quest Id
+		"qreq"			"40"
+		"cat"			"10" //Quest cat
+		"min_lvl"		"57" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"7" //Total desc lines
+		"line1"			"Oh yeah, these clothes are just fantastic. One more thing. I lost a bag"
+		"line2"			"with fake gems when escaping from a tank. I can use the fake gems to scam"
+		"line3"			"stupid survivors looking to upgrade their weapons. You know, dollars are"
+		"line4"			"getting useless nowadays, and people are only accepting Gems and Diamonds"
+		"line5"			"to exchange Food and Supplies. Greedy i know, thats why i want to Scam those"
+		"line6"			"idiots, and I'll also make profit. Bring me the bag and I'll share some of"
+		"line7"			"profit with you. Be safe..."
+		
+		"clines"		"5"
+		"cline1"		"Haha you are such an idiot dude, I was right next the Supply Box! I'm far"
+		"cline2"		"away now and I won't share shit with you! Hahaha so hilarious, you are the"
+		"cline3"		"dumbest person I'd ever met! You should commit sucidie now and (*Tank Yell*)"
+		"cline4"		"OH MY FUC.....(*Pound Damage Noise*) AHHHH HELP HELLPPDL LALDALWD..."
+		"cline5"		"(*Transmission Ended*)"
+		
+		"glines"		"1"
+		"gline1"		"-Collect Thief's Fake Gems Bag"
+		
+		"qitems"		"1"
+		"qitem1"		"54"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"9150"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest42"
+	{
+		"name"			"Thief's Last Wishes 1" //Quest Names
+		"id"			"42" //Quest Id
+		"qreq"			"41"
+		"cat"			"10" //Quest cat
+		"min_lvl"		"100" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"50"
+		"tlines"		"5" //Total desc lines
+		"line1"			"Hey again... Oh god, this really hurts... That fucking tank... God..."
+		"line2"			"I'm probably infected too... Damn, the pain, fuck... Dude, I need painkillers"
+		"line3"			"ohhh who am I cheating, I'm going to die! I have a few wishes before my death."
+		"line4"			"I want revenge first, kill as many fucking tanks as you can, I'll give you a huge"
+		"line5"			"reward if you do. Now go, before I fucking bleed out or turn!!!"
+		
+		"clines"		"2"
+		"cline1"		"It's done?, oh fuck this is so god damn painfull. I can see my bones!! OH FUCK"
+		"cline2"		"I CAN SE MY FUCKING BONES! FUCK, I need a minute..."
+		
+		"glines"		"1"
+		"gline1"		"-Kill 50 Tanks"
+		
+		"qitems"		"0"
+		"qitem1"		"0"
+		"qitemq1"		"0"
+		
+		
+		"rexp"			"51500"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest43"
+	{
+		"name"			"Thief's Last Wishes 2" //Quest Names
+		"id"			"43" //Quest Id
+		"qreq"			"42"
+		"cat"			"10" //Quest cat
+		"min_lvl"		"101" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"50"
+		"tlines"		"7" //Total desc lines
+		"line1"			"Before i die, I want something. I always wanted to be part of the military"
+		"line2"			"but they always rejected me and... THIS HURTS! I'll die with dignity! Get"
+		"line3"			"me a solider's uniform and I'll die in peace. I can give you some real"
+		"line4"			"Gems if you do this for me. Now go before I bleed the fuck out!"
+		
+		"clines"		"1"
+		"cline1"		"Ok... Take.... the fucking... gems now... and... go.. fuck... yours............"
+		
+		"glines"		"1"
+		"gline1"		"-Collect a soldier's uniform"
+		
+		"qitems"		"1"
+		"qitem1"		"55"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"60105"
+		"rpts"			"0"
+		"rgem"			"35"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest44"
+	{
+		"name"			"Join Forces 1" //Quest Names
+		"id"			"44" //Quest Id
+		"qreq"			"0"
+		"cat"			"11" //Quest cat
+		"min_lvl"		"100" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"35"
+		"tlines"		"6" //Total desc lines
+		"line1"			"Feeling alone? Since all the chaos started"
+		"line2"			"survivors have been forming Guilds to survive the infection. If you"
+		"line3"			"form or join a Guild, you will have more chances of surviving"
+		"line4"			"than those who are alone. If you want to form a guild, then you "
+		"line5"			"will have to do a few tasks for me. Sorry son, is not as easy as it looks."
+		"line6"			"You must earn respect before considering to open your own guild."
+		
+		"glines"		"1"
+		"gline1"		"-Defeat 35 Paranoia Tanks"
+		
+		"qitems"		"0"
+		"qitem1"		"0"
+		"qitemq1"		"0"
+		
+		
+		"rexp"			"1000"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest45"
+	{
+		"name"			"Join Forces 2" //Quest Names
+		"id"			"45" //Quest Id
+		"qreq"			"44"
+		"cat"			"11" //Quest cat
+		"min_lvl"		"100" //Min level to take
+		"type"			"3" //Quest Type
+		"goal"			"15"
+		"tlines"		"5" //Total desc lines
+		"line1"			"Knowing how to shoot a weapon won't guarantee your survival. You must help"
+		"line2"			"your players, more if they are weaken than you. If you understand how essential"
+		"line3"			"teamplay is on the apocalpyse, you will be a step forward of forming your guild"
+		"line4"			"Prove others that you are capable of keeping them alive, and they will join forces"
+		"line5"			"with you."
+		
+		"glines"		"1"
+		"gline1"		"-Escape 15 finales with all survivors alive"
+		
+		"qitems"		"0"
+		"qitem1"		"0"
+		"qitemq1"		"0"
+		
+		
+		"rexp"			"1000"
+		"rpts"			"0"
+		"rgem"			"0"
+		"ritems"		"0"
+		"ritem1"		"0"
+	}
+	
+	"quest46"
+	{
+		"name"			"Join Forces 4" //Quest Names
+		"id"			"46" //Quest Id
+		"qreq"			"45"
+		"cat"			"11" //Quest cat
+		"min_lvl"		"100" //Min level to take
+		"type"			"1" //Quest Type
+		"goal"			"0"
+		"tlines"		"5" //Total desc lines
+		"line1"			"Almost there. The maximum proof of your abilies to be a leader"
+		"line2"			"is having what we call a 'Guild Stone'. This stone ban be obtained"
+		"line3"			"by defeating a Shaman Tank. You must be fast and smart, because"
+		"line4"			"others will be there when it drops. Due to the hard fight, it "
+		"line5"			"will drop a broken guild stone. I can repair it for you. Now go"
+		
+		"clines"		"1"
+		"cline1"		"-Good news. I will leave the repaired stone on the Supply Box. Good luck now..."
+		
+		"glines"		"1"
+		"gline1"		"-Collect a Broken Guild Stone"
+		
+		"qitems"		"1"
+		"qitem1"		"50"
+		"qitemq1"		"1"
+		
+		
+		"rexp"			"75000"
+		"rpts"			"5000"
+		"rgem"			"10"
+		"ritems"		"1"
+		"ritem1"		"14"
+	}
+}

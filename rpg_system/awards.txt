@@ -1,0 +1,460 @@
+//
+//					A W A R D S 			F I L E
+//
+// ***************************************************************************
+//	This file contains all the data related to points, bounty and experience
+//	earning. The structure is pretty simple, look for the action you wish to
+//	edit, and change its value. Note, if you put a negative value, the points
+//	bounty or experience will be substracted. All events have a description
+//	on them so it will be easy to understand.
+//
+//	The structure:
+//
+//	//The explanation of the event goes here
+//	"event_name" //This is the event tag name, used by the plugin for reference, do not change
+//	{
+//		"points"	"1" //Points added when this event is fired (The action owner receives them)
+//		"bounty"	"30" //Bounty received by this action
+//		"exp"		"10" //Exp received by this action
+//		"name"		"Event Name done: " //What is print in chat, leave blank to avoid displaying. -> [RPG] Event Name Done: 30 bounty received
+//	}
+//
+//
+//
+//
+
+"awards"
+{
+	//Survivor earn events
+	//Phrases refer to the commiter
+	
+	//A player kills a common infected
+	"kill_infected"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"5"
+	}
+	
+	//A player signals a headshot on common infected
+	"kill_headshot"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"2"
+	}
+	
+	//A player sginals X amount of headshots on common infected (Value of the config file - 5)
+	"kill_headshot_amount"
+	{
+		"points"	"0"
+		"bounty"	"4"
+		"exp"		"25"
+		"name"		"Headshot Spree: "
+		"name_es"	"Combo de Headshots: "
+	}
+	
+	//A Player kills X amount of common infected (Specified on sourcemod/l4d2_rpg_system.cfg)
+	"kill_infected_amount"
+	{
+		"points"	"1"
+		"bounty"	"2"
+		"exp"		"50"
+		"name"		"Killing Spree: "
+		"name_es"	"Combo de Asesinatos: "
+	}
+	
+	//A Player kills a special infected
+	"kill_special_infected"
+	{
+		"points"	"2"
+		"bounty"	"1"
+		"exp"		"50"
+		"name"		"Special Infected Killed: "
+		"name_es"	"Infectado Especial Asesinado: "
+	}
+	
+	//A Player kills a special infected with a headshot
+	"kill_headshot_si"
+	{
+		"points"	"1"
+		"bounty"	"1"
+		"exp"		"15"
+		"name"		"Special Infected Headshot: "
+		"name_es"	"Headshot Infectado Especial: "
+	}
+	
+	//A Player gives another adrenaline or pain_pills
+	"give_item"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"0"
+	}
+	
+	//A Player heals a teammate and is not harvesting (Harvest = heal another when unnecessary)
+	"heal_player_no_harvest"
+	{
+		"points"	"5"
+		"bounty"	"5"
+		"exp"		"250"
+		"name"		"Healed Teammate: "
+		"name_es"	"Companero Curado: "
+	}
+	
+	//A Player heals a temamate and is harvesting (Harvest = heal another when unnecessary)
+	"heal_player_harvest"
+	{
+		"points"	"1"
+		"bounty"	"1"
+		"exp"		"25"
+		"name"		"Healed Teammate (DO NOT HARVEST POINTS): "
+		"name_es"	"Companero Curado (NO CULTIVES PUNTOS!): "
+	}
+	
+	//Revives an incapacitated survivor
+	"help_incapped_mate"
+	{
+		"points"	"2"
+		"bounty"	"3"
+		"exp"	"50"
+		"name"		"Revived Survivor: "
+		"name_es"	"Companero Asistido: "
+	}
+	
+	//Uses a defibrillator to bring a mate back
+	"revive_death_mate"
+	{
+		"points"	"20"
+		"bounty"	"5"
+		"exp"		"250"
+		"name"		"Defibbed Survivor: "
+		"name_es"	"Companero Revivido: "
+	}
+	
+	//User protects a mate once
+	"protect_mate_single"
+	{
+		"points"	"0"
+		"bounty"		"0"
+		"exp"		"5"
+	}
+	
+	//User protects mate 6 times
+	"protect_mate"
+	{
+		"points"	"0"
+		"bounty"	"1"
+		"exp"		"30"
+		"name"		"Protected Teammate: "
+		"name_es"	"Companero Protegido: "
+	}
+	
+	//The user survives a normal round
+	"survive_normal_round"
+	{
+		"points"	"20"
+		"bounty"	"0"
+		"exp"		"500"
+		"name"		"Survived the round: "
+		"name_es"	"Round Sobrevivido: "
+	}
+	
+	//The user survives a finale AKA: Escapes
+	"survive_finale_round"
+	{
+		"points"	"100"
+		"bounty"	"0"
+		"exp"		"1000"
+		"name"		"Finale Escape: "
+		"name_es"	"Escapado: "
+	}
+	
+	//The user kills a witch
+	"kill_witch"
+	{
+		"points"	"4"
+		"bounty"	"4"
+		"exp"		"100"
+		"name"		"Witch killed: "
+		"name_es"	"Witch Asesinada: "
+	}
+	
+	//The user crowns a witch
+	"kill_witch_one_shot"
+	{
+		"points"	"1"
+		"bounty"	"2"
+		"exp"		"250"
+		"name"		"Witch Cr0wned: "
+		"name_es"	"Witch Cr0wned: "
+	}
+
+	//The user ignites a witch
+	"ignite_witch"
+	{
+		"points"	"2"
+		"bounty"	"5"
+		"exp"		"50"
+		"name"		"Witch Burnt: "
+		"name_es"	"Witch Quemada: "
+	}
+
+	//The user ignites a tank
+	"ignite_tank"
+	{
+		"points"	"4"
+		"bounty"	"4"
+		"exp"		"100"
+		"name"		"Tank Burnt: "
+		"name_es"	"Tank Quemado: "
+	}
+	
+	//The user biles a tank
+	"bile_tank"
+	{
+		"points"	"2"
+		"bounty"			"3"
+		"exp"			"75"
+		"name"		"Biled Tank: "
+		"name_es"	"Tank Vomitado: "
+	}
+	
+	//The user kills a tank (Or the team does)
+	"kill_tank"
+	{
+		"points"	"10"
+		"bounty"	"2"
+		"exp"		"300"
+		"name"		"Tank Killed: "
+		"name_es"	"Tank Asesinado: "
+	}
+	
+	//The user kills a tank ALONE
+	"kill_tank_solo"
+	{
+		"points"	"45"
+		"bounty"	"8"
+		"exp"		"1000"
+		"name"		"Tank SOLO: "
+		"name_es"	"Tank Asesinado Solo: "
+	}
+	
+	//The user triggers a panic event (Unknown source, car alarms, cresendos, anything)
+	"start_panic_event"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"-10"
+	}
+	
+	//The user releases a temamate from a special infected (any special infected)
+	"release_mate"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"10"
+	}
+	
+	//The user revives another incapped survivor with pain_pills (Both incapped)
+	"teamrevive"
+	{
+		"points"	"2"
+		"bounty"	"3"
+		"exp"		"45"
+		"name"		"Revived Teammate: "
+		"name_es"	"Companero Ayudado: "
+	}
+	
+	//The player dies
+	"player_death_as_survivor"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"-100"
+	}
+	
+	//The player gets incapacitated
+	"player_incap_as_survivor"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"-50"
+	}
+	
+	//The player incapacitates a teammate
+	"player_incap_mate_as_survivor"
+	{
+		"points"	"-100"
+		"bounty"	"-5"
+		"exp"		"-2000"
+		"name"	"INCAPPED TEAMMATE: "
+	}
+	
+	//The player kills a teammate
+	"player_kill_mate_as_survivor"
+	{
+		"points"	"-100"
+		"bounty"	"-5"
+		"exp"		"-5000"
+		"name"		"KILLED TEAMMATE: "
+		"name_es"	"COMPANERO ASESINADO: "
+	}
+	
+	//Infected earn events
+	
+	//The user incapacitates a survivor
+	"player_incap_survivor"
+	{
+		"points"	"2"
+		"bounty"	"3"
+		"exp"		"100"
+		"name"		"Incapacitated Survivor: "
+		"name_es"	"Companero Incapacitado: "
+	}
+	
+	//The user kills a survivor
+	"player_kill_survivor"
+	{
+		"points"	"5"
+		"bounty"	"5"
+		"exp"		"300"
+		"name"		"Killed Survivor: "
+		"name_es"	"Sobreviviente Asesinado: "
+	}
+	
+	//The user damages a survivor for the specified amount on sourcemod/l4d2_rpg_system.cfg
+	"player_hurt_survivor"
+	{
+		"points"	"1"
+		"bounty"	"2"
+		"exp"		"50"
+		"name"		"Multi-Damage: "
+		"name_ese"	"Dano Multiple: "
+	}
+	
+	//The user successfully pounces a survivor
+	"player_pounce_survivor"
+	{
+		"points"	"0"
+		"bounty"	"1"
+		"exp"		"15"
+		"name"		"Pounced Survivor: "
+		"name_es"	"Sobreviviente Tumbado: "
+	}
+	
+	//The user succesfully pounces a survivor for the max damage. Note, previous event points might get joined
+	"player_pounce_survivor_max"
+	{
+		"points"	"5"
+		"bounty"	"5"
+		"exp"		"150"
+		"name"		"Max Pounce Damage: "
+		"name_es"	"Maximo Dano Pounce: "
+	}
+	
+	//The user successfully rides a survivor
+	"player_ride_survivor"
+	{
+		"points"	"1"
+		"bounty"	"2"
+		"exp"		"15"
+		"name"		"Ridden Survivor: "
+	}
+	
+	//The user successfully begins choking a survivor
+	"player_choke_survivor"
+	{
+		"points"	"1"
+		"bounty"	"2"
+		"exp"		"50"
+		"name"		"Grabbed Survivor: "
+		"name_es"	"Sobreviviente Tomado: "
+	}
+	
+	//The user successfully vomits on a survivor
+	"player_vomit_survivor"
+	{
+		"points"	"0"
+		"bounty"	"1"
+		"exp"		"10"
+		"name"		"Vomited Survivor: "
+		"name_es"	"Sobreviviente Vomitado: "
+	}
+	
+	//The user successfully charges a survivor
+	"player_charge_survivor"
+	{
+		"points"	"0"
+		"bounty"	"2"
+		"exp"		"20"
+		"name"		"Charged Survivor: "
+		"name_es"	"Sobreviviente Cargado: "
+	}
+	
+	//The user successfully impacts a survivor while charging another
+	"player_impact_survivor"
+	{
+		"points"	"0"
+		"bounty"	"1"
+		"exp"		"10"
+		"name"		"Charge Impact: "
+		"name_es"	"Impacto: "
+	}
+	
+	//The user successfully pummels a survivor
+	"player_pummel_survivor"
+	{
+		"points"	"1"
+		"bounty"	"2"
+		"exp"		"20"
+		"name"		"Pummeled Survivor: "
+		"name_es"	"Sobreviviente Machacado: "
+	}
+	
+	//The user deals a KARMA CHARGE
+	"player_karmacharge_survivor"
+	{
+		"points"	"5"
+		"bounty"	"3"
+		"exp"		"250"
+		"name"		"KARMA CHARGE: "
+		"name_es"	"CARGA FATAL: "
+	}
+	
+	//The user deals a KARMA BITCH SLAP
+	"player_karmaslap_survivor"
+	{
+		"points"	"5"
+		"bounty"	"5"
+		"exp"		"350"
+		"name"		"KARMA SLAP: "
+		"name_es"	"BOFETADA FATAL: "
+	}
+	
+	//The user successfully spits on a survivor - BUG
+	"player_spit_survivor"
+	{
+		"points"	"0"
+		"bounty"	"1"
+		"exp"		"10"
+		"name"		"Spitted Survivor: "
+		"name_es"	"Sobreviviente Escupido: "
+	}
+	
+	//The player loses tank control
+	"player_lose_tank"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"-50"
+	}
+	
+	//The player does not do any damage during spawn
+	"player_no_damage"
+	{
+		"points"	"0"
+		"bounty"	"0"
+		"exp"		"-10"
+	}
+}

@@ -1,0 +1,424 @@
+"questitems"
+{
+	"item1"
+	{
+		"name"	"Broken Rifle"
+		"desc"	"An old rifle. It seems broken"
+		"id"	"1"
+		"rate"	"0"
+		"duration"	"1"
+		"limit"		"1"
+	}
+	"item2"
+	{
+		"name"	"Hunter Claw"
+		"desc"	"A claw from a dead hunter"
+		"id"	"2"
+		"limit"		"0"
+	}
+	"item3"
+	{
+		"name"	"Bag of blood"
+		"desc"	"A bag that contains normal blood"
+		"id"	"3"
+		"limit"		"3"
+	}
+	"item4"
+	{
+		"name"	"Bag of infected blood"
+		"desc"	"A bag that contains infected blood"
+		"id"	"4"
+		"limit"	"1"
+		"rate"	"1"
+	}
+	"item5"
+	{
+		"name"	"Bag of mutated blood"
+		"desc"	"A bag that contains mutated blood"
+		"id"	"5"
+		"rate"	"50"
+	}
+	"item6"
+	{
+		"name"	"Apple"
+		"desc"	"An apple"
+		"id"	"6"
+		"rate"	"1"
+	}
+	"item7"
+	{
+		"name"	"Beer"
+		"desc"	"A bottle of beer"
+		"id"	"7"
+		"limit"	"7"
+	}
+	"item8"
+	{
+		"name"	"Piece of glass"
+		"desc"	"A piece of glass"
+		"id"	"8"
+		"limit"	"4"
+	}
+	"item9"
+	{
+		"name"	"Powder"
+		"desc"	"Some powder"
+		"id"	"9"
+		"limit"	"2"
+		"rate"	"35"
+	}
+	"item10"
+	{
+		"name"	"Golden Key"
+		"desc"	"A golden key, it might open up something..."
+		"id"	"10"
+		"limit"	"0"
+	}
+	"item11"
+	{
+		"name"	"Grenade"
+		"desc"	"A grenade"
+		"id"	"11"
+	}
+	"item12"
+	{
+		"name"	"Broken Knife"
+		"desc"	"A broken military knife"
+		"id"	"12"
+	}
+	"item13"
+	{
+		"name"	"Doll"
+		"desc"	"A doll"
+		"id"	"13"
+	}
+	"item14"
+	{
+		"name"	"Tank Skin"
+		"desc"	"Skin from a tank"
+		"id"	"14"
+	}
+	"item15"
+	{
+		"name"	"Snack"
+		"desc"	"A snack"
+		"id"	"15"
+		"limit"	"7"
+		"rate"	"100"
+	}
+	"item16"
+	{
+		"name"	"Survival Guide"
+		"desc"	"A book titled Survival Guide"
+		"id"	"16"
+		"limit"	"1"
+		"rate"	"20"
+	}
+	"item17"
+	{
+		"name"	"Spoon"
+		"desc"	"A normal spoon"
+		"id"	"17"
+	}
+	"item18"
+	{
+		"name"	"Bottle of Water"
+		"desc"	"A bottle of water"
+		"id"	"18"
+		"limit"	"5"
+		"rate"	"100"
+	}
+	"item19"
+	{
+		"name"	"Bryan's Cell Phone"
+		"desc"	"A cell phone whose owner is Bryan"
+		"id"	"19"
+		"limit"	"1"
+		"rate"	"5"
+	}
+	"item20"
+	{
+		"name"	"Broken Lighter"
+		"desc"	"A broken lighter"
+		"id"	"20"
+		"limit"	"1"
+	}
+	"item21"
+	{
+		"name"	"Weed"
+		"desc"	"Some weed"
+		"id"	"21"
+		"limit"	"2"
+		"rate" "70"
+	}
+	"item22"
+	{
+		"name"	"Stick"
+		"desc"	"A useless stick"
+		"id"	"22"
+	}
+	"item23"
+	{
+		"name"	"Antibody Sample"
+		"desc"	"Used to create antbodies againts mutations"
+		"id"	"23"
+	}
+	"item24"
+	{
+		"name"	"Witch Hair"
+		"desc"	"A bunch of witch's hair"
+		"id"	"24"
+		"rate"	"30"
+	}
+	"item25"
+	{
+		"name"	"Shaman Tank Claw"
+		"desc"	"A shaman tank's claw"
+		"id"	"25"
+		"rate"	"30"
+	}
+	"item26"
+	{
+		"name"	"Shaman Tank Brain"
+		"desc"	"A shaman tank's Brain"
+		"id"	"26"
+		"rate"	"15"
+	}
+	"item27"
+	{
+		"name"	"Syringe"
+		"desc"	"A dirty Syringe"
+		"id"	"27"
+		"limit"	"1"
+		"rate"	"100"
+	}
+	"item28"
+	{
+		"name"	"Magnifying Glass"
+		"desc"	"Usefull to view small things"
+		"id"	"28"
+		"limit"	"3"
+		"rate"	"85"
+	}
+	"item29"
+	{
+		"name"	"Medical Mask"
+		"desc"	"A medical mask, used to protect patients or the own doctor from infections"
+		"id"	"29"
+		"limit"	"2"
+		"rate"	"90"
+	}
+	"item30"
+	{
+		"name"	"Keith's Daughter Picture"
+		"desc"	"A picture of a beatuful girl who died on a car crash, while escaping out of the town"
+		"id"	"30"
+		"limit"	"1"
+		"rate"	"100"
+	}
+	"item31"
+	{
+		"name"	"Generator Replacement"
+		"desc"	"A generator replacement. You need this to fix broken generators"
+		"id"	"31"
+		"limit"	"1"
+		"rate"	"100"
+	}
+	"item32"
+	{
+		"name"	"Flowers"
+		"desc"	"Beautiful flowers. They may contain bees!"
+		"id"	"32"
+		"limit"	"3"
+		"rate"	"25"
+	}
+	"item33"
+	{
+		"name"	"Wheel"
+		"desc"	"A wheel, useless alone..."
+		"id"	"33"
+		"limit"	"1"
+		"rate"	"30"
+	}
+	"item34"
+	{
+		"name"	"Rice Box"
+		"desc"	"A box of rice"
+		"id"	"34"
+		"limit"	"3"
+		"rate"	"100"
+	}
+	"item35"
+	{
+		"name"	"Food Box"
+		"desc"	"A box containing different kind of snacks and fast food"
+		"id"	"35"
+		"limit"	"2"
+		"rate"	"40"
+	}
+	
+	"item36"
+	{
+		"name"	"Hunter's Head"
+		"desc"	"The head of a hunter"
+		"id"	"36"
+		"rate"	"0.1"
+	}
+	"item37"
+	{
+		"name"	"Jockey's Head"
+		"desc"	"The head of a jockey"
+		"id"	"37"
+		"rate"	"0.1"
+	}
+	"item38"
+	{
+		"name"	"Spitter's Head"
+		"desc"	"The head of a spitter"
+		"id"	"38"
+		"rate"	"0.1"
+	}
+	"item39"
+	{
+		"name"	"Boomer's Head"
+		"desc"	"The head of a boomer"
+		"id"	"39"
+		"rate"	"0.1"
+	}
+	"item40"
+	{
+		"name"	"Charger's Head"
+		"desc"	"The head of a charger"
+		"id"	"40"
+		"rate"	"0.1"
+	}
+	"item41"
+	{
+		"name"	"Smoker's Head"
+		"desc"	"The head of a smoker"
+		"id"	"41"
+		"rate"	"0.1"
+	}
+	"item42"
+	{
+		"name"	"Tank's Head"
+		"desc"	"The head of a tank"
+		"id"	"42"
+		"rate"	"0.1"
+	}
+	"item43"
+	{
+		"name"	"Bandage"
+		"desc"	"A bandage"
+		"id"	"43"
+		"limit"	"3"
+		"rate"	"95"
+	}
+	"item44"
+	{
+		"name"	"Golden Necklace"
+		"desc"	"A golden necklace"
+		"id"	"44"
+		"limit"	"1"
+		"rate"	"5"
+	}
+	"item45"
+	{
+		"name"	"Clean Towel"
+		"desc"	"A clean towel"
+		"id"	"45"
+		"limit"	"2"
+		"rate"	"87"
+	}
+	"item46"
+	{
+		"name"	"Antibiotics"
+		"desc"	"Used to fight infections back. Cannot cure people from the green flu"
+		"id"	"46"
+		"limit"	"3"
+		"rate"	"35"
+	}
+	
+	"item47"
+	{
+		"name"	"Special ammo round"
+		"desc"	"Ammo for silenced pistols and rare SMGs"
+		"id"	"47"
+		"limit"	"1"
+		"rate"	"80"
+	}
+	"item48"
+	{
+		"name"	"Darwin's notes"
+		"desc"	"Notes of Doctor Darwin that contain crucial data of the green flu"
+		"id"	"48"
+		"limit"	"1"
+		"rate"	"45"
+	}
+	"item49"
+	{
+		"name"	"Poison Sample"
+		"desc"	"A Samaple of the poison that witches use to paralyze invaders"
+		"id"	"49"
+		"rate"	"15"
+	}
+	"item50"
+	{
+		"name"	"Broken Guild Stone"
+		"desc"	"Stone must be repaired before use"
+		"id"	"50"
+		"rate"	"100"
+	}
+	
+	"item51"
+	{
+		"name"	"Pure Charger Claw"
+		"desc"	"The claw of one of the first chargers that appeared new the swamps"
+		"id"	"51"
+		"limit"	"1"
+		"rate"	"100"
+	}
+	
+	"item52"
+	{
+		"name"  "Josh's ID"
+		"desc"	"An ID card that belongs to somebody named Josh"
+		"id"	"52"
+		"limit"	"1"
+	}
+	
+	"item53"
+	{
+		"name"	"Clean Clothes"
+		"desc"	"Clean clothers. Used to dress people"
+		"id"	"53"
+		"limit"	"2"
+		"rate"	"70"
+	}
+	
+	"item54"
+	{
+		"name"	"Bag of fake gems"
+		"desc"	"A bunch of fake gems used to scam those who sell food, supplies, skill books and upgrades!"
+		"id"	"54"
+		"limit"	"1"
+		"rate"	"65"
+	}
+	
+	"item55"
+	{
+		"name"	"Soldier Uniform"
+		"desc"	"A soldier's uniform"
+		"id"	"55"
+		"limit"	"1"
+		"rate"	"55"
+	}
+	
+	"item56"
+	{
+		"name"	"Ancient Coin"
+		"desc"	"An ancient coin! Collect more than everyone to receive a cool reward!"
+		"id"	"56"
+		"rate"	"0.5"
+	}
+}
