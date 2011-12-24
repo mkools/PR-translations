@@ -13,6 +13,7 @@
 		"id"	"1"
 		"name"	"|Item| Vending Machine"
 		"name_es"	"Maquina Magica"
+                "name_ru"       "|предмет| Тороговый автомат"
 	}
 	
 	"gem"
@@ -22,6 +23,8 @@
 		"desct"	"1"
 		"desc1"	"Gems are precios exchange items used to get necessary materials to get upgrades and learn skills"
 		"name_es"	"Gema"
+                "name_ru"       "|предмет| Кристалл"
+                "desc1_ru"      "Кристаллы это драгоценности для обмена чтобы получить необходимые улучшения и умения"
 	}
 	
 	"exp_package"
@@ -31,6 +34,8 @@
 		"desct"	"1"
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
 		"name_es"	"Paquete de Exp Doble"
+                "name_ru"       "|предмет|x2 множитель опыта (1 месяц)"
+                "desc1_ru"      "Множитель опыта позволит вам получать улчшения быстрее"
 	}
 	
 	"points"
@@ -40,6 +45,8 @@
 		"desct"	"1"
 		"desc1"	"A pack containing a lot of points!"
 		"name_es"	"Mega Pack de Puntos"
+                "name_ru"       "|предмет| Огромный комплект очков"
+                "desc1_ru"      "Комплект включающий много очков"
 	}
 	
 	"exp"
@@ -49,6 +56,8 @@
 		"desct"	"1"
 		"desc1"	"A pack containing a lot of wisdom!"
 		"name_es"	"Mega Pack de Exp"
+                "name_ru"       "|предмет|Огромный комплект опыта"
+                "desc1_ru"      "Комплект включающий мудрость!"
 	}
 	
 	"starter_account"
@@ -58,6 +67,8 @@
 		"desct"	"1"
 		"desc1"	"Gives you a boost at start"
 		"name_es"	"Activador Cuenta Novata"
+                "name_ru"       "|предмет| Акаунт новичка"
+                "desc1_ru"      "Даёт тебе определённый уровень и количество очков"
 	}
 	
 	"vending_machine_gold"
@@ -65,6 +76,7 @@
 		"id"	"7"
 		"name"	"|Item| Premium Vending Machine"
 		"name_es"	"Maquina Magica Premium"
+                "name_ru"       "|предмет| Премиум торговый автомат"
 	}
 	"enhancement_stone"
 	{
@@ -73,6 +85,8 @@
 		"desc1"	"Certain upgrades and skills require this stone to be obtained!"
 		"desct"	"1"
 		"name_es"	"Piedra de Incremento"
+                "name_ru"       "|автоматический|Камень улучшения"
+                "desc1_ru"      "Нужен для получения некоторых улучшений и умений"
 	}
 	"helms_deep_ticket"
 	{
@@ -81,6 +95,8 @@
 		"desct"	"1"
 		"desc1"	"The ticket will unlock the Helms Deep main door"
 		"name_es"	"Ticket Helms Deep"
+                "name_ru"       "|предмет| Билет в Хелмз Дип арену"
+                "desc1_ru"      "Билет откроет главную дверь Хелмз Дипа"
 	}
 	"paranoia_buff"
 	{
@@ -89,6 +105,8 @@
 		"desct"	"1"
 		"desc1"	"Gives you the Paranoia Buff"
 		"name_es"	"Buff Paranoia"
+                "name_ru"       "|Бафф|Паранойя"
+                "desc1_ru"      "Даст тебе паранойя бафф"
 	}
 	"none"
 	{
@@ -104,6 +122,9 @@
 		"desct"	"2"
 		"desc1"	"Will allow you to remove an upgrade or skill, and recover all of the wasted points and gems"
 		"desc2"	"The stone, however, is unable to restore enhancement stones"
+                "name_ru"       "|предмет| Камень возвращений"
+                "desc1_ru"      "Позволит удалить умение или улучшение и получить назад очки и кристаллы потраченные на них"
+                "desc2_ru"      "Однако,камень не может возвращать камни улучшения"
 	}
 	"Buff_Slot"
 	{
@@ -111,6 +132,8 @@
 		"name"	"|Item| Buff slot unlocker"
 		"desct"	"1"
 		"desc1"	"Increases your buff equipment limit"
+                "name_ru"       "|предмет|Увеличитель баф слотов"
+                "desc1_ru"      "Повышает лимит размещённых бафф слотов"
 	}
 	"guild_stone"
 	{
@@ -118,6 +141,8 @@
 		"name"	"|Auto| Guild Stone"
 		"desct"	"1"
 		"desc1"	"The stone will let you create a Guild"
+                "name_ru"        "|автоматический| Камень гильдии"
+                "desc1_ru"       "Позволит вам создать гильдию"
 	}
 	"anti_mutation"
 	{
@@ -125,6 +150,8 @@
 		"name"	"|Buff| Mutation Shield (1 Month)"
 		"desct"	"1"
 		"desc1"	"A dose of antibodies that will shield you from mutations"
+                "name_ru"        "|бафф| Щит(1 месяц)"
+                "desc1_ru"       "Доза антибиотиков для иммунитета к мутации"
 	}
 	"item16"
 	{
@@ -132,6 +159,8 @@
 		"name"	"|Buff| Mutation Shield (1 Week)"
 		"desct"	"1"
 		"desc1"	"A dose of antibodies that will shield you from mutations"
+                "name_ru"        "|бафф| Щит(1 неделя)"
+                "desc1_ru"       "Доза антибиотиков для иммунитета к мутации"
 	}
 	"item17"
 	{
@@ -139,6 +168,8 @@
 		"name"	"|Buff| Mutation Shield (1 Day)"
 		"desct"	"1"
 		"desc1"	"A dose of antibodies that will shield you from mutations"
+                "name_ru"        "|бафф| Щит(1 день)"
+                "desc1_ru"       "Доза антибиотиков для иммунитета к мутации"              
 	}
 	"item18"
 	{
@@ -147,6 +178,9 @@
 		"desct"	"2"
 		"desc1"	"The liquid enhancer is a mix of several mutated cells that will instantly"
 		"desc2"	"level up the user to Lv. 201 and will allow him to rise up to Lv. 210"
+                "name_ru"         "|Предмет| Усилитель"
+                "desc1_ru"        "Жидкий усилитель это смесь различных мутировавших клеток которая позволит вам"
+                "desc2_ru"        "достигнуть уровня 201 и позволит вам достичь уровня 210"
 	}
 	"item19"
 	{
@@ -155,6 +189,9 @@
 		"desct"	"2"
 		"desc1"	"This buff will allow your teammates to forgive you if you attack them"
 		"desc2"	"or do any agressive actions. You won't take exp nor points penalties."
+                "name_ru"          "|бафф| Снятие штрафа"
+                "desc1_ru"         "Этот бафф позволит вашим напарникам простить вас если вы атакуете их"
+                "desc2_ru"         "или совершаете враждебные действия против них.Вы не потеряете опыт в этом случае"
 	}
 	
 	"item20"
@@ -165,6 +202,10 @@
 		"desc1"	"The Advanced Rifle can be equipped on your account. This rifle will do additional"
 		"desc2"	"damage summed to your upgrades. Also, each kind of weapon has different abilities"
 		"desc3"	"Collect items and equip them to resist or deal more damage"
+                "name_ru"       "|активировать| Улучшенная винтовка"
+                "desc1_ru"      "Улучшенная винтовка может быть размещена в ваше инвинтаре.Эта винтовка будут наносить "
+                "desc2_ru"      "дополнительный урон суммированный из ваших улучшений.Так же каждый вид оружия имеет разный"
+                "desc3_ru"      "способности.Собирай эти предметы чтобы наносить больше урона"
 	}
 	
 	"item21"
@@ -173,6 +214,8 @@
 		"name"	"|Buff| Poison Shield"
 		"desct1"	"A dose of Poison antidote. Will shield you from poison"
 		"desct"	"1"
+                "name_ru"       "|бафф| Щит против яда"
+                "desc1_ru"      "Даёт иммунитет к отравлению"
 	}
 	
 	"item22"
@@ -181,6 +224,8 @@
 		"name"	"|Skill| Charge Block"
 		"desct"	"1"
 		"desct1"	"Will allow you to learn the Charge Block skill"
+                "name_ru"       "|умение| Блок громилы"
+                "desct1_ru"     "Позволит вам изучить блокировку громилы"
 	}
 	
 	"item23"
@@ -189,6 +234,8 @@
 		"name"	"|Item| x3 Booster (1 Month)"
 		"desct"	"1"
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
+                "name_ru"        "|предмет| x3 Множитель(1 месяц)"
+                "desc1_ru"       "Множитель опыта позволит вам получать новые умения быстрее"
 	}
 	
 	"item24"
@@ -197,6 +244,8 @@
 		"name"	"|Item| x4 Booster (1 Month)"
 		"desct"	"1"
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
+                "name_ru"        "|предмет| x4 Множитель(1 месяц)"
+                 "desc1_ru"      "Множитель опыта позволит вам получать новые умения быстрее"
 	}
 	
 	"item25"
@@ -205,6 +254,8 @@
 		"name"	"|Item| x5 Booster (1 Month)"
 		"desct"	"1"
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
+                "name_ru"        "|предмет| x5 Множитель(1 месяц)"
+                 "desc1_ru"      "Множитель опыта позволит вам получать новые умения быстрее"
 	}
 	
 	"item26"
@@ -213,6 +264,8 @@
 		"name"	"|Item| x10 Booster (1 Month)"
 		"desct"	"1"
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
+                "name_ru"        "|предмет| x10 Множитель(1 месяц)"
+                 "desc1_ru"      "Множитель опыта позволит вам получать новые умения быстрее"
 	}
 	
 	"item27"
@@ -221,6 +274,8 @@
 		"name"	"|Auto| (100%) Upgrade Hammer (Not Yet Functional)"
 		"desct"	"1"
 		"desc1"	"An upgrade hammer with 100% probability of success"
+                "name_ru"        "|Автоматический| (100%) Зумер улучшений (пока не доступен)"
+                "desc1_ru"       " Зумер улучшений с вероятностью успеха 100%"
 	}
 	"item28"
 	{
@@ -228,6 +283,8 @@
 		"name"	"|Auto| Grade Enhancer(Veteran)"
 		"desct1"	"1"
 		"desc1"	"The grade booster will enhance your weapon's grade into VETERAN"
+                "name_ru"        "|Автоматический| Усилитель вида(Ветеран)"
+                "desc1_ru"       "Множитель класса произведёт ваше оружие в ранг ВЕТЕРАН"
 	}
 	
 	
