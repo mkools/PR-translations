@@ -51,7 +51,7 @@
 		"bounty"	"4"
 		"exp"		"25"
 		"name"		"Headshot Spree: "
-		"name_es"	"Combo de Headshots: "
+		"name_es"	"Headshots en cadena: "
 	}
 	
 	//A Player kills X amount of common infected (Specified on sourcemod/l4d2_rpg_system.cfg)
@@ -61,7 +61,7 @@
 		"bounty"	"2"
 		"exp"		"50"
 		"name"		"Killing Spree: "
-		"name_es"	"Combo de Asesinatos: "
+		"name_es"	"Asesinatos en cadena: "
 	}
 	
 	//A Player kills a special infected
@@ -81,7 +81,7 @@
 		"bounty"	"1"
 		"exp"		"15"
 		"name"		"Special Infected Headshot: "
-		"name_es"	"Headshot Infectado Especial: "
+		"name_es"	"Headshot a Infectado Especial: "
 	}
 	
 	//A Player gives another adrenaline or pain_pills
@@ -109,7 +109,7 @@
 		"bounty"	"1"
 		"exp"		"25"
 		"name"		"Healed Teammate (DO NOT HARVEST POINTS): "
-		"name_es"	"Companero Curado (NO CULTIVES PUNTOS!): "
+		"name_es"	"Companero Curado (NO FUERCES PUNTOS!): "
 	}
 	
 	//Revives an incapacitated survivor
@@ -167,7 +167,7 @@
 		"bounty"	"0"
 		"exp"		"1000"
 		"name"		"Finale Escape: "
-		"name_es"	"Escapado: "
+		"name_es"	"Final Sobrevivida: "
 	}
 	
 	//The user kills a witch
@@ -187,7 +187,7 @@
 		"bounty"	"2"
 		"exp"		"250"
 		"name"		"Witch Cr0wned: "
-		"name_es"	"Witch Cr0wned: "
+		"name_es"	"Witch asesinada de un solo disparo: "
 	}
 
 	//The user ignites a witch
@@ -289,6 +289,7 @@
 		"bounty"	"-5"
 		"exp"		"-2000"
 		"name"	"INCAPPED TEAMMATE: "
+		"name_es"	"COMPANERO INCAPACITADO"
 	}
 	
 	//The player kills a teammate
@@ -310,7 +311,7 @@
 		"bounty"	"3"
 		"exp"		"100"
 		"name"		"Incapacitated Survivor: "
-		"name_es"	"Companero Incapacitado: "
+		"name_es"	"Sobreviviente Incapacitado: "
 	}
 	
 	//The user kills a survivor
@@ -340,7 +341,7 @@
 		"bounty"	"1"
 		"exp"		"15"
 		"name"		"Pounced Survivor: "
-		"name_es"	"Sobreviviente Tumbado: "
+		"name_es"	"Sobreviviente Embestido: "
 	}
 	
 	//The user succesfully pounces a survivor for the max damage. Note, previous event points might get joined
@@ -350,7 +351,7 @@
 		"bounty"	"5"
 		"exp"		"150"
 		"name"		"Max Pounce Damage: "
-		"name_es"	"Maximo Dano Pounce: "
+		"name_es"	"Maximo Dano de Salto: "
 	}
 	
 	//The user successfully rides a survivor
@@ -360,6 +361,7 @@
 		"bounty"	"2"
 		"exp"		"15"
 		"name"		"Ridden Survivor: "
+		"name_es"	"Sobreviviente Cabalgado"
 	}
 	
 	//The user successfully begins choking a survivor
