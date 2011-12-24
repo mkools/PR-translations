@@ -3,7 +3,9 @@
 	"item1"
 	{
 		"name"	"Broken Rifle"
+                "name_es" "Rifle malogrado"
 		"desc"	"An old rifle. It seems broken"
+                "desc_es" "Un viejo rifle. Parece que sta malogrado"
 		"id"	"1"
 		"rate"	"0"
 		"duration"	"1"
@@ -12,21 +14,27 @@
 	"item2"
 	{
 		"name"	"Hunter Claw"
+                "name_es" "Garra de Hunter"
 		"desc"	"A claw from a dead hunter"
+                "desc_es" "Una garra de un hunter muerto"
 		"id"	"2"
 		"limit"		"0"
 	}
 	"item3"
 	{
 		"name"	"Bag of blood"
+                "name_es" "Bolsa de sangre"
 		"desc"	"A bag that contains normal blood"
+                "desc_es" "Una bolsa que contiene sangre normal"
 		"id"	"3"
 		"limit"		"3"
 	}
 	"item4"
 	{
 		"name"	"Bag of infected blood"
+                "name_es" "Bolsa de sangre de infectado"
 		"desc"	"A bag that contains infected blood"
+                "desc_es" "Una bolsa que contiene sangre de infectado"
 		"id"	"4"
 		"limit"	"1"
 		"rate"	"1"
@@ -34,35 +42,45 @@
 	"item5"
 	{
 		"name"	"Bag of mutated blood"
+                "name_es" "Bolsa de sangre mutada"
 		"desc"	"A bag that contains mutated blood"
+                "desc_es" "Una bolsa que contiene sangre mutada
 		"id"	"5"
 		"rate"	"50"
 	}
 	"item6"
 	{
 		"name"	"Apple"
+                "name_es" "Manzana
 		"desc"	"An apple"
+                "desc_es" "Una manzana
 		"id"	"6"
 		"rate"	"1"
 	}
 	"item7"
 	{
 		"name"	"Beer"
+                "name_es" "Cerveza"
 		"desc"	"A bottle of beer"
+                "desc_es" "Una botella de cerveza"
 		"id"	"7"
 		"limit"	"7"
 	}
 	"item8"
 	{
 		"name"	"Piece of glass"
+                "name_es" "Pedazo de vidrio"
 		"desc"	"A piece of glass"
+                "desc_es" "Un pedazo de vidrio"
 		"id"	"8"
 		"limit"	"4"
 	}
 	"item9"
 	{
 		"name"	"Powder"
+                "name_es" "Polvo"
 		"desc"	"Some powder"
+                "desc_es" "Un poco de polvo"
 		"id"	"9"
 		"limit"	"2"
 		"rate"	"35"
@@ -70,38 +88,42 @@
 	"item10"
 	{
 		"name"	"Golden Key"
+                "name_es" "Una llave dorada
 		"desc"	"A golden key, it might open up something..."
+                "desc_es" "una llave dorada, puede que abra algo..."
 		"id"	"10"
 		"limit"	"0"
 	}
 	"item11"
 	{
 		"name"	"Grenade"
+                "name_es" "Granada"
 		"desc"	"A grenade"
+                "desc_es" "Una granada"
 		"id"	"11"
 	}
 	"item12"
 	{
 		"name"	"Broken Knife"
+                "name_es" "Un cuchillo roto"
 		"desc"	"A broken military knife"
-		"id"	"12"
-	}
-	"item13"
-	{
-		"name"	"Doll"
-		"desc"	"A doll"
+                "desc_es" "Un cuchillo militar roto"
 		"id"	"13"
 	}
 	"item14"
 	{
 		"name"	"Tank Skin"
+                "name_es" "Piel de Tank"
 		"desc"	"Skin from a tank"
+                "desc_es" "Piel de un tank"
 		"id"	"14"
 	}
 	"item15"
 	{
 		"name"	"Snack"
+                "name_es" "Bocadillos"
 		"desc"	"A snack"
+                "desc_es" "Un bocadillo"
 		"id"	"15"
 		"limit"	"7"
 		"rate"	"100"
@@ -109,7 +131,9 @@
 	"item16"
 	{
 		"name"	"Survival Guide"
+                "name_es" "Guia de supervivencia"
 		"desc"	"A book titled Survival Guide"
+                "desc_es" Un libro con titulo Guia de supervivencia"
 		"id"	"16"
 		"limit"	"1"
 		"rate"	"20"
@@ -117,13 +141,17 @@
 	"item17"
 	{
 		"name"	"Spoon"
+                "name_es" "Cuchara"
 		"desc"	"A normal spoon"
+                "desc_es" Una cuchara normal"
 		"id"	"17"
 	}
 	"item18"
 	{
 		"name"	"Bottle of Water"
+                "name_es" "Botella de agua"
 		"desc"	"A bottle of water"
+                "desc_es" Una botella de agua"
 		"id"	"18"
 		"limit"	"5"
 		"rate"	"100"
@@ -131,7 +159,9 @@
 	"item19"
 	{
 		"name"	"Bryan's Cell Phone"
+                "name_es" "El celular de Bryan"
 		"desc"	"A cell phone whose owner is Bryan"
+                "desc_es" "Un celular cuyo propietario es Bryan"
 		"id"	"19"
 		"limit"	"1"
 		"rate"	"5"
@@ -139,14 +169,18 @@
 	"item20"
 	{
 		"name"	"Broken Lighter"
+                "name_es" "Linterna rota"
 		"desc"	"A broken lighter"
+                "desc_es" "Una linterna rota"
 		"id"	"20"
 		"limit"	"1"
 	}
 	"item21"
 	{
 		"name"	"Weed"
+                "name_es" "Droga"
 		"desc"	"Some weed"
+                "desc_es" "Un poco de droga"
 		"id"	"21"
 		"limit"	"2"
 		"rate" "70"
@@ -154,40 +188,52 @@
 	"item22"
 	{
 		"name"	"Stick"
+                "name_es" "Palo"
 		"desc"	"A useless stick"
+                "desc_es" "Un palo sin uso"
 		"id"	"22"
 	}
 	"item23"
 	{
 		"name"	"Antibody Sample"
-		"desc"	"Used to create antbodies againts mutations"
+                "name_es" "Muestra de antibiotico"
+		"desc"	"Used to create antibodies againts mutations"
+                "desc_es" "Usado para crear antibioticos contra muataciones"
 		"id"	"23"
 	}
 	"item24"
 	{
 		"name"	"Witch Hair"
+                "name_es" "Cabello de Witch"
 		"desc"	"A bunch of witch's hair"
+                "desc_es" "Un puñado de cabello de witch"
 		"id"	"24"
 		"rate"	"30"
 	}
 	"item25"
 	{
 		"name"	"Shaman Tank Claw"
+                "name_es" "Garra de Shaman Tank"
 		"desc"	"A shaman tank's claw"
+                "desc_es" "Una garra de Shaman tank"
 		"id"	"25"
 		"rate"	"30"
 	}
 	"item26"
 	{
 		"name"	"Shaman Tank Brain"
+                "name_es" "Cerebro de Shaman tank"
 		"desc"	"A shaman tank's Brain"
+                "desc_es" "Un cerebro de Shaman tank"
 		"id"	"26"
 		"rate"	"15"
 	}
 	"item27"
 	{
 		"name"	"Syringe"
+                "name_es" "Jeringa"
 		"desc"	"A dirty Syringe"
+                "desc_es" "Una jeringa sucia"
 		"id"	"27"
 		"limit"	"1"
 		"rate"	"100"
@@ -195,7 +241,9 @@
 	"item28"
 	{
 		"name"	"Magnifying Glass"
+                "name_es" "Vidrio de aumento"
 		"desc"	"Usefull to view small things"
+                "desc_es" "Util para ver cosas pequeñas"
 		"id"	"28"
 		"limit"	"3"
 		"rate"	"85"
@@ -203,7 +251,9 @@
 	"item29"
 	{
 		"name"	"Medical Mask"
+                "name_es" "Mascara medica"
 		"desc"	"A medical mask, used to protect patients or the own doctor from infections"
+                "desc_es" "Una mascara medica , usada por pacientes o por el doctor para prevenor infeciones"
 		"id"	"29"
 		"limit"	"2"
 		"rate"	"90"
@@ -211,7 +261,9 @@
 	"item30"
 	{
 		"name"	"Keith's Daughter Picture"
+                "name_es" "Foto de la hija de Keith"
 		"desc"	"A picture of a beatuful girl who died on a car crash, while escaping out of the town"
+                "desc_es" "Una foto de una chica preciosa que murio en un accidente de carro , mientras escapa de la ciudad"
 		"id"	"30"
 		"limit"	"1"
 		"rate"	"100"
@@ -219,7 +271,9 @@
 	"item31"
 	{
 		"name"	"Generator Replacement"
+                "name_es" "Generador de repuesto"
 		"desc"	"A generator replacement. You need this to fix broken generators"
+                "desc_es" "Un generador de repuesto. Tu nesecitas esto para reparar generadores malogrados"
 		"id"	"31"
 		"limit"	"1"
 		"rate"	"100"
@@ -227,7 +281,9 @@
 	"item32"
 	{
 		"name"	"Flowers"
+                "name_es" "Flores"
 		"desc"	"Beautiful flowers. They may contain bees!"
+                "desc_es" "Hermosas flores. Pueden contener abejas!"
 		"id"	"32"
 		"limit"	"3"
 		"rate"	"25"
@@ -235,7 +291,9 @@
 	"item33"
 	{
 		"name"	"Wheel"
+                "name_es" "Rueda"
 		"desc"	"A wheel, useless alone..."
+                "desc_es" "Una rueda , sola sin uso..."
 		"id"	"33"
 		"limit"	"1"
 		"rate"	"30"
@@ -243,7 +301,9 @@
 	"item34"
 	{
 		"name"	"Rice Box"
+                "name_es" "Caja de arroz"
 		"desc"	"A box of rice"
+                "desc_es" "Una caja de arroz"
 		"id"	"34"
 		"limit"	"3"
 		"rate"	"100"
@@ -251,7 +311,9 @@
 	"item35"
 	{
 		"name"	"Food Box"
+                "name_es" "Caja de comida"
 		"desc"	"A box containing different kind of snacks and fast food"
+                "desc_es" "Una caja que contiene diferentes bocadillos y comida rapida"
 		"id"	"35"
 		"limit"	"2"
 		"rate"	"40"
@@ -260,56 +322,72 @@
 	"item36"
 	{
 		"name"	"Hunter's Head"
+                "name_es" "Cabeza de hunter"
 		"desc"	"The head of a hunter"
+                "desc_es" "La cabeza de un hunter"
 		"id"	"36"
 		"rate"	"0.1"
 	}
 	"item37"
 	{
 		"name"	"Jockey's Head"
+                "name_es" "Cabeza de jockey"
 		"desc"	"The head of a jockey"
+                "desc_es" "La cabeza de un hunter"
 		"id"	"37"
 		"rate"	"0.1"
 	}
 	"item38"
 	{
 		"name"	"Spitter's Head"
+                "name_es" "Cabeza de Spitter"
 		"desc"	"The head of a spitter"
+                "desc_es" "La cabeza de un Spitter"
 		"id"	"38"
 		"rate"	"0.1"
 	}
 	"item39"
 	{
 		"name"	"Boomer's Head"
+                "name_es" "Cabeza de Boomer"
 		"desc"	"The head of a boomer"
+                "desc_es" "la cabeza de un Boomer"
 		"id"	"39"
 		"rate"	"0.1"
 	}
 	"item40"
 	{
 		"name"	"Charger's Head"
+                "name_es" "Cabeza de Charger"
 		"desc"	"The head of a charger"
+                "desc_es" "La cabeza de un Charger"
 		"id"	"40"
 		"rate"	"0.1"
 	}
 	"item41"
 	{
 		"name"	"Smoker's Head"
+                "name_es" "La cabeza de un Smoker"
 		"desc"	"The head of a smoker"
+                "desc_es" "La cabeza de un smoker"
 		"id"	"41"
 		"rate"	"0.1"
 	}
 	"item42"
 	{
 		"name"	"Tank's Head"
+                "name_es" "Cabeza de tank"
 		"desc"	"The head of a tank"
+                "desc_es" "La cabeza de un tank"
 		"id"	"42"
 		"rate"	"0.1"
 	}
 	"item43"
 	{
 		"name"	"Bandage"
+                "name_es" "Vendaje"
 		"desc"	"A bandage"
+                "name_es" "Un vendaje"
 		"id"	"43"
 		"limit"	"3"
 		"rate"	"95"
@@ -317,7 +395,9 @@
 	"item44"
 	{
 		"name"	"Golden Necklace"
+                "name_es" "Collar de oro"
 		"desc"	"A golden necklace"
+                "desc_es" "Un collar de oro"
 		"id"	"44"
 		"limit"	"1"
 		"rate"	"5"
@@ -325,7 +405,9 @@
 	"item45"
 	{
 		"name"	"Clean Towel"
+                "name_es" "Toalla limpia"
 		"desc"	"A clean towel"
+                "desc_es" "Una toalla limpia"
 		"id"	"45"
 		"limit"	"2"
 		"rate"	"87"
@@ -333,7 +415,9 @@
 	"item46"
 	{
 		"name"	"Antibiotics"
+                "name_es" "Antibioticos"
 		"desc"	"Used to fight infections back. Cannot cure people from the green flu"
+                "desc_es" "usado para combatir infecciones. No se puere curar personas con infeccion verde"
 		"id"	"46"
 		"limit"	"3"
 		"rate"	"35"
@@ -342,7 +426,9 @@
 	"item47"
 	{
 		"name"	"Special ammo round"
+                "name_es" "Municion especial"
 		"desc"	"Ammo for silenced pistols and rare SMGs"
+                "desc_es" "Municion para pistolas silenciadas y SMGs raras"
 		"id"	"47"
 		"limit"	"1"
 		"rate"	"80"
@@ -350,7 +436,9 @@
 	"item48"
 	{
 		"name"	"Darwin's notes"
+                "name_es" "Notas de Darwin"
 		"desc"	"Notes of Doctor Darwin that contain crucial data of the green flu"
+                "desc_es" "notas del Doctor Darwin que contiene informacion importante contra la infeccion verde"
 		"id"	"48"
 		"limit"	"1"
 		"rate"	"45"
@@ -358,14 +446,18 @@
 	"item49"
 	{
 		"name"	"Poison Sample"
+                "name_es" "Muestra de posion"
 		"desc"	"A Samaple of the poison that witches use to paralyze invaders"
+                 "desc_es" "Una muestra de posion que las witchers usan para paralizar personas"
 		"id"	"49"
 		"rate"	"15"
 	}
 	"item50"
 	{
 		"name"	"Broken Guild Stone"
+                "name_es" "Roca de Gremio rota"
 		"desc"	"Stone must be repaired before use"
+                "desc_es" "Una roca que debe ser reparada antes de usarla
 		"id"	"50"
 		"rate"	"100"
 	}
@@ -373,7 +465,9 @@
 	"item51"
 	{
 		"name"	"Pure Charger Claw"
+                "name_es" "Garra pura de Charger"
 		"desc"	"The claw of one of the first chargers that appeared new the swamps"
+                "desc_es" "La garra de uno de los primeros chargers que aparecieron es los pantanos"
 		"id"	"51"
 		"limit"	"1"
 		"rate"	"100"
@@ -382,7 +476,9 @@
 	"item52"
 	{
 		"name"  "Josh's ID"
+                "name_es" "ID de Josh"
 		"desc"	"An ID card that belongs to somebody named Josh"
+                "desc_es" "Una tarjeta de identificacion de alguien llamado Josh"
 		"id"	"52"
 		"limit"	"1"
 	}
@@ -390,7 +486,9 @@
 	"item53"
 	{
 		"name"	"Clean Clothes"
+                "name_es" "Ropas limpias"
 		"desc"	"Clean clothers. Used to dress people"
+                "desc_es" "Ropas limpias .Usadas para vestir personas"
 		"id"	"53"
 		"limit"	"2"
 		"rate"	"70"
@@ -399,7 +497,9 @@
 	"item54"
 	{
 		"name"	"Bag of fake gems"
+                "name_es" "Bolsa de gemas falsas"
 		"desc"	"A bunch of fake gems used to scam those who sell food, supplies, skill books and upgrades!"
+                "desc_es" "Un puñado de de gemas falsas usadas para estafar personas que venden comida , libros con habilidades y mejoras!" 
 		"id"	"54"
 		"limit"	"1"
 		"rate"	"65"
@@ -408,7 +508,9 @@
 	"item55"
 	{
 		"name"	"Soldier Uniform"
+                "name_es" "Uniforme de Soldado"
 		"desc"	"A soldier's uniform"
+                "desc_es" "Un uniforme de soldado"
 		"id"	"55"
 		"limit"	"1"
 		"rate"	"55"
@@ -417,7 +519,9 @@
 	"item56"
 	{
 		"name"	"Ancient Coin"
+                "name_es" "Moneda antigua"
 		"desc"	"An ancient coin! Collect more than everyone to receive a cool reward!"
+                "desc_es" "Una moneda antigua! Collecta mas que nadie para recibir  premios geniales"
 		"id"	"56"
 		"rate"	"0.5"
 	}
