@@ -2,7 +2,7 @@
 //					A W A R D S 			F I L E
 //
 // ***************************************************************************
-//	This file containss all the data related to points, bounty and experience
+//	This file contains all the data related to points, bounty and experience
 //	earning. The structure is pretty simple, look for the action you wish to
 //	edit, and change its value. Note, if you put a negative value, the points
 //	bounty or experience will be substracted. All events have a description
