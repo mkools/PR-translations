@@ -37,7 +37,7 @@
 	"less_ff"
 	{
 		"name"	"Iron Skin"
-		"name_es" "Piel Metalizada"
+		"name_es" "Piel de Hierro"
 		"name_br" "Pele de Ferro"
 		"id"	"1"
 		"desc"	"Allows you to reduce the damage received by friendly fire"
@@ -166,11 +166,11 @@
 	"more_ammo"
 	{
 		"name"	"Bullet Carrier"
-		"name_es" "Abastecido"
+		"name_es" "Cargador de balas"
 		"name_br" "Carregador de Bala"
 		"id"	"4"
 		"desc"	"Increases reserve ammunition and clip size"
-		"desc_es"	"Incrementa la cantidad de municion que puedes llevar"
+		"desc_es"	"Incrementa la reserva de municion y la cantidad de carga"
 		"desc_br"	"Aumenta a quantidade de municao que voce pode ter na arma e no cartucho"
 		"up_levels"	"7"
 		
@@ -196,7 +196,7 @@
 		"cost_factor"	"3.5" 
 		
 		"leg"	"{v}% reserve ammo and clip size increase"
-		"leg_es" "{v}% mas municion cargada"
+		"leg_es" "{v}% mas municion cargada y de reserva"
 		"leg_br" "{v}% aumento de municao da arma e municao reserva"
 	}
 	
@@ -207,7 +207,7 @@
 		"name_br" "Invencivel"
 		"id"	"5"
 		"desc"	"Block certain damage type"
-		"desc_es" "Bloquea disintos tipos de dano"
+		"desc_es" "Bloquea distintos tipos de dano"
 		"desc_br" "Bloqueia certos tipos de dano"
 		"up_levels"	"2"
 		"lv1"	"1"
@@ -226,9 +226,9 @@
 		"leg_lv1"		"Block Fire damage"
 		"leg_lv2"		"Block Fire and Preasure (Cars) damage"
 		"leg_lv3"		"Block Fire and Preasure (Cars) damage"
-		"leg_lv1_es"	"Bloquea el dano por Fuego"
-		"leg_lv2_es"	"Bloquea el dano por Fuego y Presion"
-		"leg_lv3_es"	"Bloquea el dano por Fuego y Presion"
+		"leg_lv1_es"	"Bloquea el dano del Fuego"
+		"leg_lv2_es"	"Bloquea el dano del Fuego y Presion (carros)"
+		"leg_lv3_es"	"Bloquea el dano del Fuego y Presion (carros)"
 		"leg_lv1_br"	"Bloqueia o dano de Fogo"
 		"leg_lv2_br"	"Bloqueia o dano de Fogo e Pressao"
 		"leg_lv3_br"	"Bloqueia o dano de Fogo e Pressao"
@@ -356,11 +356,11 @@
 	"more_incap_health"
 	{
 		"name"	"Last Strength"
-		"name_es" "Ultima Fuerza"
+		"name_es" "Ultimas Fuerzas"
 		"name_br" "Ultimas Forcas"
 		"id"	"9"
 		"desc"	"Increases the maximum incapacitated health"
-		"desc_es" "Incrementa tu salud cuando estas incapacitado"
+		"desc_es" "Incrementa tu salud maxima cuando estas incapacitado"
 		"desc_br" "Aumenta sua vida maxima quando incapacitado"
 		"up_levels"	"8"
 		"lv1"	"10"	
@@ -431,7 +431,7 @@
 		"id"	"11"
 		"desc"	"Increases the amount of health received by pain pills and adrenaline"
 		"desc_es" "Aumenta la cantidad de salud obtenida de las pildoras y adrenalina"
-		"desc_br" "Aumenta a quantidade de vida recebida pelas pílulas e pela adrenalina"
+		"desc_br" "Aumenta a quantidade de vida recebida pelas pï¿½lulas e pela adrenalina"
 		"up_levels"	"6"
 		"lv1"	"10"	
 		"lv2"	"15"
@@ -465,7 +465,7 @@
 		"name_br"	"Ajudante do Time"
 		"id"	"12"
 		"desc"	"Decreases the revive duration"
-		"desc_es" "Disminuye el tiempo en que ayudas a companeros abatidos"
+		"desc_es" "Disminuye el tiempo para ayudar a companeros incapacitados"
 		"desc_br" "Diminui o tempo de duracao para levantar incapacitados"
 		"up_levels"	"8"
 		"lv1"	"10"	
@@ -545,7 +545,7 @@
 		"name_es"	"Lengua Resistente"
 		"name_br"	"Lingua Resistente"
 		"desc"	"Increases the smoker tongue's health"
-		"desc_es"	"Incrementa la fuerza de tu lengua"
+		"desc_es"	"Incrementa la resistencia de tu lengua"
 		"desc_br"	"Aumenta a vida da lingua do smoker"
 		"id"	"14"
 		"up_levels"	"5"
@@ -574,10 +574,10 @@
 	"tongue_speed"
 	{
 		"name"	"The fastest pull"
-		"name_es" "Tiron Rapido"
+		"name_es" "Arrastre Rapido"
 		"name_br" "Puxada Rapida"
 		"desc"	"Increases the smoker pull speed"
-		"desc_es"	"Incrementa la velocidad de la lengua"
+		"desc_es"	"Incrementa la velocidad de la lengua para arrastrar"
 		"desc_br"	"Aumenta a velocidade da lingua do Smoker ao puxar"
 		"id"	"15"
 		"up_levels"	"5"
@@ -609,7 +609,7 @@
 		"name_es"	"Asfixiador"
 		"name_br"	"Asfixiador"
 		"desc"	"Increases the damage done to grabbed survivors"
-		"desc_es"	"Incrementa el daño hacia sobrevivientes atrapados"
+		"desc_es"	"Incrementa el dano hacia sobrevivientes atrapados"
 		"desc_br"	"Aumenta o dano causado aos sobreviventes agarrados"
 		"id"	"16"
 		"up_levels"	"7"
@@ -645,7 +645,7 @@
 		"name_es" "Garra asfixiante"
 		"name_br" "Garra asfixiante"
 		"desc"	"Increases the smoker claw damage"
-		"desc_es"	"Incrementa el dano hecho por tu garra"
+		"desc_es"	"Incrementa el dano de la garra del smoker"
 		"desc_br"	"Aumenta o dano da garra do smoker"
 		"id"	"17"
 		"up_levels"	"6"
@@ -745,7 +745,7 @@
 	"smoker_delay"
 	{
 		"name"	"Multi Tongues"
-		"name_es"	"Lenguas de Reserva"
+		"name_es"	"Multiples lenguas"
 		"name_br"	"Linguas Reservas"
 		"desc"	"Decreases the ability recharge interval of the smoker"
 		"desc_es"	"Disminuye el intervalo de uso de la lengua"
@@ -782,10 +782,10 @@
 	"pounce_dmg"
 	{
 		"name"	"Pounce Expert"
-		"name_es"	"Tumbador"
+		"name_es"	"Saltador experto"
 		"name_br"	"Saltador Expert"
 		"desc"	"Increases the maximum pounce damage"
-		"desc_es"	"Incrementa el maximo dano de [Pounce]"
+		"desc_es"	"Incrementa el dano maximo de salto"
 		"desc_br"	"Aumenta o dano maximo do salto do hunter"
 		"id"	"21"
 		"up_levels"	"5"
@@ -808,17 +808,17 @@
 		"cost_factor"	"2.5" 
 		
 		"leg"		"{v}% maximum pounce damage increase"
-		"leg_es"	"{v}% maximo dano de [Pounce] incrementado"
+		"leg_es"	"{v}% maximo dano de salto incrementado"
 		"leg_br"	"{v}% dano maximo aumentado"
 	}
 	
 	"pounce_power"
 	{
 		"name"	"Bunny Legs"
-		"name_es" "Saltarin"
+		"name_es" "Piernas de conejo"
 		"name_br" "Pernas de Coelho"
 		"desc"	"Increases the lunge power of the hunter"
-		"desc_es"	"Aumenta el poder de salto del hunter"
+		"desc_es"	"Aumenta la distancia de salto del hunter"
 		"desc_br"	"Aumenta o poder de salto do hunter"
 		"id"	"22"
 		"up_levels"	"5"
@@ -880,7 +880,7 @@
 		"cost_factor"	"3.5" 
 		
 		"leg"		"{v}% maximum hunter health increase"
-		"leg_es"	"{v}% saludo maxima aumentada"
+		"leg_es"	"{v}% salud maxima aumentada"
 		"leg_br"	"{v}% vida maxima aumentada"
 	}
 	
@@ -924,10 +924,10 @@
 	"hunter_claw"
 	{
 		"name"	"Hunting Claws"
-		"name_es"	"Garras Letales"
+		"name_es"	"Garras de cazador"
 		"name_br"	"Garras de Cacador"
 		"desc"	"Increases the hunter claw damage"
-		"desc_es"	"Incrementa el dano de la garra"
+		"desc_es"	"Incrementa el dano de la garra del hunter"
 		"desc_br"	"Aumenta o dano da garra do hunter"
 		"id"	"25"
 		"up_levels"	"7"
@@ -964,7 +964,7 @@
 		"name_es"	"Destripador"
 		"name_br"	"Estripador"
 		"desc"	"Increases the damage done to pounced survivors"
-		"desc_es"	"Aumenta el dano hecho hacia sobrevivientes tumbados"
+		"desc_es"	"Aumenta el dano causado al caer sobre un sobreviviente"
 		"desc_br"	"Aumenta o dano causado a sobreviventes agarrados pelo salto do hunter"
 		"id"	"26"
 		"up_levels"	"7"
@@ -1066,10 +1066,10 @@
 	"boomer_delay"
 	{
 		"name"	"Rapid Belch"
-		"name_es"	"Higado Rapido"
+		"name_es"	"Eructo Rapido"
 		"name_br"	"Arroto Rapido"
 		"desc"	"Decreases the vomit recharge on boomers"
-		"desc_es"	"Disminuye el intervalo de vomito"
+		"desc_es"	"Disminuye el intervalo de recarga de vomito"
 		"desc_br"	"Diminui o tempo de recarga do vomito"
 		"id"	"29"
 		"up_levels"	"7"
@@ -1103,7 +1103,7 @@
 	"boomer_speed"
 	{
 		"name"	"Burning Fat"
-		"name_es"	"Quemando Grasas"
+		"name_es"	"Quemando calorias"
 		"name_br"	"Queimando Calorias"
 		"desc"	"Increases boomer running speed"
 		"desc_es"	"Aumenta la velocidad del boomer"
@@ -1208,7 +1208,7 @@
 	"spitter_speed" //33 +Speed
 	{
 		"name"	"Spitter Sprint"
-		"name_es"	"Caminata Rapida"
+		"name_es"	"Velocidad de la Spitter"
 		"name_br"	"Corrida da Spitter"
 		"desc"	"Increases spitter running speed"
 		"desc_es"	"Aumenta la velocidad de la spitter"
@@ -1492,7 +1492,7 @@
 		"name_es"	"Musculos Grandes"
 		"name_br"	"Musculos Crescidos"
 		"desc"	"Decreases jockey leap interval after dismount"
-		"desc_es"	"Disminuye el intervalo de descanso del jockey"
+		"desc_es"	"Disminuye el intervalo de recarga de salto del jockey"
 		"desc_br"	"Diminui tempo de recarga da habilidade de montar do jockey"
 		"id"	"41"
 		"up_levels"	"7"
@@ -1526,7 +1526,9 @@
 	//"jockey_ride_control" //42 +Jockey Ride Control <DOES NOT WORK>
 	//{
 	//	"name"	"Mind Control"
+	//	"name_es"	"Control mental"
 	//	"desc"	"Increases jockey ride control"
+	//	"desc_es"	"Incrementa el control de cabalgar del jockey"
 	//	"id"	"42"
 	//	"up_levels"	"7"
 	//	
@@ -1704,7 +1706,7 @@
 		"name_es"	"Martillo de Carne"
 		"name_br"	"Martelo de Carne"
 		"desc"	"Increases charger claw damage"
-		"desc_es"	"Aumenta el dano de la garra"
+		"desc_es"	"Aumenta el dano de la garra del charger"
 		"desc_br"	"Aumenta o dano da garra do Charger"
 		"id"	"47"
 		"up_levels"	"5"
@@ -1807,7 +1809,7 @@
 		"name_es"	"Piernas Entrenadas"
 		"name_br"	"Pernas Treinadas"
 		"desc"	"Increases Charger's charge duration"
-		"desc_es"	"Aumenta el tiempo de carga del charger"
+		"desc_es"	"Aumenta la duracion de carga del charger"
 		"desc_br"	"Aumenta a duracao do carregamento do Charger"
 		"id"	"50"
 		"up_levels"	"7"
@@ -1931,7 +1933,7 @@
 		"name_es"	"Mano Amiga"
 		"name_br"	"Mao Amiga"
 		"desc"	"Increases the health that a survivor receives when you revive him"
-		"desc_es"	"Aumenta la salud que le otorgas a los companeros que revivas"
+		"desc_es"	"Aumenta la salud que un sobreviviente recibe cuando tu lo levatas"
 		"desc_br"	"Aumenta a vida que um sobrevivente recebe quando voce o levanta"
 		"id"	"53"
 		"up_levels"	"11"
@@ -1976,7 +1978,7 @@
 		"name"	"|*| Lucky Mind"
 		"name_es"	"|*| Mente Suertuda"
 		"desc"	"Your luck will increase (Lottery, Crafting, Toaster Drop)"
-		"desc_es"	"Tu suerte se incrementara (Loteria, Forjar, Items)"
+		"desc_es"	"Tu suerte se incrementara (Loteria, Forjar, caida de tostadores)"
 		"id" "54"
 		
 		"up_levels"	"6"
@@ -2011,7 +2013,7 @@
 	"tank_dmg"
 	{
 		"name"	"Steroid Threatment"
-		"name_es"	"Esteroides"
+		"name_es"	"Tratamiento con esteroides"
 		"desc"	"Increases Tank arm damage"
 		"desc_es"	"Aumenta el dano del brazo del Tank"
 		"id" "55"
@@ -2046,7 +2048,9 @@
 	"metalized_skin"
 	{
 		"name"	"|*| Metalized Skin"
+		"name_es"	"|*| Piel Metalizada"
 		"desc"	"Decreases damage received from ranged weapons"
+		"desc_es"	"Disminuye el dano recibido por armas de largo alcance"
 		"id" "56"
 		
 		"up_levels"	"6"
@@ -2075,12 +2079,15 @@
 		"gem_cost_factor" "8.5"
 		
 		"leg"	"{v}% damage decreased"
+		"leg_es"	"{v}% dano disminuido"
 	}
 	
 	"elec_knife"
 	{
 		"name"	"|*| Electrified Knife"
+		"name_es"	"|*| Cuchillo electrificado"
 		"desc"	"Upon using a knife, special and common infected around will die too"
+		"desc_es"	"Al usar un cuchillo, los infectados especiales y comunes alrededor moriran tambien"
 		"id" "57"
 		
 		"up_levels"	"6"
@@ -2110,12 +2117,15 @@
 		"gem_cost_factor" "1.5"
 		
 		"leg"	"Range: {v} units"
+		"leg_es"	"Rango: {v} unidades"
 	}
 	
 	"fast_trigger"
 	{
 		"name"	"|*| Fast Trigger"
+		"name_es"	"|*| Gatillo veloz"
 		"desc"	"Increase fire rate of fire weapons"
+		"desc_es"	"Aumenta la velocidad de disparo de las armas"
 		"id" "58"
 		
 		"up_levels"	"6"
@@ -2145,5 +2155,6 @@
 		"gem_cost_factor" "2.3"
 		
 		"leg"	"{v}% fire rate increase"
+		"leg_es"	"{v}% velocidad de fuego aumentado"
 	}
 }
