@@ -2,8 +2,10 @@
 {
 	"item1"
 	{
-		"name"	"Broken Rifle"
+		"name" "Broken Rifle"
+                "name_ru" "Сломанная винтовка"
 		"desc"	"An old rifle. It seems broken"
+                "desc_ru" "Старая винтовка.С виду сломанная"
 		"id"	"1"
 		"rate"	"0"
 		"duration"	"1"
@@ -12,21 +14,27 @@
 	"item2"
 	{
 		"name"	"Hunter Claw"
+                "name_ru" "Коготь охотника"
 		"desc"	"A claw from a dead hunter"
+                "desc_ru" "Коготь мёртвого охотника"
 		"id"	"2"
 		"limit"		"0"
 	}
 	"item3"
 	{
 		"name"	"Bag of blood"
+                "name_ru" "Банка с кровью"
 		"desc"	"A bag that contains normal blood"
+                "desc_ru" "Банка в которой обычная кровь"
 		"id"	"3"
 		"limit"		"3"
 	}
 	"item4"
 	{
 		"name"	"Bag of infected blood"
+                "name_ru" "Банка с заражённой кровью"
 		"desc"	"A bag that contains infected blood"
+                "desc_ru" "Банка в которой заражённая кровь" 
 		"id"	"4"
 		"limit"	"1"
 		"rate"	"1"
@@ -34,35 +42,45 @@
 	"item5"
 	{
 		"name"	"Bag of mutated blood"
+                "name_ru" "Банка с мутировавшей кровью"
 		"desc"	"A bag that contains mutated blood"
+                "name_ru" "Банка в которой мутировавшая кровь"
 		"id"	"5"
 		"rate"	"50"
 	}
 	"item6"
 	{
 		"name"	"Apple"
+                "name_ru" "Яблоко"
 		"desc"	"An apple"
+                "desc_ru" "Яблоко"
 		"id"	"6"
 		"rate"	"1"
 	}
 	"item7"
 	{
 		"name"	"Beer"
+                "name_ru" "Пиво"
 		"desc"	"A bottle of beer"
+                "desc_ru" "Банка с пивом"
 		"id"	"7"
 		"limit"	"7"
 	}
 	"item8"
 	{
 		"name"	"Piece of glass"
+                "name_ru" "Кусок стекла"
 		"desc"	"A piece of glass"
+                "desc_ru" "Кусок стекла"
 		"id"	"8"
 		"limit"	"4"
 	}
 	"item9"
 	{
 		"name"	"Powder"
+                "name_ru" "Порох"
 		"desc"	"Some powder"
+                "desc_ru" "Немного пороха"
 		"id"	"9"
 		"limit"	"2"
 		"rate"	"35"
@@ -70,38 +88,50 @@
 	"item10"
 	{
 		"name"	"Golden Key"
+                "name_ru" "Золотой ключ"
 		"desc"	"A golden key, it might open up something..."
+                "desc_ru" "Золотой ключ который может открыть что-то..."
 		"id"	"10"
 		"limit"	"0"
 	}
 	"item11"
 	{
 		"name"	"Grenade"
+                "name_ru" "Граната"
 		"desc"	"A grenade"
+                "desc_ru" "Граната"
 		"id"	"11"
 	}
 	"item12"
 	{
 		"name"	"Broken Knife"
+                "name_ru" "Сломанный нож"
 		"desc"	"A broken military knife"
+                "desc_ru" "Сломанный армейский нож"
 		"id"	"12"
 	}
 	"item13"
 	{
 		"name"	"Doll"
+                "name_ru" "Кукла"
 		"desc"	"A doll"
+                "desc_ru" "Кукла"
 		"id"	"13"
 	}
 	"item14"
 	{
 		"name"	"Tank Skin"
+                "name_ru" "Кожа танка"
 		"desc"	"Skin from a tank"
+                "desc_ru" "Кожа танка"
 		"id"	"14"
 	}
 	"item15"
 	{
 		"name"	"Snack"
+                "name_ru" "Закуска"
 		"desc"	"A snack"
+                "desc_ru" "Закуска"
 		"id"	"15"
 		"limit"	"7"
 		"rate"	"100"
@@ -109,7 +139,9 @@
 	"item16"
 	{
 		"name"	"Survival Guide"
+                "name_ru" "Инструкция по выживанию"
 		"desc"	"A book titled Survival Guide"
+                "desc_ru" "Книга названная инструкцией по выживанию"
 		"id"	"16"
 		"limit"	"1"
 		"rate"	"20"
@@ -117,13 +149,17 @@
 	"item17"
 	{
 		"name"	"Spoon"
+                "name_ru" "Ложка"
 		"desc"	"A normal spoon"
+                "desc_ru" "Обычная ложка"
 		"id"	"17"
 	}
 	"item18"
 	{
 		"name"	"Bottle of Water"
+                "name_ru" "Бутылка с водой"
 		"desc"	"A bottle of water"
+                "desc_ru" "Бутылка с водой"
 		"id"	"18"
 		"limit"	"5"
 		"rate"	"100"
@@ -131,7 +167,9 @@
 	"item19"
 	{
 		"name"	"Bryan's Cell Phone"
+                "name_ru" "Мобильник Брайана"
 		"desc"	"A cell phone whose owner is Bryan"
+                "desc_ru" "Мобильник чьим владельцем является Брайан"
 		"id"	"19"
 		"limit"	"1"
 		"rate"	"5"
@@ -139,14 +177,18 @@
 	"item20"
 	{
 		"name"	"Broken Lighter"
+                "name_ru" "Сломанный светильник"
 		"desc"	"A broken lighter"
+                "desc_ru" "Сломанный светильник"
 		"id"	"20"
 		"limit"	"1"
 	}
 	"item21"
 	{
 		"name"	"Weed"
+                "name_ru" "Табак"
 		"desc"	"Some weed"
+                "desc_ru" "Табак"
 		"id"	"21"
 		"limit"	"2"
 		"rate" "70"
@@ -154,40 +196,52 @@
 	"item22"
 	{
 		"name"	"Stick"
+                "name_ru" "Палка"
 		"desc"	"A useless stick"
+                "desc_ru" "Бесполезная палка"
 		"id"	"22"
 	}
 	"item23"
 	{
 		"name"	"Antibody Sample"
+                "name_ru" "Антибиотик"
 		"desc"	"Used to create antbodies againts mutations"
+                "desc_ru" "Создаёт анти-тела для борьбы с мутациями"
 		"id"	"23"
 	}
 	"item24"
 	{
 		"name"	"Witch Hair"
+                "name_ru" "Волос ведьмы"
 		"desc"	"A bunch of witch's hair"
+                "desc_ru" "Пучок волос ведьмы"
 		"id"	"24"
 		"rate"	"30"
 	}
 	"item25"
 	{
 		"name"	"Shaman Tank Claw"
+                "name_ru" "Лапа шамана"
 		"desc"	"A shaman tank's claw"
+                "desc_ru" "Лапа шамана"
 		"id"	"25"
 		"rate"	"30"
 	}
 	"item26"
 	{
 		"name"	"Shaman Tank Brain"
+                "name_ru" "Мозг шамана"
 		"desc"	"A shaman tank's Brain"
+                "desc_ru" "Мозг шамана"
 		"id"	"26"
 		"rate"	"15"
 	}
 	"item27"
 	{
 		"name"	"Syringe"
+                "name_ru" "Шприц"
 		"desc"	"A dirty Syringe"
+                "desc_ru" "Использованный шприц"
 		"id"	"27"
 		"limit"	"1"
 		"rate"	"100"
@@ -195,7 +249,9 @@
 	"item28"
 	{
 		"name"	"Magnifying Glass"
+                "name_ru" "Лупа"
 		"desc"	"Usefull to view small things"
+                "desc_ru" "Полезная вещь для рассмотрения мелких предметов"
 		"id"	"28"
 		"limit"	"3"
 		"rate"	"85"
@@ -203,7 +259,9 @@
 	"item29"
 	{
 		"name"	"Medical Mask"
+                "name_ru" "Медецинская маска"
 		"desc"	"A medical mask, used to protect patients or the own doctor from infections"
+                "desc_ru" "Маска для защиты пациентов или врачей от инфекции"
 		"id"	"29"
 		"limit"	"2"
 		"rate"	"90"
@@ -211,7 +269,9 @@
 	"item30"
 	{
 		"name"	"Keith's Daughter Picture"
+                "name_ru" "Картина дочери Кита"
 		"desc"	"A picture of a beatuful girl who died on a car crash, while escaping out of the town"
+                "desc_ru" "Картина красивой девочки которая погибла в автокатострофе спасаясь бегством из города" 
 		"id"	"30"
 		"limit"	"1"
 		"rate"	"100"
@@ -219,7 +279,9 @@
 	"item31"
 	{
 		"name"	"Generator Replacement"
+                "name_ru" "Запасной генератор"
 		"desc"	"A generator replacement. You need this to fix broken generators"
+                "desc_ru" "Запасной генератор чтобы заменить сломанный"
 		"id"	"31"
 		"limit"	"1"
 		"rate"	"100"
@@ -227,7 +289,9 @@
 	"item32"
 	{
 		"name"	"Flowers"
+                "name_ru" "Цветы"
 		"desc"	"Beautiful flowers. They may contain bees!"
+                "desc_ru" "Красивые цветы.В них могут быть пчёлы!"
 		"id"	"32"
 		"limit"	"3"
 		"rate"	"25"
@@ -235,7 +299,9 @@
 	"item33"
 	{
 		"name"	"Wheel"
+                "name_ru" "Колесо"
 		"desc"	"A wheel, useless alone..."
+                "desc_ru" "Колесо,бесполезная вещь без других деталей..."
 		"id"	"33"
 		"limit"	"1"
 		"rate"	"30"
@@ -243,7 +309,9 @@
 	"item34"
 	{
 		"name"	"Rice Box"
+                "name_ru" "Коробка с рисом"
 		"desc"	"A box of rice"
+                "desc_ru" "Коробка с рисом"
 		"id"	"34"
 		"limit"	"3"
 		"rate"	"100"
@@ -251,7 +319,9 @@
 	"item35"
 	{
 		"name"	"Food Box"
+                "name_ru" "Коробка с едой"
 		"desc"	"A box containing different kind of snacks and fast food"
+                "desc_ru" "Коробка содержащая различные виды закусок и фаст-фуда"
 		"id"	"35"
 		"limit"	"2"
 		"rate"	"40"
@@ -260,56 +330,72 @@
 	"item36"
 	{
 		"name"	"Hunter's Head"
+                "name_ru" "Башка охотника"
 		"desc"	"The head of a hunter"
+                "desc_ru" "Голова охотника"
 		"id"	"36"
 		"rate"	"0.1"
 	}
 	"item37"
 	{
 		"name"	"Jockey's Head"
+                "name_ru" "Голова жокея"
 		"desc"	"The head of a jockey"
+                "desc_ru" "Голова жокея"
 		"id"	"37"
 		"rate"	"0.1"
 	}
 	"item38"
 	{
 		"name"	"Spitter's Head"
+                "name_ru" "Голова плевальшицы"
 		"desc"	"The head of a spitter"
+                "desc_ru" "Голова плевальщицы"
 		"id"	"38"
 		"rate"	"0.1"
 	}
 	"item39"
 	{
 		"name"	"Boomer's Head"
+                "name_ru" "Голова толстяка"
 		"desc"	"The head of a boomer"
+                "desc_ru" "Голова толстяка"
 		"id"	"39"
 		"rate"	"0.1"
 	}
 	"item40"
 	{
 		"name"	"Charger's Head"
+                "name_ru" "Голова громилы"
 		"desc"	"The head of a charger"
+                "desc_ru" "Голова громилы"
 		"id"	"40"
 		"rate"	"0.1"
 	}
 	"item41"
 	{
 		"name"	"Smoker's Head"
+                "name_ru" "Голова курильщика"
 		"desc"	"The head of a smoker"
+                "desc_ru" "Голова курильщика"
 		"id"	"41"
 		"rate"	"0.1"
 	}
 	"item42"
 	{
 		"name"	"Tank's Head"
+                "name_ru" "Голова танка"
 		"desc"	"The head of a tank"
+                "desc_ru" "Голова танка"
 		"id"	"42"
 		"rate"	"0.1"
 	}
 	"item43"
 	{
 		"name"	"Bandage"
+                "name_ru" "Перевязочный материал"
 		"desc"	"A bandage"
+                "desc_ru" "Перевязочный материал"
 		"id"	"43"
 		"limit"	"3"
 		"rate"	"95"
@@ -317,7 +403,9 @@
 	"item44"
 	{
 		"name"	"Golden Necklace"
+                "name_ru" "Золотоё ожерелье"
 		"desc"	"A golden necklace"
+                "desc_ru" "Золотоё ожерелье"
 		"id"	"44"
 		"limit"	"1"
 		"rate"	"5"
@@ -325,7 +413,9 @@
 	"item45"
 	{
 		"name"	"Clean Towel"
+                "name_ru" "Чистое полотенце"
 		"desc"	"A clean towel"
+                "desc_ru" "Чистое полотенце"
 		"id"	"45"
 		"limit"	"2"
 		"rate"	"87"
@@ -333,7 +423,9 @@
 	"item46"
 	{
 		"name"	"Antibiotics"
+                "name_ru" "Антибиотик"
 		"desc"	"Used to fight infections back. Cannot cure people from the green flu"
+                "desc_ru" "Предназначенны для лечения инфекции.Не могут помочь при отравлении"
 		"id"	"46"
 		"limit"	"3"
 		"rate"	"35"
@@ -342,7 +434,9 @@
 	"item47"
 	{
 		"name"	"Special ammo round"
+                "name_ru" "Особые круглые патроны"
 		"desc"	"Ammo for silenced pistols and rare SMGs"
+                "desc_ru" "Патроны для пистолетов с глушителями и редких пистолет-пулемётов"
 		"id"	"47"
 		"limit"	"1"
 		"rate"	"80"
@@ -350,7 +444,9 @@
 	"item48"
 	{
 		"name"	"Darwin's notes"
+                "name_ru" "Записи Дарвина"
 		"desc"	"Notes of Doctor Darwin that contain crucial data of the green flu"
+                "desc_ru" "Записи доктора Дарвина включающие важные данные об отравлении"
 		"id"	"48"
 		"limit"	"1"
 		"rate"	"45"
@@ -358,14 +454,18 @@
 	"item49"
 	{
 		"name"	"Poison Sample"
+                "name_ru" "Образец яда"
 		"desc"	"A Samaple of the poison that witches use to paralyze invaders"
+                "desc_ru" "Образец яда который ведьмы используют чтобы парализовать вас"
 		"id"	"49"
 		"rate"	"15"
 	}
 	"item50"
 	{
 		"name"	"Broken Guild Stone"
+                "name_ru" "Сломанный камень для создания гильдии"
 		"desc"	"Stone must be repaired before use"
+                "desc_ru" "Камень нужно починить перед использованием"
 		"id"	"50"
 		"rate"	"100"
 	}
@@ -373,7 +473,9 @@
 	"item51"
 	{
 		"name"	"Pure Charger Claw"
+                "name_ru" "Безупречная лапа громилы"
 		"desc"	"The claw of one of the first chargers that appeared new the swamps"
+                "desc_ru" "Лапа первого громилы который был замечен на болотах"
 		"id"	"51"
 		"limit"	"1"
 		"rate"	"100"
@@ -382,7 +484,9 @@
 	"item52"
 	{
 		"name"  "Josh's ID"
+                "name_ru" "Ай-ди Джоша"
 		"desc"	"An ID card that belongs to somebody named Josh"
+                "desc_ru" "ID карта которая принадлежит кому-то под именем Джош"
 		"id"	"52"
 		"limit"	"1"
 	}
@@ -390,7 +494,9 @@
 	"item53"
 	{
 		"name"	"Clean Clothes"
+                "name_ru" "Чистая одежда"
 		"desc"	"Clean clothers. Used to dress people"
+                "desc_ru" "Чистая одежда.Предназначенна для переодевания"
 		"id"	"53"
 		"limit"	"2"
 		"rate"	"70"
@@ -399,7 +505,9 @@
 	"item54"
 	{
 		"name"	"Bag of fake gems"
+                "name_ru" "Сумка с фальшивыми драгоценностями"
 		"desc"	"A bunch of fake gems used to scam those who sell food, supplies, skill books and upgrades!"
+                "desc_ru" "Кучка фальшивых драгоценностей чтобы обманывать тех кто продаёт еду,книги и улучшения!"
 		"id"	"54"
 		"limit"	"1"
 		"rate"	"65"
@@ -408,7 +516,9 @@
 	"item55"
 	{
 		"name"	"Soldier Uniform"
+                "name_ru" "Форма солдата"
 		"desc"	"A soldier's uniform"
+                "desc_ru" "Форма солдата"
 		"id"	"55"
 		"limit"	"1"
 		"rate"	"55"
@@ -417,7 +527,9 @@
 	"item56"
 	{
 		"name"	"Ancient Coin"
+                "name_ru" "Древняя монета"
 		"desc"	"An ancient coin! Collect more than everyone to receive a cool reward!"
+                "desc_ru" "Древняя монета!Собери больше чем кто-либо чтобы получить крутую награду!"
 		"id"	"56"
 		"rate"	"0.5"
 	}
