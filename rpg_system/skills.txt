@@ -39,8 +39,10 @@
 	//"survivor_crawl"
 	//{
 	//	"name"	"Crawling"
+	//	"name_es"	"Arrastrarse"
 	//	"id"	"1"
 	//	"desc"	"Allows you to crawl while you are incapacitated"
+	//	"desc_es"	"Te permite arrastrarte mientras estas incapacitado"
 	//	
 	//	"sk_levels"	"6"
 	//	
@@ -76,11 +78,11 @@
 	"survivor_selfrevive"
 	{
 		"name"	"Self-Revive"
-		"name_es"	"Auto-Ayuda"
+		"name_es"	"Reincorporarse"
 		"name_br"	"Auto-Ajuda"
 		"id"	"2"
 		"desc"	"Allows you to self-revive with a medkit, or revive a teammate with pills"
-		"desc_es"	"Te permite levantarte cuando estas incapacitado, usando tus pildoras o botiquines"
+		"desc_es"	"Te permite reincorporarte usando un botiquin, o ayudar a tus companeros usando pildoras"
 		"desc_br"	"Permite que voce se auto levante com um kit medico ou levante um companheiro com pilulas"
 		
 		"sk_levels"	"7"
@@ -120,10 +122,11 @@
 	"smoker_moveanddrag"
 	{
 		"name"	"Drag And Move"
-		"name_es"	"Tirar y Caminar"
+		"name_es"	"Arrastrar y Moverse"
 		"name_br"	"Puxar e Mover"
 		"id"	"3"
 		"desc"	"Allows you to move while pulling survivors"
+		"desc_es"	"Te permite moverte mientras estas arrastrando supervivientes"
         "desc_br"  "Permite que voce se movente enquanto estiver puxando sobreviventes"
 		
 		"sk_levels"	"7"
@@ -215,7 +218,7 @@
 	"smoker_release"
 	{
 		"name"	"Mercy Tongue"
-		"name_es"	"Lengua Compasiva"
+		"name_es"	"Lengua Misericordiosa"
 		"name_br"	"Lingua Misericordiosa"
 		"id"	"5"
 		"desc"	"Allows you to voluntarily release your victim"
@@ -295,7 +298,7 @@
 		"cost_factor"	"3.5" 
 		
 		"leg"		"Slap Power: {v}"
-		"leg_es"	"Poder: {v}"
+		"leg_es"	"Poder de golpe: {v}"
 		"leg_br"	"Poder do tapa: {v}"
 	}
 	
@@ -387,7 +390,7 @@
 		"name_br"	"Vomito Escuro"
 		"id"	"8"
 		"desc"	"Your vomit will blind the survivors"
-		"desc_es"	"Tu vomito dejara mas ciegos aun a los sobrevivientes"
+		"desc_es"	"Tu vomito enceguecera mas a los sobrevivientes"
 		"desc_br"	"Seu vomito ira cegar os sobreviventes"		
 
 		"sk_levels"	"8"
@@ -467,11 +470,11 @@
 	"spitter_godmode"
 	{
 		"name"	"Super Girl"
-		"name_es"	"Mujer Maravilla"
+		"name_es"	"Super Chica"
 		"name_br"	"Super Mulher"
 		"id"	"10"
 		"desc"	"Makes you invulnerable after spitting"
-		"desc_es"	"Te hace indestructible luego de escupir"
+		"desc_es"	"Te hace invulnerable luego de escupir"
 		"desc_br"	"Te deixa invulneravel apos cuspir"
 		
 		"sk_levels"	"7"
@@ -499,7 +502,7 @@
 		"cost_factor"	"3.5" 
 		
 		"leg"		"Invulnerability for {v} seconds"
-		"leg_es"	"Inmunidad por {v} segundo(s)"
+		"leg_es"	"Invulnerabilidad por {v} segundo(s)"
 		"leg_br"	"Invulnerabilidade por {v} segundo(s)"
 	}
 	
@@ -597,7 +600,7 @@
 	"jockey_jump"
 	{
 		"name"	"Humpy Jump"
-		"name_es"	"Salto Violador"
+		"name_es"	"Salto Abrupto"
 		"name_br"	"Pulo do Corcunda"
 		"id"	"13"
 		"desc"	"Allows you to jump when riding a survivor"
@@ -683,7 +686,7 @@
 		"name_br"	"Poder de Carregar"
 		"id"	"15"
 		"desc"	"Allows you to move cars with your charge"
-		"desc_es"	"Te permite mover automoviles cuando cargas"
+		"desc_es"	"Te permite mover automoviles con tu carga"
 		"desc_br"	"Permite que voce mova carros com seu carregar"
 		
 		"sk_levels"	"7"
@@ -753,7 +756,7 @@
 		"cost_factor"	"3.5" 
 		
 		"leg"		"Rock explodes with a power of {v}"
-		"leg_es" 	"La rock explota con un poder de {v}"
+		"leg_es" 	"La roca explota con un poder de {v}"
 		"leg_br" 	"A pedra explode com poder de {v}"
 	}
 	
@@ -801,7 +804,7 @@
 		"name_br"	"Jarra Acida"
 		"id"	"19"
 		"desc"	"Deals damage to the infected you cover with boomer bile jars"
-		"desc_es"	"Dana a los infectados cuviertos por tu botella de bilis"
+		"desc_es"	"Dana a los infectados cubiertos por tu botella de bilis"
 		"desc_br"	"Causa dano aos infectados que voce atingir com a Jarra de Vomito"
 		
 		"sk_levels"	"7"
@@ -877,11 +880,11 @@
 	"charger_leg_impact"
 	{
 		"name"	"Impact Stun"
-		"name_es"	"Noqueo"
+		"name_es"	"Impacto Aturdidor"
 		"name_br"	"Impacto Chocante"
 		"id"	"21"
 		"desc"	"When you impact a survivor as a charger, you will break his legs, slowing him down for a fixed time"
-		"desc_es"	"Cuando impactas a un sobreviviente, tuerces sus piernas reduciendo su velocidad"
+		"desc_es"	"Cuando impactas a un sobreviviente, tuerces sus piernas reduciendo su velocidad por unos segundos"
 		"desc_br"	"Quando voce impactar um sobrevivente, voce ira quebrar-lhe as pernas, reduzindo-lhe a velocidade por um determinado tempo"
 		
 		"sk_levels"	"7"
@@ -915,7 +918,7 @@
 	"boomer_explosion"
 	{
 		"name"	"Damaging Explosion"
-		"name_es"	"Explosion Grande"
+		"name_es"	"Explosion Danina"
 		"name_br"	"Explosao Ofensiva"
 		"id"	"22"
 		"desc"	"When you explode near survivors, you will deal damage to them"
@@ -1039,7 +1042,7 @@
 		"name_br"	"Carregamento Surpresa"
 		"id"	"25"
 		"desc"	"Decreases your transparency while you are charging"
-		"desc_es"	"Disminuye tu visibilidad cuando cargas"
+		"desc_es"	"Disminuye tu visibilidad cuando cargas (corres)"
 		"desc_br"	"Diminui sua visibilidade quando voce esta carregando"
 		
 		"sk_levels"	"7"
@@ -1073,7 +1076,7 @@
 	"elec_plus"
 	{
 		"name"	"|*| Increased Electricity"
-		"name_es" "|*| Electricidad"
+		"name_es" "|*| Electricidad Aumentada"
 		"name_br" "|*| Electricidade Aumentada"
 		"id"	"26"
 		"desc"	"When a defibrillator is used, all death bodies around will be also affected"
@@ -1119,7 +1122,7 @@
 		"name_br"	"|*| Reza Pura"
 		"id"	"27"
 		"desc"	"Using a first aid kit will also heal your teammates around"
-		"desc_es"	"Usando un botiquin, curaras a tus companeros alrededor"
+		"desc_es"	"Cuando uses un botiquin tambien curaras a tus companeros alrededor"
 		"desc_br"	"Usar um kit de primeiro socorros ira curar tambem os companheiros ao seu redor"
 		
 		"sk_levels"	"8"
@@ -1203,7 +1206,7 @@
 		"name_br"	"|*| Pedra Corrosiva"
 		"id"	"29"
 		"desc"	"Randomly, your Tank's rock will explode and leave acid around"
-		"desc_es"	"Aleatoriamente, la roca del Tank dejara acido"
+		"desc_es"	"Aleatoriamente, la roca del Tank explotara y dejara acido alrededor"
 		"desc_br"	"Aleatoriamente, a pedra lancada pelo Tank ira explodir deixando uma poca de acido"
 		
 		"sk_levels"	"7"
@@ -1237,11 +1240,11 @@
 	"penetration_acid"
 	{
 		"name"	"|*| Defense Wrecker"
-		"name_es"	"|*| Violador de Defensas"
+		"name_es"	"|*| Destrozador de Defensas"
 		"name_br"	"|*| Violador de Defesas"
 		"id"	"30"
 		"desc"	"Your spit is heavier than before, and will hurt survivors upon collition (Projectile)"
-		"desc_es"	"Tu escupitajo dana a los sobrevivientes que se cruzen"
+		"desc_es"	"Tu escupitajo es mas pesado que antes y danara a los supervivientes que impacte"
 		"desc_br"	"Sua cuspida se torna mais pesada e ira causar dano aos sobreviventes ao colidir com eles"
 		
 		"sk_levels"	"7"
@@ -1321,7 +1324,7 @@
 		"name_br"	"|*| Itens Malignos"
 		"id"	"32"
 		"desc"	"Randomly, you will drop one evil toaster as infected"
-		"desc_es"	"Aleatoriamente, dejaras un item maligno en el suelo"
+		"desc_es"	"Aleatoriamente, dejaras un item maligno en el suelo al morir como infectado"
 		"desc_br"	"Aleatoriamente, sendo infectado voce ira deixar uma torradeira maligna quando morrer"
 		
 		"sk_levels"	"7"
@@ -1395,8 +1398,10 @@
 	//"Snow_Shield"
 	//{
 	//	"name"	"|*| Snow Shield"
+	//	"name_es"	"|*| Escudo de nieve"
 	//	"id"	"34"
 	//	"desc"	"When a heat missile reaches you, it will desintegrate and cause no damage"
+	//	"desc_es"	"Cuando un misil te alcance, se desintegrara y no causara dano"
 	//	
 	//	"sk_levels"	"7"
 	//	
@@ -1430,6 +1435,13 @@
 	//	"leg_lv5"		"50% Chance of desintegrating"
 	//	"leg_lv6"		"60% Chance of desintegrating"
 	//	"leg_lv7"		"70% Chance of desintegrating"
+	//	"leg_es"		"10% de probabilidad de desintegracion"
+	//	"leg_lv2_es"		"20% de probabilidad de desintegracion"
+	//	"leg_lv3_es"		"30% de probabilidad de desintegracion"
+	//	"leg_lv4_es"		"40% de probabilidad de desintegracion"
+	//	"leg_lv5_es"		"50% de probabilidad de desintegracion"
+	//	"leg_lv6_es"		"60% de probabilidad de desintegracion"
+	//	"leg_lv7_es"		"70% de probabilidad de desintegracion"
 	//}
 	
 	"moustachio"
@@ -1437,7 +1449,7 @@
 		"name"	"Moustachio Bless"
 		"name_es"	"Bendicion Moustachio"
 		"desc"	"After using a first aid kit, you will be immune to any damage for a fixed time"
-		"desc_es"	"Luego de curarte, sera inmune a cualquier dano por un tiempo definido"
+		"desc_es"	"Luego de usar un botiquin, seras inmune a cualquier dano por un tiempo definido"
 		"id" "35"
 		
 		"sk_levels"	"6"
@@ -1506,7 +1518,7 @@
 		"name"	"|*| Charity"
 		"name_es"	"|*| Caridad"
 		"desc"	"The exp that you win, will be automatically shared with your team. No EXP loss."
-		"desc_es"	"La exp que ganes, sera compartidad con tu equipo. No hay perdida de EXP"
+		"desc_es"	"La EXP que ganes, sera compartida con tu companeros de equipo sin que tu pierdas EXP.
 		
 		"id" "37"
 		
@@ -1546,13 +1558,15 @@
 		"cost_factor"	"7.354"
 		
 		"leg"	"{v}% of your exp is shared with your teammates"
-		"leg_es"	"{v}% exp compartida con tu equipo"
+		"leg_es"	"{v}% exp compartida con tus companeros de equipo"
 	}
 	
 	"hunter_inv"
 	{
 		"name"	"|*| Hunter Disguise"
+		"name_es"	"|*| Hunter camuflado"
 		"desc"	"Decreases the hunter visibility when not attacking a survivor"
+		"desc_es"	"Disminuye la visibilidad para ver al hunter cuando no esta atacando"
 		
 		"id" "38"
 		
@@ -1586,12 +1600,15 @@
 		"cost_factor"	"7.354"
 		
 		"leg"	"{v}% hunter visibility decrease"
+		"leg_es"	"{v}% Visibilidad para ver al hunter disminiuda"
 	}
 	
 	"vengeance"
 	{
 		"name"	"|*| Vengeance"
+		"name_es"	"|*| Venganza"
 		"desc"	"Increases the exp from killing the same player who killed you before (VS)"
+		"desc_es"	"Incrementa la EXP por matar al mismo jugador que te mato en la ronda anterior"
 		
 		"id" "39"
 		
@@ -1625,12 +1642,15 @@
 		"cost_factor"	"7.354"
 		
 		"leg"	"{v}% exp points increased"
+		"leg_es"	"{v}% de incremento de los puntos de EXP"
 	}
 	
 	"skill40"
 	{
 		"name"	"Charge Block"
+		"name_es"	"Bloqueo de Carga"
 		"desc"	"The skill will let you randomly free yourself from a charger, when charge starts or when you take damage"
+		"desc_es"	"Te permite aleatoriamente liberarte tu mismo de un charger, mientras te carga o cuando esta danandote"
 		
 		"id" "40"
 		"premium"	"1"
@@ -1658,12 +1678,15 @@
 		"cost_factor"	"15.3260"
 		
 		"leg"	"{v}% probability of freeing yourself"
+		"leg_es"	"{v}% de probabilidad de liberarte tu mismo"
 	}
 	
 	"skill41"
 	{
 		"name"	"|*| Berserker"
+		"name_es"	"|*| Ira descontrolada"
 		"desc"	"Will enable berserker mode for 30 seconds when ready. (Crouch + Zoom + Walk buttons)"
+		"desc_es"	"Te permitira entrar en un estado de histeria por 30 segundos cuando este listo. (Ctrl + Zoom + Boton de caminar)
 		
 		"id" "41"
 		"premium"	"0"
@@ -1701,5 +1724,6 @@
 		"cost_factor"	"15.3260"
 		
 		"leg"	"{v}% rates increased (speed, health, etc)"
+		"leg_es"	"{v}% indice incrementado (velocidad, salud, etc)"
 	}
 }
