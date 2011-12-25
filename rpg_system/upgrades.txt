@@ -39,10 +39,12 @@
 		"name"	"Iron Skin"
 		"name_es" "Piel de Hierro"
 		"name_br" "Pele de Ferro"
+                "name_ru" "Железная кожа"
 		"id"	"1"
 		"desc"	"Allows you to reduce the damage received by friendly fire"
 		"desc_es"	"Reduce el dano producido por las balas de tus companeros"
 		"desc_br"	"Reduz o dano recebido de companheiro de time"
+                "desc_ru"       "Сокращает урон котрый вы получаете от товарищей по команде"
 		"up_levels"	"9"
 		
 		"lv1"	"5"
@@ -75,6 +77,7 @@
 		"leg" "{v}% friendly fire damage decrease"
 		"leg_es" "{v}% dano por balas reducido"
 		"leg_br" "{v}% dano reduzido"
+                "leg_ru" "{v}%снижение урона от товарищей по команде"
 	}
 	
 
@@ -83,10 +86,12 @@
 		"name"	"Hawk Eye"
 		"name_es"	"Ojo de Alcon"
 		"name_br"	"Olho de Aguia"
+                "name_ru"       "Орлиный глаз"
 		"id"	"2"
 		"desc"	"Increases damage done to special infected"
 		"desc_es"	"Incrementa el dano hacia los infectados especiales"
 		"desc_br"	"Aumenta dano causado a Infectado Especial"
+                "desc_ru"       "Повышает урон который вы наносите особым заражённым"
 		"up_levels"	"9"
 		
 		"lv1"	"5"	
@@ -119,6 +124,7 @@
 		"leg" "{v}% damage to SI increase"
 		"leg_es" "{v}% dano adicional"
 		"leg_br" "{v}% dano adicional"
+                "leg_ru" "{v}% повышение урона особым заражённым"
 	}
 	
 	"more_speed"
@@ -126,10 +132,12 @@
 		"name"	"Sprint"
 		"name_es" "Sprint"
 		"name_br" "Corrida"
+                "name_ru" "Спринт"
 		"id"	"3"
 		"desc"	"Increases running speed and decreases it when ridden by a jockey"
 		"desc_es"	"Aumenta la velocidad al correr y la disminuye al ser montado por jockeys"
 		"desc_br"	"Aumenta a velocidade de corrida e diminui a velocidade quando um jockey monta em voce."
+                "desc_ru"       "Повышает скорость бега и понижает её когда на вас набрасывается жокей"
 		"up_levels"	"9"
 		"lv1"	"1"	
 		"lv2"	"2"
@@ -161,6 +169,7 @@
 		"leg"		"{v}% speed increase"
 		"leg_es"	"{v}% mas velocidad"
 		"leg_br"	"{v}% aumento de velocidade"
+                "leg_ru"        "{v}% повышение скорости"
 	}
 	
 	"more_ammo"
@@ -168,10 +177,12 @@
 		"name"	"Bullet Carrier"
 		"name_es" "Cargador de balas"
 		"name_br" "Carregador de Bala"
+                "name_ru" "Запас патронов"
 		"id"	"4"
 		"desc"	"Increases reserve ammunition and clip size"
 		"desc_es"	"Incrementa la reserva de municion y la cantidad de carga"
 		"desc_br"	"Aumenta a quantidade de municao que voce pode ter na arma e no cartucho"
+                "desc_ru"       "Увеличивает запас боеприпасов и размер обоймы"
 		"up_levels"	"7"
 		
 		"lv1"	"6"	
@@ -198,6 +209,7 @@
 		"leg"	"{v}% reserve ammo and clip size increase"
 		"leg_es" "{v}% mas municion cargada y de reserva"
 		"leg_br" "{v}% aumento de municao da arma e municao reserva"
+                "leg_ru" "{v}% повышение запаса патронов и размера обоймы"
 	}
 	
 	"block_damage"
@@ -205,10 +217,12 @@
 		"name"	"Unstoppable"
 		"name_es" "Imparable"
 		"name_br" "Invencivel"
+                "name_ru" "Несокрушимый"
 		"id"	"5"
 		"desc"	"Block certain damage type"
 		"desc_es" "Bloquea distintos tipos de dano"
 		"desc_br" "Bloqueia certos tipos de dano"
+                "desc_ru" "Игнорирует определённые виды урона"
 		"up_levels"	"2"
 		"lv1"	"1"
 		"lv2"	"7"
@@ -232,6 +246,9 @@
 		"leg_lv1_br"	"Bloqueia o dano de Fogo"
 		"leg_lv2_br"	"Bloqueia o dano de Fogo e Pressao"
 		"leg_lv3_br"	"Bloqueia o dano de Fogo e Pressao"
+                "leg_lv1_ru"   "Игнорирует урон от огня"
+                "leg_lv2_ru"   "Игнорирует урон от огня и падений"
+                "leg_lv3_ru"   "Игнорирует урон от огня, падений и давления"
 	}
 	
 	"more_weapon_speed"
@@ -239,10 +256,12 @@
 		"name"	"Fast Reflex"
 		"name_es"	"Reflejos Rapidos"
 		"name_br"	"Reflexos Rapidos"
+                "name_ru"       "Быстрая реакция"
 		"id"	"6"
 		"desc"	"Increases both fire and reload speed"
 		"desc_es" "Aumenta la velocidad de recarga"
 		"desc_br" "Aumenta velocidade do tiro e do recarregamento"
+                "desc_ru" "Повышает скорость стрельбы и перезарядки оружия"
 		"up_levels"	"8"
 
 		"lv1"	"5"	
@@ -271,6 +290,7 @@
 		"leg"	"{v}% reload speed increase"
 		"leg_es" "{v}% velocidad de recarga adicional"
 		"leg_br" "{v}% velocidade de recarga adicional"
+                "leg_ru" "{v}% повышение скорости презарядки оружия"
 	}
 	
 	"more_melee_speed"
@@ -278,10 +298,12 @@
 		"name"	"Expert Swinger"
 		"name_es" "Ninja Experto"
 		"name_br" "Batedor Expert"
+                "name_ru" "Мастер махов"
 		"id"	"7"
 		"desc"	"Increases the melee swing speed"
 		"desc_es" "Aumenta la velocidad de las armas blancas (melee)"
 		"desc_br" "Aumenta a velocidade de ataque com arma corpo a corpo (melee)"
+                "desc_ru" "Повышает скорость рукопашного оружия"
 		"up_levels"	"7"
 		"lv1"	"5"	
 		"lv2"	"10"
@@ -308,6 +330,7 @@
 		"leg"	"{v}% melee swing speed increase"
 		"leg_es" "{v}% aumento de velocidad"
 		"leg_br" "{v}% aumento de velocidade"
+                "leg_ru" "{v}%Увелечение скорости"
 	}
 	
 	"more_health"
@@ -315,10 +338,12 @@
 		"name"	"Immortal Blood"
 		"name_es"	"Sangre Inmortal"
 		"name_br"	"Sangue Imortal"
+                "name_ru"       "Бессмертная кровь"
 		"id"	"8"
 		"desc"	"Increases the maximum health"
 		"desc_es"	"Incrementa tu salud maxima"
 		"desc_br"	"Aumenta sua vida maxima"
+                "desc_ru"       "Повышает максимальный запас здоровья"
 		"up_levels"	"9"
 		"lv1"	"10"	
 		"lv2"	"20"
@@ -351,6 +376,7 @@
 		"leg" "{v}% maximum health increase"
 		"leg_es" "{v}% salud maxima incrementada"
 		"leg_br" "{v}% maxima vida aumentada"
+                "leg_ru" "{v}% повышение запаса здоровья"
 	}
 	
 	"more_incap_health"
@@ -358,10 +384,12 @@
 		"name"	"Last Strength"
 		"name_es" "Ultimas Fuerzas"
 		"name_br" "Ultimas Forcas"
+                "name_ru" "Из последних сил"
 		"id"	"9"
 		"desc"	"Increases the maximum incapacitated health"
 		"desc_es" "Incrementa tu salud maxima cuando estas incapacitado"
 		"desc_br" "Aumenta sua vida maxima quando incapacitado"
+                "desc_ru" "Повышает ваше здоровье когда вы выденны из строя"
 		"up_levels"	"8"
 		"lv1"	"10"	
 		"lv2"	"30"
@@ -391,6 +419,7 @@
 		"leg" "{v}% maximum health increase"
 		"leg_es" "{v}% salud maxima incrementada"
 		"leg_br" "{v}% vida maxima aumentada"
+                "leg_ru" "{v}% повышение максимума здоровья"
 	}
 	
 	"more_lives"
@@ -398,10 +427,13 @@
 		"name"	"Keep Coming Back"
 		"name_es" "Siempre de Vuelta"
 		"name_br" "Sempre Voltando"
+                "name_ru" "Продолжай возвращаться назад"
 		"id"	"10"
 		"desc"	"Increases the maximum amount of lives before black and white"
 		"desc_es" "Aumenta el numero de incapacitaciones antes de ver en blanco y negro"
 		"desc_br" "Aumenta a quantidade de revividas antes de enxergar em Preto e Branco"
+                "desc_ru" "Повышает количество жизней перед тем как ваш экран станет чёрно-белым"
+                
 		"up_levels"	"4"
 		"lv1"	"1"	
 		"lv2"	"2"
@@ -421,6 +453,7 @@
 		"leg"		"{v} additional life(s)"
 		"leg_es"	"{v} vida(s) adicionales"
 		"leg_br"	"{v} vida(s) adicional"
+                "leg_ru"        "{v} дополнительные жизни"
 	}
 	
 	"more_temph"
@@ -428,10 +461,12 @@
 		"name"	"Pain Handler"
 		"name_es" "Resistencia al Dolor"
 		"name_br" "Resistente as Dores"
+                "name_ru" "Укротитель боли"
 		"id"	"11"
 		"desc"	"Increases the amount of health received by pain pills and adrenaline"
 		"desc_es" "Aumenta la cantidad de salud obtenida de las pildoras y adrenalina"
 		"desc_br" "Aumenta a quantidade de vida recebida pelas p�lulas e pela adrenalina"
+                "desc_ru" "Повышает количество здоровья которое вы получаете от таблеток и адреналина"
 		"up_levels"	"6"
 		"lv1"	"10"	
 		"lv2"	"15"
@@ -456,6 +491,7 @@
 		"leg"		"{v}% bonus health"
 		"leg_es"	"{v}% salud adicional"
 		"leg_br"	"{v}% de vida adicional"
+                "leg_ru"        "{v}% дополнительное здоровье"
 	}
 	
 	"revive_speed"
@@ -463,10 +499,12 @@
 		"name"	"Team Helper"
 		"name_es"	"Sporte de Equipo"
 		"name_br"	"Ajudante do Time"
+                "name_ru"       "Помощник команде"
 		"id"	"12"
 		"desc"	"Decreases the revive duration"
 		"desc_es" "Disminuye el tiempo para ayudar a companeros incapacitados"
 		"desc_br" "Diminui o tempo de duracao para levantar incapacitados"
+                "desc_ru" "Сокращает продолжительность подъёма выведенного из строя напарника"
 		"up_levels"	"8"
 		"lv1"	"10"	
 		"lv2"	"20"
@@ -496,17 +534,20 @@
 		"leg"		"{v}% revive time decrease"
 		"leg_es"		"{v}% tiempo de ayuda disminuido"
 		"leg_br"		"{v}% de tempo gasto para reviver diminuido"
+                "leg_ru"                "{v}% снижение времени подъёма"
 	}
 	
 	"heal_speed"
 	{
 		"name"	"Fast Medic"
 		"name_es" "Medico Rapido"
-		"name_br" "Medico Rapido"  
+		"name_br" "Medico Rapido"
+                "name_ru" "Быстрый медик"  
 		"id"	"13"
 		"desc"	"Decreases the healing duration"
 		"desc_es"	"Disminuye el tiempo de curacion"
 		"desc_br"	"Diminui o tempo requerido parar se curar"
+                "desc_ru"       "Сокращает продолжительность лечения"
 		"up_levels"	"8"
 		"lv1"	"10"	
 		"lv2"	"20"
@@ -536,6 +577,7 @@
 		"leg"		"{v}% healing time decrease"
 		"leg_es"	"{v}% tiempo de curacion disminuido"
 		"leg_br"	"{v}% tempo de curar diminuido"
+                "leg_ru"        "{v}% уменьшение времени лечения"
 	}
 	
 	//Smoker
@@ -544,9 +586,11 @@
 		"name"	"Tongue Resistance"
 		"name_es"	"Lengua Resistente"
 		"name_br"	"Lingua Resistente"
+                "name_ru"       "Стойкий язык"
 		"desc"	"Increases the smoker tongue's health"
 		"desc_es"	"Incrementa la resistencia de tu lengua"
 		"desc_br"	"Aumenta a vida da lingua do smoker"
+                "desc_ru"       "Увеличивает здоровье языка курильщика"
 		"id"	"14"
 		"up_levels"	"5"
 		"lv1"	"50"	
@@ -569,6 +613,7 @@
 		"leg"		"{v}% tongue health increase"
 		"leg_es"	"{v}% resistencia de lengua incrementada"
 		"leg_br"	"{v}% vida da lingua aumentada"
+                "leg_ru"        "{v}% увеличение здоровья языка"
 	}
 	
 	"tongue_speed"
@@ -576,9 +621,11 @@
 		"name"	"The fastest pull"
 		"name_es" "Arrastre Rapido"
 		"name_br" "Puxada Rapida"
+                "name_ru" "Самый бастрый"
 		"desc"	"Increases the smoker pull speed"
 		"desc_es"	"Incrementa la velocidad de la lengua para arrastrar"
 		"desc_br"	"Aumenta a velocidade da lingua do Smoker ao puxar"
+                "desc_ru"       "Повышает скорость языка курильщика"
 		"id"	"15"
 		"up_levels"	"5"
 		"lv1"	"10"	
@@ -601,6 +648,7 @@
 		"leg"		"{v}% tongue pull speed increase"
 		"leg_es"	"{v}% velocidad de lengua aumentada"
 		"leg_br"	"{v}% velocidade da lingua aumentada"
+                "leg_ru"        "{v}% увеличение скорости языка"
 	}
 	
 	"tongue_damage"
@@ -608,9 +656,11 @@
 		"name"	"Choke Expert"
 		"name_es"	"Asfixiador"
 		"name_br"	"Asfixiador"
+                "name_ru"       "Удушье"
 		"desc"	"Increases the damage done to grabbed survivors"
 		"desc_es"	"Incrementa el dano hacia sobrevivientes atrapados"
 		"desc_br"	"Aumenta o dano causado aos sobreviventes agarrados"
+                "desc_ru"       "Увеличивает урон который вы наносите схваченной жертве"
 		"id"	"16"
 		"up_levels"	"7"
 		"lv1"	"10"	
@@ -637,6 +687,7 @@
 		"leg"		"{v}% choke and grab damage increase"
 		"leg_es"	"{v}% dano aumentado"
 		"leg_br"	"{v}% dano aumentado"
+                "leg_ru"        "{v}% повышение урона"
 	}
 	
 	"smoker_claw_damage"
@@ -644,9 +695,11 @@
 		"name"	"Asphyxiation Claw"
 		"name_es" "Garra asfixiante"
 		"name_br" "Garra asfixiante"
+                "name_ru" "Удушающий коготь"
 		"desc"	"Increases the smoker claw damage"
 		"desc_es"	"Incrementa el dano de la garra del smoker"
 		"desc_br"	"Aumenta o dano da garra do smoker"
+                "desc_ru"       "Повышает урон от когтей курильщика"
 		"id"	"17"
 		"up_levels"	"6"
 		"lv1"	"10"	
@@ -675,15 +728,18 @@
 		"leg"		"{v}% smoker claw damage increase"
 		"leg_es"	"{v}% dano de la garra incrementado"
 		"leg_br"	"{v}% dano da garra aumentando"
+                "leg_ru"        "{v}% повышение урона от когтей"
 	}
 	"smoker_speed"
 	{
 		"name"	"Smoking Speed"
 		"name_es" "Caminata Humeante"
 		"name_br" "Velocidade Esfumacada"
+                "name_ru" "Скорость курильщика"
 		"desc"	"Increases the smoker running speed"
 		"desc_es"	"Incrementa la velocidad del smoker"
 		"desc_br"	"Aumenta a velocidade do smoker"
+                "desc_ru"       "Повышает скорость передвижения курильщика"
 		"id"	"18"
 		"up_levels"	"5"
 		"lv1"	"10"	
@@ -706,6 +762,7 @@
 		"leg"		"{v}% smoker speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости курильщика"
 	}
 	
 	"smoker_health"
@@ -713,9 +770,11 @@
 		"name"	"Smoke Power"
 		"name_es" "Vitalidad Toxica"
 		"name_br" "Vitalidade Toxica"
+                "name_ru" "Мощный дым"
 		"desc"	"Increases the smoker maximum health"
 		"desc_es"	"Incrementa la salud maxima del smoker"
 		"desc_br"	"Aumenta a vida maxima do smoker"
+                "desc_ru"       "Повышает максимальный запас жизней курильщика"
 		"id"	"19"
 		"up_levels"	"5"
 		"lv1"	"20"	
@@ -740,6 +799,7 @@
 		"leg"		"{v}% smoker health increase"
 		"leg_es"	"{v}% salud del smoker incrementado"
 		"leg_br"	"{v}% vida maxima aumentada"
+                "leg_ru"        "{v}% повышение жизней курильщика"
 	}
 	
 	"smoker_delay"
@@ -747,9 +807,11 @@
 		"name"	"Multi Tongues"
 		"name_es"	"Multiples lenguas"
 		"name_br"	"Linguas Reservas"
+                "name_ru"       "Множество языков"
 		"desc"	"Decreases the ability recharge interval of the smoker"
 		"desc_es"	"Disminuye el intervalo de uso de la lengua"
 		"desc_br"	"Diminui o tempo de recarga para novo uso da lingua"
+                "desc_ru"       "Уменьшает время восстановления атаки"
 		"id"	"20"
 		"up_levels"	"7"
 		"lv1"	"10"	
@@ -776,6 +838,7 @@
 		"leg"		"{v}% smoker tongue delay decrease"
 		"leg_es"	"{v}% tiempo de uso disminuido"
 		"leg_br"	"{v}% tempo de recarga diminuido"
+                "leg_ru"        "{v}% снижение времени ожидания"
 	}
 	
 	//Hunter
@@ -784,9 +847,11 @@
 		"name"	"Pounce Expert"
 		"name_es"	"Saltador experto"
 		"name_br"	"Saltador Expert"
+                "name_ru"       "Прыгун"
 		"desc"	"Increases the maximum pounce damage"
 		"desc_es"	"Incrementa el dano maximo de salto"
 		"desc_br"	"Aumenta o dano maximo do salto do hunter"
+                "desc_ru"       "Увеличивает урон от прыжка"
 		"id"	"21"
 		"up_levels"	"5"
 		
@@ -810,6 +875,7 @@
 		"leg"		"{v}% maximum pounce damage increase"
 		"leg_es"	"{v}% maximo dano de salto incrementado"
 		"leg_br"	"{v}% dano maximo aumentado"
+                "leg_ru"        "{v}% повышение урона от прыжка"
 	}
 	
 	"pounce_power"
@@ -817,9 +883,11 @@
 		"name"	"Bunny Legs"
 		"name_es" "Piernas de conejo"
 		"name_br" "Pernas de Coelho"
+                "name_ru" "Ноги кролика"
 		"desc"	"Increases the lunge power of the hunter"
 		"desc_es"	"Aumenta la distancia de salto del hunter"
 		"desc_br"	"Aumenta o poder de salto do hunter"
+                "desc_ru"       "Увеличение мощности прыжка охотника"
 		"id"	"22"
 		"up_levels"	"5"
 		
@@ -843,6 +911,7 @@
 		"leg"		"{v}% lunge power increase"
 		"leg_es"	"{v}% poder de salto aumentado"
 		"leg_br"	"{v}% poder de salto aumentado"
+                "leg_ru"        "{v}% повышение мощности прыжка"
 	}
 	
 	"hunter_health"
@@ -850,9 +919,11 @@
 		"name"	"Hunting Stamina"
 		"name_es" "Resistencia de Cazador"
 		"name_br" "Resistencia de Cacador"
+                "name_ru" "Выносливость"
 		"desc"	"Increases the hunter maximum health"
 		"desc_es"	"Aumenta la salud maxima del hunter"
 		"desc_br"	"Aumenta a vida maxima do hunter"
+                "desc_ru"       "Повышает максимальный запас здоровья охотника"
 		"id"	"23"
 		"up_levels"	"7"
 		
@@ -882,6 +953,7 @@
 		"leg"		"{v}% maximum hunter health increase"
 		"leg_es"	"{v}% salud maxima aumentada"
 		"leg_br"	"{v}% vida maxima aumentada"
+                "leg_ru"        "{v}% повышение максимального запаса жизней"
 	}
 	
 	"hunter_speed"
@@ -889,9 +961,11 @@
 		"name"	"Hunting Sprint"
 		"name_es"	"Rapidez Cazadora"
 		"name_br"	"Rapidez de Cacador"
+                "name_ru"       "Спринт"
 		"desc"	"Increases the hunter running speed"
 		"desc_es" "Incrementa la velocidad del hunter"
 		"desc_br" "Aumenta a velocidade do hunter"
+                "desc_ru" "Повышает скорость передвижения охотника"
 		"id"	"24"
 		"up_levels"	"7"
 		
@@ -919,6 +993,7 @@
 		"leg"		"{v}% running speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости передвижения"
 	}
 	
 	"hunter_claw"
@@ -926,9 +1001,11 @@
 		"name"	"Hunting Claws"
 		"name_es"	"Garras de cazador"
 		"name_br"	"Garras de Cacador"
+                "name_ru"       "Когти"
 		"desc"	"Increases the hunter claw damage"
 		"desc_es"	"Incrementa el dano de la garra del hunter"
 		"desc_br"	"Aumenta o dano da garra do hunter"
+                "desc_ru"       "Повышает урон от когтей охотника"
 		"id"	"25"
 		"up_levels"	"7"
 		
@@ -956,6 +1033,7 @@
 		"leg"		"{v}% claw damage increase"
 		"leg_es"	"{v}% dano de garra"
 		"leg_br"	"{v}% dano da garra"
+                "leg_ru"        "{v}% повышение урона от когтей"
 	}
 	
 	"hunter_pounce_damage"
@@ -963,9 +1041,11 @@
 		"name"	"Heavy Ripper"
 		"name_es"	"Destripador"
 		"name_br"	"Estripador"
+                "name_ru"       "Опытный охотник"
 		"desc"	"Increases the damage done to pounced survivors"
 		"desc_es"	"Aumenta el dano causado al caer sobre un sobreviviente"
 		"desc_br"	"Aumenta o dano causado a sobreviventes agarrados pelo salto do hunter"
+                "desc_ru"       "Повышает урон наносимый жертве"
 		"id"	"26"
 		"up_levels"	"7"
 		
@@ -993,6 +1073,7 @@
 		"leg"		"{v}% damage while pouncing increase"
 		"leg_es"	"{v}% dano aumentado"
 		"leg_br"	"{v}% de aumento no dano"
+                "leg_ru"        "{v}% больше урона"
 	}
 	
 	//Boomer
@@ -1001,9 +1082,11 @@
 		"name"	"Huge Stomach"
 		"name_es"	"Estomago Grande"
 		"name_br"	"Grande Estomago"
+                "name_ru"       "Большой живот"
 		"desc"	"Increases the boomer vomit duration"
 		"desc_es"	"Aumenta la duracion del vomito"
 		"desc_br"	"Aumenta a duracao do vomito do boomer"
+                "desc_ru"       "Увеличивает продолжительность атаки толстяка"
 		"id"	"27"
 		"up_levels"	"5"
 		
@@ -1027,6 +1110,7 @@
 		"leg"		"{v}% vomit duration increase"
 		"leg_es"	"{v}% duracion de vomito aumentada"
 		"leg_br"	"{v}% duracao do vomito aumentada"
+                "leg_ru"        "{v}% повышение продолжительности отрыжки"
 	}
 	
 	"vomit_range"
@@ -1034,9 +1118,11 @@
 		"name"	"Bigger mouth"
 		"name_es"	"Boca Amplia"
 		"name_br"	"Boca Grande"
+                "name_ru"       "Большой рот"
 		"desc"	"Increases the boomer vomit range"
 		"desc_es"	"Aumenta el rango del vomito"
 		"desc_br"	"Aumenta o alcance do vomito do boomer"
+                "desc_ru"       "Повышает дальность атаки толстяка"
 		"id"	"28"
 		"up_levels"	"5"
 		
@@ -1060,6 +1146,7 @@
 		"leg"		"{v}% vomit range increase"
 		"leg_es"	"{v}% rango de vomito incrementado"
 		"leg_br"	"{v}% vomito alcance aumentado"
+                "leg_ru"        "{v}% повышение дальности атаки"
 	}
 	
 	
@@ -1068,9 +1155,11 @@
 		"name"	"Rapid Belch"
 		"name_es"	"Eructo Rapido"
 		"name_br"	"Arroto Rapido"
+                "name_ru"       "Быстрая отрыжка"
 		"desc"	"Decreases the vomit recharge on boomers"
 		"desc_es"	"Disminuye el intervalo de recarga de vomito"
 		"desc_br"	"Diminui o tempo de recarga do vomito"
+                "desc_ru"       "Уменьшает время восстановления атаки" 
 		"id"	"29"
 		"up_levels"	"7"
 		
@@ -1098,6 +1187,7 @@
 		"leg"		"{v}% vomit recharge interval decrease"
 		"leg_es"	"{v}% intervalo de vomito disminuido"
 		"leg_br"	"{v}% de diminuicao no tempo de recarga do vomito"
+                "leg_ru"        "{v}% снижение времени восстановлении атаки"
 	}
 	
 	"boomer_speed"
@@ -1105,9 +1195,11 @@
 		"name"	"Burning Fat"
 		"name_es"	"Quemando calorias"
 		"name_br"	"Queimando Calorias"
+                "name_ru"       "Сжигание жира"
 		"desc"	"Increases boomer running speed"
 		"desc_es"	"Aumenta la velocidad del boomer"
 		"desc_br"	"Aumenta a velocidade do boomer"
+                "desc_ru"       "Повышает скорость предвижения толстяка"
 		"id"	"30"
 		"up_levels"	"5"
 		
@@ -1131,6 +1223,7 @@
 		"leg"		"{v}% running speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости передвижения"
 	}
 	
 	"boomer_claw" //31 +Claw damage
@@ -1138,9 +1231,11 @@
 		"name"	"Strong Claws"
 		"name_es"	"Garras Fuertes"
 		"name_br"	"Garras Fortes"
+                "name_ru"       "Сильные когти"
 		"desc"	"Increases the boomer claw damage"
 		"desc_es"	"Aumenta el dano de las garras de boomer"
 		"desc_br"	"Aumenta o dano das garras do boomer"
+                "desc_ru"       "Повышает урон от когтей толстяка"
 		"id"	"31"
 		"up_levels"	"5"
 		
@@ -1164,6 +1259,7 @@
 		"leg"		"{v}% claw damage increase"
 		"leg_es"	"{v}% dano de la garra aumentado"
 		"leg_br"	"{v}% dano da garra aumentado"
+                "leg_ru"        "{v}% повышение урона от когтей"
 	}
 	
 	"boomer_explode_radius" //32 +Explode radius
@@ -1171,9 +1267,11 @@
 		"name"	"Vomit Dynamite"
 		"name_es"	"Vomito Explosivo"
 		"name_br"	"Vomito Explosivo"
+                "name_ru"       "Взрывная рвота"
 		"desc"	"Increases boomer explosion radius"
 		"desc_es"	"Aumenta el rango de vomito al explotar"
 		"desc_br"	"Aumenta o alcance do vomito do boomer ao explodir"
+                "desc_ru"       "Повышает радиус поражения от взрыва толстяка"
 		"id"	"32"
 		"up_levels"	"7"
 		
@@ -1201,6 +1299,7 @@
 		"leg"		"{v}% vomit explosion range increase"
 		"leg_es"	"{v}% radio de explosion aumentada"
 		"leg_br"	"{v}% alcance de explosao aumentando"
+                "leg_ru"        "{v}% повышение радиуса взрыва"
 	}
 	
 	
@@ -1210,9 +1309,11 @@
 		"name"	"Spitter Sprint"
 		"name_es"	"Velocidad de la Spitter"
 		"name_br"	"Corrida da Spitter"
+                "name_ru"       "Спринт"
 		"desc"	"Increases spitter running speed"
 		"desc_es"	"Aumenta la velocidad de la spitter"
 		"desc_br"	"Aumenta a velocidade da spitter"
+                "desc_ru"       "Повышает скорость передвижения плевальщицы"
 		"id"	"33"
 		"up_levels"	"5"
 		
@@ -1236,6 +1337,7 @@
 		"leg"		"{v}% running speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости предвижения"
 	}
 	
 	"spitter_health" //34 +Health
@@ -1243,9 +1345,11 @@
 		"name"	"Acid Shield"
 		"name_es"	"Escudo Acido"
 		"name_br"	"Escudo Acido"
+                "name_ru"       "Кислотный щит"
 		"desc"	"Increases spitter maximum health"
 		"desc_es"	"Aumenta la salud maxima de la spitter"
 		"desc_br"	"Aumenta a vida maxima da spitter"
+                "desc_ru"       "Повышает максимальный запас жизней плевальщицы"
 		"id"	"34"
 		"up_levels"	"7"
 		
@@ -1273,6 +1377,7 @@
 		"leg"		"{v}% max health increase"
 		"leg_es"	"{v}% salud maxima aumentada"
 		"leg_br"	"{v}% vida maxima aumentada"
+                "leg_ru"        "{v}% поышение максимума жизней"
 	}
 	
 	"spitter_claw" //35 +Claw Dmg
@@ -1280,9 +1385,11 @@
 		"name"	"Large Claws"
 		"name_es"	"Garras Largas"
 		"name_br"	"Garras Largas"
+                "name_ru"       "Большие когти"
 		"desc"	"Increases spitter claw damage"
 		"desc_es" "Aumenta el dano de la garra de Spitter"
 		"desc_br" "Aumenta o dano da garra da Spitter"
+                "desc_ru" "Повышает урон от когтей плевальщицы"
 		"id"	"35"
 		"up_levels"	"5"
 		
@@ -1306,6 +1413,7 @@
 		"leg"		"{v}% claw damage increase"
 		"leg_es"	"{v}% dano de la garra aumentado"
 		"leg_br"	"{v}% dano da garra aumentado"
+                "leg_ru"        "{v}% Повышение урона от когтей"
 	}
 	
 	"spitter_delay" //36 -Spit Interval
@@ -1313,9 +1421,11 @@
 		"name"	"Fastest Spit"
 		"name_es"	"Escupitajo Rapido"
 		"name_br"	"Cuspe Rapido"
+                "name_ru"       "Плевать быстрее"
 		"desc"	"Decreases spitter's spit interval"
 		"desc_es"	"Disminuye el intervalo del escupitajo de la spitter"
 		"desc_br"	"Diminui o tempo de recarga do cuspe da spitter"
+                "desc_ru"       "Снижает время восстановления плевка"
 		"id"	"36"
 		"up_levels"	"7"
 		
@@ -1343,6 +1453,7 @@
 		"leg"		"{v}% spit interval decrease"
 		"leg_es"	"{v}% intervalo disminuido"
 		"leg_br"	"{v}% tempo de recarga diminuido"
+                "leg_ru"        "{v}% снижениие времени ожидания"
 	}
 	
 	"acid_projectile_speed" //37 +Acid travel speed
@@ -1350,9 +1461,11 @@
 		"name"	"Spit Velocity"
 		"name_es"	"Resistencia al Aire"
 		"name_br"	"Velocidade do Cuspe"
+                "name_ru"       "Скорость плевка"
 		"desc"	"Increases spitter's spit speed"
 		"desc_es"	"Aumenta la velocidad del escupitajo en el aire"
 		"desc_br"	"Aumenta a velocidade em que se move o cuspe"
+                "desc_ru"       "Повышает скорость плевка"
 		"id"	"37"
 		"up_levels"	"7"
 		
@@ -1380,6 +1493,7 @@
 		"leg"		"{v}% spit speed increase"
 		"leg_es"	"{v}% velocidad del escupitajo incrementada"
 		"leg_br"	"{v}% velocidade do cuspe aumentada"
+                "leg_ru"        "{v}% повышение скорости плевка"
 	}
 	
 	//Jockey
@@ -1388,9 +1502,11 @@
 		"name"	"Rapid Legs"
 		"name_es"	"Piernas Rapidas"
 		"name_br"	"Pernas Rapidas"
+                "name_ru"       "Быстрые ноги"
 		"desc"	"Increases jockey running speed"
 		"desc_es"	"Aumenta la velocidad del Jockey"
 		"desc_br"	"Aumenta a velocidade do Jockey"
+                "desc_ru"       "Повышает скорость передвижения жокея"
 		"id"	"38"
 		"up_levels"	"5"
 		
@@ -1414,6 +1530,7 @@
 		"leg"		"{v}% running speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости передвижения"
 	}
 	
 	"jockey_health" //39 +Health
@@ -1421,9 +1538,11 @@
 		"name"	"Endurance"
 		"name_es"	"Resistencia"
 		"name_br"	"Resistencia"
+                "name_ru"       "Стойкость"
 		"desc"	"Increases jockey maximum health"
 		"desc_es"	"Aumenta la salud maxima del jockey"
 		"desc_br"	"Aumenta a vida maxima do jockey"
+                "desc_ru"       "Повышает максимальный запас жизней жокея"
 		"id"	"39"
 		"up_levels"	"7"
 		
@@ -1451,6 +1570,7 @@
 		"leg"		"{v}% max health increase"
 		"leg_es"	"{v}% salud maxima incrementada"
 		"leg_br"	"{v}% vida maxima aumentada"
+                "leg_ru"        "{v}% повышение максимума жизней"
 	}
 	
 	"jockey_claw" //40 +Claw Dmg
@@ -1458,9 +1578,11 @@
 		"name"	"Deadly Claws"
 		"name_es"	"Garras Mortales"
 		"name_br"	"Garras Mortiferas"
+                "name_ru"       "Смертельные когти"
 		"desc"	"Increases jockey claw damage"
 		"desc_es"	"Aumenta el dano de la garra de jockey"
 		"desc_br"	"Aumenta o dano da garra do jockey"
+                "desc_ru"       "Повышает урон от когтей жокея"
 		"id"	"40"
 		"up_levels"	"5"
 		
@@ -1484,6 +1606,7 @@
 		"leg"		"{v}% claw damage increase"
 		"leg_es"	"{v}% dano de la garra aumentado"
 		"leg_br"	"{v}% dano da garra aumentado"
+                "leg_ru"        "{v}% повышение урона от когтей"
 	}	
 	
 	"jockey_delay" //41 -Leap interval after dismount
@@ -1491,9 +1614,11 @@
 		"name"	"Grown Muscles"
 		"name_es"	"Musculos Grandes"
 		"name_br"	"Musculos Crescidos"
+                "name_ru"       "Мускулистые ноги"
 		"desc"	"Decreases jockey leap interval after dismount"
 		"desc_es"	"Disminuye el intervalo de recarga de salto del jockey"
 		"desc_br"	"Diminui tempo de recarga da habilidade de montar do jockey"
+                "desc_ru"       "Уменьшает времени ожидания нового прыжка"
 		"id"	"41"
 		"up_levels"	"7"
 		
@@ -1521,6 +1646,7 @@
 		"leg"		"{v}% leap interval decrease"
 		"leg_es"	"{v}% intervalo reducido"
 		"leg_br"	"{v}% tempo de recarga diminuido"
+                "leg_ru"        "{v}% снижение времени ожидания"
 	}
 	
 	//"jockey_ride_control" //42 +Jockey Ride Control <DOES NOT WORK>
@@ -1563,9 +1689,11 @@
 		"name"	"Eating Heads"
 		"name_es"	"Come Cabezas"
 		"name_br"	"Comendo Cabecas"
+                "name_ru"       "Сорвиголова"
 		"desc"	"Increases jockey damage while riding"
 		"desc_es"	"Aumenta el dano hecho mientras montas"
 		"desc_br"	"Aumenta o dano causado pelo jockey enquanto montado"
+                "desc_ru"       "Повышает урон жокея во время езды"
 		"id"	"43"
 		"up_levels"	"7"
 		
@@ -1593,6 +1721,7 @@
 		"leg"		"{v}% damage while riding increase"
 		"leg_es"	"{v}% dano aumentado"
 		"leg_br"	"{v}% dano aumentado"
+                "leg_ru"        "{v}% повышение урона во время езды"
 	}
 	
 	
@@ -1602,9 +1731,11 @@
 		"name"	"Warming Up"
 		"name_es"	"Calentando"
 		"name_br"	"Esquentando"
+                "name_ru"       "Разминка"
 		"desc"	"Increases charger running speed"
 		"desc_es"	"Aumenta la velocidad normal del charger"
 		"desc_br"	"Aumenta a velocidade do Charger"
+                "desc_ru"       "Повышение скорости бега громилы"
 		"id"	"44"
 		"up_levels"	"5"
 		
@@ -1628,6 +1759,7 @@
 		"leg"		"{v}% running speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости бега"
 	}
 	
 	"charger_health" //45 +health
@@ -1635,9 +1767,11 @@
 		"name"	"Mini Tank"
 		"name_es"	"Mini Tank"
 		"name_br"	"Mini Tank"
+                "name_ru"       "Мини танк"
 		"desc"	"Increases Charger maximum health"
 		"desc_es"	"Aumenta la salud maxima del charger"
 		"desc_br"	"Aumenta a vida maxima do Charger"
+                "desc_ru"       "Повышает максимальный запас здоровья громилы"
 		"id"	"45"
 		"up_levels"	"7"
 		
@@ -1665,6 +1799,7 @@
 		"leg"		"{v}% max health increase"
 		"leg_es"	"{v}% salud maxima aumentada"
 		"leg_br"	"{v}% vida maxima aumentada"
+                "leg_ru"        "{v}% повышение максимума жизней"
 	}
 	
 	"charger_charge_speed" //46 +charge speed
@@ -1672,9 +1807,11 @@
 		"name"	"Hyper Charge"
 		"name_es"	"Hiper Carga"
 		"name_br"	"Hiper Carregamento"
+                "name_ru"       "Супер рывок"
 		"desc"	"Increases charger running speed while charging"
 		"desc_es"	"Aumenta la velocidad del charger mientras carga contra sobrevivientes"
 		"desc_br"	"Aumenta a velocidade do Charger enquanto carrega"
+                "desc_ru"       "Повышает  скорость громилы во время рывка"
 		"id"	"46"
 		"up_levels"	"5"
 		
@@ -1698,6 +1835,7 @@
 		"leg"		"{v}% charging speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости во время рывка"
 	}
 	
 	"charger_claw_damage" //47 +claw damage
@@ -1705,9 +1843,11 @@
 		"name"	"Meat Hammer"
 		"name_es"	"Martillo de Carne"
 		"name_br"	"Martelo de Carne"
+                "name_ru"       "Молоток для мяса"
 		"desc"	"Increases charger claw damage"
 		"desc_es"	"Aumenta el dano de la garra del charger"
 		"desc_br"	"Aumenta o dano da garra do Charger"
+                "desc_ru"       "Увеличивает урон от ударов кулаком" 
 		"id"	"47"
 		"up_levels"	"5"
 		
@@ -1731,6 +1871,7 @@
 		"leg"		"{v}% claw damage increase"
 		"leg_es"	"{v}% dano de la garra aumentado"
 		"leg_br"	"{v}% dano da garra aumentado"
+                "leg_ru"        "{v}% повышение урона от ударов"
 	}
 	
 	"charger_impact_damage" //48 +impact damage -> When you are carrying a survivor and impact others
@@ -1738,9 +1879,11 @@
 		"name"	"Charging Stun"
 		"name_es"	"Impacto Letal"
 		"name_br"	"Impacto Letal"
+                "name_ru"       "Оглушение"
 		"desc"	"Increases damage when you impact survivors"
 		"desc_es"	"Aumenta el dano de impacto hacia sobrevivientes, cuando ya tienes uno"
 		"desc_br"	"Aumenta o dano quando impacta sobreviventes"
+                "desc_ru"       "Повышает урон при столкновении с выжившими "
 		"id"	"48"
 		"up_levels"	"5"
 		
@@ -1764,6 +1907,7 @@
 		"leg"		"{v}% impact damage increase"
 		"leg_es"	"{v}% dano de impacto aumentado"
 		"leg_br"	"{v}% dano de impacto aumentado"
+                "leg_ru"        "{v}% повышение урона при столкновении"
 	}
 	
 	"charger_pummel_damage" //49 +dmg while pummeling AKA pounding survivor
@@ -1771,9 +1915,11 @@
 		"name"	"Meat Disintegrator"
 		"name_es"	"Desintegrado de Carne"
 		"name_br"	"Desintegrador de Carne"
+                "name_ru"       "Рассчленёная добыча"
 		"desc"	"Increases Charger damage while pummeling"
 		"desc_es"	"Aumenta el dano hacia sobrevivientes atrapados"
 		"desc_br"	"Aumenta o dano enquanto esmurra sobreviventes"
+                "desc_ru"       "Повышает урон громилы при избиение жертвы"
 		"id"	"49"
 		"up_levels"	"7"
 		
@@ -1801,6 +1947,7 @@
 		"leg"		"{v}% damage while pummeling increase"
 		"leg_es"	"{v}% dano aumentado"
 		"leg_br"	"{v}% dano aumentado"
+                "leg_ru"        "{v}% повышение урона"
 	}
 	
 	"charger_charge_duration" //50 +Charge duration
@@ -1808,9 +1955,11 @@
 		"name"	"Trained Legs"
 		"name_es"	"Piernas Entrenadas"
 		"name_br"	"Pernas Treinadas"
+                "name_ru"       "Натренированные ноги"
 		"desc"	"Increases Charger's charge duration"
 		"desc_es"	"Aumenta la duracion de carga del charger"
 		"desc_br"	"Aumenta a duracao do carregamento do Charger"
+                "name_ru"       "Увелечивает продолжительность рывка громилы"
 		"id"	"50"
 		"up_levels"	"7"
 		
@@ -1838,6 +1987,7 @@
 		"leg"		"{v}% charge duration increase"
 		"leg_es"	"{v}% duracion de carga aumentada"
 		"leg_br"	"{v}% duracao de carregamento aumentado"
+                "leg_ru"        "{v}% повышение продолжительности рывка"
 	}
 	
 	
@@ -1847,9 +1997,11 @@
 		"name"	"Invincible Tank"
 		"name_es"	"Tank Invencible"
 		"name_br"	"Tank Invencivel"
+                "name_ru"       "Непобедимый танк"
 		"desc"	"Increases Tank's maximum health"
 		"desc_es"	"Aumenta la salud maxima del Tank"
 		"desc_br"	"Aumenta a vida maxima do Tank"
+                "desc_ru"       "Повышает максимальный запас жизней у танка"
 		"id"	"51"
 		"up_levels"	"7"
 		
@@ -1885,6 +2037,7 @@
 		"leg"		"{v}% max health increase"
 		"leg_es"	"{v}% salud maxima incrementada"
 		"leg_br"	"{v}% vida maxima aumentada"
+                "leg_ru"        "{v}% повышение максимального запаса жизней"
 	}
 	
 	"tank_speed" //52 +speed
@@ -1892,9 +2045,11 @@
 		"name"	"Tank Rage"
 		"name_es"	"Furia de Tank"
 		"name_br"	"Furia do Tank"
+                "name_ru"       "Яростный танк"
 		"desc"	"Increases tank's running speed"
 		"desc_es"	"Auementa la velocidad del Tank"
 		"desc_br"	"Aumenta a velocidade do Tank"
+                "desc_ru"       "Повышает скорость передвижения танка"
 		"id"	"52"
 		"up_levels"	"8"
 		
@@ -1925,6 +2080,7 @@
 		"leg"		"{v}% running speed increase"
 		"leg_es"	"{v}% velocidad aumentada"
 		"leg_br"	"{v}% velocidade aumentada"
+                "leg_ru"        "{v}% повышение скорости предвижения"
 	}
 	
 	"helping_hand"
@@ -1932,9 +2088,11 @@
 		"name"	"Helping Hand"
 		"name_es"	"Mano Amiga"
 		"name_br"	"Mao Amiga"
+                "name_ru"       "Рука помощи"
 		"desc"	"Increases the health that a survivor receives when you revive him"
 		"desc_es"	"Aumenta la salud que un sobreviviente recibe cuando tu lo levatas"
 		"desc_br"	"Aumenta a vida que um sobrevivente recebe quando voce o levanta"
+                "desc_ru"       "Повышает здоровье которое игрок получает когда вы поднимаете его"
 		"id"	"53"
 		"up_levels"	"11"
 		
@@ -1971,14 +2129,17 @@
 		"leg"		"{v} Additional health"
 		"leg_es"	"{v} Salud adicional"
 		"leg_br"	"{v} de Vida Adicional"
+                "leg_ru"        "{v} Дополнительное здоровье"
 	}
 	
 	"more_luck"
 	{
 		"name"	"|*| Lucky Mind"
 		"name_es"	"|*| Mente Suertuda"
+                "name_ru"       "|*| Счастливый разум"
 		"desc"	"Your luck will increase (Lottery, Crafting, Toaster Drop)"
 		"desc_es"	"Tu suerte se incrementara (Loteria, Forjar, caida de tostadores)"
+                "desc_ru"       "Ваша удача будет повышена(Лоторея,шанс выпадения тостеров,поиск кристаллов)"
 		"id" "54"
 		
 		"up_levels"	"6"
@@ -2008,14 +2169,17 @@
 		
 		"leg"	"Increases luck by {v}%"
 		"leg_es"	"{v}% suerte incrementada"
+                "leg_ru"        "Повышение удачи на {v}%"
 	}
 	
 	"tank_dmg"
 	{
 		"name"	"Steroid Threatment"
 		"name_es"	"Tratamiento con esteroides"
+                "name_ru"       "Лечение стероидами"
 		"desc"	"Increases Tank arm damage"
 		"desc_es"	"Aumenta el dano del brazo del Tank"
+                "desc_ru"       "Повышает урон,наносимы лапами танка"
 		"id" "55"
 		
 		"up_levels"	"6"
@@ -2043,14 +2207,17 @@
 		
 		"leg"	"Increases damage by {v}%"
 		"leg_es"	"{v}% dano incrementado"
+                "leg_ru"        "Повышение урона на [v}%"
 	}
 	
 	"metalized_skin"
 	{
 		"name"	"|*| Metalized Skin"
 		"name_es"	"|*| Piel Metalizada"
+                "name_ru"       "|*| Металическая кожа"
 		"desc"	"Decreases damage received from ranged weapons"
 		"desc_es"	"Disminuye el dano recibido por armas de largo alcance"
+                "desc_ru"       "Уменьшает урон который вы получаете от огнестрельного оружия"
 		"id" "56"
 		
 		"up_levels"	"6"
@@ -2080,14 +2247,17 @@
 		
 		"leg"	"{v}% damage decreased"
 		"leg_es"	"{v}% dano disminuido"
+                "leg_ru"        "{v}% уменьшение получаемого урона"
 	}
 	
 	"elec_knife"
 	{
 		"name"	"|*| Electrified Knife"
 		"name_es"	"|*| Cuchillo electrificado"
+                "name_ru"       "|*| Электрический нож"
 		"desc"	"Upon using a knife, special and common infected around will die too"
 		"desc_es"	"Al usar un cuchillo, los infectados especiales y comunes alrededor moriran tambien"
+                "desc_ru"       "Кроме обычного эффекта от использования ножа,вы получите дополнительный"
 		"id" "57"
 		
 		"up_levels"	"6"
@@ -2118,14 +2288,17 @@
 		
 		"leg"	"Range: {v} units"
 		"leg_es"	"Rango: {v} unidades"
+                "leg_ru"        "Радиус: {v} едениц"
 	}
 	
 	"fast_trigger"
 	{
 		"name"	"|*| Fast Trigger"
 		"name_es"	"|*| Gatillo veloz"
+                "name_ru"       "|*| Быстрый курок"
 		"desc"	"Increase fire rate of fire weapons"
 		"desc_es"	"Aumenta la velocidad de disparo de las armas"
+                "desc_ru"       "Увеличивает скорость стрельбы"
 		"id" "58"
 		
 		"up_levels"	"6"
@@ -2156,5 +2329,6 @@
 		
 		"leg"	"{v}% fire rate increase"
 		"leg_es"	"{v}% velocidad de fuego aumentado"
+                "leg_ru"        "{v}% увеличение скорости стрельбы"
 	}
 }
