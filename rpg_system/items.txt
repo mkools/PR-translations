@@ -278,7 +278,7 @@
 	"health"
 	{
 		"name"	"Full Health"
-		"name_es"	"Vida Maxima"
+		"name_es"	"Vida al maximo"
 		"name_br"	"Vida Maxima"
 		"enabled"	"1"
 		"cost"		"20"
@@ -290,7 +290,7 @@
 	"hunting_rifle"
 	{
 		"name"	"Hunting Rifle"
-		"name_es"	"Rifle Cazador"
+		"name_es"	"Rifle de Caza"
 		"name_br"	"Rifle de Cacador"
 		"enabled"	"1"
 		"cost"		"10"
@@ -635,7 +635,7 @@
 	"vomitjar"
 	{
 		"name"	"Vomit Jar"
-		"name_es"	"Botella de Vomito"
+		"name_es"	"Frasco de Bilis"
 		"name_br"	"Jarra de Vomito"
 		"enabled"	"1"
 		"cost"		"8"
