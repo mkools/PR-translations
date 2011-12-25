@@ -4,6 +4,7 @@
 	{
 		//General
 		"name"	"Zombie Genocide" //Name of the challenge
+		"name_es"  "Genocidio Zombie" //Nombre del Desafío
 		"goal"	"100" //Goal
 		"checked_end" "0" //Is checked at the end: AKA: Must be active at the end to win.
 		"detail_lines" "2" //Total number of detail lines
@@ -32,8 +33,10 @@
 	"friendly_fire"
 	{
 		"name"	"Safe Fire"
+		"name_es"  "Fuego Seguro"
 		"detail_lines"	"1"
 		"dt_1" "You must not deal any friendly-fire to teammates on this round to complete this challenge"
+		"dt_1_es" "No debes danar a tus compañeros de equipo en esta ronda para completar este desafio"
 		"id"	"2"
 		"checked_end" "1"
 		"exp_reward"	"5500"
@@ -49,8 +52,10 @@
 	"witch_killed"
 	{
 		"name"	"Witch Hunt"
+		"name_es"  "Caceria de Brujas"
 		"detail_lines"	"1"
 		"dt_1"	"You must kill 3 witches on this round to complete this challenge"
+		"dt_1_es"  "Debes matar a 3 witched en esta ronda para completar este desafio"
 		"id"	"3"
 		"exp_reward"		"3125"
 		"points_reward"		"100"
@@ -65,8 +70,10 @@
 	"karma_charges"
 	{
 		"name"	"Karma Speed"
+		"name_es"  "Velocidad Mortal"
 		"detail_lines" "1"
 		"dt_1"	"You must Karma-Charge 3 survivors on this round to complete this challenge"
+		"dt_1_es"  "Debe hacer Karma-Charge a 3 sobrevivientes en esta ronda para completar este desafio"
 		"id"	"4"
 		"exp_reward"	"8000"
 		"points_reward"	"675"
@@ -81,8 +88,10 @@
 	"karma_slaps"
 	{
 		"name"	"Karma Hit"
+		"name_es"  "Golpe Mortal"
 		"detail_lines" "1"
 		"dt_1"	"You must Karma-Slap 2 survivors on this round to complete this challenge"
+		"dt_1_es"  "Debes hacer Karma-Slap a 2 sobrevivientes en esta ronda para completar este desafio"
 		"id"	"5"
 		"exp_reward"	"8000"
 		"points_reward"	"1050"
@@ -96,8 +105,10 @@
 	"boss_hunter"
 	{
 		"name"	"Boss Rampage"
+		"name_es"  "Arrasador de Jefes"
 		"detail_lines" "1"
 		"dt_1"	"You must kill 20 Special Infected on this round to complete this challenge"
+		"dt_1_es"  "Debes matar a 20 Infectados Especiales en esta ronda pa comlerar este desafio"
 		"id"	"6"
 		"exp_reward"	"2235"
 		"points_reward"	"70"
@@ -111,8 +122,10 @@
 	"survivor_massacre"
 	{
 		"name"	"Survivor Massacre"
+		"name_es"  "Masacre de Sobrevivientes"
 		"detail_lines"	"1"
 		"dt_1"	"You must kill 3 survivors on this round to complete this challenge"
+		"dt_1_es"  "Debes matar a 3 sobrevivientes en esta ronda para completar este desafio"
 		"id"	"7"
 		"exp_reward"	"3500"
 		"points_reward"	"200"
@@ -126,8 +139,10 @@
 	"revive"
 	{
 		"name"		"Advanced Care"
+		"name_es"    "Cuidado Avanzado"
 		"detail_lines"	"1"
 		"dt_1"		"You must help 6 incapacitated teammates on this round to complete this challenge"
+		"dt_1_es"  "Debes ayudar a 6 compañeros de equipo incapacitados para completar este desafio"
 		"id"		"8"
 		"exp_reward"	"3000"
 		"points_reward"	"85"
@@ -141,8 +156,10 @@
 	"bounty_hunter"
 	{
 		"name"		"Bounty Hunting"
+		"name_es"    "Cazador de Bounty"
 		"detail_lines"	"1"
 		"dt_1"		"You must earn 150 Bounty as infected on this round to complete this challenge"
+		"dt_1_es"    "Debes ganar 150 Bounty como infectado en esta ronda para completar este desafio"
 		"id"		"9"
 		"exp_reward"	"3500"
 		"points_reward"	"550"
@@ -156,11 +173,13 @@
 	"standing"
 	{
 		"name"		"Rambo Mission"
+		"name_es"   	"Mision Rambo"
 		"goal"	"1"
 		"init_buffer" "1"
 		"checked_end" "1"
 		"detail_lines" "1"
 		"dt_1"		"You must not get incapped during this round to complete this challenge"
+		"dt_1_es" 	"No debes ser incapacitado durante esta ronda para completar este desafio"
 		"id"		"10"
 		"exp_reward"	"4500"
 		"exp_penalty"	"2500"
@@ -173,12 +192,15 @@
 	"impossible"
 	{
 		"name"		"Honor Mission"
+		"name_es"	"Mision de Honor"
 		"goal"	"1"
 		"init_buffer"	"1"
 		"checked_end" "1"
 		"detail_lines"	"2"
 		"dt_1"		"You must not get any damage during this round to complete this challenge"
-		"dt_2"     "(60% of the survivors have to make it to the saferoom)"
+		"dt_1_es"  	"No debes recibir ningun dano durante esta ronda para completar este desafio"
+		"dt_2"		"(60% of the survivors have to make it to the saferoom)"
+		"dt_2_es"	"(el 60% de los sobrevivientes deben llegar al saferoom)"
 		"id"		"11"
 		"exp_reward"	"12500"
 		"exp_penalty"	"4000"
@@ -194,8 +216,10 @@
 	"pounce"
 	{
 		"name"		"Pounce Rampage"
+		"name_es"	"Albororo de Salto"
 		"detail_lines"	"1"
 		"dt_1"		"You must pounce 7 times during this round to complete this challenge"
+		"dt_1_es" 	"Debes saltar en sobreviviente 7 veces (Hunter) esta ronda para completar este desafio"
 		"id"		"12"
 		"exp_reward"	"2000"
 		"points_reward"	"20"
@@ -208,8 +232,10 @@
 	"burn"
 	{
 		"name"		"Inferno"
+		"name_es"    	"Infierno"
 		"detail_lines"
 		"dt_1"		"You must burn 200 common infected on this round to complete this challenge"
+		"dt_1_es" 	"Debes quemar a 200 infectados comunes en esta ronda para completar este desafio"
 		"id"		"13"
 		"exp_reward"	"3100"
 		"points_reward"	"200"
@@ -222,11 +248,13 @@
 	"karma_honorcode"
 	{
 		"name"		"Own the creator!"
+		"name_es" 	"Haz tuyo al creador!"
 		"goal"	"1"
 		"init_buffer"	"0"
 		"checked_end" "1"
 		"detail_lines"	"1"
 		"dt_1"		"You must Karma-Charge HonorCode to win this challenge"
+		"dt_1_es"	"Debes hacer un Karma-Charge a HonorCode para ganar este desafio"
 		"id"		"14"
 		"exp_reward"	"3000"
 		"points_reward"	"100"
@@ -239,10 +267,12 @@
 	"helms_deep_victory"
 	{
 		"name"	"The Greatest Battle"
+		"name_es"  "La Batalla mas Grande"
 		"detail_lines"	"1"
 		"goal"	"1"
 		"init_buffer" "0"
 		"dt_1"	"You and 50% of your teammates must survive the helms deep battle"
+		"dt_1_es"  "Tu y el 50% de tus compañeros de equipo deben sobrevivir a la batalla de helms deep"
 		"id"	"15"
 		"exp_reward"	"6500"
 		"points_reward"	"200"
@@ -255,10 +285,12 @@
 	"shaman_deploy"
 	{
 		"name"	"Shaman Fight"
+		"name_es"  "Lucha Shaman"
 		"detail_lines"	"1"
 		"goal"	"1"
 		"init_buffer"	"0"
 		"dt_1"	"Defeat the shaman tank"
+		"dt_1_es"  "Derrota al ShaMan Tank"
 		"id" "16"
 		"difficulty"	"3"
 		"team"	"2"
