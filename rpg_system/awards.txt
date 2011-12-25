@@ -53,6 +53,7 @@
 		"name"		"Headshot Spree: "
 		"name_es"	"Combo de Headshots: "
                 "name_pt"       "Combo de Headshots: "
+                "name_ru"       "Серия выстрелов в голову: "
 	}
 	
 	//A Player kills X amount of common infected (Specified on sourcemod/l4d2_rpg_system.cfg)
@@ -63,7 +64,8 @@
 		"exp"		"50"
 		"name"		"Killing Spree: "
 		"name_es"	"Combo de Asesinatos: "
-                "name_pt"       "Combo de Assassinatos: " 
+                "name_pt"       "Combo de Assassinatos: "
+                "name_ru"       "Серия убийств: "
 	}
 	
 	//A Player kills a special infected
@@ -75,6 +77,7 @@
 		"name"		"Special Infected Killed: "
 		"name_es"	"Infectado Especial Asesinado: "
                 "name_pt"       "Infectado Especial Assassinado"
+                "name_ru"       "Особый заражённый убит: "
 	}
 	
 	//A Player kills a special infected with a headshot
@@ -86,6 +89,7 @@
 		"name"		"Special Infected Headshot: "
 		"name_es"	"Headshot Infectado Especial: "
                 "name_pt"       "Headshot Infectado Especial: "
+                "name_ru"       "Выстрел в голову особому заражённому: "
 	}
 	
 	//A Player gives another adrenaline or pain_pills
@@ -105,6 +109,7 @@
 		"name"		"Healed Teammate: "
 		"name_es"	"Companero Curado: "
                 "name_pt"       "Companheiro Curado: "
+                "name_ru"       "Вылечил напарника: "
 	}
 	
 	//A Player heals a temamate and is harvesting (Harvest = heal another when unnecessary)
@@ -115,7 +120,8 @@
 		"exp"		"25"
 		"name"		"Healed Teammate (DO NOT HARVEST POINTS): "
 		"name_es"	"Companero Curado (NO CULTIVES PUNTOS!): "
-                "name_pt"       "Companheiro Curado (NÃO CULTIVES PONTOS): " 
+                "name_pt"       "Companheiro Curado (NÃO CULTIVES PONTOS): "
+                "name_ru"       "Вылечил напарника (В ЭТОМ НЕ БЫЛО НЕОБХОДИМОСТИ!): " 
 	} 
 	
 	//Revives an incapacitated survivor
@@ -127,6 +133,7 @@
 		"name"		"Revived Survivor: "
 		"name_es"	"Companero Asistido: "
                 "name_pt"       "Companheiro Assistido: "
+                "name_ru"       "Поднял выжившего: "
 	}
 	
 	//Uses a defibrillator to bring a mate back
@@ -138,6 +145,7 @@
 		"name"		"Defibbed Survivor: "
 		"name_es"	"Companero Revivido: "
                 "name_pt"       "Companheiro Ressuscitado: "
+                "name_ru"       "Оживил напарника: "
 	}
 	
 	//User protects a mate once
@@ -157,6 +165,7 @@
 		"name"		"Protected Teammate: "
 		"name_es"	"Companero Protegido: "
                 "name_pt"       "Companheiro Protegido: "
+                "name_ru"       "Защитил напарника: "
 	}
 	
 	//The user survives a normal round
@@ -167,7 +176,8 @@
 		"exp"		"500"
 		"name"		"Survived the round: "
 		"name_es"	"Round Sobrevivido: "
-                "name_pt"       "Round Sobrevivida: " 
+                "name_pt"       "Round Sobrevivida: "
+                "name_ru"       "Выжил в этом раунде: "
 	}
 	
 	//The user survives a finale AKA: Escapes
@@ -178,7 +188,8 @@
 		"exp"		"1000"
 		"name"		"Finale Escape: "
 		"name_es"	"Escapado: "
-                "name_pt"       "Final Escapado: " 
+                "name_pt"       "Final Escapado: "
+                "name_ru"       "Спасение: "
 	}
 	
 	//The user kills a witch
@@ -189,7 +200,8 @@
 		"exp"		"100"
 		"name"		"Witch killed: "
 		"name_es"	"Witch Asesinada: "
-                "name_pt"       "Witch Assassinada: "    
+                "name_pt"       "Witch Assassinada: "
+                "name_ru"       "Убил ведьму: "    
 	}
 	
 	//The user crowns a witch
@@ -201,6 +213,7 @@
 		"name"		"Witch Cr0wned: "
 		"name_es"	"Witch Cr0wned: "
                 "name_pt"       "Witch Cr0wned: "
+                "name_ru"       "Разбудил ведьму: "
 	}  
 
 	//The user ignites a witch
@@ -212,6 +225,7 @@
 		"name"		"Witch Burnt: "
 		"name_es"	"Witch Quemada: "
                 "name_pt"       "Witch Queimada: "
+                "name_ru"       "Поджёг ведьму: "
 	}
 
 	//The user ignites a tank
@@ -223,6 +237,7 @@
 		"name"		"Tank Burnt: "
 		"name_es"	"Tank Quemado: "
                 "name_pt"       "Tank Queimado: "
+                "name_ru"       "Поджёг танка: "
 	}
 	
 	//The user biles a tank
@@ -234,6 +249,7 @@
 		"name"		"Biled Tank: "
 		"name_es"	"Tank Vomitado: "
                 "name_pt"       "Tank Vomitado: "
+                "name_ru"       "Кинул банку с блевотой на танка: "
 	}
 	
 	//The user kills a tank (Or the team does)
@@ -245,6 +261,7 @@
 		"name"		"Tank Killed: "
 		"name_es"	"Tank Asesinado: "
                 "name_pt"       "Tank Assassinado: "
+                "name_ru"       "Убил танка: "
 	}
 	
 	//The user kills a tank ALONE
@@ -256,6 +273,7 @@
 		"name"		"Tank SOLO: "
 		"name_es"	"Tank Asesinado Solo: "
                 "name_pt"       "Tank Assassinado Sozinho"
+                "name_ru"       "Убил танка в одиночку: "
 	}
 	
 	//The user triggers a panic event (Unknown source, car alarms, cresendos, anything)
@@ -283,6 +301,7 @@
 		"name"		"Revived Teammate: "
 		"name_es"	"Companero Ayudado: "
                 "name_pt"       "Companheiro Ajudado. "
+                "name_ru"       "Поднял напарника: "
 	}
 	
 	//The player dies
@@ -309,6 +328,7 @@
 		"exp"		"-2000"
 		"name"	"INCAPPED TEAMMATE: "
                 "name_pt" "COMPANHEIRO INCAPACITADO: "
+                "name_ru" "ВЫВЕЛ ИЗ СТРОЯ НАПАРНИКА: "
 	}
 	
 	//The player kills a teammate
@@ -320,6 +340,7 @@
 		"name"		"KILLED TEAMMATE: "
 		"name_es"	"COMPANERO ASESINADO: "
                 "name_pt"       "COMPANHEIRO ASSASSINADO: "
+                "name_ru"       "УБИЛ ТОВАРИЩА ПО КОМАНДЕ: "
                 
 	}
 	
@@ -334,6 +355,7 @@
 		"name"		"Incapacitated Survivor: "
 		"name_es"	"Sobreviviente Incapacitado: "
                 "name_pt"       "Sobrevivente Incapacitado: "
+                "name_ru"       "ВЫВЕЛ ИЗ СТРОЯ ВЫЖИВШЕГО: "
         }
 	
 	//The user kills a survivor
@@ -345,6 +367,7 @@
 		"name"		"Killed Survivor: "
 		"name_es"	"Sobreviviente Asesinado: "
                 "name_pt"       "Sobrevivente Assassinado: "
+                "name_ru"       "УБИЛ ВЫЖИВШЕГО: "
 	}
 	
 	//The user damages a survivor for the specified amount on sourcemod/l4d2_rpg_system.cfg
@@ -356,6 +379,7 @@
 		"name"		"Multi-Damage: "
 		"name_es"	"Dano Multiple: "
                 "name_pt"       "Múltiplo Dano: "
+                "name_ru"       "Огромный урон: "
 	}
 	
 	//The user successfully pounces a survivor
@@ -367,6 +391,7 @@
 		"name"		"Pounced Survivor: "
 		"name_es"	"Sobreviviente Tumbado: "
                 "name_pt"       "Pounced Sobrevivente: "
+                "name_ru"       "Набросился на выжившего: "
 	}
 	
 	//The user succesfully pounces a survivor for the max damage. Note, previous event points might get joined
@@ -378,6 +403,7 @@
 		"name"		"Max Pounce Damage: "
 		"name_es"	"Maximo Dano Pounce: "
                 "name_pt"       "Máximo Dano Pounce: "
+                "name_ru"       "Максимальный урон от прыжка: "
 	}
 	
 	//The user successfully rides a survivor
@@ -388,6 +414,7 @@
 		"exp"		"15"
 		"name"		"Ridden Survivor: "
                 "name_pt"       "Sobrevivente Montado: "
+                "name_ru"       "Проехался на выжившем: "
 	}
 	
 	//The user successfully begins choking a survivor
@@ -399,6 +426,7 @@
 		"name"		"Grabbed Survivor: "
 		"name_es"	"Sobreviviente Tomado: "
                 "name_pt"       "Sobrevivente Agarrado: "
+                "name_ru"       "Схватил выжившего: "
 	}
 	
 	//The user successfully vomits on a survivor
@@ -410,6 +438,7 @@
 		"name"		"Vomited Survivor: "
 		"name_es"	"Sobreviviente Vomitado: "
                 "name_pt"       "Sobrevivente Vomitado: "
+                "name_ru"       "Наблевал на выжившего: "
 	}
 	
 	//The user successfully charges a survivor
@@ -421,6 +450,7 @@
 		"name"		"Charged Survivor: "
 		"name_es"	"Sobreviviente Cargado: "
                 "name_pt"       "Sobrevivente Carregado: "
+                "name_ru"       "Протащил выжившего: "
 	}
 	
 	//The user successfully impacts a survivor while charging another
@@ -432,6 +462,7 @@
 		"name"		"Charge Impact: "
 		"name_es"	"Impacto: "
                 "name_pt"       "Impacto: "
+                "name_ru"       "Столкновение: "
 	}
 	
 	//The user successfully pummels a survivor
@@ -443,6 +474,7 @@
 		"name"		"Pummeled Survivor: "
 		"name_es"	"Sobreviviente Machacado: "
                 "name_pt"       "Sobrevivente Esmurrado: "
+                "name_ru"       "Избил выжившего: "
 	}
 	
 	//The user deals a KARMA CHARGE
@@ -454,6 +486,7 @@
 		"name"		"KARMA CHARGE: "
 		"name_es"	"CARGA FATAL: "
                 "name_pt"       "CARGADA KARMA"
+                "name_ru"       "ФАТАЛЬНАЯ АТАКА: "
 	}
 	
 	//The user deals a KARMA BITCH SLAP
@@ -465,6 +498,7 @@
 		"name"		"KARMA SLAP: "
 		"name_es"	"BOFETADA FATAL: "
                 "name_pt"       "BOFETADA KARMA: "
+                "name_ru"       "ПИНОК: " 
 	}
 	
 	//The user successfully spits on a survivor - BUG
@@ -476,6 +510,7 @@
 		"name"		"Spitted Survivor: "
 		"name_es"	"Sobreviviente Escupido: "
                 "name_pt"       "Sobrevivente Cuspido: "
+                "name_ru"       "Плюнул в выжившего: "
 	}
 	
 	//The player loses tank control
