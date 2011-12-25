@@ -299,7 +299,7 @@
 	"health"
 	{
 		"name"	"Full Health"
-		"name_es"	"Vida Maxima"
+		"name_es"	"Vida al maximo"
 		"name_br"	"Vida Maxima"
                 "name_ru"       "Полное здоровье"
 		"enabled"	"1"
@@ -312,7 +312,7 @@
 	"hunting_rifle"
 	{
 		"name"	"Hunting Rifle"
-		"name_es"	"Rifle Cazador"
+		"name_es"	"Rifle de Caza"
 		"name_br"	"Rifle de Cacador"
                 "name_ru"       "Охотничья винтовка"
 		"enabled"	"1"
@@ -684,7 +684,7 @@
 	"vomitjar"
 	{
 		"name"	"Vomit Jar"
-		"name_es"	"Botella de Vomito"
+		"name_es"	"Frasco de Bilis"
 		"name_br"	"Jarra de Vomito"
                 "name_ru"       "Банка с рвотой"
 		"enabled"	"1"
