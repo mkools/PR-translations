@@ -12,7 +12,7 @@
 	{
 		"id"	"1"
 		"name"	"Vending Machine"
-		"name_es"	"Maquina Magica"
+		"name_es"	"Maquina expendedora"
 	}
 	
 	"gem"
@@ -47,12 +47,13 @@
 	{
 		"id"	"6"
 		"name"	"Starter Account Summoner"
-		"name_es"	"Activador Cuenta Novata"
+		"name_es"	"Cuanta de inicio para novatos"
 	}
 	
 	"vending_machine_gold"
 	{
 		"id"	"7"
 		"name"	"Premium Vending Machine"
+                "name_es" "Maquina expendedora Premium
 	}
 }
