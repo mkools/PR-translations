@@ -178,7 +178,7 @@
 		"exp"		"1000"
 		"name"		"Finale Escape: "
 		"name_es"	"Escapado: "
-                "name_pt"       "Final Escapado: " 
+                "name_pt"       "Finale Escapado: " 
 	}
 	
 	//The user kills a witch
@@ -453,7 +453,7 @@
 		"exp"		"250"
 		"name"		"KARMA CHARGE: "
 		"name_es"	"CARGA FATAL: "
-                "name_pt"       "CARGADA KARMA"
+                "name_pt"       "KARMA CHARGE"
 	}
 	
 	//The user deals a KARMA BITCH SLAP
@@ -464,7 +464,7 @@
 		"exp"		"350"
 		"name"		"KARMA SLAP: "
 		"name_es"	"BOFETADA FATAL: "
-                "name_pt"       "BOFETADA KARMA: "
+                "name_pt"       "KARMA SLAP: "
 	}
 	
 	//The user successfully spits on a survivor - BUG
