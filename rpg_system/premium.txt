@@ -12,7 +12,7 @@
 	{
 		"id"	"1"
 		"name"	"Vending Machine"
-		"name_es"	"Maquina Magica"
+		"name_es"	"Maquina Expedidora"
 	}
 	
 	"gem"
@@ -26,7 +26,7 @@
 	{
 		"id"	"3"
 		"name"	"Double Exp Package"
-		"name_es"	"Paquete de Exp Doble"
+		"name_es"	"Paquete de Exp/puntos x2"
 	}
 	
 	"points"
@@ -54,5 +54,6 @@
 	{
 		"id"	"7"
 		"name"	"Premium Vending Machine"
+		"name_es"	"Maquina Expedidora Premium"
 	}
 }
