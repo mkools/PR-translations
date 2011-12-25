@@ -17,6 +17,7 @@
 	"cat3"
 	{
 		"name"		"The Voice"
+		"name_es"	"La voz"
 		"id"		"3"
 		"min_lvl"	"200"
 		"guild"		"1"
@@ -60,6 +61,7 @@
 	"cat10"
 	{
 		"name"		"Thief"
+		"name_es"	"Ladron"
 		"id"		"10"
 		"min_lvl"	"57"
 	}
