@@ -51,7 +51,7 @@
 	"melee_weapons"
 	{
 		"name"	"Melee Weapons"
-		"name_es"	"Armas Melee"
+		"name_es"	"Armas de cuerpo a cuerpo"
 		"name_br"	"Armas de combate corpo-a-corpo"
 		"id"	"2"
 		"team"	"2"
