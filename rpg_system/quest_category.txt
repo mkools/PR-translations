@@ -6,6 +6,7 @@
 		"id"		"1"
 		"min_lvl"	"1"
 		"guild"		"0"
+                "name_ru"       "Кайл"
 	}
 	"cat2"
 	{
@@ -13,6 +14,7 @@
 		"id"		"2"
 		"min_lvl"	"3"
 		"guild"		"0"
+                "name_ru"       "Роджер"
 	}
 	"cat3"
 	{
@@ -21,42 +23,49 @@
 		"id"		"3"
 		"min_lvl"	"200"
 		"guild"		"1"
+                "name_ru"       "Голос"
 	}
 	"cat4"
 	{
 		"name"		"Keith"
 		"id"		"4"
 		"min_lvl"	"15"
+                "name_ru"       "Кит"
 	}
 	"cat5"
 	{
 		"name"		"Sara"
 		"id"		"5"
 		"min_lvl"	"10"
+                "name_ru"       "Сара"
 	}
 	"cat6"
 	{
 		"name"		"Bryan"
 		"id"		"6"
 		"min_lvl"	"20"
+                "name_ru"       "Брайан"
 	}
 	"cat7"
 	{
 		"name"		"William"
 		"id"		"7"
 		"min_lvl"	"50"
+                "name_ru"       "Уильям"
 	}
 	"cat8"
 	{
 		"name"		"Theodora"
 		"id"		"8"
 		"min_lvl"		"40"
+                "name_ru"       "Теодора"
 	}
 	"cat9"
 	{
 		"name"		"Darwin"
 		"id"		"9"
 		"min_lvl"	"65"
+                "name_ru"       "Дарвин"
 	}
 	"cat10"
 	{
@@ -64,35 +73,41 @@
 		"name_es"	"Ladron"
 		"id"		"10"
 		"min_lvl"	"57"
+                "name_ru"       "Вор"
 	}
 	"cat11"
 	{
 		"name"		"Will"
 		"id"		"11"
 		"min_lvl"	"100"
+                "name_ru"       "Уил"
 	}
 	"cat12"
 	{
 		"name"		"David"
 		"id"		"12"
 		"min_lvl"	"40"
+                "name_ru"       "Дэвид"
 	}
 	"cat13"
 	{
 		"name"		"Snooki"
 		"id"		"13"
 		"min_lvl"	"67"
+                "name_ru"       "Снуки"
 	}
 	"cat14"
 	{
 		"name"		"Ryan"
 		"id"		"14"
 		"min_lvl"	"150"
+                "name_ru"       "Райан"
 	}
 	"cat15"
 	{
 		"name"		"Walter"
 		"id"		"15"
 		"min_lvl"	"135"
+                "name_ru"       "Уолтер"
 	}
 }
