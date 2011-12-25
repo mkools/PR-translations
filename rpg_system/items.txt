@@ -1,774 +1,283 @@
 //
-//					I T E M S 			F I L E
+//					P R E M I U M 			F I L E
 //
 // ***************************************************************************
-//	This file contain the data related to the bounty purchase menu. Similar
-//	to l4d2_points_system.
+//	This file contains all the data related to premium items. The structure is
+//	no yet defined.
 //
-//	The structure:
 //
-//	"first_aid_kit" //This is the item name. Is not recommended to edit this, just add new items
-//	{
-//		"enabled"	"1"			//Should the item be shown on the menu?
-//		"name"		"Medkit"	//Name displayed
-//		"cost"		"10"		//Bounty cost of the item
-//		"cat"		"1"			//Category ID of the item. See categories.txt for more info
-//		"cmd"		"give"		//Command casted when the item is bought. In this example 'give first_aid_kit' will be enforced
-//		"param"		""			//Additional command parameter. Put "auto" here for infected items. Example: z_spawn boomer auto
-//	}
-//
-//	Misc:
-//
-//	function::panic //Trigger a panic event
-//	function::killattacker //Kills pounce, choke, ride, etc attacker
-//	function::vomit		   //Param: surv or inf
-//	function::createspit   //Create Spit
-//	function::removeinf		//Removes common infected
-//
-//  Note: not all functions might be functional, use at own risk
-//
-"items"
+"premium"
 {
-	//Melee
-	"baseball_bat"
+	"vending_machine"
 	{
-		"name"	"Baseball Bat"
-		"name_es"	"Bate de Baseball"
-		"name_br"	"Bastao de Baseball"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"1"
+		"name"	"|Item| Vending Machine"
+		"name_es"	"Maquina Expendedora"
 	}
 	
-	"chainsaw"
+	"gem"
 	{
-		"name"	"Chainsaw"
-		"name_es"	"Motosierra"
-		"name_br"	"Motosserra"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"2"
-		"cmd"		"give"
-		"param"		""
+		"id"	"2"
+		"name"	"|Item| Gem"
+		"desct"	"1"
+		"desc1"	"Gems are precios exchange items used to get necessary materials to get upgrades and learn skills"
+		"name_es"	"Gema"
+		"desc1_es"	"Las Gemas son items preciosos de intercambio que son usados para obtener los materiales necesarios para mejoras y aprender habilidades"
 	}
 	
-	"cricket_bat"
+	"exp_package"
 	{
-		"name"	"Cricket Bat"
-		"name_es"	"Bate de Cricket"
-		"name_br"	"Bastao de Criquete"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"3"
+		"name"	"|Item| x2 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+		"name_es"	"Paquete de Exp/Puntos x2 (1 mes)"
+		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
 	}
 	
-	"crowbar"
+	"points"
 	{
-		"name"	"Crowbar"
-		"name_es"	"Palanca"
-		"name_br"	"Pe de cabra"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"4"
+		"name"	"|Item| Mega Points Pack"
+		"desct"	"1"
+		"desc1"	"A pack containing a lot of points!"
+		"name_es"	"Mega Pack de Puntos"
+		"desc1_es"	"Un paquete que contiene muchos puntos"
 	}
 	
-	"electric_guitar"
+	"exp"
 	{
-		"name"	"Electric Guitar"
-		"name_es"	"Guitarra Electrica"
-		"name_br"	"Guitarra"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"5"
+		"name"	"|Item| Mega Exp Pack"
+		"desct"	"1"
+		"desc1"	"A pack containing a lot of wisdom!"
+		"name_es"	"Mega Pack de Exp"
+		"desc1_es"	"Un paquete que contiene mucha sabiduria"
 	}
 	
-	"fireaxe"
+	"starter_account"
 	{
-		"name"	"Fire Axe"
-		"name_es"	"Hacha"
-		"name_br"	"Machado"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"6"
+		"name"	"|Item| Starter Account Summoner"
+		"desct"	"1"
+		"desc1"	"Gives you a boost at start"
+		"name_es"	"Activador Cuenta Novata"
+		"desc1_es"	"Te da una avance al iniciar una cuenta nueva"
 	}
 	
-	"frying_pan"
+	"vending_machine_gold"
 	{
-		"name"	"Frying Pan"
-		"name_es"	"Sarten"
-		"name_br"	"Frigideira"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"7"
+		"name"	"|Item| Premium Vending Machine"
+		"name_es"	"Maquina Expedidora Premium"
+	}
+	"enhancement_stone"
+	{
+		"id"	"8"
+		"name"	"|Auto| Enhancement Stone"
+		"desc1"	"Certain upgrades and skills require this stone to be obtained!"
+		"desct"	"1"
+		"name_es"	"Piedra de Mejora"
+		"desc1_es"	"Ciertas mejoras y habilidades requieren de esta piedra para ser obtenidas"
+	}
+	"helms_deep_ticket"
+	{
+		"id"	"9"
+		"name"	"|Item| Helms Deep Ticket"
+		"desct"	"1"
+		"desc1"	"The ticket will unlock the Helms Deep main door"
+		"name_es"	"Ticket Helms Deep"
+		"desc1_es"	"Este Ticket desbloqueara la puerta principal de Helms Deep"
+	}
+	"paranoia_buff"
+	{
+		"id"	"10"
+		"name"	"|Buff| Paranoia"
+		"desct"	"1"
+		"desc1"	"Gives you the Paranoia Buff"
+		"name_es"	"Buff Paranoia"
+		"desc1_es"	"Te permite usar el buff Paranoia"
+	}
+	"none"
+	{
+		"id"	"11"
+		"name"	"|?| Empty Item"
+		"desct"	"1"
+		"desc1"	"An empty item"
+		"name_es"	"Item Vacio"
+		"desc1_es"	"Un item vacio"
+	}
+	"revert_stone"
+	{
+		"id"	"12"
+		"name"	"|Item| Revert Stone"
+		"desct"	"2"
+		"desc1"	"Will allow you to remove an upgrade or skill, and recover all of the wasted points and gems"
+		"desc2"	"The stone, however, is unable to restore enhancement stones"
+		"name_es"	"Piedra de Reversion"
+		"desc1_es"	"Te permitira removar una mejora o habilidad, y recuperar todos los puntos y gemas gastados"
+		"desc2_es"	"La piedra, sin embargo, no puede restaurar Piedras de Mejora"
+	}
+	"Buff_Slot"
+	{
+		"id"	"13"
+		"name"	"|Item| Buff slot unlocker"
+		"desct"	"1"
+		"desc1"	"Increases your buff equipment limit"
+		"name_es"	"Desbloqueador de Buff Slot"
+		"desc1_es"	"Incrementa tu limite para equipar buffs"
+	}
+	"guild_stone"
+	{
+		"id"	"14"
+		"name"	"|Auto| Guild Stone"
+		"desct"	"1"
+		"desc1"	"The stone will let you create a Guild"
+		"name_es"	"Piedra de Clan"
+		"desc1_es"	"Esta piedra te permitira crear un Clan"
+	}
+	"anti_mutation"
+	{
+		"id"	"15"
+		"name"	"|Buff| Mutation Shield (1 Month)"
+		"desct"	"1"
+		"desc1"	"A dose of antibodies that will shield you from mutations"
+		"name_es"	"Escudo contra Mutacion (1 mes)"
+		"desc1_es"	"Una dosis de antibioticos que te protegeran de las mutaciones"
+	}
+	"item16"
+	{
+		"id"	"16"
+		"name"	"|Buff| Mutation Shield (1 Week)"
+		"desct"	"1"
+		"desc1"	"A dose of antibodies that will shield you from mutations"
+		"name_es"	"Escudo contra Mutacion (1 semana)"
+		"desc1_es"	"Una dosis de antibioticos que te protegeran de las mutaciones"
+	}
+	"item17"
+	{
+		"id"	"17"
+		"name"	"|Buff| Mutation Shield (1 Day)"
+		"desct"	"1"
+		"desc1"	"A dose of antibodies that will shield you from mutations"
+		"name_es"	"Escudo contra Mutacion (1 dia)"
+		"desc1_es"	"Una dosis de antibioticos que te protegeran de las mutaciones"
+	}
+	"item18"
+	{
+		"id"	"18"
+		"name"	"|Item| Enhancer"
+		"desct"	"2"
+		"desc1"	"The liquid enhancer is a mix of several mutated cells that will instantly"
+		"desc2"	"level up the user to Lv. 201 and will allow him to rise up to Lv. 210"
+		"name_es"	"Potenciador"
+		"desc1_es"	"Un liquido potenciador que es una mezcla de muchas celulas mutadas que hara instantaneamente"
+		"desc2_es"	"subir de nivel al usuario al nivel 201 y permitiendole avanzar hasta el nivel 210"
+	}
+	"item19"
+	{
+		"id"	"19"
+		"name"	"|Buff| Penalty Escaper"
+		"desct"	"2"
+		"desc1"	"This buff will allow your teammates to forgive you if you attack them"
+		"desc2"	"or do any agressive actions. You won't take exp nor points penalties."
+		"name_es"	"Escape de Penalidades"
+		"desc1_es"	"Este buff hara que tus companeros te perdonen si los atacas"
+		"desc2_es"	"o si haces cualquier agresion. No tomaras penalidades de experiencia o puntos."
 	}
 	
-	"golfclub"
+	"item20"
 	{
-		"name"	"Golfclub"
-		"name_es"	"Palo de Golf"
-		"name_br"	"Taco de Golfe"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"20"
+		"name"	"|Equip| Advanced Rifle"
+		"desct"	"3"
+		"desc1"	"The Advanced Rifle can be equipped on your account. This rifle will do additional"
+		"desc2"	"damage summed to your upgrades. Also, each kind of weapon has different abilities"
+		"desc3"	"Collect items and equip them to resist or deal more damage"
+		"name_es"	"Rifle Avanzado"
+		"desc1_es"	"Este rifle avanzado puede ser equipado en tu cuenta. Este rifle hara dano"
+		"desc2_es"	"adicional sumado a tus mejoras. Ademas, cada tipo de arma tiene diferentes capacidades"
+		"desc3_es"	"Junta items y equipalos para resistir o ocacionar mas dano"
 	}
 	
-	"katana"
+	"item21"
 	{
-		"name"	"Katana"
-		"name_es"	"Katana"
-		"name_br"	"Katana"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"21"
+		"name"	"|Buff| Poison Shield"
+		"desct1"	"A dose of Poison antidote. Will shield you from poison"
+		"desct"	"1"
+		"name_es"	"Escudo contra veneno"
+		"desc1_es"	"Una dosis de antidoto de veneno. Te protegera del envenenamiento"
 	}
 	
-	"machete"
+	"item22"
 	{
-		"name"	"Machete"
-		"name_es"	"Machete"
-		"name_br"	"Facao"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"22"
+		"name"	"|Skill| Charge Block"
+		"desct"	"1"
+		"desct1"	"Will allow you to learn the Charge Block skill"
+		"name_es"	"Bloqueo de Carga"
+		"desc1_es"	"Te permitira aprender la habilidad de Bloqueo de Carga"
 	}
 	
-	"tonfa"
+	"item23"
 	{
-		"name"	"Tonfa"
-		"name_es"	"Tonfa"
-		"name_br"	"Cacetete"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
+		"id"	"23"
+		"name"	"|Item| x3 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+		"name_es"	"Paquete de Exp/Puntos x3 (1 mes)"
+		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
 	}
 	
-	//Rest
-	"adrenaline"
+	"item24"
 	{
-		"name"	"Adrenaline Shot"
-		"name_es"	"Adrenalina"
-		"name_br"	"Injecao de Adrenalina"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
+		"id"	"24"
+		"name"	"|Item| x4 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+		"name_es"	"Paquete de Exp/Puntos x4 (1 mes)"
+		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
 	}
 	
-	"ammo"
+	"item25"
 	{
-		"name"	"Ammunition"
-		"name_es"	"Municion"
-		"name_br"	"Municao"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
+		"id"	"25"
+		"name"	"|Item| x5 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+		"name_es"	"Paquete de Exp/Puntos x5 (1 mes)"
+		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
 	}
 	
-	"autoshotgun"
+	"item26"
 	{
-		"name"	"Auto Shotgun"
-		"name_es"	"Auto Shotgun"
-		"name_br"	"Auto Espingarda"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
+		"id"	"26"
+		"name"	"|Item| x10 Booster (1 Month)"
+		"desct"	"1"
+		"desc1"	"The Exp Booster will allow you to learn, in no time"
+		"name_es"	"Paquete de Exp/Puntos x10 (1 mes)"
+		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
 	}
 	
-	"cola_bottles"
+	"item27"
 	{
-		"name"	"Cola Bottles"
-		"name_es"	"Botellas de Cola"
-		"name_br"	"Garrafas de Cola"
-		"enabled"	"0"
-		"cost"		"150"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
+		"id"	"27"
+		"name"	"|Auto| (100%) Upgrade Hammer (Not Yet Functional)"
+		"desct"	"1"
+		"desc1"	"An upgrade hammer with 100% probability of success"
+		"name_es"	"(100%) Martillo de Mejora (Aun no funcional)
+		"desc1_es"	"Un Martillo de Mejora con 100% de probabilidad de exito"
+	}
+	"item28"
+	{
+		"id"	"28"
+		"name"	"|Auto| Grade Enhancer(Veteran)"
+		"desct1"	"1"
+		"desc1"	"The grade booster will enhance your weapon's grade into VETERAN"
+		"name_es"	"Potenciador de Grado" (Veterano)
+		"desc1_es"	"Este item mejorara el grado de tu arma a VETERANO"
 	}
 	
-	"defibrillator"
-	{
-		"name"	"Defibrillator"
-		"name_es"	"Desfibrilador"
-		"name_br"	"Desfibrilador"
-		"enabled"	"1"
-		"cost"		"20"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
 	
-	"fireworkcrate"
-	{
-		"name"	"Fire Works Crate"
-		"name_es"	"Fuego Artificiales"
-		"name_br"	"Fogos de Artificio"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"first_aid_kit"
-	{
-		"name"	"First Aid Kit"
-		"name_es"	"Botiquin"
-		"name_br"	"Kit de Primeiro Socorros"
-		"enabled"	"1"
-		"cost"		"17"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"gascan"
-	{
-		"name"	"Gasoline Can"
-		"name_es"	"Gasolina"
-		"name_br"	"Gasolina"
-		"enabled"	"1"
-		"cost"		"75"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"gnome"
-	{
-		"name"	"Gnome"
-		"name_es"	"Gnomo"
-		"name_br"	"Gnomo"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"grenade_launcher"
-	{
-		"name"	"Grenade Launcher"
-		"name_es"	"Lanzagranadas"
-		"name_br"	"Lancador de Granadas"
-		"enabled"	"1"
-		"cost"		"50"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"health"
-	{
-		"name"	"Full Health"
-		"name_es"	"Vida Maxima"
-		"name_br"	"Vida Maxima"
-		"enabled"	"1"
-		"cost"		"20"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"hunting_rifle"
-	{
-		"name"	"Hunting Rifle"
-		"name_es"	"Rifle Cazador"
-		"name_br"	"Rifle de Cacador"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"molotov"
-	{
-		"name"	"Molotov"
-		"name_es"	"Molotov"
-		"name_br"	"Molotov"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"3"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"oxygentank"
-	{
-		"name"	"Oxygen Tank"
-		"name_es"	"Tanque de Oxigeno"
-		"name_br"	"Tanque de Oxigenio"
-		"enabled"	"1"
-		"cost"		"2"
-		"cat"		"5"
-		"cmd"		"give"
-	}
-	
-	"pain_pills"
-	{
-		"name"	"Pills"
-		"name_es"	"Pildoras"
-		"name_br"	"Pilulas"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pipe_bomb"
-	{
-		"name"	"Pipe Bomb"
-		"name_es"	"Bomba Casera"
-		"name_br"	"Granada"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"3"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pistol"
-	{
-		"name"	"Pistol"
-		"name_es"	"Pistola"
-		"name_br"	"Pistola"
-		"enabled"	"1"
-		"cost"		"5"
-		"cat"		"1"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pistol_magnum"
-	{
-		"name"	"Pistol - Magnum"
-		"name_es"	"Magnum"
-		"name_br"	"Magnum"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"1"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"propanetank"
-	{
-		"name"	"Propane Tank"
-		"name_es"	"Tanque de Propano"
-		"name_br"	"Tanque de Propano"
-		"enabled"	"1"
-		"cost"		"3"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pumpshotgun"
-	{
-		"name"	"Pump Shotgun"
-		"name_es" "Escopeta a Bombeo"
-		"name_br" "Espingarda de bombear"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle"
-	{
-		"name"	"Rifle M16"
-		"name_es"	"Rifle M16"
-		"name_br"	"Rifle M16"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_ak47"
-	{
-		"name"	"Rifle AK47"
-		"name_es"	"Rifle AK47"
-		"name_br"	"Rifle AK47"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_desert"
-	{
-		"name"	"Rifle Desert"
-		"name_es"	"Rifle Militar"
-		"name_br"	"Rifle Militar"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_m60"
-	{
-		"name"	"Rifle M60"
-		"name_es"	"Rifle M60"
-		"name_br"	"Rifle M60"
-		"enabled"	"1"
-		"cost"		"50"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_sg552"
-	{
-		"name"	"Rifle SG552"
-		"name_es"	"Rifle SG552"
-		"name_br"	"Rifle SG552"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"shotgun_chrome"
-	{
-		"name"	"Chrome Shotgun"
-		"name_es"	"Escopeta de Cromo"
-		"name_br"	"Espingarda Cromada"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"shotgun_spas"
-	{
-		"name"	"Spas Shotgun"
-		"name_es"	"Escopeta Spas"
-		"name_br"	"Espingarda Spas"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"smg"
-	{
-		"name"	"SMG"
-		"name_es"	"SMG"
-		"name_br"	"SMG"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"smg_mp5"
-	{
-		"name"	"SMG - MP5"
-		"name_es"	"SMG MP5"
-		"name_br"	"SMG MP5"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"smg_silenced"
-	{
-		"name"	"SMG - Silenced"
-		"name_es"	"SMG Silenciada"
-		"name_br"	"SMG com silenciador"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"sniper_awp"
-	{
-		"name"	"Sniper - Awp"
-		"name_es"	"Francotirador AWP"
-		"name_br"	"Franco atirador AWP"
-		"enabled"	"1"
-		"cost"		"15"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"sniper_military"
-	{
-		"name"	"Snipe - Military"
-		"name_es"	"Francotirador Militar"
-		"name_br"	"Franco atirador Militar"
-		"enabled"	"1"
-		"cost"		"14"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"sniper_scout"
-	{
-		"name"	"Sniper - Scout"
-		"name_es"	"Francotirador Scout"
-		"name_br"	"Franco atirador Sentinela"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	"explosive_ammo"
-	{
-		"name"	"Explosive Ammo"
-		"name_es"	"Municion Explosiva"
-		"name_br"	"Municao Explosiva"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"upgrade_add"
-		"param"		""
-	}
-	"upgradepack_explosive"
-	{
-		"name"	"Explosive Ammo Pack"
-		"name_es"	"Paquete de Municion Explosiva"
-		"name_br"	"Pacote de Municao Explosiva"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"incendiary_ammo"
-	{
-		"name"	"Incendiary Ammo"
-		"name_es"	"Municion Incendiaria"
-		"name_br"	"Municao Incendiaria"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"upgrade_add"
-		"param"		""
-	}
-	
-	"upgradepack_incendiary"
-	{
-		"name"	"Incendiary Ammo Pack"
-		"name_es"	"Paquete de Municion Incendiaria"
-		"name_br"	"Pacote de Municao Incendiaria"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"laser_sight"
-	{
-		"name"	"Laser Sight"
-		"name_es"	"Mira Laser"
-		"name_br"	"Mira Laser"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"upgrade_add"
-		"param"		""
-	}
-	
-	"vomitjar"
-	{
-		"name"	"Vomit Jar"
-		"name_es"	"Botella de Vomito"
-		"name_br"	"Jarra de Vomito"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"3"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"health "
-	{
-		"name"	"Heal"
-		"name_es"	"Curacion"
-		"name_br"	"Curar"
-		"enabled"	"1"
-		"cost"		"50"
-		"cat"		"0"
-		"cmd"		"give"
-	}
-	
-	"boomer"
-	{
-		"name"	"Boomer"
-		"enabled"	"0"
-		"cost"		"30"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"charger"
-	{
-		"name"	"Charger"
-		"enabled"	"0"
-		"cost"		"6"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"hunter"
-	{
-		"name"	"Hunter"
-		"enabled"	"0"
-		"cost"		"4"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"jockey"
-	{
-		"name"	"Jockey"
-		"enabled"	"0"
-		"cost"		"6"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"smoker"
-	{
-		"name"	"Smoker"
-		"enabled"	"0"
-		"cost"		"4"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"spitter"
-	{
-		"name"	"Spitter"
-		"enabled"	"0"
-		"cost"		"6"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"tank"
-	{
-		"name"	"Tank"
-		"enabled"	"1"
-		"cost"		"60"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"witch"
-	{
-		"name"	"Witch"
-		"enabled"	"1"
-		"cost"		"25"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"mob"
-	{
-		"name"	"Horde"
-		"name_es"	"Horda"
-		"name_br"	"Horda"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"panic_event"
-	{
-		"name"	"Panic Event"
-		"name_es"	"Horda Masiva"
-		"name_br"	"Evento de Panico"
-		"enabled"	"1"
-		"cost"		"15"
-		"cat"		"0"
-		"cmd"		"function::panic"
-		"param"		""
-	}
-	
-	"vomit_survivors"
-	{
-		"name"	 "Bile Shower (Vomit All)"
-		"name_es"	"Ducha de Vomito (Vomitar a Todos)"
-		"name_br"	"Banho de Vomito (Vomitar a Todos)"
-		"enabled"	"1"
-		"cost"		"30"
-		"cat"		"0"
-		"cmd"		"function::vomit"
-		"param"		"surv"
-	}
 }
