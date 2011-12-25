@@ -904,6 +904,7 @@ line 1_ru...
 	"quest21"
 	{
 		"name"			"Final Trip" //Quest Name
+                "name"                  "Последнее путешествие" //Название квеста
 		"id"			"21" //Quest Id
 		"qreq"			"20"
 		"cat"			"5" //Quest cat
@@ -917,15 +918,25 @@ line 1_ru...
 		"line5"			"might be immune, but i'm sure that, sharing our meal, our bathrooms and"
 		"line6"			"whatever you do, will get us infected. I need to repair our van first, so"
 		"line7"			"please, get me a working wheel to get the hell out of here!"
+                "line1_ru"              "Привет.Смерть Бобби повлияла на всех нас.Мы решили перестать  прятаться. Мы попробуем"
+                "line2_ru"              "добраться до Канады или Южной Америки,так как я думаю что инфекция не выживает в "
+                "line3_ru"              "экстремальных условиях...Кто знает?Тебе должно быть стыдно что ты не идёшь с нами."
+                "line4_ru"              "Ты вполне можешь иметь иммунитет,но вполне возможно что ты мог бы нас заразить.Ладно,"
+                "line5_ru"              "нам нужно починить наш фургон.Так что принеси мне работающее колесо чтобы мы могли"
+                "line6_ru"              "выбраться отсюда!"
 		
 		"clines"		"4"
 		"cline1"		"I appreciate your help. I've left a book on the Supply box"
 		"cline2"		"that I'm sure will help you. It will teach you how to be"
 		"cline3"		"friendly with other people, and maybe survivors will forgive"
 		"cline4"		"you even if you shoot them. I must got now, be safe..."
+                "cline1_ru"             "Я очень ценю твою помощь.Я оставила книгу в ящике снабжения,и думаю что она поможет"
+                "cline2_ru"             "тебе.Она научит тебя как быть дружелюбным с другими людьми и возможно они будут "
+                "cline3_ru"             "прощать тебя даже если ты в них стрельнул.Я должна идти,береги себя..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect a Wheel for Sara's van"
+                "gline1_ru"             "-Найди колесо для фургона Сары"
 		
 		"qitems"		"1"
 		"qitem1"		"33"
@@ -942,6 +953,7 @@ line 1_ru...
 	"quest22"
 	{
 		"name"			"The Beginner 1" //Quest Name
+                "name_ru"               "Новичок 1" //Название квеста
 		"id"			"22" //Quest Id
 		"qreq"			"0"
 		"cat"			"6" //Quest cat
@@ -954,13 +966,21 @@ line 1_ru...
 		"line4"			"kill zombies on video games, but this is some extreme SHIT. Ok, calm"
 		"line5"			"down Bryan, calm down. I left my Survivor Guide on a mall. Get it to"
 		"line6"			"a, damn I forgot, some kind of military boxes and I'll get it later!"
+                "line1_ru"              "Меня кто-нибудь слышит?Как эта херня работает!О!Ты меня слышишь?Меня зовут"
+                "line2_ru"              "Брайан,мне 19 и да, это всё отстойно.Мне нужна твоя помощь,я слишком мал для всего"
+                "line3_ru"              "этого.Я мочил зомби в играх но ЭТО...слишком экстремально даже для меня.Ладно,"
+                "line4_ru"              "успокойся Брайан,спокойнее.Я оставил свою инструкцию по выживанию на почте.Оставь"
+                "line5_ru"              "его на той армейской херне...коробке,я приду за ним позже!"
 		
 		"clines"		"2"
 		"cline1"		"Alright, thank you! I'll go for it, read it an everything will be"
 		"cline2"		"just fine. Oh, atleast you are on a team, I'm all alone!"
+                "cline1_ru"            "Круто,спасибо!Я скоро приду за ним,прочитаю и всё будет круто.Ох, ты по крайней мере"
+                "cline2_ru"            "с командой,а я то один!"
 		
 		"glines"		"1"
 		"gline1"		"-Get Bryan's survival guide"
+                "gline1_ru"             "-Найди инструкцию по выживанию Брайана"
 		
 		"qitems"		"1"
 		"qitem1"		"16"
@@ -977,6 +997,7 @@ line 1_ru...
 	"quest23"
 	{
 		"name"			"The Beginner 2" //Quest Name
+                "name_ru"               "Новичок 2" //Название квеста
 		"id"			"23" //Quest Id
 		"qreq"			"22"
 		"cat"			"6" //Quest cat
@@ -996,13 +1017,21 @@ line 1_ru...
 		"line4"			"Fuck, they keep knocking!!! You have to help me. Hunt down some zombies"
 		"line5"			"on the area before they all notice im here. Last thing i remember, is"
 		"line6"			"brick factory and some wrecked trucks. Just kill zombies on the area"
+                "line1_ru"              "Хей,это снова я,Брайан.Я прочитал инструкцию и не узнал НИЧЕГО ПОЛЕЗНОГО!"
+                "line2_ru"              "В действительности,он просто учит как готовить рис.Какого хрена я должен готовить"
+                "line3_ru"              "рис,в то время как снаружи тысячи зомби?Бля,они продолжают наступать!!!Ты должен"
+                "line4_ru"              "помочь мне.Расчисти это место от зомби прежде чем они заметят меня.Последнее что я"
+                "line5_ru"              "помню, это кирпичный завод и пара сломанных грузовиков.Просто убей зомби.
 		
 		"clines"		"1"
 		"cline1"		"Cool, thanks. Now I can use my mind without all those knockins..."
+                "cline1_ru"             "Клёво,спасибо.Теперь я могу подумать без всех этих звуков..."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 150 infected on the specified location"
 		"gline2"		"-Location is at The Sacrifice campaign, second map"
+                "gline1_ru"             "-Убей 150 заражённых в определённом месте"
+                "gline2_ru"             "Это место расположенно на карте Жертва,2 глава"
 		
 		"qitems"		"1"
 		"qitem1"		"33"
@@ -1019,6 +1048,7 @@ line 1_ru...
 	"quest24"
 	{
 		"name"			"The Beginner 3" //Quest Name
+                "name_ru"               "Новичок 3" //Название квеста
 		"id"			"24" //Quest Id
 		"qreq"			"23"
 		"cat"			"6" //Quest cat
@@ -1031,12 +1061,18 @@ line 1_ru...
 		"line3"			"'The survival guide is never wrong'... What a paradox... Anyway"
 		"line4"			"leave the rice the supply boxes, and I'll go for it as soon as"
 		"line5"			"infected go chase you... Hehehe..."
+                "line1_ru"              "Хей,прости что дёргаю тебя,но не мог бы ты принести мне немного риса?Я тут голодаю"
+                "line2_ru"              "и думаю что инструкция по выживанию всё верно говорит.Она не может ошибаться..."
+                "line3_ru"              "Прямо парадокс...В любом случае,оставь рис в ящике снабжения и я приду за ним как"
+                "line4_ru"              "только зомби начнут за тобой охоту...Хехех..."
 		
 		"clines"		"1"
 		"cline1"		"Cool, thanks. Now I can use my mind without all those knockins..."
+                "cline1_ru"             "Спасибо,теперь я наконец могу поесть"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 Rice boxes for Bryan"
+                "gline1_ru"             "-Собери 5 упаковок риса для Брайана"
 		
 		"qitems"		"1"
 		"qitem1"		"34"
@@ -1053,6 +1089,7 @@ line 1_ru...
 	"quest25"
 	{
 		"name"			"Missing Sister 1" //Quest Name
+                "name_ru"               "Пропавшая сестра 1" //Название квеста
 		"id"			"25" //Quest Id
 		"qreq"			"24"
 		"cat"			"6" //Quest cat
@@ -1066,12 +1103,18 @@ line 1_ru...
 		"line4"			"cell phone somewhere, maybe i can use it to talk to her. If you find it... "
 		"line5"			"Could you please bring it to me?"
 		"line6"			"Thanks in advance"
+                "line1_ru"              "Добрый вечер!Я начинаю беспокоиться за мою сестру.Нам пришлось разделиться когда"
+                "line2_ru"              "танк появился около хвоста того CEDA трейлера.Я уверена с ней всё в порядке,но я не"
+                "line3_ru"              "могу связаться с ней по радио.Я где-то потеряла свой мобильник, может с помощью него"
+                "line4_ru"              "я смогу связаться с ней?Не мог бы ты поискать его?"
 		
 		"clines"		"1"
 		"cline1"		"Wow you really found it? Thaaanks! Hope you ain't scamming me..."
+                "cline1_ru"             "Ух ты,ты нашёл его!Спасиииииибо!Надеюсь ты не обманываешь меня..."
 		
 		"glines"		"1"
 		"gline1"		"-Find Bryan's cellphone"
+                "gline1_ru"             "-Найди мобильник Брайана"
 		
 		"qitems"		"1"
 		"qitem1"		"19"
@@ -1088,6 +1131,7 @@ line 1_ru...
 	"quest26"
 	{
 		"name"			"Missing Sister 2" //Quest Name
+                "name_ru"               "Пропавшая сестра 2" //Название квеста
 		"id"			"26" //Quest Id
 		"qreq"			"25"
 		"cat"			"6" //Quest cat
@@ -1098,6 +1142,9 @@ line 1_ru...
 		"line1"			"Hey! I communicated with my sister, she is just fine. I want to join her"
 		"line2"			"on the saferoom she is staying at the moment, but the zombies came back"
 		"line3"			"to my location. Can you please clear the area?"
+                "line1_ru"              "Хей!Я связался со своей сестрой,она в порядке.Я хочу встретиться с ней в убежище"
+                "line2_ru"              "в котором она сейчас находиться,но здесь опять появились зомби.Не мог бы ты зачистить"
+                "line3_ru"              "эту территорию?"
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c7m2_barge"
@@ -1106,10 +1153,13 @@ line 1_ru...
 		
 		"clines"		"1"
 		"cline1"		"Thanks, I'll meet my sister then. Wish me luck, and of course, good luck to you..."
+                "cline1_ru"             "Спасибо,я встречусь со своей сестрой.Пожелай мне удачи, и конечно удачи тебе..."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 250 infected from the specified location"
 		"gline2"		"-Location is at The Sacrifice campaign, second map"
+                "gline1_ru"             "-Убей 250 заражённых в указанном месте"
+                "gline2_ru"             "-Место расположенно в кампании Жертва,2 глава"
 		
 		"qitems"		"1"
 		"qitem1"		"19"
@@ -1126,6 +1176,7 @@ line 1_ru...
 	"quest27"
 	{
 		"name"			"Supplies" //Quest Name
+                "name_ru"               "Запасы" //Название квеста
 		"id"			"27" //Quest Id
 		"qreq"			"26"
 		"cat"			"6" //Quest cat
@@ -1135,14 +1186,20 @@ line 1_ru...
 		"tlines"		"2" //Total desc lines
 		"line1"			"Hey there. I'm with my sister now, thanks for helping me out. But, we"
 		"line2"			"are running out of food and water here. Can you get us some supplies?"
+                "line1_ru"              "Как дела?Я теперь со своей сестрой,спасибо за помощь.Но у нас заканчивается вода и"
+                "line2_ru"              "еда.Ты не мог бы принести нам немного провизии?
 		
 		"clines"		"2"
 		"cline1"		"Thanks! From now on, my sister will talk with you. Her name is Theodora."
 		"cline2"		"I'm so tired and dizzy right now, hope I'm not infected..."
+                "cline1_ru"             "Спасибо!Теперь с тобой будет говорить моя сестра.Её зовут Теодора.Я так устал и "
+                "cline2_ru"             "чувствую себя не очень,надеюсь я не заражён..."
 		
 		"glines"		"2"
 		"gline1"		"-Collect 15 Bottles of water"
 		"gline2"		"-Collect 1 Food box"
+                "gline1_ru"             "-Собери 15 бутылок воды"
+                "gline2_ru"             "-Найди коробку с едой"
 		
 		"qitems"		"2"
 		"qitem1"		"18"
@@ -1161,6 +1218,7 @@ line 1_ru...
 	"quest28"
 	{
 		"name"			"Hunting" //Quest Name
+                "name_ru"               "Охота" //Название квеста
 		"id"			"28" //Quest Id
 		"qreq"			"0"
 		"cat"			"7" //Quest cat
@@ -1174,10 +1232,16 @@ line 1_ru...
 		"line4"			"a request for you. I want to complete my collection, with the sepecial infected"
 		"line5"			"heads on my wall. I can pay you real good, so you can upgrade your items or pay"
 		"line6"			"for some zombie hookers if you want. Interested?"
+                "line1_ru"              "Привет.Меня зовут Уильям и я здешний охотник.С тех пор как появилась инфекция и после"
+                "line2_ru"              "смерти моей жены,я охотился на крыс и других тварей.Но я устал от этих "вызовов".Так"
+                "line3_ru"              "что у меня задание для тебя.Я хочу завершить мою коллекцию голов особых заражённых"
+                "line4_ru"              "Я щедро вознагражу тебя и ты сможешь купить всё что хочешь.Заинтересовался?
 		
 		"clines"		"2"
 		"cline1"		"Great. The money is just next to the radio, enjoy it..."
 		"cline2"		"The collection is complete, I can now die in peace (*Shoot Noise*)"
+                "cline1_ru"             "Отлично.Деньги лежат рядом с радио,наслаждайся..."
+                "cline2_ru"             "Коллекция собранна,теперь я могу умереть с миром (*Выстрел*)"
 		
 		"glines"		"7"
 		"gline1"		"-Collect Hunter Head"
@@ -1187,7 +1251,14 @@ line 1_ru...
 		"gline5"		"-Collect Spitter Head"
 		"gline6"		"-Collect Smoker Head"
 		"gline7"		"-Collect Tank Head"
-		
+                "gline1_ru"             "-Найди голову охотника"             
+	        "gline2_ru"             "-Найди голову жокея"  
+                "gline3_ru"             "-Найди голову толстяка"  
+                "gline4_ru"             "-Найди голову громилы"  
+                "gline5_ru"             "-Найди голову плевальщицы"  
+                "gline6_ru"             "-Найди голову курильщика"  
+                "gline7_ru"             "-Найди голову танка"  
+	
 		"qitems"		"7"
 		"qitem1"		"36"
 		"qitem2"		"37"
@@ -1216,7 +1287,8 @@ line 1_ru...
 	"quest29"
 	{
 		"name"			"Inseparable 1" //Quest Name
-		"id"			"29" //Quest Id
+                "name_ru"               "Неразлучные 1" //Название квеста
+                "id"			"29" //Quest Id	
 		"qreq"			"27"
 		"cat"			"8" //Quest cat
 		"min_lvl"		"40" //Min level to take
@@ -1230,13 +1302,22 @@ line 1_ru...
 		"line5"			"fever won't dissapear. He's starting to sweat a lot and he cannot recognize"
 		"line6"			"me anymore. I don't know if he's infected, but he's my little brother and I"
 		"line7"			"won't leave him alone. Could you please bring me something for the fever?"
+                "line1_ru"              "Привет!Меня зовут Теодора,я сестра Брайана.Я должна поблагодарить тебя за помощь"
+                "line2_ru"              "которую ты оказал нам и за запасы которые передал нам.Но у меня есть проблема.У моего"
+                "line3_ru"              "брата температура 39�C.Я пыталась дать ему воду и пробовала все методы которые только"
+                "line4_ru"              "знаю,но температура не исчезла.Он начал сильно потеть и больше не узнаёт меня.Я не "
+                "line5_ru"              "знаю заражён ли он,но он мой брат и я его не оставлю.Не мог бы ты принести что-нибудь"
+                "line6_ru"              "от жара?"
 		
 		"clines"		"1"
 		"cline1"		"Thank you! I'll try to get to the Supply Box and get the items. Keep in contact"
+                "cline1_ru"             "Спасибо!Я попробую взять их из ящика снабжения.Оставайся на связи"
 		
 		"glines"		"2"
 		"gline1"		"-Collect 2 Towels"
 		"gline2"		"-Collect 5 Antibiotics"
+                "gline1_ru"             "-Найди 2 полотенца"
+                "gline2_ru"             "-Найди 5 антибиотиков"
 		
 		"qitems"		"2"
 		"qitem1"		"45"
@@ -1256,6 +1337,7 @@ line 1_ru...
 	"quest30"
 	{
 		"name"			"Inseparable 2" //Quest Name
+                "name_ru"               "Неразлучные 2" //Название квеста
 		"id"			"30" //Quest Id
 		"qreq"			"29"
 		"cat"			"8" //Quest cat
@@ -1269,13 +1351,21 @@ line 1_ru...
 		"line4"			"he attracted some infected. I have silenced pistols and a few SMGs, so I can"
 		"line5"			"fight the infected back. Problem is, im starting to run out of ammo and these"
 		"line6"			"weapons are really rare. Collect some ammo for me please"
+                "line1_ru"              "Привет снова!Предметы которые ты мне принёс не сильно помогли.Однако жар уже"
+                "line2_ru"              "не такой сильный и он начал узнавать меня.К сожалению,прошлой ночью когда он спал"
+                "line3_ru"              "он проснулся из-за кошмара и так сильно закричал,что привлёк зомби.У меня есть "
+                "line4_ru"              "пара пистолетов и пистолет-пулемётов,так что я могу отбиться.Но у меня заканчиваются"
+                "line5_ru"              "патроны,а это оружие такое редкое!Принеси мне патронов,прошу тебя"
 		
 		"clines"		"2"
 		"cline1"		"Thanks for your help mate, I'm able to upgrade any kind of weapons, talk"
 		"cline2"		"to me if you are interested"
+                "cline1_ru"             "Спасибо за помощь,друг.Я могу улучшить любой вид оружия.Если тебе интересно свяжись"
+                "cline2_ru"             "со мной."
 		
 		"glines"		"2"
 		"gline1"		"-Collect 5 Rounds of special ammo"
+                "gline1_ru"             "-Собери 5 обойм особых патронов"
 		
 		"qitems"		"1"
 		"qitem1"		"47"
@@ -1293,6 +1383,7 @@ line 1_ru...
 	"quest31"
 	{
 		"name"			"Inseparable 3" //Quest Name
+                "name_ru"               "Неразлучные 3" //Название квеста
 		"id"			"31" //Quest Id
 		"qreq"			"30"
 		"cat"			"8" //Quest cat
@@ -1305,13 +1396,20 @@ line 1_ru...
 		"line3"			"rifle for you. It will deal more damage, and with some powder, it will wipe"
 		"line4"			"common infected out of this fucking continent. Collect necessary items and I'll"
 		"line5"			"make it in no time."
+                "line1_ru"              "Всё прошло отлично.Жар моего брата почти прошёл и у меня достаточно патронов на 2"
+                "line2_ru"              "недели.Чтобы отблагодарить тебя,решила сделать особую винтовку для тебя.Она будет"
+                "line3_ru"              "наносить больше урона, а с порохом она очистит эти земли от зомби.Принеси нужные вещи"
+                "line4_ru"              "И я сделаю её для тебя."
 		
 		"clines"		"1"
 		"cline1"		"Great, I'll leave the rifle on the Supply Box. Hope we meet again"
+                "cline1_ru"             "Отлично,я оставлю винтовку в ящике для снабжения.Надеюсь ещё встретимся"
 		
 		"glines"		"2"
 		"gline1"		"-Collect 1 Broken Rifle"
 		"gline2"		"-Collect Powder"
+                "gline1_ru"             "-Найди 1 сломанную винтовку"
+                "gline2_ru"             "-Найди порох"
 		
 		"qitems"		"2"
 		"qitem1"		"1"
@@ -1331,6 +1429,7 @@ line 1_ru...
 	"quest32"
 	{
 		"name"			"Darwin's Lab 1" //Quest Name
+                "name_ru"               "Лаборатория Дарвина" //Название квеста
 		"id"			"32" //Quest Id
 		"qreq"			"0"
 		"cat"			"9" //Quest cat
@@ -1345,12 +1444,19 @@ line 1_ru...
 		"line5"			"Anyway, I'm researching for a cure inside this saferoom, but I lost"
 		"line6"			"the notes I had written when i was analyzing some people. They"
 		"line7"			"should be near CEDA trailers. Bring them back and I'll reward you"
+                "line1_ru"              "Привет.Меня зовут доктор Дарвинг и я ученый.Я работал на специальный отдел CEDA"
+                "line2_ru"              "по крайней мере до тех пор,пока они не решили избавиться от меня.Тупицы,зомби "
+                "line3_ru"              "ворвались внутрь и всех их убили,а мне удалось выжить.Теперь я ищу лекарство в этом"
+                "line4_ru"              "убежище,но я потерял записи которые я сделал во время изучения некотрых людей.Они"
+                "line5_ru"              "должно быть где-то рядом с трейлером CEDA.Принеси их и получишь награду.
 		
 		"clines"		"1"
 		"cline1"		"Just awesome, talk to me again soon, I have more request for you"
+                "cline1_ru"             "Просто супер,свяжись со мной позже,у меня есть ещё кое-что для тебя"
 		
 		"glines"		"1"
 		"gline1"		"-Collect Darwin's notes"
+                "gline1_ru"             "-Найди записи Дарвина"
 		
 		"qitems"		"1"
 		"qitem1"		"48"
@@ -1370,6 +1476,7 @@ line 1_ru...
 	"quest33"
 	{
 		"name"			"Darwin's Lab 2" //Quest Name
+                "name_ru"               "Лаборатория Дарвина 2" //Название квеста
 		"id"			"33" //Quest Id
 		"qreq"			"32"
 		"cat"			"9" //Quest cat
@@ -1385,12 +1492,20 @@ line 1_ru...
 		"line6"			"the poison doesn't affect immune survivors so badly. Anyway, I'd like to"
 		"line7"			"create a cure for the Poison. Bring me research material, and I'll share it"
 		"line8"			"with you."
+                "line1_ru"              "И снова привет,говорит Дарвин.Я наблюдал за разными видами этих заражённых,которых"
+                "line2_ru"              "CEDA называет ведьмами.Когда я увидел в первый раз одну из них,она просто сиде в углу"
+                "line3_ru"              "и плакала,не обращая на нас внимания.Позже, ведьмы начали становиться более "
+                "line4_ru"              "агрессивными и кажется теперь,они могут вырабатывать яд который парализует тебя."
+                "line5_ru"              "Но этот яд действует по другому на людей с иммунитетом.Так что я хочу найти лечение."
+                "line6_ru"              "Принеси мне несколько образцов и я поделюсь с тобой лекарством."
 		
 		"clines"		"1"
 		"cline1"		"Great, I'll let you know if I need anything else for my research"
+                "cline1_ru"             "Отлично,я дам тебе знать если мне потребуется что-нибудь ещё для исследования"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 Samples of Witch's poison"
+                "gline1_ru"             "-Собери 5 образцов яда ведьмы"
 		
 		"qitems"		"1"
 		"qitem1"		"49"
@@ -1410,6 +1525,7 @@ line 1_ru...
 	"quest34"
 	{
 		"name"			"Darwin's Lab 3" //Quest Names
+                "name_ru"               "Лаборатория Дарвина 3" //Название квеста
 		"id"			"34" //Quest Id
 		"qreq"			"33"
 		"cat"			"9" //Quest cat
@@ -1422,6 +1538,10 @@ line 1_ru...
 		"line3"			"clear the area before they get me? I'll then deliver the poison antidote to a Supply Box."
 		"line4"			"I'm between a Mall, and a Hotel. Havannah I belive it's the hotel's name. Just clear the whole"
 		"line5"			"area please."
+                "line1_ru"              "Привет,исследование почти завершено,но есть проблема.Яд,в больших количествах,"
+                "line2_ru"              "привлекает очень много особых заражённых.Не мог бы ты очистить территорию от них"
+                "line3_ru"              "прежде чем они доберутся до меня?Я положу противоядие в ящик снабжения.Я между почтой"
+                "line4_ru"              "и отелем.Просто очисти территорию от них"
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c1m2_streets"
@@ -1430,10 +1550,13 @@ line 1_ru...
 		
 		"clines"		"1"
 		"cline1"		"Fantastic, I'll deliver the poison antidote as soon as I can..."
+                "cline1_ru"             "Отлично,я доставлю противоядие как только смогу..."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 50 Special infected on the specified area"
 		"gline2"		"-Location is at Dead Center campaign, second map"
+                "gline1_ru"             "-Убей 50 особых заражённых в указанном месте"
+                "gline2_ru"             "-Место расположенно в кампании Вымерший центр,2 глава"
 		
 		"qitems"		"0"
 		
@@ -1448,6 +1571,7 @@ line 1_ru...
 	"quest35"
 	{
 		"name"			"Darwin's Lab 4" //Quest Names
+                "name_ru"               "Лаборатория Дарвина 4" //Названия квестов
 		"id"			"35" //Quest Id
 		"qreq"			"34"
 		"cat"			"9" //Quest cat
@@ -1462,12 +1586,19 @@ line 1_ru...
 		"line5"			"study chargers correctly, I need a sampla of their claw. But hang on, it must be "
 		"line6"			"from one of the firsts chargers that appeared. Go to the swamp, and bring me the"
 		"line7"			"charger's claw please"
+                "line1_ru"              "Привет!Это снова я,Дарвин.Надеюсь ты оценил то противоядие что я дал тебе.Я бы хотел"
+                "line2_ru"              "продолжить свои исследования,и может быть у меня получиться найти лекарство против"
+                "line3_ru"              "этой инфекции.Здесь пока тихо,так что я могу сам собирать необходимый материал.Однако"
+                "line4_ru"              "чтобы лучше понять строение громил,мне нужен образец его лапы.Но смотри,это должен"
+                "line5_ru"              "быть один из первых появивишихся громил.Иди к болотам,и принеси мне лапу громилы" 
 		
 		"clines"		"1"
 		"cline1"		"Great, leave the claw on a supply box and I'll go for it as soon as i can..."
+                "cline1_ru"             "Отлично,оставь её в коробке снабжения и я приду за ней как можно скорее"
 		
 		"glines"		"1"
 		"gline1"		"-Collect the claw from the first Charger that appeared in the swamp"
+                "gline1_ru"             "-Собери лапу первого громилы который появился в болотах"
 		
 		"qitems"		"0"
 		
@@ -1482,6 +1613,7 @@ line 1_ru...
 	"quest36"
 	{
 		"name"			"Darwin's Friend 1" //Quest Names
+                "name_ru"               "Друг Дарвина 1" //Названия квестов
 		"id"			"36" //Quest Id
 		"qreq"			"35"
 		"cat"			"9" //Quest cat
@@ -1495,6 +1627,12 @@ line 1_ru...
 		"line4"			"and he said he was trapped near an Airport. He doesn't know very well where he"
 		"line5"			"is. Do me a favor...  Clean the area so he is able to get away from the airport"
 		"line6"			"and has atleast a chance to meet me here. Thanks in advance"
+                "line1_ru"              "Та лапа которую ты принёс мне,это то что мне было нужно.Тебе нужно чуть-чуть"
+                "line2_ru"              "подождать,так как исследование ещё не завершенно.Пока я продолжаю работать, не мог"
+                "line3_ru"              "бы ты оказать мне услугу?Вчера,по радио, я связался со своим другом оказавшимся в"
+                "line4_ru"              "ловушке около аэропорта.Он не знает точно  где он находится.Окажи мне услугу..."
+                "line5_ru"              "Очисть ту зону от заражённых чтобы у него был шанс встретиться ос мной здесь"
+                "line6_ru"              "Заранее спасибо"
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c11m3_garage"
@@ -1502,10 +1640,13 @@ line 1_ru...
 		
 		"clines"		"1"
 		"cline1"		"Good Job! I'll let him know that he's now able to leave. Thank you"
+                "cline1_ru"             "Отличная работа!Я скажу ему что теперь он может идти.Спасибо"
 		
 		"glines"		"2"
 		"gline1"		"-Kill 350 infected on the specified area"
 		"gline2"		"-Location is at Dead Air campaign, unknown map"
+                "gline1_ru"             "-Убей 350 заражённых в указанном месте"
+                "gline2_ru"             "-Место расположенно где-то в компании Смерть в воздухе"
 		
 		"qitems"		"0"
 		
@@ -1520,7 +1661,8 @@ line 1_ru...
 	"quest37"
 	{
 		"name"			"Darwin's Friend 2" //Quest Names
-		"id"			"37" //Quest Id
+                "name_ru"               "Друг Дарвина 2" //Название квестов
+                "id"			"37" //Quest Id
 		"qreq"			"36"
 		"cat"			"9" //Quest cat
 		"min_lvl"		"82" //Min level to take
@@ -1533,13 +1675,21 @@ line 1_ru...
 		"line4"			"many infected in the runway that started to run towards him. He managed to get"
 		"line5"			"in a private jet and successfully escape to 2 tanks and 50 or more infected. He"
 		"line6"			"then lost communication. Go check if he's still alive please"
+                "line1_ru"              "Я потерял связь с моим другом.В конце он сказал,что он добрался до аэропорта и"
+                "line2_ru"              "когда вошёл, услышал шум стрельбы.Прежде чем он заметил самолёт военных,тот уже"
+                "line3_ru"              "взлетел и он не смог улететь с ними.К нему начали приближаться заражённые в огромном"
+                "line4_ru"              "количестве.Он спрятался в одном из самолетов.Он спасся от 2 танков и более чем 50"
+                "line5_ru"              "заражённых.Затем связь прервалась.Прошу,сходи проверь жив ли он."
 		
 		"clines"		"2"
 		"cline1"		"Just found his ID? I'm afraid he's dead then. Thanks for the help, I'll let"
 		"cline2"		"you know if I find anything related to chargers"
+                "cline1_ru"             "Всего лишь нашёл его ID?Тогда я боюсь он мёртв.Спасибо за помощь,я дам тебе знать"
+                "cline2_ru"             "если найду что-нибудь связанное с громилами"
 		
 		"glines"		"1"
 		"gline1"		"-Check if Darwin's friend is still alive"
+                "gline1_ru"             "-Проверь,жив ли друг Дарвина"
 		
 		"qitems"		"1"
 		"qitem1"		"52"
@@ -1553,9 +1703,12 @@ line 1_ru...
 		"ritem1"		"0"
 	}
 	
+		
+	
 	"quest38"
 	{
 		"name"			"Charge Block" //Quest Names
+                "name_ru"               "Блокировка громилы" //Название квестов
 		"id"			"38" //Quest Id
 		"qreq"			"37"
 		"cat"			"9" //Quest cat
@@ -1567,14 +1720,20 @@ line 1_ru...
 		"line2"			"a way to block the chargers main attack. But, before i can give it to you"
 		"line3"			"you must learn to deal with them. Hunt down some chargers and we'll have a"
 		"line4"			"deal. Good luck!"
+                "line1_ru"              "И снова привет.Я выяснил кое-что интересное о когтях громилы.Существует способ"
+                "line2_ru"              "блокировки атаки громилы.Но прежде чем я научу тнбя этому,ты должен убить парочку"
+                "line3_ru"              "Убей немного,а затем приходи.Удачи!"
 		
 		"clines"		"3"
 		"cline1"		"Yes, you are now ready to learn the skill. I left a book with the charger"
 		"cline2"		"flaws explianed on it. Read it and I'm sure charger will be less anoying."
 		"cline3"		"Keep in touch!"
+                "cline1_ru"             "Да,теперь ты готов изучить этот навык.Я оставил книгу в ящике для снабжения.Прочитай"
+                "cline2_ru"             "её,и я уверен громилы перестанут тебя доставать.Оставайся на связи!"
 		
 		"glines"		"1"
 		"gline1"		"-Kill 30 Chargers"
+                "gline1_ru"             "-Убей 30 громил"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -1591,6 +1750,7 @@ line 1_ru...
 	"quest39"
 	{
 		"name"			"Thief's Whims 1" //Quest Names
+                "name_ru"               "Капризы вора 1" //Название квеста
 		"id"			"39" //Quest Id
 		"qreq"			"0"
 		"cat"			"10" //Quest cat
@@ -1605,13 +1765,23 @@ line 1_ru...
 		"line5"			"beg for their lives, when indeed they are so useless now. Don't judge me, I"
 		"line6"			"can do whatever i want. Yes... I had stolen a cool Golden Necklace from a "
 		"line7"			"woman and i lost it escaping from a tank. Bring it to me and I'll pay you."
+                "line1_ru"              "Ещё один счастливчик...Я не могу сказать тебе моё имя,так как я уверен,что как только"
+                "line2_ru"              "этот хаос закончится,я отправлюсь в тюрьму за то,что я сделал.Я знаю что мне следует"
+                "line3_ru"              "стрелять только по заражённым,но я так же люблю стрелять по отчаявшимся людям.Больше"
+                "line4_ru"              "всего я люблю отстреливать детей и стариков,так как они так рыдают и молят о пощаде"
+                "line5_ru"              "хотя их жизни бесполезны сейчас.И не осуждай меня,я делаю всё что хочу.Да кстати...
+                "line6_ru"              "Я украл золотое ожерелье у одной тёлки,но потерял убегая от грёбанного танка.Верни"
+                "line7_ru"              "мне его,и я хорошо отплачу тебе"
 		
 		"clines"		"2"
 		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
 		"cline2"		"will pay with your blood."
+                "cline1_ru"             "Отличные новости.Я скоро проверю ящик снабжения.И если я не найду его,ты заплатишь за"
+                "cline2_ru"             "своей кровью"
 		
 		"glines"		"1"
 		"gline1"		"-Collect the Golden Necklace"
+                "gline1_ru"             "-Найди золотое ожерелье"
 		
 		"qitems"		"1"
 		"qitem1"		"44"
@@ -1628,6 +1798,7 @@ line 1_ru...
 	"quest40"
 	{
 		"name"			"Thief's Whims 2" //Quest Names
+                "name_ru"               "Капризы вора 2" //Название квеста
 		"id"			"40" //Quest Id
 		"qreq"			"39"
 		"cat"			"10" //Quest cat
@@ -1639,13 +1810,20 @@ line 1_ru...
 		"line2"			"fucking dirty right now. Get me some clean pants and whatever you find. I"
 		"line3"			"won't pay you anything. Oh wait, maybe this stone I got on my hands will help?"
 		"line4"			"I can't find any use to it, but maybe you will. Hurry the fuck up now..."
+                "line1_ru"              "Тебе повезло,ожерелье действительно оказалось там.Спасибо.Моя грёбанная одежда"
+                "line2_ru"              "теперь очень грязная.Принеси мне чистые штаны,всё что угодно что найдёшь.Я не хочу"
+                "line3_ru"              "тебе платить.Если только этот камень может быть полезен для тебя?Я не знаю что с ним"
+                "line4_ru"              "делать.А теперь вали и принеси мне одежды..."
 		
 		"clines"		"2"
 		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
 		"cline2"		"will pay with your blood."
+                "cline1_ru"             "Отличные новости.Я скоро проверю ящик снабжения.И если я не найду одежду,ты заплатишь"
+                "cline2_ru"             "за это своей кровью"
 		
 		"glines"		"1"
 		"gline1"		"-Collect Clean clothes for the thief"
+                "gline1_ru"             "-Найди чистую одежду для вора"
 		
 		"qitems"		"1"
 		"qitem1"		"53"
@@ -1662,6 +1840,7 @@ line 1_ru...
 	"quest41"
 	{
 		"name"			"Thief's Whims 3" //Quest Names
+                "name_ru"               "Капризы вора 3" //Название квеста
 		"id"			"41" //Quest Id
 		"qreq"			"40"
 		"cat"			"10" //Quest cat
@@ -1676,16 +1855,28 @@ line 1_ru...
 		"line5"			"to exchange Food and Supplies. Greedy i know, thats why i want to Scam those"
 		"line6"			"idiots, and I'll also make profit. Bring me the bag and I'll share some of"
 		"line7"			"profit with you. Be safe..."
+                "line1_ru"              "О да,классные шмотки.Ещё кое-что.Я потерял сумку с фальшивыми драгоценностями"
+                "line2_ru"              "опять же убегая от танка.Я их используя чтобы обдирать этих тупиц которые хотят"
+                "line3_ru"              "улучшить свое оружие.Ты понимаешь баксы становятся бесполезными,теперь только ценятся"
+                "line4_ru"              "кристаллы и алмазы для обмена на еду и различные запасы.Да это жадность,я знаю"
+                "line5_ru"              "вот почему я хочу обдирать этих дебилов ну и конечно получать прибыль.Принеси мне мою"
+                "line6_ru"              "сумку и я поделюсь с тобой.Береги себя..."
 		
 		"clines"		"5"
 		"cline1"		"Haha you are such an idiot dude, I was right next the Supply Box! I'm far"
 		"cline2"		"away now and I won't share shit with you! Hahaha so hilarious, you are the"
 		"cline3"		"dumbest person I'd ever met! You should commit sucidie now and (*Tank Yell*)"
-		"cline4"		"OH MY FUC.....(*Pound Damage Noise*) AHHHH HELP HELLPPDL LALDALWD..."
+		"cline4"		"OH MY FUC.....(*Pound Damage Noise*) AHHHH HELP HELLPPDL LALDALWD..."         
 		"cline5"		"(*Transmission Ended*)"
+                "cline1_ru"             "Ахаха чувак ты реально тупой,я был прямо за ящиком снабжения!Теперь я очень далеко"
+                "cline2_ru"             "и не собираюсь делиться с тобой!Хаха так смешно,я никогда не встречал таких тупиц как"
+                "cline3_ru"             "ты!Тебе следует снести себе башку потому...(*крик танка*) О БЛЯ...(*Звук удара*)"
+                "cline4_ru"             "ААААА ПОМОГИТЕ ПМГИТЕ АХХ..."
+                "cline5_ru"             "(*Связь прервалась*)"
 		
 		"glines"		"1"
 		"gline1"		"-Collect Thief's Fake Gems Bag"
+                "gline1_ru"             "-Найди сумку вора с фальшивыми драгоценностями"
 		
 		"qitems"		"1"
 		"qitem1"		"54"
@@ -1702,6 +1893,7 @@ line 1_ru...
 	"quest42"
 	{
 		"name"			"Thief's Last Wishes 1" //Quest Names
+                "name_ru"               "Последнии желания вора 1" //Название квеста
 		"id"			"42" //Quest Id
 		"qreq"			"41"
 		"cat"			"10" //Quest cat
@@ -1714,13 +1906,20 @@ line 1_ru...
 		"line3"			"ohhh who am I cheating, I'm going to die! I have a few wishes before my death."
 		"line4"			"I want revenge first, kill as many fucking tanks as you can, I'll give you a huge"
 		"line5"			"reward if you do. Now go, before I fucking bleed out or turn!!!"
+                "line1_ru"              "И снова привет.Боже,как больно...Этот грёбанный танк...Боже...Скорей всего я заражён"
+                "line2_ru"              "Чёрт,как больно чувак...Мне нужны наркотики от боли, оххх я умираю!У меня есть "
+                "line3_ru"              "пожеланий перед смертью.Во первых я хочу мести.Убей столько танков сколько сможешь"
+                "line4_ru"              "Я дам тебе хорошую награду.А теперь иди пока я не истёк кровью!!!"
 		
 		"clines"		"2"
 		"cline1"		"It's done?, oh fuck this is so god damn painfull. I can see my bones!! OH FUCK"
 		"cline2"		"I CAN SE MY FUCKING BONES! FUCK, I need a minute..."
+                "cline1_ru"             "Всё?Бля,как же больно.Я вижу собственные кости!!ТВОЮ МАТЬ Я ВИЖУ СОБСТВЕННЫЕ КОСТИ!"
+                "cline2_ru"             "Дай мне минутку..."
 		
 		"glines"		"1"
 		"gline1"		"-Kill 50 Tanks"
+                "gline1_ru"             "-Убей 50 танков"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -1737,6 +1936,7 @@ line 1_ru...
 	"quest43"
 	{
 		"name"			"Thief's Last Wishes 2" //Quest Names
+                "name_ru"               "Последнии желания вора 2" //Название квеста
 		"id"			"43" //Quest Id
 		"qreq"			"42"
 		"cat"			"10" //Quest cat
@@ -1748,12 +1948,18 @@ line 1_ru...
 		"line2"			"but they always rejected me and... THIS HURTS! I'll die with dignity! Get"
 		"line3"			"me a solider's uniform and I'll die in peace. I can give you some real"
 		"line4"			"Gems if you do this for me. Now go before I bleed the fuck out!"
+                "line1_ru"              "Перед смертью я хочу ещё кое-что.Я всегда хотел быть военным, но они всегда"
+                "line2_ru"              "отклоняли мои запросы и...КАК БОЛЬНО!Я умру с честью!Принеси мне форму солдата"
+                "line3_ru"              "и я умру с миром.Я могу дать тебе настоящие кристаллы если ты сделаешь то о чём я"
+                "line4_ru"              "прошу.Иди пока я всё ещё жив..."
 		
 		"clines"		"1"
 		"cline1"		"Ok... Take.... the fucking... gems now... and... go.. fuck... yours............"
+                "cline1_ru"             "Окей...Возьми...грёбанные...кристаллы и...иди нах............."
 		
 		"glines"		"1"
 		"gline1"		"-Collect a soldier's uniform"
+                "gline1_ru"             "-Найди военную форму"
 		
 		"qitems"		"1"
 		"qitem1"		"55"
@@ -1770,6 +1976,7 @@ line 1_ru...
 	"quest44"
 	{
 		"name"			"Join Forces 1" //Quest Names
+                "name_ru"               "Вступай в войска 1" //Название квеста
 		"id"			"44" //Quest Id
 		"qreq"			"0"
 		"cat"			"11" //Quest cat
@@ -1783,9 +1990,15 @@ line 1_ru...
 		"line4"			"than those who are alone. If you want to form a guild, then you "
 		"line5"			"will have to do a few tasks for me. Sorry son, is not as easy as it looks."
 		"line6"			"You must earn respect before considering to open your own guild."
+                "line1_ru"              "Одиноко?С тех пор как этот хаос начался,люди создали гильдии для борьбы с инфекцией."
+                "line2_ru"              "Если ты организуешь или вступишь в гильдию у тебя будет больше шансов чем у тех,кто"
+                "line3_ru"              "по одиночке.Если ты хочешь создать гильдию,то ты должен сделать кое-что для меня."
+                "line4_ru"              "Прости сынок,здесь всё не так просто.Ты должен заслужить уважение, прежде чем"
+                "line5_ru"              "создавать собственную гильдию"
 		
 		"glines"		"1"
 		"gline1"		"-Defeat 35 Paranoia Tanks"
+                "gline1_ru"             "-Убей 35 пара-танков"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -1802,6 +2015,7 @@ line 1_ru...
 	"quest45"
 	{
 		"name"			"Join Forces 2" //Quest Names
+                "name_ru"               "Вступай в войска 2" //Название квеста
 		"id"			"45" //Quest Id
 		"qreq"			"44"
 		"cat"			"11" //Quest cat
@@ -1814,9 +2028,15 @@ line 1_ru...
 		"line3"			"teamplay is on the apocalpyse, you will be a step forward of forming your guild"
 		"line4"			"Prove others that you are capable of keeping them alive, and they will join forces"
 		"line5"			"with you."
+                "line1_ru"              "Знанение того,как правильно стрелять не гарантирует тебе выживание.Ты должен помогать"
+                "line2_ru"              "своим напарникам,если они более слабые чем ты.Если ты осознаёшь насколько важна"
+                "line3_ru"              "командная работа в условиях апокалипсиса,значит ты на правильном пути в созданию"
+                "line4_ru"              "гильдии.Докажи другим что ты способен защитить их и они вступят в войска вместе с"
+                "line5_ru"              "тобой."
 		
 		"glines"		"1"
 		"gline1"		"-Escape 15 finales with all survivors alive"
+                "gline1_ru"             "-Выживи в 15 финалах не потеряв ни одного напарника"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -1833,6 +2053,7 @@ line 1_ru...
 	"quest46"
 	{
 		"name"			"Join Forces 4" //Quest Names
+                "name_ru"               "Вступай в войска 4" //Название квеста
 		"id"			"46" //Quest Id
 		"qreq"			"45"
 		"cat"			"11" //Quest cat
@@ -1845,12 +2066,18 @@ line 1_ru...
 		"line3"			"by defeating a Shaman Tank. You must be fast and smart, because"
 		"line4"			"others will be there when it drops. Due to the hard fight, it "
 		"line5"			"will drop a broken guild stone. I can repair it for you. Now go"
+                "line1_ru"              "Почти готов.Самое весомое доказательство что ты лидер это то,что мы называем камнем"
+                "line2_ru"              "гильдии.Этот камень можно получить после убийства шамана.Ты должен быть быстрым и"
+                "line3_ru"              "умным,так как ты не единственный кто ищет его.Из-за битвы он выпадет сломанным."
+                "line4_ru"              "Принеси его мне и смогу починить камень.Теперь иди"
 		
 		"clines"		"1"
 		"cline1"		"-Good news. I will leave the repaired stone on the Supply Box. Good luck now..."
+                "cline1_ru"             "-Хорошие новости.Я оставлю отремонтированный камень в ящике для снабжения.Удачи..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect a Broken Guild Stone"
+                "gline1_ru"             "-Найди сломанный камень гильдии"
 		
 		"qitems"		"1"
 		"qitem1"		"50"
