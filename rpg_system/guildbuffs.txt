@@ -25,7 +25,9 @@
 	"freeze_walk"
 	{
 		"name"	"Freezing Legs"
+		"name_es"	"Piernas congeladas"
 		"desc"	"Reduces the speed of the members on the enemy survivor team"
+		"desc_es"	"Reduce la velocidad de los sobrevivientes del equipo contrario"
 		"id"	"1"
 		"infected"	"14"
 		"cost"	"4500"
@@ -36,12 +38,19 @@
 		"us_3" "speed when your guild is in the infected team. This only works on guild wars."
 		"us_4" "1% speed, multiplied by the current guild level, is reduced from enemy guild"
 		"us_5" "members."
+		"us_1_es"	"Debido al fuerte sentimiento de lealtad en tu clan, los enemigos les temeran"
+		"us_2_es"	"en la batalla y tenderan a moverse lentamente. Este buff disminuira la velocidad"
+		"us_3_es"	"de los sobrevivientes cuando tu clan esta en el equipo de infectados. Esto solo funciona en guerra de clanes."
+		"us_4_es"	"1% de velocidad, multiplicado por el nivel de tu clan sera reducido de los miembros"
+		"us_5_es"	"del clan enemigo"
 	}
 	
 	"blackmail"
 	{
 		"name"	"Crafting mastery"
+		"name_es"	"Maestria de forjar"
 		"desc"	"Increases the crafting success rate"
+		"desc_es"	"Incrementa la tasa de exito al forjar"
 		"id"	"2"
 		"infected"	"12"
 		"cost"	"2000"
@@ -50,12 +59,17 @@
 		"us_1"	"Your guild members will learn the crafting mastery and will"
 		"us_2"	"be able to create gems easier."
 		"us_3"	"1% luck, multiplied by the current guild level, is increased."
+		"us_1_es"	"Los miembros de tu clan aprenderan la maestria de forjar y seran"
+		"us_2_es"	"capaces de crear gemas facilmente."
+		"us_3_es"	"1% de suerte, multiplicado por el nivel de tu clan es incremantado."
 	}
 	
 	"sharing_health"
 	{
 		"name"	"Sharing Health"
+		"name_es"	"Compartir Salud"
 		"desc"	"Adds additional health points to guild members on the survivor team"
+		"desc_es"	"Anade puntos de salud adicionales a los miembros del clan en el equipo de sobrevivientes"
 		"id"	"3"
 		"infected"	"9"
 		"cost"	"3500"
@@ -64,12 +78,17 @@
 		"us_1"	"All guild members will receive 5 HP bonus, based on the amount of guild mates on the"
 		"us_2"	"survivor team. For example, if the team has 5 Guild members (including yourself), you"
 		"us_3"	"will receive a total of 20HP bonus for the round."
+		"us_1_es"	"Todos los miembros del clan recibiran 5 HP de bonus por cada companero de clan en el"
+		"us_2_es"	"equipo de sobrevivientes. Por ejemplo, si el equipo tiene 5 companeros del mismo clan (incluido tu), tu"
+		"us_3_es"	"recibiras un total de 20 HP de bonus por esa ronda.
 	}
 	
 	"keep_going"
 	{
 		"name"	"Extra Knife"
+		"name_es"	"Cuchillo extra"
 		"desc"	"Adds an additional knife to all your guild members"
+		"desc_es"	"Anade un cuchillo adicional a todos los miembros de tu clan"
 		"id"	"4"
 		"infected"	"9"
 		"cost"	"2100"
@@ -77,24 +96,31 @@
 		"us_total"	"2"
 		"us_1"	"All guilds members will receive an additional Knife, only if they have the personal"
 		"us_2"	"Knife buff."
+		"us_1_es"	"Todos los miembros del clan recibiran un cuchillo adicional, pero solo si ellos tienen su propio"
+		"us_2_es"	"cuchillo equipado"
 	}
 	
 	"twisted"
 	{
 		"name"	"Evilness Protection"
+		"name_es"	"Proteccion contra la maldad"
 		"desc"	"Shields your guild members from evil items"
+		"desc_es"	"Protege a los miembros de tu clan de los tostadores malignos"
 		"id"	"5"
 		"infected"	"9"
 		"cost"	"5000"
 		"level"	"2"
 		"us_total"	"1"
 		"us_1"	"Picking up an evil item will not affect your teammates."
+		"us_1_es"	"Recoger un item maligno no afectara tus companeros de clan"
 	}
 	
 	"confusion"
 	{
 		"name"	"United Fury"
+		"name_es"	"Furia unida"
 		"desc"	"Increases the damage towards survivors that are members of an enemy guild"
+		"desc_es"	"Incrementa el dano hacia los sobrevivientes que son miembros de un clan enemigo"
 		"id"	"6"
 		"infected"	"14"
 		"cost"	"15000"
@@ -103,12 +129,17 @@
 		"us_1"	"All kind of damage inflicted towards members of an enemy guild that are on"
 		"us_2"	"the survivor team, is increased by 5%, multiplied by the guild level."
 		"us_3"	"<Buff only works on guild war servers>"
+		"us_1_es"	"Todo tipo de dano inflingido hacia miembros de un clan enemigo que estan en"
+		"us_2_es"	"el equipo de sobrevivientes sera incrementado en 5%, multiplicado por el nivel del clan."
+		"us_3_es"	"<Este buff solo funciona en servidores de guerra de clanes>"
 	}
 	
 	"arsenal"
 	{
 		"name"	"Discount"
+		"name_es"	"Descuento"
 		"desc"	"Reduces the bounty requirement to buy ranged weapons on the store"
+		"desc_es"	"Reduce los bountys requeridos para comprar armas de fuego en la tienda"
 		"id"	"7"
 		"infected"	"9"
 		"cost"	"6100"
@@ -117,12 +148,17 @@
 		"us_1"	"This buff will reduce the bounty cost of all ranged weapons on the store"
 		"us_2"	"(!buy menu), however, other kind of items, such as melee will keep the"
 		"us_3"	"normal bounty cost"
+		"us_1_es"	"Este buff reducira el costo de bounty de todas las armas de fuego en la tienda"
+		"us_2_es"	"(!buy menu), sin embargo, otro tipo de articulos, como las de cuerpo a cuerpo mantendran"
+		"us_3_es"	"el precio normal de bountys."
 	}
 	
 	"leadership"
 	{
 		"name"	"Leader Fanaticism"
+		"name_es"	"Liderazgo"
 		"desc"	"Decreases the damage received of guilds members near the guild leader"
+		"desc_es"	"Disminuye el dano recibido por los miembros del clan que se encuentren cerca de su lider"
 		"id"	"8"
 		"infected"	"9"
 		"cost"	"7000"
@@ -131,12 +167,17 @@
 		"us_1"	"Decreases damage received by 30% of all guild members within a radius of"
 		"us_2"	"250 units from the guild leader. Effect disappears if the guild leader is"
 		"us_3"	"Incapacitated and the guild leader does not get affected at all."
+		"us_1_es"	"Disminuye un 30% del dano recibido por los miembros del clan que se encuentren en un radio de"
+		"us_2_es"	"250 unidades cerca al lider del clan. Este efecto desaparecera si el lider del clan es"
+		"us_3_es"	"incapacitado y el lider de clan no sera afectado en lo absoluto."
 	}
 	
 	"snow_shield"
 	{
 		"name"	"Ice Shield"
+		"name_es"	"Escudo de Hielo"
 		"desc"	"Grenade launcher projectiles will not trace your guild members as infected"
+		"desc_es"	"El proyectil del lanzagranadas no rastreara a los miembros de tu clan que jueguen como infectados"
 		"id"	"9"
 		"infected"	"7"
 		"cost"	"10000"
@@ -144,12 +185,16 @@
 		"us_total"	"2"
 		"us_1"	"Your guild members skin will mutate as infected, making them impossible to trace"
 		"us_2"	"with intelligent projectiles, making them useless against them"
+		"us_1_es"	"La piel de los miembros de tu clan, que jueguen como infectados, mutara y los hara imposible de rastrear"
+		"us_2_es"	"con proyectiles inteligentes, haciendolos inutiles contra ellos."
 	}
 	
 	"mega_laseron"
 	{
 		"name"	"Mega Laser"
+		"name_es"	"Mega Laser"
 		"desc"	"Survivors are able to shoot a mega laser"
+		"desc_es"	"Los sobrevivientes podran disparar un mega laser"
 		"id"	"10"
 		"infected"	"9"
 		"cost"	"21500"
@@ -160,12 +205,19 @@
 		"us_3"	"hunting rifles. In order to do so, players must crouch and hold the fire button so"
 		"us_4"	"the laser can charge."
 		"us_5"	"<Only usable on coop>"
+		"us_1_es"	"Despues de muchas investigaciones tecnologicas, tu clan finalmente podra luchar con poderosos"
+		"us_2_es"	"lasers. Con este buff, los miembros de tu clan podran disparar un fuerte laser usando"
+		"us_3_es"	"rifles de caza. Para esto, los jugadores deben agacharse y mantener presionado el boton de disparo para"
+		"us_4_es"	"que asi el laser pueda cargar."
+		"us_5_es"	"<Solo funciona en modo cooperativo>"
 	}
 	
 	"sharing_ammo"
 	{
 		"name"	"Special Ammo Sharing"
+		"name_es"	"Compartir municion especial"
 		"desc"	"Survivors are able to share special ammo"
+		"desc_es"	"Los sobrevivientes podran compartir municion especial"
 		"id"	"11"
 		"infected"	"9"
 		"cost"	"4250"
@@ -173,12 +225,16 @@
 		"us_total"	"2"
 		"us_1"		"When a survivor picks up special ammo such as fire bullets or explosive bullets"
 		"us_2"		"all guild members (on the same team) will be equipped aswell."
+		"us_1_es"		"Cuando un sobreviviente coje municion especial como balas incendiarias o balas explosivas"
+		"us_2_es"		"todos los miembros del mismo clan (en el mismo equipo) seran equipados con la misma municion tambien."
 	}
 	
 	"infected_pickup"
 	{
 		"name"	"Smart Hands"
+		"name_es"	"Manos Habiles"
 		"desc"	"Infected guild members can pick up special items"
+		"desc_es"	"Los miembros del clan que jueguen como infectado podran recoger items especiales (tostadores).
 		"id"	"12"
 		"infected"	"7"
 		"cost"	"31550"
@@ -186,12 +242,16 @@
 		"us_total"	"2"
 		"us_1"		"This buff will upgrade the infected minds, making them smarter. This will make them"
 		"us_2"		"able to notice special items (known as toasters) and enable grabbing them."
+		"us_1_es"		"Este buff mejorara la inteligencia de los infectados, haciendolos mas astutos. Esto los hara"
+		"us_2_es"		"capaces de notar items especiales (conocidos como tostadores) y permitirles recogerlos."
 	}
 	
 	"spit_protection"
 	{
 		"name"	"Anti gloo"
+		"name_es"	"Anti-Adherente"
 		"desc"	"Spitters spit will not slow down your guild members when incapped"
+		"desc_es"	"El escupitajo de spitter no frenara a los miembros de tu clan mientren estan incapacitados"
 		"id"	"13"
 		"infected"	"9"
 		"cost"	"1350"
@@ -200,12 +260,17 @@
 		"us_1"		"Your guild members will learn a way to avoid getting stuck on spitters spit"
 		"us_2"		"when they are crawling. Unfortunately, this knownledge cannot be applied to"
 		"us_3"		"their feets."
+		"us_1_es"		"Los miembros de tu clan aprenderan un modo de evitar quedar atascados en el escupitajo de las spitters"
+		"us_2_es"		"cuando estan arrastrandose. Desafortunadamente, este conocimiento no puede ser aplicado a"
+		"us_3_es"		"sus pies."
 	}
 	
 	"no_invisible_jockey"
 	{
 		"name"	"Detect"
+		"name_es"	"Detectar"
 		"desc"	"Guild members are able to see invisible jockeys with this buff"
+		"desc_es"	"Los miembros del clan son capaces de ver Jockeys invisibles con este buff"
 		"id"	"17"
 		"infected"	"9"
 		"cost"	"5620"
@@ -214,12 +279,17 @@
 		"us_1"		"After a long research, guild members have finally discovered how to see invisible"
 		"us_2"		"jockeys in small areas. However, it is not possible to fully see them."
 		"us_3"		"Jockeys around 180 Units will experiment a 70% visibility increase."
+		"us_1_es"		"Despues de largas investigaciones, los miembros del clan han finalmente descubierto como ver Jockeys"
+		"us_2_es"		"invisibles en areas pequenas. Sin embargo, no es posible verlos completamente."
+		"us_3_es"		"Los Jockeys alrededor de 180 unidades experimentaran un 70% de visibilidad aumentada."
 	}
 	
 	"veteran_pistols"
 	{
 		"name"	"Veteran Pistols"
+		"name_es"	"Pistolas Veteranas"
 		"desc"	"Guild members are able to use veteran pistols, and deal more damage with them"
+		"desc_es"	"Los miembros del clan podran usar pistolas veteranas, e infringir mas dano con estas pistolas.
 		"id"	"14"
 		"infected"	"9"
 		"cost"	"7890"
@@ -229,12 +299,18 @@
 		"us_2"		"normal pistols fast. Right after they pick up a pistol, it will become a   "
 		"us_3"		"veteran pistol and will deal between 300% and 1500% more damage!"
 		"us_4"		"<Damage bonus is random between 300% - 1500%>"
+		"us_1_es"		"Despues de cierto entrenamiento, los miembros de tu clan han finalmente aprendido como mejorar"
+		"us_2_es"		"las pistolas normales rapidamente. Inmediatamente despues de que ellos recojan una pistola, estas se convertiras en "
+		"us_3_es"		"pistolas veteranas y infringiran entre 300% y 1500% mas de dano!"
+		"us_4_es"		"<El bonus de dano es aleatorio entre 300% - 1500%>"
 	}
 	
 	"wreck"
 	{
 		"name"		"Melee Wrecker"
+		"name_es"	"Destrozador de Armas de cuerpo"
 		"desc"		"Guild members playing with a tank, will mutate and will break survivors melee weapon randomly"
+		"desc_es"	"Los miembros del clan que jueguen como tank, mutaran y romperan las armas de cuerpo a cuerpo de los sobrevivientes de manera aleatoria"
 		"id"		"15"
 		"infected"	"7"
 		"cost"		"14600"
@@ -244,12 +320,18 @@
 		"us_2"		"for a short period of time, almost undetectable. However, if a melee weapons hits the cells  "
 		"us_3"		"during their solid state, it will break"
 		"us_4"		"Probability of breaking a melee weapon is 0.1%"
+		"us_1_es"		"Cuando un miembro del clan se convierta en Tank, sus celulas mutaran y se volveran solidas"
+		"us_2_es"		"por un corto periodo de tiempo, casi indetectable. Si un arma de cuerpo a cuerpo golpea las celulas  "
+		"us_3_es"		"durante su estado solido, se rompera"
+		"us_4_es"		"La probabilidad de romper un arma de cuerpo es 0.1%"
 	}
 	
 	"exp"
 	{
 		"name"		"Exp Farmers"
+		"name_es"	"Expertos en Farming"
 		"desc"		"Guild members will earn more experience points if they fight together"
+		"desc_es"	"Los miembros del clan ganaran mas puntos de experiencia si ellos luchan juntos"
 		"id"		"16"
 		"infected"	"9"
 		"cost"		"7810"
@@ -261,5 +343,11 @@
 		"us_4"		"Guild members will receive 15% additional exp, multiplied by the amount of guild"
 		"us_5"		"members connected."
 		"us_6"		"<Works on coop servers only>"
+		"us_1_es"		"Trabajar solo para sobrevivir te hara eventualmente fuerte y mas experimentado, pero"
+		"us_2_es"		"esto se vuelve totalmente diferente cuando intentas sobrevivir con otros. Los miembros del clan  "
+		"us_3_es"		"ganaran puntos de experiencia adicionales por matanzas si es que hay miembros de su mismo clan con ellos."
+		"us_4_es"		"Los miembros del clan recibiran 15% de experiencia adicional, multiplicado por la cantidad de"
+		"us_5_es"		"miembros del mismo clan conectado."
+		"us_6_es"		"<Funciona unicamente en los servidores de modo cooperativo>"
 	}
 }
