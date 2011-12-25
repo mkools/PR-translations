@@ -14,6 +14,7 @@
 		"name"	"Vending Machine"
 		"name_es"	"Maquina Magica"
                 "name_ru"       "Торговый автомат"
+                "name_pt"       "Vending Machine"
 	}
 	
 	"gem"
@@ -22,6 +23,7 @@
 		"name"	"Gem"
 		"name_es"	"Gema"
                 "name_ru"       "Кристалл"
+                "name_pt"       "Gema"
 	}
 	
 	"exp_package"
@@ -30,6 +32,7 @@
 		"name"	"Double Exp Package"
 		"name_es"	"Paquete de Exp Doble"
                 "name_ru"       "Двойной умножитель опыта"
+                "name_pt"       "Pacote de Exp Dupla"
 	}
 	
 	"points"
@@ -38,6 +41,7 @@
 		"name"	"Mega Points Pack"
 		"name_es"	"Mega Pack de Puntos"
                 "name_ru"       "Большое количество очков"
+                "name_pt"       "Mega Pacote de Pontos"
 	}
 	
 	"exp"
@@ -46,6 +50,7 @@
 		"name"	"Mega Exp Pack"
 		"name_es"	"Mega Pack de Exp"
                 "name_ru"       "Большой пакет опыта"
+                "name_pt"       "Mega Pacote de Exp"
 	}
 	
 	"starter_account"
@@ -54,6 +59,7 @@
 		"name"	"Starter Account Summoner"
 		"name_es"	"Activador Cuenta Novata"
                 "name_ru"       "Аккаунт новичка"
+                "name_pt"       "Activador de Conta de Inicinate"
 	}
 	
 	"vending_machine_gold"
@@ -61,5 +67,6 @@
 		"id"	"7"
 		"name"	"Premium Vending Machine"
                 "name_ru"       "Премиум автомат"
+                "name_pt" "Premium Vending Machine"
 	}
 }
