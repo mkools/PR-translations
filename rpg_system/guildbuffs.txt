@@ -26,8 +26,10 @@
 	{
 		"name"	"Freezing Legs"
 		"name_es"	"Piernas congeladas"
+                "name_ru"       "Замедление"
 		"desc"	"Reduces the speed of the members on the enemy survivor team"
 		"desc_es"	"Reduce la velocidad de los sobrevivientes del equipo contrario"
+                "desc_ru"       "Сокращает скорость движения членов вражеской гильдии"
 		"id"	"1"
 		"infected"	"14"
 		"cost"	"4500"
@@ -43,14 +45,20 @@
 		"us_3_es"	"de los sobrevivientes cuando tu clan esta en el equipo de infectados. Esto solo funciona en guerra de clanes."
 		"us_4_es"	"1% de velocidad, multiplicado por el nivel de tu clan sera reducido de los miembros"
 		"us_5_es"	"del clan enemigo"
+                "us_1_ru"       "Из-за силы вашей гильдии,враги начнут бояться вас,что приведёт к понижению их скорости"
+                "us_2_ru"       "Этот бафф снизит скорость членов вражеской гильдии когда вы играете за заражённых."
+                "us_3_ru"       "Он работает только в режиме компании.Сокращение скорости врагов на 1%,умноженный на уровень"
+                "us_4_ru"       "вашей гильдии"
 	}
 	
 	"blackmail"
 	{
 		"name"	"Crafting mastery"
 		"name_es"	"Maestria de forjar"
+                "name_ru"       "Мастерство обработки"
 		"desc"	"Increases the crafting success rate"
 		"desc_es"	"Incrementa la tasa de exito al forjar"
+                "desc_ru"       "Повышает вероятность успешной обработки кристаллов"
 		"id"	"2"
 		"infected"	"12"
 		"cost"	"2000"
@@ -62,14 +70,19 @@
 		"us_1_es"	"Los miembros de tu clan aprenderan la maestria de forjar y seran"
 		"us_2_es"	"capaces de crear gemas facilmente."
 		"us_3_es"	"1% de suerte, multiplicado por el nivel de tu clan es incremantado."
+                "us_1_ru"       "Члены вашей гильдии смогут изучить мастерство обработки и смогут"
+                "us_2_ru"       "создавать кристаллы быстрее и легче"
+                "us_3_ru"       "Повышения успеха на 1% умноженный на текущий уровень гильдии"
 	}
 	
 	"sharing_health"
 	{
 		"name"	"Sharing Health"
 		"name_es"	"Compartir Salud"
+                "name_ru"       "Распределние здоровья"
 		"desc"	"Adds additional health points to guild members on the survivor team"
 		"desc_es"	"Anade puntos de salud adicionales a los miembros del clan en el equipo de sobrevivientes"
+                "desc_ru"       "Даёт дополнительные очки здоровья членам вашей гильдии когда вы играете за выживших"
 		"id"	"3"
 		"infected"	"9"
 		"cost"	"3500"
@@ -81,14 +94,19 @@
 		"us_1_es"	"Todos los miembros del clan recibiran 5 HP de bonus por cada companero de clan en el"
 		"us_2_es"	"equipo de sobrevivientes. Por ejemplo, si el equipo tiene 5 companeros del mismo clan (incluido tu), tu"
 		"us_3_es"	"recibiras un total de 20 HP de bonus por esa ronda.
+                "us_1_ru"       "Все члены вашей гильдии получат дополнительные 5 едениц здоровья, зависящий от"
+                "us_2_ru"       "количества ваших напарников в команде.Например если в команде 5 членов гильдии,то вы получите"
+                "us_3_ru"       "20 дополнительных едениц здоровья."
 	}
 	
 	"keep_going"
 	{
 		"name"	"Extra Knife"
 		"name_es"	"Cuchillo extra"
+                "name_ru"       "Дополнительный нож"
 		"desc"	"Adds an additional knife to all your guild members"
 		"desc_es"	"Anade un cuchillo adicional a todos los miembros de tu clan"
+                "desc_ru"       "Даёт дополнительный нож всем членам вашей гильдии"
 		"id"	"4"
 		"infected"	"9"
 		"cost"	"2100"
@@ -98,6 +116,7 @@
 		"us_2"	"Knife buff."
 		"us_1_es"	"Todos los miembros del clan recibiran un cuchillo adicional, pero solo si ellos tienen su propio"
 		"us_2_es"	"cuchillo equipado"
+                "us_1_ru"       "Все члены гильдии получают дополнительный нож,но у них должен быть бафф- нож"
 	}
 	
 	"twisted"
@@ -106,6 +125,7 @@
 		"name_es"	"Proteccion contra la maldad"
 		"desc"	"Shields your guild members from evil items"
 		"desc_es"	"Protege a los miembros de tu clan de los tostadores malignos"
+                "desc_ru"       "Зашита от зла"
 		"id"	"5"
 		"infected"	"9"
 		"cost"	"5000"
@@ -113,14 +133,17 @@
 		"us_total"	"1"
 		"us_1"	"Picking up an evil item will not affect your teammates."
 		"us_1_es"	"Recoger un item maligno no afectara tus companeros de clan"
+                "us_1_ru"       "Подбирание вредных предметов не будет влиять на членов вашей гильдии"
 	}
 	
 	"confusion"
 	{
 		"name"	"United Fury"
 		"name_es"	"Furia unida"
+                "name_ru"       "Единая ярость"
 		"desc"	"Increases the damage towards survivors that are members of an enemy guild"
 		"desc_es"	"Incrementa el dano hacia los sobrevivientes que son miembros de un clan enemigo"
+                "desc_ru"       "Повышает урон наносимый членам вражеской гильдии"
 		"id"	"6"
 		"infected"	"14"
 		"cost"	"15000"
@@ -132,14 +155,19 @@
 		"us_1_es"	"Todo tipo de dano inflingido hacia miembros de un clan enemigo que estan en"
 		"us_2_es"	"el equipo de sobrevivientes sera incrementado en 5%, multiplicado por el nivel del clan."
 		"us_3_es"	"<Este buff solo funciona en servidores de guerra de clanes>"
+                "us_1_ru"       "Все виды урона нанесённого врагам,которые играют за выживших,увеличивается на 5%"
+                "us_2_ru"       "сложенные с уровнем гильдии"
+                "us_3_ru"       "<Бафф работает только на серверах для войн между гильдиями>"
 	}
 	
 	"arsenal"
 	{
 		"name"	"Discount"
 		"name_es"	"Descuento"
+                "name_ru"       "Скидка"
 		"desc"	"Reduces the bounty requirement to buy ranged weapons on the store"
 		"desc_es"	"Reduce los bountys requeridos para comprar armas de fuego en la tienda"
+                "desc_ru"       "Сокрашает стоимость огнестрельного оружия в меню покупок"
 		"id"	"7"
 		"infected"	"9"
 		"cost"	"6100"
@@ -151,14 +179,18 @@
 		"us_1_es"	"Este buff reducira el costo de bounty de todas las armas de fuego en la tienda"
 		"us_2_es"	"(!buy menu), sin embargo, otro tipo de articulos, como las de cuerpo a cuerpo mantendran"
 		"us_3_es"	"el precio normal de bountys."
+                "us_1_ru"       "Этот бафф сокращает стоимость всех видов огнестрельного оружия.Однако оружия"
+                "us_2_ru"       "ближнего боя как и другие виды сохраняет свою стоимость"
 	}
 	
 	"leadership"
 	{
 		"name"	"Leader Fanaticism"
 		"name_es"	"Liderazgo"
+                "name_ru"       "Фанатизм"
 		"desc"	"Decreases the damage received of guilds members near the guild leader"
 		"desc_es"	"Disminuye el dano recibido por los miembros del clan que se encuentren cerca de su lider"
+                "desc_ru"       "Сокращает количесиво урона который вы получаете около лидера гильдии"
 		"id"	"8"
 		"infected"	"9"
 		"cost"	"7000"
@@ -170,14 +202,18 @@
 		"us_1_es"	"Disminuye un 30% del dano recibido por los miembros del clan que se encuentren en un radio de"
 		"us_2_es"	"250 unidades cerca al lider del clan. Este efecto desaparecera si el lider del clan es"
 		"us_3_es"	"incapacitado y el lider de clan no sera afectado en lo absoluto."
-	}
+                "us_1_ru"       "Сокращает урон на 30% всем членам гильдии в радиусе 250 едениц от лидера."
+                "us_2_ru"       "Эффект пропадает если лидер гильдии выведен из строя"	
+}
 	
 	"snow_shield"
 	{
 		"name"	"Ice Shield"
 		"name_es"	"Escudo de Hielo"
+                "name_ru"       "Ледяной щит"
 		"desc"	"Grenade launcher projectiles will not trace your guild members as infected"
 		"desc_es"	"El proyectil del lanzagranadas no rastreara a los miembros de tu clan que jueguen como infectados"
+                "desc_ru"       "Играя за заражённых,гранаты из гранотомёта не будут преследовать членов вашей гильдии"
 		"id"	"9"
 		"infected"	"7"
 		"cost"	"10000"
@@ -187,14 +223,17 @@
 		"us_2"	"with intelligent projectiles, making them useless against them"
 		"us_1_es"	"La piel de los miembros de tu clan, que jueguen como infectados, mutara y los hara imposible de rastrear"
 		"us_2_es"	"con proyectiles inteligentes, haciendolos inutiles contra ellos."
+                "us_1_ru"       "Кожа членов вашей гильдии мутирует,сделая их неуязвимыми к тепловым гранатам"
 	}
 	
 	"mega_laseron"
 	{
 		"name"	"Mega Laser"
 		"name_es"	"Mega Laser"
+                "name_ru"       "Супер лазер"
 		"desc"	"Survivors are able to shoot a mega laser"
 		"desc_es"	"Los sobrevivientes podran disparar un mega laser"
+                "desc_ru"       "Выжившие способны использовать супер лазер"
 		"id"	"10"
 		"infected"	"9"
 		"cost"	"21500"
@@ -210,14 +249,20 @@
 		"us_3_es"	"rifles de caza. Para esto, los jugadores deben agacharse y mantener presionado el boton de disparo para"
 		"us_4_es"	"que asi el laser pueda cargar."
 		"us_5_es"	"<Solo funciona en modo cooperativo>"
+                "us_1_ru"       "После длительных исследований,ваша гильдия наконец выяснила как использовать супер лазер."
+                "us_2_ru"       "С этим баффом члены вашей гильдии смогут стрелять из охотничьей винтовки используя"
+                "us_3_ru"       "Супер лазер.Чтобы он начал работать,нажми ctrl и уддерживай кнопку атаки до тех пор пока он не зарядится"
+                "us_4_ru"       "<Работает только в режиме кампании>"
 	}
 	
 	"sharing_ammo"
 	{
 		"name"	"Special Ammo Sharing"
 		"name_es"	"Compartir municion especial"
+                "name_ru"       "Распределение особых патронов"
 		"desc"	"Survivors are able to share special ammo"
 		"desc_es"	"Los sobrevivientes podran compartir municion especial"
+                "desc_ru"       "Выжившие могут делиться особыми патронами"
 		"id"	"11"
 		"infected"	"9"
 		"cost"	"4250"
@@ -227,14 +272,18 @@
 		"us_2"		"all guild members (on the same team) will be equipped aswell."
 		"us_1_es"		"Cuando un sobreviviente coje municion especial como balas incendiarias o balas explosivas"
 		"us_2_es"		"todos los miembros del mismo clan (en el mismo equipo) seran equipados con la misma municion tambien."
+                "us_1_ru"       "Когда выживший поднимает особый предмет такой как разрывнае патроны,все члены гильдии"
+                "us_2_ru"       "находящиеся в одной команде получают их тоже"
 	}
 	
 	"infected_pickup"
 	{
 		"name"	"Smart Hands"
 		"name_es"	"Manos Habiles"
+                "name_ru"       "Ловкие руки"
 		"desc"	"Infected guild members can pick up special items"
 		"desc_es"	"Los miembros del clan que jueguen como infectado podran recoger items especiales (tostadores).
+                "desc_ru"       "Члены гильдии играя за заражённых могут поднимать особые предметы"
 		"id"	"12"
 		"infected"	"7"
 		"cost"	"31550"
@@ -244,14 +293,18 @@
 		"us_2"		"able to notice special items (known as toasters) and enable grabbing them."
 		"us_1_es"		"Este buff mejorara la inteligencia de los infectados, haciendolos mas astutos. Esto los hara"
 		"us_2_es"		"capaces de notar items especiales (conocidos como tostadores) y permitirles recogerlos."
+               "us_1_ru"       "Этот бафф сделает заражённых умнее.Это заставит их замечать особые предметы(тостеры)"
+               "us_2_ru"       "и позволит заражённым поднимать их"
 	}
 	
 	"spit_protection"
 	{
 		"name"	"Anti gloo"
 		"name_es"	"Anti-Adherente"
+                "name_ru"       "Анти-слизь"
 		"desc"	"Spitters spit will not slow down your guild members when incapped"
 		"desc_es"	"El escupitajo de spitter no frenara a los miembros de tu clan mientren estan incapacitados"
+                "desc_ru"       "Кислота плевальщицы не будет вас замедлять если вы выведены из строя" 
 		"id"	"13"
 		"infected"	"9"
 		"cost"	"1350"
@@ -263,14 +316,18 @@
 		"us_1_es"		"Los miembros de tu clan aprenderan un modo de evitar quedar atascados en el escupitajo de las spitters"
 		"us_2_es"		"cuando estan arrastrandose. Desafortunadamente, este conocimiento no puede ser aplicado a"
 		"us_3_es"		"sus pies."
+                "us_1_ru"        "Члены вашей гильдии смогут изучить способ который поможет им избегать замедления"
+                "us_2_ru"        "пока они ползут.К сожалению это умение не может быть применено к их ногам"
 	}
 	
 	"no_invisible_jockey"
 	{
 		"name"	"Detect"
 		"name_es"	"Detectar"
+                "name_ru"       "Обнаружение"
 		"desc"	"Guild members are able to see invisible jockeys with this buff"
 		"desc_es"	"Los miembros del clan son capaces de ver Jockeys invisibles con este buff"
+                "desc_ru"       "Члены гильдии могут зачечать невидимых жокеев"
 		"id"	"17"
 		"infected"	"9"
 		"cost"	"5620"
@@ -282,14 +339,19 @@
 		"us_1_es"		"Despues de largas investigaciones, los miembros del clan han finalmente descubierto como ver Jockeys"
 		"us_2_es"		"invisibles en areas pequenas. Sin embargo, no es posible verlos completamente."
 		"us_3_es"		"Los Jockeys alrededor de 180 unidades experimentaran un 70% de visibilidad aumentada."
+                "us_1_ru"       "После долгих исследований,члены гильдии выяснили как замечать невидимых жокеев на небольшом"
+                "us_2_ru"       "расстоянии.Однако они могут видеть их только частично.
+                "us_3_ru"       "Жокеи в пределах зоны в 180 едениц будут видимы на 70%"
 	}
 	
 	"veteran_pistols"
 	{
 		"name"	"Veteran Pistols"
 		"name_es"	"Pistolas Veteranas"
+                "name_ru"       "Ветеранские пистолеты"
 		"desc"	"Guild members are able to use veteran pistols, and deal more damage with them"
 		"desc_es"	"Los miembros del clan podran usar pistolas veteranas, e infringir mas dano con estas pistolas.
+                "desc_ru"       "Члены гильдии могут использовать особые пистолеты,и благодаря этому наносить больше урона"
 		"id"	"14"
 		"infected"	"9"
 		"cost"	"7890"
@@ -303,14 +365,19 @@
 		"us_2_es"		"las pistolas normales rapidamente. Inmediatamente despues de que ellos recojan una pistola, estas se convertiras en "
 		"us_3_es"		"pistolas veteranas y infringiran entre 300% y 1500% mas de dano!"
 		"us_4_es"		"<El bonus de dano es aleatorio entre 300% - 1500%>"
+                "us_1_ru"        "После длительных тренировок члены вашей гильдии наконец научились улучшать пистолеты.Теперь"
+                "us_2_ru"        "как только они берут пистолет он становится ветеранским и наносит от 300% до 1500% больше урона!"
+                "us_3_ru"        "<Бонус к урону между 300№ - 1500%>"
 	}
 	
 	"wreck"
 	{
 		"name"		"Melee Wrecker"
 		"name_es"	"Destrozador de Armas de cuerpo"
+                "name_ru"       "Разрушитель"
 		"desc"		"Guild members playing with a tank, will mutate and will break survivors melee weapon randomly"
 		"desc_es"	"Los miembros del clan que jueguen como tank, mutaran y romperan las armas de cuerpo a cuerpo de los sobrevivientes de manera aleatoria"
+                "desc_ru"       "Члены гильдии играя за танка смогут мутировать и сломать оружия ближнего боя врага"
 		"id"		"15"
 		"infected"	"7"
 		"cost"		"14600"
@@ -324,14 +391,20 @@
 		"us_2_es"		"por un corto periodo de tiempo, casi indetectable. Si un arma de cuerpo a cuerpo golpea las celulas  "
 		"us_3_es"		"durante su estado solido, se rompera"
 		"us_4_es"		"La probabilidad de romper un arma de cuerpo es 0.1%"
+                "us_1_ru"        "Когда член гильдии играет за танка его клетки начинают мутировать и могут становиться"
+                "us_2_ru"        "очень крепкими на небольшой период времени,почти незаметный для остальных.Однако если в"
+                "us_3_ru"        "этот период времени его кто-то ударит оружием ближнего боя,то оно сломается.
+                "us_4_ru"        "Шанс 0.1%"
 	}
 	
 	"exp"
 	{
 		"name"		"Exp Farmers"
 		"name_es"	"Expertos en Farming"
+                "name_ru"       "Фермеры!"
 		"desc"		"Guild members will earn more experience points if they fight together"
 		"desc_es"	"Los miembros del clan ganaran mas puntos de experiencia si ellos luchan juntos"
+                "desc_ru"       "Члены гильдии будут получать ьольше опыта сражаясь вместе"
 		"id"		"16"
 		"infected"	"9"
 		"cost"		"7810"
@@ -349,5 +422,9 @@
 		"us_4_es"		"Los miembros del clan recibiran 15% de experiencia adicional, multiplicado por la cantidad de"
 		"us_5_es"		"miembros del mismo clan conectado."
 		"us_6_es"		"<Funciona unicamente en los servidores de modo cooperativo>"
+                "us_1_ru"               "Выживание в одиночку сделает вас сильнее,но это совсем другое когда вы пытаетесь"
+                "us_2_ru"               "выжить с напарниками.Члены гильдии будут получать больше опыта за каждое убийство"
+                "us_3_ru"               "если с ними их напарники.Они будут получать 15% доп опыта сложенного с количеством"
+                "us_4_ru"               "членов гильдии на сервере"
 	}
 }
