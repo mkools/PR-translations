@@ -12,7 +12,7 @@
 	{
 		"id"	"1"
 		"name"	"Vending Machine"
-		"name_es"	"Maquina Magica"
+		"name_es"	"Maquina Expendedora"
                 "name_ru"       "Торговый автомат"
                 "name_pt"       "Vending Machine"
 	}
@@ -57,7 +57,7 @@
 	{
 		"id"	"6"
 		"name"	"Starter Account Summoner"
-		"name_es"	"Activador Cuenta Novata"
+		"name_es"	"Activador de Cuenta Novata"
                 "name_ru"       "Аккаунт новичка"
                 "name_pt"       "Activador de Conta de Inicinate"
 	}
@@ -66,6 +66,7 @@
 	{
 		"id"	"7"
 		"name"	"Premium Vending Machine"
+		"name_es"	"Maquina Expendedora Premium"
                 "name_ru"       "Премиум автомат"
                 "name_pt" "Premium Vending Machine"
 	}
