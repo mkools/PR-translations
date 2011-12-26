@@ -51,7 +51,7 @@
 		"bounty"	"4"
 		"exp"		"25"
 		"name"		"Headshot Spree: "
-		"name_es"	"Combo de Headshots: "
+		"name_es"	"Headshots en cadena: "
                 "name_pt"       "Combo de Headshots: "
                 "name_ru"       "Серия выстрелов в голову: "
 	}
@@ -63,7 +63,7 @@
 		"bounty"	"2"
 		"exp"		"50"
 		"name"		"Killing Spree: "
-		"name_es"	"Combo de Asesinatos: "
+		"name_es"	"Asesinatos en Cadena: "
                 "name_pt"       "Combo de Assassinatos: "
                 "name_ru"       "Серия убийств: "
 	}
@@ -87,7 +87,7 @@
 		"bounty"	"1"
 		"exp"		"15"
 		"name"		"Special Infected Headshot: "
-		"name_es"	"Headshot Infectado Especial: "
+		"name_es"	"Headshot a Infectado Especial: "
                 "name_pt"       "Headshot Infectado Especial: "
                 "name_ru"       "Выстрел в голову особому заражённому: "
 	}
@@ -119,7 +119,7 @@
 		"bounty"	"1"
 		"exp"		"25"
 		"name"		"Healed Teammate (DO NOT HARVEST POINTS): "
-		"name_es"	"Companero Curado (NO CULTIVES PUNTOS!): "
+		"name_es"	"Companero Curado (NO FUERCES PUNTOS!): "
                 "name_pt"       "Companheiro Curado (NÃO CULTIVES PONTOS): "
                 "name_ru"       "Вылечил напарника (В ЭТОМ НЕ БЫЛО НЕОБХОДИМОСТИ!): " 
 	} 
@@ -187,7 +187,7 @@
 		"bounty"	"0"
 		"exp"		"1000"
 		"name"		"Finale Escape: "
-		"name_es"	"Escapado: "
+		"name_es"	"Final Sobrevivida: "
                 "name_pt"       "Final Escapado: "
                 "name_ru"       "Спасение: "
 	}
@@ -211,7 +211,7 @@
 		"bounty"	"2"
 		"exp"		"250"
 		"name"		"Witch Cr0wned: "
-		"name_es"	"Witch Cr0wned: "
+		"name_es"	"Witch Asesinada de un disparo: "
                 "name_pt"       "Witch Cr0wned: "
                 "name_ru"       "Разбудил ведьму: "
 	}  
@@ -326,7 +326,8 @@
 		"points"	"-100"
 		"bounty"	"-5"
 		"exp"		"-2000"
-		"name"	"INCAPPED TEAMMATE: "
+		"name" "INCAPPED TEAMMATE: "
+		"name_es" "COMPANERO INCAPACITADO"
                 "name_pt" "COMPANHEIRO INCAPACITADO: "
                 "name_ru" "ВЫВЕЛ ИЗ СТРОЯ НАПАРНИКА: "
 	}
@@ -389,7 +390,7 @@
 		"bounty"	"1"
 		"exp"		"15"
 		"name"		"Pounced Survivor: "
-		"name_es"	"Sobreviviente Tumbado: "
+		"name_es"	"Sobreviviente Embestido: "
                 "name_pt"       "Pounced Sobrevivente: "
                 "name_ru"       "Набросился на выжившего: "
 	}
@@ -401,7 +402,7 @@
 		"bounty"	"5"
 		"exp"		"150"
 		"name"		"Max Pounce Damage: "
-		"name_es"	"Maximo Dano Pounce: "
+		"name_es"	"Maximo Dano de Salto: "
                 "name_pt"       "Máximo Dano Pounce: "
                 "name_ru"       "Максимальный урон от прыжка: "
 	}
@@ -413,6 +414,7 @@
 		"bounty"	"2"
 		"exp"		"15"
 		"name"		"Ridden Survivor: "
+		"name_es"	"Sobreviviente Cabalgado"
                 "name_pt"       "Sobrevivente Montado: "
                 "name_ru"       "Проехался на выжившем: "
 	}
@@ -425,7 +427,7 @@
 		"exp"		"50"
 		"name"		"Grabbed Survivor: "
 		"name_es"	"Sobreviviente Tomado: "
-                "name_pt"       "Sobrevivente Agarrado: "
+                "name_es"	"Sobreviviente Atrapado: "
                 "name_ru"       "Схватил выжившего: "
 	}
 	
