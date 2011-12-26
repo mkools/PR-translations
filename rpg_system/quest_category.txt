@@ -7,6 +7,7 @@
 		"min_lvl"	"1"
 		"guild"		"0"
                 "name_ru"       "Кайл"
+                "name_pt"       "kyle"
 	}
 	"cat2"
 	{
@@ -15,6 +16,7 @@
 		"min_lvl"	"3"
 		"guild"		"0"
                 "name_ru"       "Роджер"
+                "name_pt"       "Roger"
 	}
 	"cat3"
 	{
@@ -24,6 +26,7 @@
 		"min_lvl"	"200"
 		"guild"		"1"
                 "name_ru"       "Голос"
+                "name_pt"       "A Voz"
 	}
 	"cat4"
 	{
@@ -31,6 +34,7 @@
 		"id"		"4"
 		"min_lvl"	"15"
                 "name_ru"       "Кит"
+                "name_pt"       "Keith"
 	}
 	"cat5"
 	{
@@ -38,6 +42,7 @@
 		"id"		"5"
 		"min_lvl"	"10"
                 "name_ru"       "Сара"
+                "nmae_pt"       "Sara"
 	}
 	"cat6"
 	{
@@ -45,6 +50,7 @@
 		"id"		"6"
 		"min_lvl"	"20"
                 "name_ru"       "Брайан"
+                "name_pt"       "Bryan"
 	}
 	"cat7"
 	{
@@ -52,6 +58,7 @@
 		"id"		"7"
 		"min_lvl"	"50"
                 "name_ru"       "Уильям"
+                "name_pt"       "william"
 	}
 	"cat8"
 	{
@@ -59,6 +66,7 @@
 		"id"		"8"
 		"min_lvl"		"40"
                 "name_ru"       "Теодора"
+                "name_pt"       "Theodora"
 	}
 	"cat9"
 	{
@@ -66,6 +74,7 @@
 		"id"		"9"
 		"min_lvl"	"65"
                 "name_ru"       "Дарвин"
+                "name_pt"       "Darwin"
 	}
 	"cat10"
 	{
@@ -74,6 +83,7 @@
 		"id"		"10"
 		"min_lvl"	"57"
                 "name_ru"       "Вор"
+                "name_pt"       "Ladrão"
 	}
 	"cat11"
 	{
@@ -81,6 +91,7 @@
 		"id"		"11"
 		"min_lvl"	"100"
                 "name_ru"       "Уил"
+                "name_pt"       "Will"
 	}
 	"cat12"
 	{
