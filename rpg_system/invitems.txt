@@ -140,7 +140,7 @@
 		"desc2_es"	"La piedra, sin embargo, no puede restaurar Piedras de Mejora"
                 "name_pt"       "Pedra da reversão"
                 "desc1_pt"      "Permite você remover um aprimoramento ou habilidade, e recuperar todos os pontos e gemas perdidos"
-                "desc2_pt"      "A pedra, no entanto, é incapaz de restaurar Pedras de Encantamento"
+                "desc2_pt"      "A pedra, no entanto, é incapaz de restaurar Pedras de Aprimoramento"
 	}
 	"Buff_Slot"
 	{
