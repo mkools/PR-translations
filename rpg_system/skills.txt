@@ -41,11 +41,12 @@
 	//	"name"	"Crawling"
 	//	"name_es"	"Arrastrarse"
         //      "name_ru"       "Ползанье"
+        //      "name_pt"       "Rastejar"
 	//	"id"	"1"
 	//	"desc"	"Allows you to crawl while you are incapacitated"
 	//	"desc_es"	"Te permite arrastrarte mientras estas incapacitado"
         //      "desc_ru"       "Позволяет вам ползти когда вы выведенны из строя"
-	//	
+	//	"desc_pt"       "Permite-te rastejar enquanto estás incapacitado"
 	//	"sk_levels"	"6"
 	//	
 	//	//Value works as the maximum crawl speed!
@@ -81,12 +82,12 @@
 	{
 		"name"	"Self-Revive"
 		"name_es"	"Reincorporarse"
-		"name_br"	"Auto-Ajuda"
+		"name_pt"	"Auto-Ajuda"
                 "name_ru"       "Само-подъём"
 		"id"	"2"
 		"desc"	"Allows you to self-revive with a medkit, or revive a teammate with pills"
 		"desc_es"	"Te permite reincorporarte usando un botiquin, o ayudar a tus companeros usando pildoras"
-		"desc_br"	"Permite que voce se auto levante com um kit medico ou levante um companheiro com pilulas"
+		"desc_pt"	"Permite que tu te auto-levantes com um kit médico ou levantar um companheiro com pilulas"
                 "desc_ru"       "Позволяет вам поднять себя аптечкой или поднять напарника таблетками"
 		
 		"sk_levels"	"7"
@@ -127,12 +128,12 @@
 	{
 		"name"	"Drag And Move"
 		"name_es"	"Arrastrar y Moverse"
-		"name_br"	"Puxar e Mover"
+		"name_pt"	"Puxar e Mover"
                 "name_ru"       "Тащи и иди"
 		"id"	"3"
 		"desc"	"Allows you to move while pulling survivors"
 		"desc_es"	"Te permite moverte mientras estas arrastrando supervivientes"
-        "desc_br"  "Permite que voce se movente enquanto estiver puxando sobreviventes"
+                "desc_pt"  "Permite que tu te movimentes enquanto estiveres a puxar sobreviventes"
                 "desc_ru" "Позволяет вам двигаться пока вы тащите выжевшего"
 		
 		"sk_levels"	"7"
@@ -173,13 +174,13 @@
 		"leg_lv5_es"	"Velocidade de movimento de 50%"
 		"leg_lv6_es"	"Velocidade de movimento de 60%"
 		"leg_lv7_es"	"Velocidade de movimento de 70%"
-		"leg_lv1_br"	"Velocidade de movimento de 10%"
-		"leg_lv2_br"	"Velocidade de movimento de 20%"
-		"leg_lv3_br"	"Velocidade de movimento de 30%"
-		"leg_lv4_br"	"Velocidade de movimento de 40%"
-		"leg_lv5_br"	"Velocidade de movimento de 50%"
-		"leg_lv6_br"	"Velocidade de movimento de 60%"
-		"leg_lv7_br"	"Velocidade de movimento de 70%"
+		"leg_lv1_pt"	"Velocidade de movimento de 10%"
+		"leg_lv2_pt"	"Velocidade de movimento de 20%"
+		"leg_lv3_pt"	"Velocidade de movimento de 30%"
+		"leg_lv4_pt"	"Velocidade de movimento de 40%"
+		"leg_lv5_pt"	"Velocidade de movimento de 50%"
+		"leg_lv6_pt"	"Velocidade de movimento de 60%"
+		"leg_lv7_pt"	"Velocidade de movimento de 70%"
                 "leg_lv7_es"	"Velocidad de movimiento de 70%"
                 "leg_lv1_ru"    "Тянуть и идти со скоростью 10%"
                 "leg_lv2_ru"    "Тянуть и идти со скоростью 20%"
@@ -195,12 +196,12 @@
 	{
 		"name"	"Toxic Cloud"
 		"name_es"	"Nube Toxica"
-		"name_br"	"Nuvem Toxica"
+		"name_pt"	"Núvem Tóxica"
                 "name_ru"       "Токсичное облако"
 		"id"	"4"
 		"desc"	"Leaves a toxic cloud when you die that harms survivors"
 		"desc_es"	"Deja una nube toxica cuando mueres como smoker, que dana a los sobrevivientes"
-		"desc_br"	"Deixa uma nuvem toxica causadora de danos aos sobreviventes quando voce morre sendo Smoker"
+		"desc_pt"	"Deixa uma nuvem toxica causadora de dano aos sobreviventes"
                 "desc_ru"       "Оставляет после вашей смерти токсичное облако котрое наносит урон выжившим"
 		
 		"sk_levels"	"6"
@@ -227,7 +228,7 @@
 		
 		"leg"		"Smoker cloud damage: {v} per second"
 		"leg_es"	"Dano de la nube: {v} por segundo"
-                "leg_br"        "Dano da nuvem: {v} por segundo"
+                "leg_pt"        "Dano da núvem: {v} por segundo"
 	}
 	
 	//Volutary Release :)
@@ -235,12 +236,12 @@
 	{
 		"name"	"Mercy Tongue"
 		"name_es"	"Lengua Misericordiosa"
-		"name_br"	"Lingua Misericordiosa"
+		"name_pt"	"Lingua Misericordiosa"
                 "name_ru"       "Язык милосердия"
 		"id"	"5"
 		"desc"	"Allows you to voluntarily release your victim"
 		"desc_es" "Te permite liberar a tu victima como smoker"
-		"desc_br" "Permite que voce solte a vitima sendo smoker"
+		"desc_pt" "Permite que, deliberadamente, soltes a vitima"
                 "desc_ru" "Позволяет вам добровольно освободить свою жертву"
 		
 		"sk_levels"	"6"
@@ -267,7 +268,7 @@
 		
 		"leg"		"Release victim with a delay of {v} second(s)"
 		"leg_es"	"Demora para liberar de {v} segundo(s)"
-		"leg_br"	"Demora para liberar de {v} segundo(s)"
+		"leg_pt"	"Liberta a vítima com um atraso de {v} segundo(s)"
                 "leg_ru"        "Освобождает жертву с задержкой в {v} секунд(у)"
 	}
 	
@@ -278,12 +279,12 @@
 	{
 		"name"	"Bitch Slap"
 		"name_es"	"Bofetada"
-		"name_br"	"Bofetada"
+		"name_pt"	"Bofetada"
                 "name_ru"       "Пинок"
 		"id"	"6"
 		"desc"	"Allows you to deal a powerful slap towards survivor"
 		"desc_es"	"Te permite dar un poderoso golpe con el boomer"
-		"desc_br"	"Permite que voce de um poderoso tapa no sobrevivente"
+		"desc_pt"	"Permite-te dar uma poderosa bofetada nos sobreviventes"
                 "desc_ru"       "Позволяет вам делать мощный пинок"
                 
 		
@@ -321,21 +322,20 @@
 		
 		"leg"		"Slap Power: {v}"
 		"leg_es"	"Poder de golpe: {v}"
-		"leg_br"	"Poder do tapa: {v}"
+		"leg_pt"	"Poder do golpe: {v}"
                 "leg_ru"        "Мощь пинка: {v}"
 	}
-	
-	//Acid boomer
+		//Acid boomer
 	"boomer_acid"
 	{
 		"name"	"Acid Vomit"
 		"name_es"	"Vomito Acido"
-		"name_br"	"Vomito Acido"
+		"name_pt"	"Vomito Acido"
                 "name_ru"       "Кислотная рвота"
 		"id"	"18"
 		"desc"	"Allows you to randomly drop an acid spill when you die"
 		"desc_es"	"Aleatoriamente, dejaras un charco de acido cuando mueras como boomer"
-		"desc_br"	"Permite que voce deixe uma poca de acido quando morrer"
+		"desc_pt"	"Permite que, aleatoriamente, deixes uma poça de ácido quando morres"
                 "desc_ru"       "Позволяет вам случайным образом оставлять после смерти кислоту"
 		
 		"sk_levels"	"7"
@@ -364,7 +364,7 @@
 		
 		"leg"		"{v}% probability of dropping an acid spill"
 		"leg_es"	"{v}% probabilidad de dejar acido"
-		"leg_br"	"{v}% probabilidade de deixar poca de acido"
+		"leg_pt"	"{v}% probabilidade de deixar uma poça de acido"
                 "leg_ru"        "{v}% вероятность выброса кислоты"
 	}
 	
@@ -373,12 +373,12 @@
 	{
 		"name"	"Accurate Vomit"
 		"name_es"	"Vomito Fermentado"
-		"name_br"	"Vomito Preciso"
+		"name_pt"	"Vómito Preciso"
                 "name_ru"       "Точность"
 		"id"	"7"
 		"desc"	"Your vomit will randomly create a massive panic event"
 		"desc_es"	"Tu vomito, aleatoriamente, llamara una masiva cantidad de infectados"
-		"desc_br"	"Seu vomito, eventualmente, criara um evento de panico massivo"
+		"desc_pt"	"O teu vómita irá, aleatoriamente, criar um evento de pânico"
                 "desc_ru"       "Ваша рвота будет случаным образом вызывать массивную орду"
 		
 		"sk_levels"	"7"
@@ -407,7 +407,7 @@
 		
 		"leg"		"{v}% probability of a panic event"
 		"leg_es"	"{v}% probabilidad de una horda masiva"
-		"leg_br"	"{v}% probabilidade de gerar evento de panico"
+		"leg_pt"	"{v}% probabilidade de um evento de panico"
                 "leg_ru"        "{v}% вероятность орды"
 	}
 	
@@ -416,12 +416,12 @@
 	{
 		"name"	"Dark Vomit"
 		"name_es"	"Vomito Oscuro"
-		"name_br"	"Vomito Escuro"
+		"name_pt"	"Vomito Escuro"
                 "name_ru"       "Темнота"
 		"id"	"8"
 		"desc"	"Your vomit will blind the survivors"
 		"desc_es"	"Tu vomito enceguecera mas a los sobrevivientes"
-		"desc_br"	"Seu vomito ira cegar os sobreviventes"
+		"desc_pt"	"O teu vómito irá cegar os sobreviventes"
                 "desc_ru"       "Ваша рвота будет ослеплять выживших на время"		
 
 		"sk_levels"	"8"
@@ -452,7 +452,7 @@
 		
 		"leg"		"{v}% survivors visibility decrease"
 		"leg_es"	"{v}% visibilidad disminuida"
-		"leg_br"	"{v}% visibilidade diminuida"
+		"leg_pt"	"{v}% visibilidade diminuida"
                 "leg_ru"        "{v}% снижение способности видеть"
 	}
 	
@@ -463,12 +463,12 @@
 	{
 		"name"	"Hunter Repounce"
 		"name_es"	"Multi Saltos"
-		"name_br"	"Multi Saltos"
+		"name_pt"	"Repounce"
                 "name_ru"       "Сальто"
 		"id"	"9"
 		"desc"	"Allows you to leave your current victim, and inmediatly pounce"
 		"desc_es"	"Te permite dejar a tu victima, y saltar inmediatamanete hacia otra"
-		"desc_br"	"Permite que voce deixa sua vitima atual e imediatamente salte em outra"
+		"desc_pt"	"Permite que tu deixes a tua vitima actual e que rapidatamente sales para outra"
                 "desc_ru"       "Позволяет вам оставить вашу текущую жертву и снова запрыгнуть на другую"
 		
 		"sk_levels"	"6"
@@ -495,7 +495,7 @@
 		
 		"leg"		"Repounce recharge interval: {v} second(s)"
 		"leg_es"	"Intervalo de descanso: {v} segundo(s)"
-		"leg_br"	"Intervalo de descanso: {v} segundo(s)"
+		"leg_pt"	"Intervalo de descanso: {v} segundo(s)"
                 "leg_ru"        "Задержка: в {v} секунд(ы)"
 	}
 	
@@ -506,12 +506,12 @@
 	{
 		"name"	"Super Girl"
 		"name_es"	"Super Chica"
-		"name_br"	"Super Mulher"
+		"name_pt"	"Super Rapariga"
                 "name_ru"       "Супер-девочка"
 		"id"	"10"
 		"desc"	"Makes you invulnerable after spitting"
 		"desc_es"	"Te hace invulnerable luego de escupir"
-		"desc_br"	"Te deixa invulneravel apos cuspir"
+		"desc_pt"	"Deixa-te invulnerável após cuspir"
                 "desc_ru"       "Делает вас неуязвимым после плевка"
 		
 		"sk_levels"	"7"
@@ -540,7 +540,7 @@
 		
 		"leg"		"Invulnerability for {v} seconds"
 		"leg_es"	"Invulnerabilidad por {v} segundo(s)"
-		"leg_br"	"Invulnerabilidade por {v} segundo(s)"
+		"leg_pt"	"Invulnerabilidade durante {v} segundo(s)"
                 "leg_ru"        "Неуязвимость на {v} секунд(ы)"
 	}
 	
@@ -549,12 +549,12 @@
 	{
 		"name"	"Sticky Goo"
 		"name_es"	"Acido Pegajoso"
-		"name_br"	"Acido Pegajoso"
+		"name_pt"	"Ácido Pegajoso"
                 "name_ru"       "Липкая кислота"
 		"id"	"11"
 		"desc"	"Slows down survivors while they are on your spit"
 		"desc_es"	"Disminuye la velocidad de los sobrevivientes que pasan por tu acido"
-		"desc_br"	"Diminui a velocidade dos sobreviventes enquanto eles estiverem no acido"
+		"desc_pt"	"Diminui a velocidade dos sobreviventes enquanto eles estiverem no ácido"
                 "desc_ru"       "Замедляет выживших пока они находяться в вашей кислоте"
 		
 		"sk_levels"	"10"
@@ -591,7 +591,7 @@
 		
 		"leg"		"{v}% speed decrease"
 		"leg_es"	"{v}% velocidad disminuida"
-		"leg_br"	"{v}% da velocidade diminuida"
+		"leg_pt"	"{v}% da velocidade diminuida"
                 "leg_ru"        "{v}% снижение скорости"
 	}
 	
@@ -600,12 +600,12 @@
 	{
 		"name"	"Acid Claws"
 		"name_es"	"Garras Acidas"
-		"name_br"	"Garras Acidas"
+		"name_pt"	"Garras Acidas"
                 "name_ru"       "Токсичные когти"
 		"id"	"12"
 		"desc"	"Keeps inflicting damage to survivors after a claw hit"
 		"desc_es"	"Sigue inflingiendo dano luego de golpear con la garra"
-		"desc_br"	"Continua infligindo dano aos sobreviventes apos serem atingidos pela garra"
+		"desc_pt"	"Continua a provocar dano aos sobreviventes após serem atingidos pela garra"
                 "desc_ru"       "Продолжает наносить урон выжившему после удара когтями"
 		
 		"sk_levels"	"7"
@@ -634,7 +634,7 @@
 		
 		"leg"		"Damage duration: {v} second(s)"
 		"leg_es"	"Duracion del dano: {v} segundo(s)"
-		"leg_br"	"Duracao do dano: {v} segundo(s)"
+		"leg_pt"	"Duraçao do dano: {v} segundo(s)"
                 "leg_ru"        "Продолжительность: {v} секунд(ы)"
 	}
 	
@@ -645,12 +645,12 @@
 	{
 		"name"	"Humpy Jump"
 		"name_es"	"Salto Abrupto"
-		"name_br"	"Pulo do Corcunda"
+		"name_pt"	"Salto"
                 "name_ru"       "Горбатый прыгун"
 		"id"	"13"
 		"desc"	"Allows you to jump when riding a survivor"
 		"desc_es"	"Te permite saltar mientras montas a un sobreviviente"
-		"desc_br"	"Pemite que voce pule enquanto monta um sobrevivente"
+		"desc_pt"	"Pemite que saltes enquanto montas um sobrevivente"
                 "desc_ru"       "Позволяет вам прыгать пока вы едите на выжившем"
 		
 		"sk_levels"	"7"
@@ -679,7 +679,7 @@
 		
 		"leg"		"Jump power of {v}"
 		"leg_es"	"Poder del salto: {v}"
-		"leg_br"	"Poder do pulo: {v}"
+		"leg_pt"	"Poder do Salto: {v}"
                 "leg_ru"        "Мощность прыжка в {v}"
 	}
 	
@@ -688,12 +688,12 @@
 	{
 		"name"	"Invisible Danger"
 		"name_es"	"Peligro Invisible"
-		"name_br"	"Ameaca Invisivel"
+		"name_pt"	"Perigo Invisivel"
                 "name_ru"       "Невидимая опасность"
 		"id"	"14"
 		"desc"	"Decreases your visibility when you are not riding"
 		"desc_es"	"Disminuye la visibilidad del jockey, cuando no esta montando"
-		"desc_br"	"Diminui sua visibilidade quando voce nao esta montando"
+		"desc_pt"	"Diminui a tua visibilidade quando nao estas a montar"
                 "desc_ru"       "Снижает вашу видимость когда вы не находитесь в режиме атаки"
 		
 		"sk_levels"	"7"
@@ -722,7 +722,7 @@
 		
 		"leg"		"{v}% visibility decrease"
 		"leg_es"	"{v}% visibilidad disminuida"
-		"leg_br"	"{v}% visibilidade diminuida"
+		"leg_pt"	"{v}% visibilidade diminuida"
                 "leg_ru"        "{v}% снижение вашей видимости"
 	}
 	
@@ -733,12 +733,12 @@
 	{
 		"name"	"Charger Power"
 		"name_es"	"Poder de Carga"
-		"name_br"	"Poder de Carregar"
+		"name_pt"	"Poder de Carga"
                 "name_ru"       "Сила громилы"
 		"id"	"15"
 		"desc"	"Allows you to move cars with your charge"
 		"desc_es"	"Te permite mover automoviles con tu carga"
-		"desc_br"	"Permite que voce mova carros com seu carregar"
+		"desc_pt"	"Permite que movas carros"
                 "desc_ru"       "Позволяет вам передвигать машины играя за громилу"
 		
 		"sk_levels"	"7"
@@ -767,7 +767,7 @@
 		
 		"leg"		"Charge and move the car with a power of {v}"
 		"leg_es"	"Fuerza con que son movidos: {v}"
-		"leg_br"	"Move o carro com forca de: {v}"
+		"leg_pt"	"Move o carro com uma força de: {v}"
                 "leg_ru"        "Передвижение машин с силой в {v}"
 	}
 	
@@ -778,12 +778,12 @@
 	{
 		"name"	"Dynamite Rock"
 		"name_es"	"Roca Dinamita"
-		"name_br"	"Pedra Explosiva"
+		"name_pt"	"Pedra Explosiva"
                 "name_ru"       "Разрывной камень"
 		"id"	"16"
 		"desc"	"The tank rock will explode when it collides with something, harming anything around"
 		"desc_es"	"La roca del Tank se vuelve explosiva y dana todo alrededor"
-		"desc_br"	"A pedra lancada pelo Tank ira explodir quando colidir com algo, causando dano em todos ao seu
+		"desc_pt"	"A pedra lancada pelo Tank ira explodir quando colidir com algo, causando dano em todos ao seu
  redor"
                "desc_ru"       "Камни вашего танка будут взрываться наносся урон окружающим вас выжившим"
 		
@@ -813,7 +813,7 @@
 		
 		"leg"		"Rock explodes with a power of {v}"
 		"leg_es" 	"La roca explota con un poder de {v}"
-		"leg_br" 	"A pedra explode com poder de {v}"
+		"leg_pt" 	"A pedra explode com poder de {v}"
                 "leg_ru"        "Камни взрываются с силой в {v}"
 	}
 	
@@ -823,12 +823,12 @@
 	{
 		"name"	"Silenced Attack"
 		"name_es"	"Ataque Silencioso"
-		"name_br"	"Ataque Silencioso"
+		"name_pt"	"Ataque Silencioso"
                 "name_ru"       "Бесшумная атака"
 		"id"	"17"
 		"desc"	"Decreases the infected sounds emitted from you"
 		"desc_es"	"Disminuye el ruido proveniente de ti"
-		"desc_br"	"Diminui os sons emitidos por voce quando for um infectado"
+		"desc_pt"	"Diminui os sons emitidos quando jogares como infectado"
                 "desc_ru"       "Снижает громкость звуков которые издают особые заражённые"
 		
 		"sk_levels"	"5"
@@ -853,7 +853,7 @@
 		
 		"leg"		"Reduces infected noise by {v}%"
 		"leg_es"	"Reduce el ruido un {v}%"
-		"leg_br"	"Reduz o som em {v}%"
+		"leg_pt"	"Reduz o som em {v}%"
                 "leg_ru"        "Снижение шума на {v}%"
 	}
 	
@@ -861,12 +861,12 @@
 	{
 		"name"	"Acid Jar"
 		"name_es"	"Jarra Acida"
-		"name_br"	"Jarra Acida"
+		"name_pt"	"Jarra Acida"
                 "name_ru"       "Кислотная банка"
 		"id"	"19"
 		"desc"	"Deals damage to the infected you cover with boomer bile jars"
 		"desc_es"	"Dana a los infectados cubiertos por tu botella de bilis"
-		"desc_br"	"Causa dano aos infectados que voce atingir com a Jarra de Vomito"
+		"desc_pt"	"Causa dano aos infectados que voce atingir com vomito"
                 "desc_ru"       "Наносит урон заражённым которые находяться под действием банки со рвотой"
 		
 		"sk_levels"	"7"
@@ -894,7 +894,7 @@
 		
 		"leg"		"Deals {v} damage per second"
 		"leg_es"	"{v} de dano por segundo"
-		"leg_br"	"{v} de dano por segundo"
+		"leg_pt"	"{v} de dano por segundo"
                 "leg_ru"        "наносит {v} урона в секунду" 
 	}
 	
@@ -902,12 +902,12 @@
 	{
 		"name"	"Regeneration"
 		"name_es"	"Regeneracion"
-		"name_br"	"Regeneracao"
+		"name_pt"	"Regeneracao"
                 "name_ru"       "Регенерация"
 		"id"	"20"
 		"desc"	"Heals all your wounds over time"
 		"desc_es"	"Cura tus heridas en el tiempo"
-		"desc_br"	"Cura suas feridas com o tempo"
+		"desc_pt"	"Cura todas as tuas feridas á medida que tempo passa"
                 "desc_ru"       "Постепенно восстанавливает здоровье"
 		
 		"sk_levels"	"9"
@@ -939,7 +939,7 @@
 		
 		"leg"		"Heals {v} HP each second"
 		"leg_es"	"Cura {v} de salud cada segundo"
-		"leg_br"	"Cura {v} de saude a cada segundo"
+		"leg_pt"	"Cura {v} de saude a cada segundo"
                 "leg_ru"        "Восстанавливает {v} hp в секунду"
 	}
 	
@@ -947,12 +947,12 @@
 	{
 		"name"	"Impact Stun"
 		"name_es"	"Impacto Aturdidor"
-		"name_br"	"Impacto Chocante"
+		"name_pt"	"Impacto Atordoante"
                 "name_ru"       "Оглушение"
 		"id"	"21"
 		"desc"	"When you impact a survivor as a charger, you will break his legs, slowing him down for a fixed time"
 		"desc_es"	"Cuando impactas a un sobreviviente, tuerces sus piernas reduciendo su velocidad por unos segundos"
-		"desc_br"	"Quando voce impactar um sobrevivente, voce ira quebrar-lhe as pernas, reduzindo-lhe a velocidade por um determinado tempo"
+		"desc_pt"	"Quando colidires com os sobrevivente, quebrar-lhes-ás as pernas, reduzindo-lhes a velocidade por um determinado periodo de tempo"
                 "desc_ru"       "Когда вы будите атаквать выжившего за громилу вы сломаете ему ноги и замедлите его скорость на определённое время"
 		
 		"sk_levels"	"7"
@@ -980,7 +980,7 @@
 		
 		"leg"		"The pain lasts {v} seconds"
 		"leg_es"	"El dano dura {v} segundos"
-		"leg_br"	"A dor dura {v} segundos"
+		"leg_pt"	"A dor dura {v} segundos"
                 "leg_ru"        "Замедление на {v} секунд(у)"
 	}
 	
@@ -988,12 +988,12 @@
 	{
 		"name"	"Damaging Explosion"
 		"name_es"	"Explosion Danina"
-		"name_br"	"Explosao Ofensiva"
+		"name_pt"	"Explosao Ofensiva"
                 "name_ru"       "Взрыв"
 		"id"	"22"
 		"desc"	"When you explode near survivors, you will deal damage to them"
 		"desc_es"	"Cuando explotas cerca de sobrevivientes, los danaras"
-		"desc_br"	"Quando voce explodir perto de sobreviventes, causara dano a eles"
+		"desc_pt"	"Quando explodires perto de sobreviventes, causar-lhes-ás dano"
                 "desc_ru"       "Когда вы взрываетесь около выживших вы наносите им урон"
 		
 		"sk_levels"	"7"
@@ -1021,7 +1021,7 @@
 		
 		"leg"		"Deals {v} damage to survivors"
 		"leg_es"	"Otorga {v} dano a sobrevivientes"
-		"leg_br"	"Causa {v} de dano aos sobrevivientes"
+		"leg_pt"	"Causa {v} de dano a sobrevivientes"
                 "leg_ru"        "Наносит {v} урона выжившим"
 	}
 	
@@ -1029,12 +1029,12 @@
 	{
 		"name"	"Heavy Vomit"
 		"name_es"	"Vomito Pesado"
-		"name_br"	"Vomito Pesado"
+		"name_pt"	"Vomito Pesado"
                 "name_ru"       "Густая рвота"
 		"id"	"23"
 		"desc"	"Decreases the survivor speed while they are covered by your vomit"
 		"desc_es"	"Disminuye la velocidad de los obrevivientes cuando estan vomitados"
-		"desc_br"	"Diminui a velocidade dos sobreviventes cobertos pelo seu vomito"
+		"desc_pt"	"Diminui a velocidade dos sobreviventes cobertos pelo seu vomito"
                 "desc_ru"       "Снижает скорость выживших пока они обблёванны"
 		
 		"sk_levels"	"10"
@@ -1068,7 +1068,7 @@
 		
 		"leg"		"{v}% speed decrease"
 		"leg_es"	"{v}% velocidad reducida"
-		"leg_br"	"{v}% velocidade reduzida"
+		"leg_pt"	"{v}% velocidade reduzida"
                 "leg_ru"        "{v}% cнижение скорости"
 	}
 	
@@ -1076,12 +1076,12 @@
 	{
 		"name"	"Jockey Pounce"
 		"name_es"	"Tumbador"
-		"name_br"	"Salto do Jockey"
+		"name_pt"	"Salto de Jockey"
                 "name_ru"       "Прыжок жокея"
 		"id"	"24"
 		"desc"	"Inflicts damage when you attach to a survivor from high heights"
 		"desc_es"	"Inflinje dano cuando montas a sobrevivientes desde una gran altura"
-		"desc_br"	"Inflige dano quando voce monta do alto em um sobrevivente"
+		"desc_pt"	"Provoca dano quando montas sobreviventes desde uma altura considerável"
                 "desc_ru"       "Наносит ущерб выжившим когда вы запрыгиваете на них с высоты"
 		
 		"sk_levels"	"7"
@@ -1109,7 +1109,7 @@
 		
 		"leg"		"Maximum Damage: {v}"
 		"leg_es"	"Dano maximo: {v}"
-		"leg_br"	"Dano maximo: {v}"
+		"leg_pt"	"Dano maximo: {v}"
                 "leg_ru"        "Максимальный урон: {v}"
 	}
 	
@@ -1117,12 +1117,12 @@
 	{
 		"name"	"Surprising Charge"
 		"name_es"	"Carga Sorpresa"
-		"name_br"	"Carregamento Surpresa"
+		"name_pt"	"Cargada Surpresa"
                 "name_ru"       "Внезапный"
 		"id"	"25"
 		"desc"	"Decreases your transparency while you are charging"
 		"desc_es"	"Disminuye tu visibilidad cuando cargas (corres)"
-		"desc_br"	"Diminui sua visibilidade quando voce esta carregando"
+		"desc_pt"	"Diminui a tua visibilidade enquanto estás a cargar"
                 "desc_ru"       "Во время рывка вы будите невидимым"
 		
 		"sk_levels"	"7"
@@ -1150,7 +1150,7 @@
 		
 		"leg"		"{v}% transparency increase"
 		"leg_es"	"{v}% visibilidad disminuida"
-		"leg_br"	"{v}% visibilidade diminuida"
+		"leg_pt"	"{v}% visibilidade diminuida"
                 "leg_ru"        "{v}% повышение вашей прозрачности"
 	}
 	
@@ -1158,12 +1158,12 @@
 	{
 		"name"	"|*| Increased Electricity"
 		"name_es" "|*| Electricidad Aumentada"
-		"name_br" "|*| Electricidade Aumentada"
+		"name_pt" "|*| Electricidade Aumentada"
                 "name_ru" "|*| Повышенное напряжение"
 		"id"	"26"
 		"desc"	"When a defibrillator is used, all death bodies around will be also affected"
 		"desc_es"	"Cuando un desfibrilador es usado, todos los cuerpos alrededor seran afectados"
-		"desc_br"	"Quando um desfibrilador e usado, todos os corpos mortos ao redor serao afetados"
+		"desc_pt"	"Quando um desfibrilador é usado, todos os corpos mortos em redor serão afectados"
                 "desc_ru"       "Дефибрилятор будет действовать на всех ближайших игроков находящихся рядом с телом" 
 		
 		"sk_levels"	"8"
@@ -1195,7 +1195,7 @@
 		
 		"leg"		"Range: {v}"
 		"leg_es"	"Rango: {v}"
-		"leg_br"	"Alcance: {v}"
+		"leg_pt"	"Alcance: {v}"
                 "leg_ru"        "Радиус: {v}"
 	}
 	
@@ -1203,12 +1203,12 @@
 	{
 		"name"	"|*| Pure Pray"
 		"name_es"	"|*| Predica Pura"
-		"name_br"	"|*| Reza Pura"
+		"name_pt"	"|*| Reza Pura"
                 "name_ru"       "|*| Молитва"
 		"id"	"27"
 		"desc"	"Using a first aid kit will also heal your teammates around"
 		"desc_es"	"Cuando uses un botiquin tambien curaras a tus companeros alrededor"
-		"desc_br"	"Usar um kit de primeiro socorros ira curar tambem os companheiros ao seu redor"
+		"desc_pt"	"Usar um kit de primeiro socorros curarará também os companheiros em teu redor"
                 "desc_ru"       "Используя свою аптечку вы так же будите лечить товарищей по команде" 
 		
 		"sk_levels"	"8"
@@ -1240,7 +1240,7 @@
 		
 		"leg"		"Range: {v}"
 		"leg_es"	"Rango: {v}"
-		"leg_br"	"Alcance: {v}"
+		"leg_pt"	"Alcance: {v}"
                 "leg_ru"        "Радиус: {v}"
 	}
 	
@@ -1248,12 +1248,12 @@
 	{
 		"name"	"|*| Extended Hand"
 		"name_es"	"|*| Mano Extendida"
-		"name_br"	"|*| Mao Extendida"
+		"name_pt"	"|*| Mao Extendida"
                 "name_ru"       "|*| Протянутая рука"
 		"id"	"28"
 		"desc"	"Helping one player will give others hope, and they will stand up by themselves"
 		"desc_es"	"Ayudar a un companero le subira la moral a otros, y se pondran de pie por ellos mismos"
-		"desc_br"	"Ajudar um companheiro a levantar-se, ira dar aos outros esperanca e eles irao se levantar
+		"desc_pt"	"Ajudar um companheiro a levantar-se, ira dar aos outros esperança e eles levantar-se-ão
 sozinhos"
                 "desc_ru"       "Помогая одному игроку вы будите поднимать других в пределах определённого радиуса"
 		
@@ -1286,7 +1286,7 @@ sozinhos"
 		
 		"leg"		"Range: {v}"
 		"leg_es"	"Rango: {v}"
-		"leg_br"	"Alcance: {v}"
+		"leg_pt"	"Alcance: {v}"
                 "leg_ru"        "Радиус: {v}"
 	}
 	
@@ -1294,12 +1294,12 @@ sozinhos"
 	{
 		"name"	"|*| Corrosive Rock"
 		"name_es"	"|*| Roca Corrosiva"
-		"name_br"	"|*| Pedra Corrosiva"
+		"name_pt"	"|*| Pedra Corrosiva"
                 "name_ru"       "|*| Ядовитая глыба"
 		"id"	"29"
 		"desc"	"Randomly, your Tank's rock will explode and leave acid around"
 		"desc_es"	"Aleatoriamente, la roca del Tank explotara y dejara acido alrededor"
-		"desc_br"	"Aleatoriamente, a pedra lancada pelo Tank ira explodir deixando uma poca de acido"
+		"desc_pt"	"Aleatoriamente, a pedra lancada pelo Tank, explodirá deixando uma poca de acido"
                 "desc_ru"       "Случайным образом, камни вашего танка будут взрываться и оставлять кислоту вокруг"
 		
 		"sk_levels"	"7"
@@ -1327,7 +1327,7 @@ sozinhos"
 		
 		"leg"		"{v}% Chance"
 		"leg_es"	"{v}% probabilidad"
-		"leg_br"	"{v}% probabilidade"
+		"leg_pt"	"{v}% probabilidade"
                 "leg_ru"        "{v}% шанс"
 	}
 	
@@ -1335,12 +1335,12 @@ sozinhos"
 	{
 		"name"	"|*| Defense Wrecker"
 		"name_es"	"|*| Destrozador de Defensas"
-		"name_br"	"|*| Violador de Defesas"
+		"name_pt"	"|*| Destruidor de Defesas"
                 "name_ru"    "Разрушитель обороны"
 		"id"	"30"
 		"desc"	"Your spit is heavier than before, and will hurt survivors upon collition (Projectile)"
 		"desc_es"	"Tu escupitajo es mas pesado que antes y danara a los supervivientes que impacte"
-		"desc_br"	"Sua cuspida se torna mais pesada e ira causar dano aos sobreviventes ao colidir com eles"
+		"desc_pt"	"O teu cuspe torna-se mais pesado e causarará dano aos sobreviventes ao colidir com eles"
                 "desc_ru"       "Выша кислота сильнее чем раньше и будет наносить урон при столкновении"
 		
 		"sk_levels"	"7"
@@ -1370,7 +1370,7 @@ sozinhos"
 		
 		"leg"		"{v} Damage applied"
 		"leg_es"	"{v} dano aplicado"
-		"leg_br"	"{v} de dano causado"
+		"leg_pt"	"{v} de dano causado"
                 "leg_ru"        "{v} добавление урона"
 	}
 	
@@ -1378,12 +1378,12 @@ sozinhos"
 	{
 		"name"	"|*| Hidden Massacre"
 		"name_es"	"|*| Masacre Escondida"
-		"name_br"	"|*| Massacre Escondido"
+		"name_pt"	"|*| Massacre Escondido"
                 "name_ru"       "|*| Скрытая резня"
 		"id"	"31"
 		"desc"	"Randomly, when you pounce, pummel, choke or ride a survivor, his glow will not be visible to his mates"
 		"desc_es"	"Cuando atrapes a un sobreviviente, existe la probabilidad de que su resplandor desaparesca"
-		"desc_br"	"Quando voce salta e agarra, esmurra, estrangula ou monta um sobrevivente, ha uma probabilidade de seu brilho nao ser visivel para os demais"
+		"desc_pt"	"Quando tu esmurras, estrangulas ou montas um sobrevivente, há uma probabilidade que este se torne invisivel para os restantes sobreviventes""
 		"desc_ru"       "Когда вы атакуете выжившего есть вероятность того, что его напарники не смогут увидеть его свечение"
 		"sk_levels"	"7"
 		
@@ -1412,7 +1412,7 @@ sozinhos"
 		
 		"leg"		"{v}% Chance"
 		"leg_es"	"{v}% de probabilidad"
-		"leg_br"	"{v}% de probabilidade"
+		"leg_pt"	"{v}% de probabilidade"
                 "leg_ru"        "{v}% шанс"
 	}
 	
@@ -1420,12 +1420,12 @@ sozinhos"
 	{
 		"name"	"|*| Evil Toaster Drop"
 		"name_es"	"|*| Items Malignos"
-		"name_br"	"|*| Itens Malignos"
+		"name_pt"	"|*| Itens Malignos"
                 "name_ru"       "|*| Плохие тостеры"
 		"id"	"32"
 		"desc"	"Randomly, you will drop one evil toaster as infected"
 		"desc_es"	"Aleatoriamente, dejaras un item maligno en el suelo al morir como infectado"
-		"desc_br"	"Aleatoriamente, sendo infectado voce ira deixar uma torradeira maligna quando morrer"
+		"desc_pt"	"Aleatoriamente,comoo infectado, deixarás uma torradeira maligna quando morreres"
                 "desc_ru"       "Случайным образом из вас будет выпадать один плохой тостер когда вы играете за заражённых"
 		
 		"sk_levels"	"7"
@@ -1455,7 +1455,7 @@ sozinhos"
 		
 		"leg"		"{v}% Drop chance"
 		"leg_es"	"{v}% probabilidad"
-		"leg_br"	"{v}% probabilidade"
+		"leg_pt"	"{v}% probabilidade"
                 "leg_ru"        "{v}% шанс"
 	}
 	
@@ -1463,11 +1463,13 @@ sozinhos"
 	{
 		"name"	"|*| Mutated Disease"
 		"name_es"	"|*| Enfermedad Mutada"
-                "name_ru"       "|*| Мутировавшая болезнь"
+                "name_ru"       "|*| Мутировавшая болезнь"0
+                "name_pt"       "|*| Mutação"
 		"id"	"33"
 		"desc"	"After hitting a survivor, there is a random chance of triggering a mutation on him"
 		"desc_es"	"Al golpear a un sobreviviente, existe la probabilidad de mutarlo"
                 "desc_ru"       "Атакуя выжившего,есть вероятность что он начнёт мутировать"
+                "desc_pt"       "Depois de golpear um sobrevivente, há uma probabilidade de provocar uma mutação neste"
 		"sk_levels"	"7"
 		
 		"lv1"	"0.1"
@@ -1498,6 +1500,7 @@ sozinhos"
 		"leg"	"{v}% change of mutating"
 		"leg_es"	"{v}% probabilidad de mutarlo"
                 "leg_ru"        "{v}% шанс"
+                "leg_pt"        "{v}% probabilidade de causar uma mutação"
 	}
 	
 	//"Snow_Shield"
@@ -1505,11 +1508,12 @@ sozinhos"
 	//	"name"	"|*| Snow Shield"
 	//	"name_es"	"|*| Escudo de nieve"
         //      "name_ru"       "|*| Ледянной шит"
+        //      "name_pt"       "|*| Escuda de Neve"
 	//	"id"	"34"
 	//	"desc"	"When a heat missile reaches you, it will desintegrate and cause no damage"
 	//	"desc_es"	"Cuando un misil te alcance, se desintegrara y no causara dano"
         //      "desc_ru"       "Защищает вас от тепловых гранат"
-	//	
+	//	"desc_pt"       "Quando um míssil te alcançar, desintegrar-se-á e não causará dano"
 	//	"sk_levels"	"7"
 	//	
 	//	"lv1"	"10"
@@ -1556,6 +1560,13 @@ sozinhos"
         //      "leg_lv5_ru"           "шанс 50%"
         //      "leg_lv6_ru"           "шанс 60%"
         //      "leg_lv7_ru"           "шанс 70%"
+        //      "leg_pt"		"10% de probabilidade de desintegração"
+	//	"leg_lv2_pt"		"20% de probabilidade de desintegração"
+        //	"leg_lv3_pt"		"30% de probabilidade de desintegração"
+	//	"leg_lv4_pt"		"40% de probabilidade de desintegração"
+	//	"leg_lv5_pt"		"50% de probabilidade de desintegração"
+	//	"leg_lv6_pt"		"60% de probabilidade de desintegração"
+	//	"leg_lv7_pt"		"70% de probabilidade de desintegração"
 	//}
 	
 	"moustachio"
@@ -1563,9 +1574,11 @@ sozinhos"
 		"name"	"Moustachio Bless"
 		"name_es"	"Bendicion Moustachio"
                 "name_ru"       "Благославление Мустачио"
+                "name_pt"       "Benção Moustachio"
 		"desc"	"After using a first aid kit, you will be immune to any damage for a fixed time"
 		"desc_es"	"Luego de usar un botiquin, seras inmune a cualquier dano por un tiempo definido"
                 "desc_ru"       "После использования аптечки вы станете неуязвимым на опрделённое время"
+                "desc_pt"       "Depos de usares um kit de primeiros socorros, serás imune, por um periodo de tempo definido, a qualquer tipo de dano"
 		"id" "35"
 		
 		"sk_levels"	"6"
@@ -1592,6 +1605,7 @@ sozinhos"
 		"leg"	"Bless Duration: {v} second(s)"
 		"leg_es"	"Duracion: {v} segundo(s)"
                 "leg_ru"        "Продолжительность неуязвимости: {v} секунд(ы)"
+                "leg_pt"        "Duração: {v} segundo(s)
 	}
 	
 	"buff_enabler"
@@ -1599,10 +1613,11 @@ sozinhos"
 		"name"	"|*| Desperation"
 		"name_es"	"|*| Desesperacion"
                 "name_ru"       "|*| Отчаяние"
+                "name_pt"       "|*| Desespero"
 		"desc"	"All your buffs will work, even if they are not equipped"
 		"desc_es"	"Todos tus buffs funcionaran, incluso si no estan equipados"
                 "desc_ru"       "Все ваши баффы начнут работать даже если они не экипированны"
-		
+		"desc_pt"       "Todos os teus buff funcionarão, mesmo aqueles que nao estão equipados"
 		"id" "36"
 		
 		"sk_levels"	"5"
@@ -1631,234 +1646,248 @@ sozinhos"
 		"leg"	"Effect is applied when {v} survivors or less are alive"
 		"leg_es"	"Efecto aplicado si {v} sobrevivientes o menos estan vivos"
                 "leg_ru"        "Действие эффекта начинается когда осталось {v} выживших или меньше" 
-	}
-	
-	"sharing"
-	{
-		"name"	"|*| Charity"
-		"name_es"	"|*| Caridad"
-                "name_ru"       "|*| Благотворительность"
-		"desc"	"The exp that you win, will be automatically shared with your team. No EXP loss."
-		"desc_es"	"La EXP que ganes, sera compartida con tu companeros de equipo sin que tu pierdas EXP.
-                "desc_ru"       "Вы будите делиться опытом,который получаете, с напарниками.
-		
-		"id" "37"
-		
-		"sk_levels"	"10"
-		
-		"lv1"	"1"
-		"lv2"	"3"
-		"lv3"	"5"
-		"lv4"	"7"
-		"lv5"	"9"
-		"lv6"	"11"
-		"lv7"	"20"
-		"lv8"	"50"
-		"lv9"	"65"
-		"lv10"	"100"
-		
-		"stone"	"7"
-		
-		"infected" "12"
-		
-		"req_lv1"	"95"
-		"req_lv2"	"100"
-		"req_lv3"	"105"
-		"req_lv4"	"110"
-		"req_lv5"	"119"
-		"req_lv6"	"131"
-		"req_lv7"	"150"
-		"req_lv8"	"195"
-		"req_lv9"	"200"
-		"req_lv10"	"210"
-		
-		"stone"	"6"
-		
-		"base_cost"	"650"
-		"cost_factor"	"4.4321"
-		"gem_cost"	"1"
-		"cost_factor"	"7.354"
-		
-		"leg"	"{v}% of your exp is shared with your teammates"
-		"leg_es"	"{v}% exp compartida con tus companeros de equipo"
-                "leg_ru"        "{v}% опыта"
-	}
-	
-	"hunter_inv"
-	{
-		"name"	"|*| Hunter Disguise"
-		"name_es"	"|*| Hunter camuflado"
-                "name_ru"       "|*| Охотнячья маскировка"
-		"desc"	"Decreases the hunter visibility when not attacking a survivor"
-		"desc_es"	"Disminuye la visibilidad para ver al hunter cuando no esta atacando"
-                "desc_ru"       "Сокращает вашу видимость,пока вы не атакуете"
-		
-		"id" "38"
-		
-		"sk_levels"	"7"
-		
-		"lv1"	"15"
-		"lv2"	"30"
-		"lv3"	"45"
-		"lv4"	"60"
-		"lv5"	"75"
-		"lv6"	"90"
-		"lv7"	"100"
-		
-		"stone"	"7"
-		
-		"infected" "3"
-		
-		"req_lv1"	"201"
-		"req_lv2"	"202"
-		"req_lv3"	"204"
-		"req_lv4"	"206"
-		"req_lv5"	"207"
-		"req_lv6"	"208"
-		"req_lv7"	"210"
-		
-		"stone"	"1"
-		
-		"base_cost"	"1000"
-		"cost_factor"	"5.3260"
-		"gem_cost"	"4"
-		"cost_factor"	"7.354"
-		
-		"leg"	"{v}% hunter visibility decrease"
-		"leg_es"	"{v}% Visibilidad para ver al hunter disminiuda"
-                "leg_ru"        "{v}% уменьшения вашей видимости"
-	}
-	
-	"vengeance"
-	{
-		"name"	"|*| Vengeance"
-		"name_es"	"|*| Venganza"
-                "name_ru"       "|*| Месть"
-		"desc"	"Increases the exp from killing the same player who killed you before (VS)"
-		"desc_es"	"Incrementa la EXP por matar al mismo jugador que te mato en la ronda anterior"
-                "desc_ru"       "Увеличивает количество опыта, который вы получаете за убийство игрока кто убил вас раньше"
-		
-		"id" "39"
-		
-		"sk_levels"	"7"
-		
-		"lv1"	"1000"
-		"lv2"	"2000"
-		"lv3"	"3500"
-		"lv4"	"5000"
-		"lv5"	"8000"
-		"lv6"	"10500"
-		"lv7"	"15000"
-		
-		"stone"	"7"
-		
-		"infected" "7"
-		
-		"req_lv1"	"1"
-		"req_lv2"	"100"
-		"req_lv3"	"200"
-		"req_lv4"	"201"
-		"req_lv5"	"203"
-		"req_lv6"	"205"
-		"req_lv7"	"207"
-		
-		"stone"	"1"
-		
-		"base_cost"	"350"
-		"cost_factor"	"15.3260"
-		"gem_cost"	"4"
-		"cost_factor"	"7.354"
-		
-		"leg"	"{v}% exp points increased"
-		"leg_es"	"{v}% de incremento de los puntos de EXP"
-                "leg_ru"        "{v}% дополнительного опыта и очков"
-	}
-	
-	"skill40"
-	{
-		"name"	"Charge Block"
-		"name_es"	"Bloqueo de Carga"
-                "name_ru"       "Блокировка громилы"
-		"desc"	"The skill will let you randomly free yourself from a charger, when charge starts or when you take damage"
-		"desc_es"	"Te permite aleatoriamente liberarte tu mismo de un charger, mientras te carga o cuando esta danandote"
-                "desc_ru"       "Этот навык позволит вам случайным образом освободиться от громилы,когода он потащил вас или начал избивать"
-		
-		"id" "40"
-		"premium"	"1"
-		"sk_levels"	"5"
-		
-		"lv1"	"1"
-		"lv2"	"2"
-		"lv3"	"3"
-		"lv4"	"4"
-		"lv5"	"5"
-		
-		"stone"	"5"
-		
-		"infected" "7"
-		
-		"req_lv1"	"82"
-		"req_lv2"	"100"
-		"req_lv3"	"180"
-		"req_lv4"	"201"
-		"req_lv5"	"210"
-		
-		"stone"	"1"
-		
-		"base_cost"	"980"
-		"cost_factor"	"15.3260"
-		
-		"leg"	"{v}% probability of freeing yourself"
-		"leg_es"	"{v}% de probabilidad de liberarte tu mismo"
-                "leg_ru"        "{v}% шанс освобождения"
-	}
-	
-	"skill41"
-	{
-		"name"	"|*| Berserker"
-		"name_es"	"|*| Ira descontrolada"
-                "name_ru"       "|*| Берсерк"
-		"desc"	"Will enable berserker mode for 30 seconds when ready. (Crouch + Zoom + Walk buttons)"
-		"desc_es"	"Te permitira entrar en un estado de histeria por 30 segundos cuando este listo. (Ctrl + Zoom + Boton de caminar)
-                "desc_ru"       "Включает режим берсерка на 30 секунд.(ctrl+средняя кнопка мыши+клавишы движения)"
-		
-		"id" "41"
-		"premium"	"0"
-		"sk_levels"	"10"
-		
-		"lv1"	"10"
-		"lv2"	"20"
-		"lv3"	"30"
-		"lv4"	"40"
-		"lv5"	"50"
-		"lv6"	"60"
-		"lv7"	"70"
-		"lv8"	"80"
-		"lv9"	"90"
-		"lv10"	"100"
-		
-		"stone"	"1"
-		
-		"infected" "7"
-		
-		"req_lv1"	"208"
-		"req_lv2"	"209"
-		"req_lv3"	"210"
-		"req_lv4"	"210"
-		"req_lv5"	"210"
-		"req_lv6"	"210"
-		"req_lv7"	"210"
-		"req_lv8"	"210"
-		"req_lv9"	"210"
-		"req_lv10"	"210"
-		
-		"stone"	"1"
-		
-		"base_cost"	"3000"
-		"cost_factor"	"15.3260"
-		
-		"leg"	"{v}% rates increased (speed, health, etc)"
-		"leg_es"	"{v}% indice incrementado (velocidad, salud, etc)"
-                "leg_ru"        "{v}% повышения скорости,здоровья итд"
-	}
+                "leg_pt"        "Ef|eito aplicado se {v} sobreviventes ou menos estão vivos"
+}
+
+                "sharing"
+{
+                "name" "|*| Charity"
+                "name_es" "|*| Caridad"
+                "name_ru" "|*| Благотворительность"
+                "name_pt" "|*| Caridade"
+                "desc" "The exp that you win, will be automatically shared with your team. No EXP loss."
+                "desc_es" "La EXP que ganes, sera compartida con tu companeros de equipo sin que tu pierdas EXP.
+                "desc_ru" "Вы будите делиться опытом,который получаете, с напарниками.
+                "desc_pt" "A EXP que tu ganhas, será, automaticamente, partilhada com a tua equipa, sem perdas de EXP
+
+                "id" "37"
+
+                "sk_levels" "10"
+
+               "lv1" "1"
+               "lv2" "3"
+               "lv3" "5"
+               "lv4" "7"
+               "lv5" "9"
+               "lv6" "11"
+               "lv7" "20"
+               "lv8" "50"
+               "lv9" "65"
+               "lv10" "100"
+
+               "stone" "7"
+
+               "infected" "12"
+
+               "req_lv1" "95"
+               "req_lv2" "100"
+               "req_lv3" "105"
+               "req_lv4" "110"
+               "req_lv5" "119"
+               "req_lv6" "131"
+               "req_lv7" "150"
+               "req_lv8" "195"
+               "req_lv9" "200"
+               "req_lv10" "210"
+            
+               "stone" "6"
+
+               "base_cost" "650"
+               "cost_factor" "4.4321"
+               "gem_cost" "1"
+               "cost_factor" "7.354"
+
+               "leg" "{v}% of your exp is shared with your teammates"
+               "leg_es" "{v}% exp compartida con tus companeros de equipo"   
+               "leg_ru" "{v}% опыта"
+               "leg_es" "{v}% exp partilhada com os teus companheiros de equipa"
+}
+
+               "hunter_inv"
+{
+               "name" "|*| Hunter Disguise"
+               "name_es" "|*| Hunter camuflado"
+               "name_ru" "|*| Охотнячья маскировка"
+               "name_pt" "|*| Hunter Camuflado"
+               "desc" "Decreases the hunter visibility when not attacking a survivor"
+               "desc_es" "Disminuye la visibilidad para ver al hunter cuando no esta atacando"
+                "desc_ru" "Сокращает вашу видимость,пока вы не атакуете"
+               "desc_pt" "Diminui a visibilidade do hunter quando não está a atacar"
+               "id" "38"
+
+               "sk_levels" "7"
+
+               "lv1" "15"
+               "lv2" "30"
+               "lv3" "45"
+               "lv4" "60"
+               "lv5" "75"
+               "lv6" "90"
+               "lv7" "100"
+
+               "stone" "7"
+
+               "infected" "3"
+
+               "req_lv1" "201"
+               "req_lv2" "202"
+               "req_lv3" "204"
+               "req_lv4" "206"
+               "req_lv5" "207"
+               "req_lv6" "208"
+               "req_lv7" "210"
+
+               "stone" "1"
+
+               "base_cost" "1000"
+               "cost_factor" "5.3260"
+               "gem_cost" "4"
+               "cost_factor" "7.354"
+
+               "leg" "{v}% hunter visibility decrease"
+               "leg_es" "{v}% Visibilidad para ver al hunter disminiuda"
+                "leg_ru" "{v}% уменьшения вашей видимости"
+               "leg_pt" "{v}% visibilidade diminuida"
+}
+
+"vengeance"
+{
+"name" "|*| Vengeance"
+"name_es" "|*| Venganza"
+                "name_ru" "|*| Месть"
+"name_pt" "|*| Vingança" 
+"desc" "Increases the exp from killing the same player who killed you before (VS)"
+"desc_es" "Incrementa la EXP por matar al mismo jugador que te mato en la ronda anterior"
+                "desc_ru" "Увеличивает количество опыта, который вы получаете за убийство игрока кто убил вас раньше"
+                "desc_pt" "Aumenta a EXP ganha por matar o mesmo jogador que te matou na ronda anterior"
+
+"id" "39"
+
+"sk_levels" "7"
+
+"lv1" "1000"
+"lv2" "2000"
+"lv3" "3500"
+"lv4" "5000"
+"lv5" "8000"
+"lv6" "10500"
+"lv7" "15000"
+
+"stone" "7"
+
+"infected" "7"
+
+"req_lv1" "1"
+"req_lv2" "100"
+"req_lv3" "200"
+"req_lv4" "201"
+"req_lv5" "203"
+"req_lv6" "205"
+"req_lv7" "207"
+
+"stone" "1"
+
+"base_cost" "350"
+"cost_factor" "15.3260"
+"gem_cost" "4"
+"cost_factor" "7.354"
+
+"leg" "{v}% exp points increased"
+"leg_es" "{v}% de incremento de los puntos de EXP"
+                "leg_ru" "{v}% дополнительного опыта и очков"
+"leg_pt" "{v]% "leg_pt"  "{v}% Pontos de EXP aumentados"
+}
+
+"skill40"
+{
+"name" "Charge Block"
+"name_es" "Bloqueo de Carga"
+                "name_ru" "Блокировка громилы"
+"name_pt"       "Bloqueio de Carga"
+"desc" "The skill will let you randomly free yourself from a charger, when charge starts or when you take damage"
+"desc_es" "Te permite aleatoriamente liberarte tu mismo de un charger, mientras te carga o cuando esta danandote"
+                "desc_ru" "Этот навык позволит вам случайным образом освободиться от громилы,когода он потащил вас или начал избивать"
+"desc_pt" "O skill deixar-te-á libertar, aleatoriamente,do ataque de um Charger, quando és atacado ou quando recebes dano"
+
+"id" "40"
+"premium" "1"
+"sk_levels" "5"
+
+"lv1" "1"
+"lv2" "2"
+"lv3" "3"
+"lv4" "4"
+"lv5" "5"
+
+"stone" "5"
+
+"infected" "7"
+
+"req_lv1" "82"
+"req_lv2" "100"
+"req_lv3" "180"
+"req_lv4" "201"
+"req_lv5" "210"
+
+"stone" "1"
+
+"base_cost" "980"
+"cost_factor" "15.3260"
+
+"leg" "{v}% probability of freeing yourself"
+"leg_es" "{v}% de probabilidad de liberarte tu mismo"
+                "leg_ru" "{v}% шанс освобождения"
+"lag_pt" "{v} probabilidade de te libertares"
+}
+
+"skill41"
+{
+"name" "|*| Berserker"
+"name_es" "|*| Ira descontrolada"
+                "name_ru" "|*| Берсерк"
+"name_pt" "|*| Berserker"
+"desc" "Will enable berserker mode for 30 seconds when ready. (Crouch + Zoom + Walk buttons)"
+"desc_es" "Te permitira entrar en un estado de histeria por 30 segundos cuando este listo. (Ctrl + Zoom + Boton de caminar)
+                "desc_ru" "Включает режим берсерка на 30 секунд.(ctrl+средняя кнопка мыши+клавишы движения)"
+"desc_pt" "Permitirá que entres num estado berseker por 30 segundo, quando preparado. (Agachar + Zoom + Botão de caminhar)"
+"id" "41"
+"premium" "0"
+"sk_levels" "10"
+
+"lv1" "10"
+"lv2" "20"
+"lv3" "30"
+"lv4" "40"
+"lv5" "50"
+"lv6" "60"
+"lv7" "70"
+"lv8" "80"
+"lv9" "90"
+"lv10" "100"
+
+"stone" "1"
+
+"infected" "7"
+
+"req_lv1" "208"
+"req_lv2" "209"
+"req_lv3" "210"
+"req_lv4" "210"
+"req_lv5" "210"
+"req_lv6" "210"
+"req_lv7" "210"
+"req_lv8" "210"
+"req_lv9" "210"
+"req_lv10" "210"
+
+"stone" "1"
+
+"base_cost" "3000"
+"cost_factor" "15.3260"
+
+"leg" "{v}% rates increased (speed, health, etc)"
+"leg_es" "{v}% indice incrementado (velocidad, salud, etc)"
+                "leg_ru" "{v}% повышения скорости,здоровья итд"
+"leg_pt"  "{v}% percentagem aumentada (velocidade, saúde, etc)
+}
 }
