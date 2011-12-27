@@ -791,7 +791,7 @@
 	{
 		"name"	"Horde"
 		"name_es"	"Horda"
-		"name_br"	"Horda"
+		"name_pt"	"Horda"
                 "name_ru"       "Орда"
 		"enabled"	"1"
 		"cost"		"10"
@@ -804,7 +804,7 @@
 	{
 		"name"	"Panic Event"
 		"name_es"	"Horda Masiva"
-		"name_br"	"Evento de Panico"
+		"name_pt"	"Evento de Pânico"
                 "name_ru"       "Массивная орда"
 		"enabled"	"1"
 		"cost"		"15"
@@ -817,7 +817,7 @@
 	{
 		"name"	 "Bile Shower (Vomit All)"
 		"name_es"	"Ducha de Vomito (Vomitar a Todos)"
-		"name_br"	"Banho de Vomito (Vomitar a Todos)"
+		"name_pt"	"Banho de Vómito (Vomitar a Todos)"
                 "name_ru"       "Душ из рвоты" (действует на всех)"
 		"enabled"	"1"
 		"cost"		"30"
