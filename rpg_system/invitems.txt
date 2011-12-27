@@ -13,6 +13,7 @@
 		"id"	"1"
 		"name"	"|Item| Vending Machine"
 		"name_es"	"Maquina Expendedora"
+                "name_pt"       "Máquina de Venda"
 	}
 	
 	"gem"
@@ -23,6 +24,8 @@
 		"desc1"	"Gems are precios exchange items used to get necessary materials to get upgrades and learn skills"
 		"name_es"	"Gema"
 		"desc1_es"	"Las Gemas son items preciosos de intercambio que son usados para obtener los materiales necesarios para mejoras y aprender habilidades"
+                "name_pt"       "Gema"
+                "desc1_pt"      "Gemas são itens de troca preciosos e necessários para comprar aprimoramentos e aprender habilidades"
 	}
 	
 	"exp_package"
@@ -33,6 +36,8 @@
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
 		"name_es"	"Paquete de Exp/Puntos x2 (1 mes)"
 		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
+                "name_pt"       "Pacote de Exp/Pontos x2 (1 mês)"
+                "desc1_pt"      "O pacote permitirá você evoluir mais em menor tempo"
 	}
 	
 	"points"
@@ -43,6 +48,8 @@
 		"desc1"	"A pack containing a lot of points!"
 		"name_es"	"Mega Pack de Puntos"
 		"desc1_es"	"Un paquete que contiene muchos puntos"
+                "name_pt"       "Pacote de Pontos"
+                "desc1_pt"      "Um pacote que contém muitos pontos!"
 	}
 	
 	"exp"
@@ -53,6 +60,8 @@
 		"desc1"	"A pack containing a lot of wisdom!"
 		"name_es"	"Mega Pack de Exp"
 		"desc1_es"	"Un paquete que contiene mucha sabiduria"
+                "name_pt"       "Pacote de Experiência"
+                "desc1_pt"      "Um pacote que contém muita sabedoria!"
 	}
 	
 	"starter_account"
@@ -63,6 +72,8 @@
 		"desc1"	"Gives you a boost at start"
 		"name_es"	"Activador Cuenta Novata"
 		"desc1_es"	"Te da una avance al iniciar una cuenta nueva"
+                "name_pt"       "Ativador de conta iniciante"
+                "desc1_pt"      "Te dá um avanço ao iniciar uma conta"
 	}
 	
 	"vending_machine_gold"
@@ -70,6 +81,7 @@
 		"id"	"7"
 		"name"	"|Item| Premium Vending Machine"
 		"name_es"	"Maquina Expedidora Premium"
+                "name_pt"       "Máquina de Venda Premium"
 	}
 	"enhancement_stone"
 	{
@@ -79,6 +91,9 @@
 		"desct"	"1"
 		"name_es"	"Piedra de Mejora"
 		"desc1_es"	"Ciertas mejoras y habilidades requieren de esta piedra para ser obtenidas"
+                "name_pt"       "Pedra de Aprimoramento"
+                "desc1_pt"      "Certos aprimoramentos e habilidades requerem essa pedra para sem obtidas!"
+                
 	}
 	"helms_deep_ticket"
 	{
@@ -88,6 +103,8 @@
 		"desc1"	"The ticket will unlock the Helms Deep main door"
 		"name_es"	"Ticket Helms Deep"
 		"desc1_es"	"Este Ticket desbloqueara la puerta principal de Helms Deep"
+                "name_pt"       "Bilhete para Helms Deep"
+                "desc1_pt"      "Este bilhete desbloqueará a porta principal de Helms Deep"
 	}
 	"paranoia_buff"
 	{
@@ -97,6 +114,8 @@
 		"desc1"	"Gives you the Paranoia Buff"
 		"name_es"	"Buff Paranoia"
 		"desc1_es"	"Te permite usar el buff Paranoia"
+                "name_pt"       "|Buff| Paranóia"
+                "desc1_pt"      "Te dá o buff de Paranóia"
 	}
 	"none"
 	{
@@ -106,6 +125,8 @@
 		"desc1"	"An empty item"
 		"name_es"	"Item Vacio"
 		"desc1_es"	"Un item vacio"
+                "name_pt"       "Item vazio"
+                "desc1_pt"      "Um item vazio"
 	}
 	"revert_stone"
 	{
@@ -117,6 +138,9 @@
 		"name_es"	"Piedra de Reversion"
 		"desc1_es"	"Te permitira removar una mejora o habilidad, y recuperar todos los puntos y gemas gastados"
 		"desc2_es"	"La piedra, sin embargo, no puede restaurar Piedras de Mejora"
+                "name_pt"       "Pedra da reversão"
+                "desc1_pt"      "Permite você remover um aprimoramento ou habilidade, e recuperar todos os pontos e gemas perdidos"
+                "desc2_pt"      "A pedra, no entanto, é incapaz de restaurar Pedras de Encantamento"
 	}
 	"Buff_Slot"
 	{
@@ -126,6 +150,8 @@
 		"desc1"	"Increases your buff equipment limit"
 		"name_es"	"Desbloqueador de Buff Slot"
 		"desc1_es"	"Incrementa tu limite para equipar buffs"
+                "name_pt"       "Desbloqueador de Buff slot"
+                "desc1_pt"      "Aumenta o limite para equipar buffs"
 	}
 	"guild_stone"
 	{
@@ -135,6 +161,8 @@
 		"desc1"	"The stone will let you create a Guild"
 		"name_es"	"Piedra de Clan"
 		"desc1_es"	"Esta piedra te permitira crear un Clan"
+                "name_pt"       "Pedra de Guild"
+                "desc1_pt"      "Esta pedra permitirá você criar um clã (guild)"
 	}
 	"anti_mutation"
 	{
@@ -144,6 +172,9 @@
 		"desc1"	"A dose of antibodies that will shield you from mutations"
 		"name_es"	"Escudo contra Mutacion (1 mes)"
 		"desc1_es"	"Una dosis de antibioticos que te protegeran de las mutaciones"
+                "name_pt"       "Escudo de Mutação (1 mês)"
+                "desc1_pt"      "Uma dose de antibióticos irão te proteger contra mutações"
+                
 	}
 	"item16"
 	{
@@ -153,6 +184,8 @@
 		"desc1"	"A dose of antibodies that will shield you from mutations"
 		"name_es"	"Escudo contra Mutacion (1 semana)"
 		"desc1_es"	"Una dosis de antibioticos que te protegeran de las mutaciones"
+                "name_pt"       "Escudo de Mutação (1 semana)"
+                "desc1_pt"      "Uma dose de antibióticos irão te proteger contra mutações"
 	}
 	"item17"
 	{
@@ -162,6 +195,8 @@
 		"desc1"	"A dose of antibodies that will shield you from mutations"
 		"name_es"	"Escudo contra Mutacion (1 dia)"
 		"desc1_es"	"Una dosis de antibioticos que te protegeran de las mutaciones"
+                "name_pt"       "Escudo de Mutação (1 dia)"
+                "desc1_pt"      "Uma dose de antibióticos irão te proteger contra mutações"
 	}
 	"item18"
 	{
@@ -173,6 +208,9 @@
 		"name_es"	"Potenciador"
 		"desc1_es"	"Un liquido potenciador que es una mezcla de muchas celulas mutadas que hara instantaneamente"
 		"desc2_es"	"subir de nivel al usuario al nivel 201 y permitiendole avanzar hasta el nivel 210"
+                "name_pt"       "Aprimorador"
+                "desc1_pt"      "Um líquido aprimorador é uma mistura de várias células mutantes que irão instantaneamente"
+                "desc2_pt"      "aumentar o nível do usuário de 200 para o nível 201"
 	}
 	"item19"
 	{
@@ -184,6 +222,9 @@
 		"name_es"	"Escape de Penalidades"
 		"desc1_es"	"Este buff hara que tus companeros te perdonen si los atacas"
 		"desc2_es"	"o si haces cualquier agresion. No tomaras penalidades de experiencia o puntos."
+                "name_pt"       "Escape de Penalidades"
+                "desc1_pt"      "Este buff irá permitir que seus companheiros te perdoem se atacá-los"
+                "desc2_pt"      "ou causá-los qualquer dano. Você não perderá exp ou pontos de penalidade."
 	}
 	
 	"item20"
@@ -198,6 +239,10 @@
 		"desc1_es"	"Este rifle avanzado puede ser equipado en tu cuenta. Este rifle hara dano"
 		"desc2_es"	"adicional sumado a tus mejoras. Ademas, cada tipo de arma tiene diferentes capacidades"
 		"desc3_es"	"Junta items y equipalos para resistir o ocacionar mas dano"
+                "name_pt"       "Rifle avançado"
+                "desc1_pt"      "O Rifle Avançado pode ser equipado em sua conta. Este rifle causará dano"
+                "desc2_pt"      "adicional somado aos seus aprimoramentos. Também, cada tipo de arma tem habilidades diferentes"
+                "desc3_pt"      "Colete itens e equipe-os para resistir ou causar mais dano"
 	}
 	
 	"item21"
@@ -208,6 +253,8 @@
 		"desct"	"1"
 		"name_es"	"Escudo contra veneno"
 		"desc1_es"	"Una dosis de antidoto de veneno. Te protegera del envenenamiento"
+                "name_pt"       "Escudo contra veneno"
+                "desc1_pt"      "Uma dose de antídoto de veneno. Te protegerá do veneno"
 	}
 	
 	"item22"
@@ -218,6 +265,8 @@
 		"desct1"	"Will allow you to learn the Charge Block skill"
 		"name_es"	"Bloqueo de Carga"
 		"desc1_es"	"Te permitira aprender la habilidad de Bloqueo de Carga"
+                "name_pt"       "Bloqueio de Charge"
+                "desc1_pt"      "Irá te permitir que aprenda a habilidade Bloqueio de Charge"
 	}
 	
 	"item23"
@@ -228,6 +277,8 @@
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
 		"name_es"	"Paquete de Exp/Puntos x3 (1 mes)"
 		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
+                "name_pt"       "Pacote de Exp/Pontos x3 (1 mês)"
+                "desc1_pt"      "O pacote permitirá você a evoluir mais em menor tempo"
 	}
 	
 	"item24"
@@ -238,6 +289,8 @@
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
 		"name_es"	"Paquete de Exp/Puntos x4 (1 mes)"
 		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
+                "name_pt"       "Pacote de Exp/Pontos x4 (1 mês)"
+                "desc1_pt"       "O pacote permitirá você a evoluir mais em menor tempo"
 	}
 	
 	"item25"
@@ -248,6 +301,8 @@
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
 		"name_es"	"Paquete de Exp/Puntos x5 (1 mes)"
 		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
+                "name_pt"       "Pacote de Exp/Pontos x5 (1 mês)"
+                "desc1_pt"      "O pacote permitirá você a evoluir mais em menor tempo"
 	}
 	
 	"item26"
@@ -258,6 +313,8 @@
 		"desc1"	"The Exp Booster will allow you to learn, in no time"
 		"name_es"	"Paquete de Exp/Puntos x10 (1 mes)"
 		"desc1_es"	"El paquete de experiencia te permite progresar en menor tiempo"
+                "name_pt"       "Pacote de Exp/Pontos x10 (1 mês)"
+                "desc1_pt"      "O pacote permitirá você a evoluir mais em menor tempo"
 	}
 	
 	"item27"
@@ -268,6 +325,8 @@
 		"desc1"	"An upgrade hammer with 100% probability of success"
 		"name_es"	"(100%) Martillo de Mejora (Aun no funcional)
 		"desc1_es"	"Un Martillo de Mejora con 100% de probabilidad de exito"
+                "name_pt"       "(100&) Martelo de Aprimoramento (Ainda não funcional)
+                "desc1_pt"      "Um martelo de aprimoramento com 100% de chance de sucess"
 	}
 	"item28"
 	{
@@ -277,6 +336,8 @@
 		"desc1"	"The grade booster will enhance your weapon's grade into VETERAN"
 		"name_es"	"Potenciador de Grado" (Veterano)
 		"desc1_es"	"Este item mejorara el grado de tu arma a VETERANO"
+                "name_pt"       "Aprimorador de Grau (Veterano)"
+                "desc1_pt"      "Este item aprimorará sua arma em grau VETERANO"
 	}
 	
 	
