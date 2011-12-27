@@ -5,6 +5,7 @@
 		"name"			"Welcome To Hell 1" //Quest Name
                 "name_ru"               "Добро пожаловать в ад 1" //Название квеста"
 		"name_es"    		"Bienvenido al Infierno 1"
+		"name_pt"		"Bem vindo ao Inferno 1" //Nome da Quest
 		"id"			"1" //Quest Id
 		"cat"			"1" //Quest cat
 		"min_lvl"		"1" //Min level to take
@@ -30,20 +31,29 @@ line 1_ru...
 		"line5_es"    		"alrededor del pais. Lleva Snacks ahi y yo ire por ellos despues, cuando las cosas esten calmadas."
 		"line6_es"    		"Me ayudaras?"
 	
+		"line1_pt"		"Meu nome é Kyle, estou preso aqui na saferoom. Eu não sou imune a infecção"
+		"line2_pt"		"então é perigoso para mim ir lá fora. Eu ouvi no rádio que a infecção"
+		"line3_pt"		"é transmitível pelo ar, mas eu tenho certeza que estão errados. Pelo menos, não estou infectado. Enfim"
+		"line4_pt"		"estou realmente faminto agora. Eu, perante a outros, deixamos caixas vazias de suprimento"
+		"line5_pt"		"pelo país afora. Pegue aqueles snacks, e eu os pegarei depois, quando"
+		"line6_pt"		"as coisas se acalmarem. Você irá me ajudar?"
 		
 		"clines"		"2" //Completition lines
 		"cline1"		"You left the snacks on the box? Good, thanks for your help, hope we talk" //Comp line 1
                 "cline1_ru"             "Ты положил еду в ящик?Отлично,спасибо,надеюсь мы снова пообщаемся" //Comp line
 		"cline1_es"    		"Dejaste los Snacks en la caja? Bien, gracias por tu ayuda, espero que hablemos"
+		"cline1_pt"		"Você deixou os snacks na caixa. Muito bem, obrigado pela ajuda, espero manter contato"
 1_ru
 		"cline2"		"soon. Good luck out there!"
                 "cline2_ru"             "снова.Удачи снаружи!"
 		"cline2_es"    		"pronto. Buena suerte alla afuera!"
+		"cline2_pt"		"em breve. Boa sorte aí fora!"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 snacks for Kyle"
                 "gline1_ru"             "-Собери 5 закусок для Кайла"
 		"gline1_es"    		"-Junta 5 Snacks para Kyle"
+		"gline1_pt"		"-Pegue 5 snacks para Kyle"
 		
 		"qitems"		"1"
 		"qitem1"		"15"
@@ -62,6 +72,7 @@ line 1_ru...
 		"name"			"Welcome To Hell 2"
                 "name_ru"               "Добро пожаловать в ад 2"
 		"name_es"    		"Bienvenido al Infierno 2"
+		"name_pt"		"Bem vindo ao Inferno 2"
 		"id"			"2"
 		"qreq"			"1"
 		"cat"			"1"
@@ -71,22 +82,27 @@ line 1_ru...
 		"line1"			"All I need is some water and I'll be fine"
                 "line1_ru"              "Всё что мне нужно теперь это немного воды и всё" 
 		"line1_es"    		"Todo lo que necesito es un poco de agua y estare bien"
+		"line1_pt"		"Tudo que preciso é um pouco de água e ficarei bem"
 		"line2"			"You think you could get me some?"
                 "line2_ru"              "Так что,ты не мог бы принести мне немного воды?"
-		"line2_es"    		"Crees que podrias conseguirme un poco?
+		"line2_es"    		"Crees que podrias conseguirme un poco?"
+		"line2_pt"		"Você acha que pode me trazer um pouco?"
 		
 		"clines"		"2"
 		"cline1"		"Thanks again, I will last a few weeks if I consume this slowly. Now,"
                 "cline1_ru"             "И снова спасибо,я продержусь ещё пару недель если буду расходовать её медленно."
 		"cline1_es"    		"Gracias nuevamente, Soportare algunas semanas si consumo estoy lentamente. Ahora,"
+		"cline1_pt"		"Obrigado de novo, eu vou sobreviver por algumas semanas se eu consumir devagar. Agora,"
 		"cline2"		"make sure you stay alive!"
                 "cline2_ru"             "Так что береги себя!"
 		"cline2_es"    		"asegurate de mantenerte con vida!"
+		"cline2_pt"		"tenha certeza que sobreviverá!"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 4 bottles of water for Kyle"
                 "gline1_ru"             "-Собери 4 бутылки воды для Кайла"
-		"gline1_es"   		 "-Junta 4 Botellas de Agua para Kyle"
+		"gline1_es"   		"-Junta 4 Botellas de Agua para Kyle"
+		"gline1_pt"		"-Pegue 4 garrafas de água para Kyle"
 		
 		"qitems"		"1"
 		"qitem1"		"18"
@@ -104,6 +120,7 @@ line 1_ru...
 		"name"			"The Antidote 1"
                 "name_ru"               "Противоядие 1"
 		"name_es"    		"El Antidoto 1"
+		"name_pt"		"O Antídoto 1"
 		"id"			"3"
 		"qreq"			"2"
 		"cat"			"1"
@@ -130,6 +147,13 @@ line 1_ru...
 		"line5_es"      	"de los infectados. Se como hacer un antidoto para eso. Bueno si, soy"
 		"line6_es"      	"un doctor. Traeme algunas muestras de Sangre Mutada de los Tanks"
 		"line7_es"      	"Paranoia, y te hare un poco."
+		"line1_pt"		"Ei! Faz tempo desde da última vez que nos falamos, lembra de mim?"
+		"line2_pt"		"Enfim, eu devo te avisar de uma coisa, eu tenho observado os infectados"
+		"line3_pt"		"lá fora e parece que estão causando mutações nos sobreviventes! A"
+		"line4_pt"		"mutação afeta a mente dos sobreviventes, deixando-os tontos e inúteis contra"
+		"line5_pt"		"os infectados. Eu sei como fazer um antídoto para isso, e sim, eu sou"
+		"line6_pt"		"um médico. Me traga amostras de sangue mutante de tanks paranóia"
+		"line7_pt"		"e farei alguns."
 		
 		"clines"		"2"
 		"cline1"		"Great, I'll go for them as soon as I can. I'll also leave the"
@@ -138,11 +162,14 @@ line 1_ru...
                 "cline2_ru"             "в ящике для снабжения,так что возьми его если будешь проходить мимо одного из них"
 		"cline1_es"    		"Bien, hare un poco de antidoto tan pronto como puedas. Dejare el antidoto"
 		"cline2_es"    		"en la caja de suministros, asi que tomalo cuando pases cerca de alguna."
+		"cline1_pt"		"Ótimo, eu as farei assim que puder. Eu também deixarei o"
+		"cline2_pt"		"antídoto em uma caixa de suprimento, então, pegue-o quando passar perto de um!"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 1 bag of mutated blood"
                 "gline1_ru"             "-Собери 1 банку мутировавшей крови"
 		"gline1_es" 		"-Junta 1 Bolsa de sangre mutada"
+		"gline1_pt"		"-Pegue 1 amostra de sangue mutado"
 		
 		"qitems"		"1"
 		"qitem1"		"5"
@@ -159,6 +186,7 @@ line 1_ru...
 		"name"			"The Antidote 2"
                 "name_ru"               "Противоядие 2"
 		"name_es"		"El Antidoto 2"
+		"name_pt"		"O Antídoto 2"
 		"id"			"4"
 		"qreq"			"3"
 		"cat"			"1"
@@ -183,11 +211,18 @@ line 1_ru...
 		"line4_es"      	"Tanks Paranoia y hare mas antidoto para ti!"
 		"line5_es"      	" "
 		"line6_es"      	"-Junta 5 bolsas de Sangre Mutada"
+		"line1_pt"		"Droga, o antídoto anterior não durou muito, não é?"
+		"line2_pt"		"Enfim, não se preocupe. Eu fiz mais pesquisas e acho que encontrei"
+		"line3_pt"		"uma maneira de durar mais. Me traga mais sangue do tank"
+		"line4_pt"		"paranóia e eu farei o antídoto para você!"
+		"line5_pt"		" "
+		"line6_pt"		"-Pegue 5 amostras de sangue mutado"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 bags of mutated blood"
                 "gline1_ru"             "-Собери 5 банок с мутировавшей кровью"
 		"gline1_es"    		"-Junta 5 bolsas de Sangre Mutada"
+		"gline1_pt"		"-Pegue 5 amostras de sangue mutado"
 		
 		"clines"		"2"
 		"cline1"		"Ok, you know the procedure. I'll leave the antidote on a supply"
@@ -196,6 +231,8 @@ line 1_ru...
                 "cline2_ru"             "как только буду готов.Береги себя!"
 		"cline1_es"    		"Ok, ya sabes el procedimiento. Dejare el antidoto en una caja"
 		"cline2_es"    		"de suministro tan pronto como lo tenga listo. Cuidate!"
+		"cline1_pt"		"Ok, você sabe o procedimento. Eu deixarei o antídoto em uma caixa"
+		"cline2_pt"		"de suprimentos assim que puder. Se cuida!"
 		
 		"qitems"		"1"
 		"qitem1"		"5"
