@@ -169,7 +169,7 @@ line 1_ru...
 		"gline1"		"-Collect 1 bag of mutated blood"
                 "gline1_ru"             "-Собери 1 банку мутировавшей крови"
 		"gline1_es" 		"-Junta 1 Bolsa de sangre mutada"
-		"gline1_pt"		"-Pegue 1 amostra de sangue mutado"
+		"gline1_pt"		"-Pegue 1 Bolsa de Sangue Mutado"
 		
 		"qitems"		"1"
 		"qitem1"		"5"
@@ -216,13 +216,13 @@ line 1_ru...
 		"line3_pt"		"uma maneira de durar mais. Me traga mais sangue do tank"
 		"line4_pt"		"paranóia e eu farei o antídoto para você!"
 		"line5_pt"		" "
-		"line6_pt"		"-Pegue 5 amostras de sangue mutado"
+		"line6_pt"		"-Pegue 5 Bolsas de Sangue Mutado"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 bags of mutated blood"
                 "gline1_ru"             "-Собери 5 банок с мутировавшей кровью"
 		"gline1_es"    		"-Junta 5 bolsas de Sangre Mutada"
-		"gline1_pt"		"-Pegue 5 amostras de sangue mutado"
+		"gline1_pt"		"-Pegue 5 Bolsas de Sangue Mutado"
 		
 		"clines"		"2"
 		"cline1"		"Ok, you know the procedure. I'll leave the antidote on a supply"
@@ -249,6 +249,7 @@ line 1_ru...
 		"name"			"The Antidote 3"
                 "name_ru"               "Противоядие 3"
 		"name_es"		"El Antidoto 3"
+		"name_pt"		"O Antídoto 3"
 		"id"			"5"
 		"qreq"			"4"
 		"cat"			"1"
@@ -276,6 +277,14 @@ line 1_ru...
 		"line6_es"      	"acompane."
 		"line7_es"      	" "
 		"line8_es"      	"-Junta 15 bolsas de sangre mutada"
+		"line1_pt"		"Ei, aqui é o Kyle. Eu tenho boas e más notícias... A boa é que,"
+		"line2_pt"		"eu achei uma maneira de fazer o antídoto durar mais. De fato, ele"
+		"line3_pt"		"fará você imune a doença por 1 mês. Sim, a má notícia é que"
+		"line4_pt"		"infelizmente eu fui mordido por um infectado. Eu não acho que eu"
+		"line5_pt"		"ficarei vivo por muito tempo, então seja rápido se quiser o antídoto."
+		"line6_pt" 		"Que Deus esteja com você."
+		"line7_pt"		" "
+		"line8_pt"		"-Pegue 5 Bolsas de Sangue Mutado"
 		
 		"clines"		"4"
 		"cline1"		"You *cough* got it there? Ok, i'll go for the bags as soon as I"
@@ -289,11 +298,16 @@ line 1_ru...
 		"cline2_es"    		"mejor. Mantente a salvo, Hare mi mejor esfuerzo para llevar el"
 		"cline3_es"    		"antidoto a la caja de suministros. Oh Dios... Mantente a salvo, y por favor"
 		"cline4_es"    		"busca a mas sobrevivientes para ayudarlos..."
+		"cline1_pt" 		"Você *tosse* pegou? Ok, eu irei trabalhar com as amostras assim que"
+		"cline2_pt"		"*tosse* me sentir melhor. Tenha cuidado, eu irei fazer o meu melhor para"
+		"cline3_pt"		"deixar o antídoto na caixa de *tosse* suprimento. Meu Deus... Tenha cuidado, e por favor"
+		"cline4_pt"		"procure ajudar mais sobreviventes..."
 		
 		"glines"		"1"
 		"gline1"			"-Collect 15 bags of mutated blood"
                 "gline1_ru"                     "-Собери 15 банок с мутировавшей кровью"
-		"gline1_es"      		"-Junta 15 Bolsas de Sangre Mutada
+		"gline1_es"      		"-Junta 15 Bolsas de Sangre Mutada"
+		"gline1_pt"			"-Pegue 5 Bolsas de Sangue Mutado"
 		
 		"qitems"		"1"
 		"qitem1"		"5"
@@ -310,6 +324,7 @@ line 1_ru...
 		"name"			"Green Meeting"
                 "name_ru"               "Встреча"
 		"name_es"    		"Reunion Ecologica"
+		"name_pt"		"Reunião Ecológica"
 		"id"			"6"
 		"qreq"			"0"
 		"cat"			"2"
@@ -334,6 +349,12 @@ line 1_ru...
 		"line4_es"      	"Necesito un poco, un poco de hierba, ya tu sabes. Vamos, puedes conseguirme un poco? Dejalo"
 		"line5_es"      	"en la caja de suministros. Pssst, Dejalo en una bolsa negra, asi nadie se dara cuenta"
 		"line6_es"      	"Por favor, traemela! Oh Dios. Apurate!!"
+		"line1_pt"		"Então, você é imune? Meu nome é Roger, mas pode me chamar de Falcão..."
+		"line2_pt"		"Espera, não troque de frequência, eu não sou louco, estou apenas nervoso"
+		"line3_pt"		"mas enfim, falcões são incríveis, não são? Meu Deus, o que estou falando."
+		"line4_pt"		"Eu preciso de um pouco de, maconha. Qual é, não pode me trazer? Deixa em"
+		"line5_pt"		"uma caixa de suprimentos. Shhh, deixe a maconha em uma bolsa preta, para ninguém perceber."
+		"line6_pt"		"Por favor, traga meu amor. Depressa!"
 		
 		
 		"clines"		"3"
@@ -345,11 +366,15 @@ line 1_ru...
 		"cline1_es"      		"LA TIENES? Ohhhh Siiii! Gracias, GRACIAS! Ire por ella"
 		"cline2_es"      		"tan pronto como (*Gritos en el fondo*)... MIE....! Oh"
 		"cline3_es"      		"bueno debo irme, Cambio y fuera!"
+		"cline1_pt"			"VOCÊ CONSEGUIU? É ISSO AÍ! Obrigado, MUITO OBRIGADO! Eu vou nessa"
+		"cline2_pt"			"assim que eu (*gritos no fundo*)... CALA A BOCA, VADIA! Ah"
+		"cline3_pt"			"eu tenho que ir, agora vaza!"
 		
 		"glines"		"1"
 		"gline1"		"-Find weed for Roger"
                 "gline1_ru"             "-Найди табак для Роджера"
 		"gline1_es"    		"-Encuentra Hierba para Roger"
+		"gline1_pt"		"-Pegue maconha para Roger"
 		
 		"qitems"		"1"
 		"qitem1"		"21"
@@ -367,6 +392,7 @@ line 1_ru...
 		"name"			"Sexy Witches"
                 "name_ru"               "Секси-ведьмы"
 		"name_es"    		"Witchs Sexys
+		"name_pt"		"Witches Sexys"
 		"id"			"7"
 		"qreq"			"6"
 		"cat"			"2"
@@ -388,6 +414,11 @@ line 1_ru...
 		"line3_es"      	"haberlo hecho! Tal vez mi cuerpo esta infectado ahora! Oh, no importa. Ella "
 		"line4_es"      	"ya se ha ido y ahora extrano su olor. Se que podria ayudar. Traeme el cabello de "
 		"line5_es"      	"algunas witchs, y estare feliz!"
+		"line1_pt"		"Eaí de novo! Eu vi uma dessas witches na saferoom faz umas horas..."
+		"line2_pt"		"Eu consegui atordoar ela e, cara, ela era gostosa... Eu sei que não deveria"
+		"line3_pt"		"ter 'feito' aquilo! Talvez meu 'amigo' esteja infectado agora! Não importa. Ela"
+		"line4_pt"		"se foi agora e sinto o cheiro dela. Eu sei o que ajudaria. Me traga o cabelo de"
+		"line5_pt"		"algumas witches, e ficarei feliz!"
 		
 		"qitems"		"1"
 		"qitem1"		"24"
@@ -397,6 +428,7 @@ line 1_ru...
 		"gline1"		"-Collect 5 witch hair extensions"
                 "gline1_ru"             "-Собери 5 пучков волос ведьмы"
 		"gline1_es"		"-Junta 5 Extensiones de Cabello de la Witch"
+		"gline1_pt"		"-Pegue 5 cabelos de witch"
 		
 		"clines"		"3"
 		"cline1"		"About time! I'll go for them later. I guess i have to thank"
@@ -408,6 +440,9 @@ line 1_ru...
 		"cline1_es"    		"Justo a tiempo! Ire por ellos luego. Supongo que debo"
 		"cline2_es"    		"agradecerte, asi que... gracias. Espero que nos encontremos en el futuro (*Fuerte Grito de Witch*)"
 		"cline3_es"    		"Mie...! Debo irme ahora, adios..."
+		"cline1_pt"		"Já estava na hora! Eu vou nessa daqui a pouco. Eu tenho que te"
+		"cline2_pt"		"agradecer... obrigado. Espero nos ver em breve (*som de grito da witch*)"
+		"cline3_pt"		"Merda! Eu tenho que ir, tchau..."
 		
 		"rexp"			"8500"
 		"rpts"			"400"
@@ -421,6 +456,7 @@ line 1_ru...
 		"name"			"Looking for power 1"
                 "name_ru"               "В поисках силы 1"
 		"name_es"    		"En busca de Poder 1"
+		"name_pt"		"Em busca do Poder 1"
 		"id"			"8"
 		"qreq"			"0"
 		"cat"			"3"
@@ -451,16 +487,27 @@ line 1_ru...
 		"line7_es"      	"No preguntes, solo ve..."
 		"line8_es"      	" "
 		"line9_es"      	"-Junta 50 Bolsas de Sangre Mutada"
+		"line1_pt"		"Ei você, eu sei que está procurando por mais poder e força,"
+		"line2_pt"		"não é mais sobre sobreviver mais, certo? É sobre matar zumbis"
+		"line3_pt"		"e devastar cada célula infectada deste"
+		"line4_pt"		"mundo. Eu sei como se sente... Você precisa de mais poder, de mais"
+		"line5_pt"		"tudo! Eu posso te ajudar. Seu corpo não não vai aguentar o poder"
+		"line6_pt"		"que tenho em mãos, então primeiro você terá que beber sangue mutado."
+		"line7_pt"		"Não pergunte, apenas vá..."
+		"line8_pt"		" "
+		"line9_pt"		"-Pegue 50 Bolsas de Sangue Mutado"
 		
 		"clines"		"1"
 		"cline1"		"Good job. Talk to me when you are ready to continue"
                 "cline1_ru"             "Отличная работа.Свяжись со мной когда будешь готов продолжить"
 		"cline1_es"    		"Buen trabajo. Hablame cuando estes listo para continuar"
+		"cline1_pt"		"Bom trabalho. Fale comigo quando estiver pronto para continuar"
 		
 		"glines"		"1"
 		"gline1"		"-Collect 50 bags of mutated blood"
                 "gline1_ru"             "-Собери 50 банок мутировавшей крови"
 		"gline1_es"		"-Junta 50 bolsas de Sangre Mutada"
+		"gline1_pt"		"-Pegue 50 Bolsas de Sangue Mutado"
 		
 		"qitems"		"1"
 		"qitem1"		"5"
@@ -478,6 +525,7 @@ line 1_ru...
 		"name"			"Looking for power 2"
                 "name_ru"               "В поисках силы 2"
 		"name_es"    		"En Busca de Poder 2"
+		"name_pt"		"Em Busca do Poder 2"
 		"id"			"9"
 		"qreq"			"8"
 		"cat"			"3"
@@ -502,6 +550,12 @@ line 1_ru...
 		"line4_es"      	" "
 		"line5_es"      	"-Consigue 1 Garra de Shaman Tank"
 		"line6_es"      	"-Consigue 1 Cerebro de Shaman Tank"
+		"line1_pt"		"O sangue que você bebeu não garantirá o poder, mas é necessário para o"
+		"line2_pt"		"verdadeiro processo. Eu deixei uma lista de coisas que você deve fazer antes de"
+		"line3_pt"		"fazer parte do verdadeiro processo. Pegue, e espero que você não morra"
+		"line4_pt"		" "
+		"line5_pt"		"-Pegue 1 garra do Tank Shaman"
+		"line6_pt"		"-Pegue 1 cérebro do Tank Shaman"
 		
 		"clines"		"4"
 		"cline1"		"I think you are ready to go now. In order to complete the process"
@@ -516,6 +570,10 @@ line 1_ru...
 		"cline2_es"    		"debes comer el cerebro del Shaman Tank, y usando la garra, abre"
 		"cline3_es"    		"una herida profunda en tu propia piel. Despues, vierte el liquido potenciador que"
 		"cline4_es"    		"deje en la caja de suministros sobre la herida. Entonces todo el proceso sera completado..."
+		"cline1_pt"		"Eu acho que você está pronto para ir agora. Para completar o processo"
+		"cline2_pt"		"você deve comer o cérebro do Tank Shaman, e usar a garra para abrir"
+		"cline3_pt"		"uma ferida profunda em sua própria pele". Então, colocar esse líquido aprimorador que"
+		"cline4_pt"		"deixei em uma caixa de suprimento. O processo estará completo..."
 		
 		"glines"		"2"
 		"gline1"		"-Collect 1 Shaman Tank Claw"
@@ -524,6 +582,8 @@ line 1_ru...
                 "gline2_ru"             "-Собери 1 мозг шамана"
 		"gline1_es"    		"-Consigue 1 Garra de Shaman Tank"
 		"gline2_es"    		"-Consigue 1 Cerebro de Shaman Tank
+		"gline1_pt"		"-Pegue 1 garra do Tank Shaman"
+		"gline2_pt"		"-Pegue 1 cérebro do Tank Shaman"
 		
 		"qitems"		"2"
 		"qitem1"		"25"
@@ -543,6 +603,7 @@ line 1_ru...
 		"name"			"Regeneration 1" //Quest Name
                 "name_ru"               "Регенерация 1" //Название квеста
 		"name_es"    		"Regeneracion 1"
+		"name_pt"		"Regeneração 1"
 		"id"			"10" //Quest Id
 		"cat"			"4" //Quest cat
 		"min_lvl"		"15" //Min level to take
@@ -562,11 +623,17 @@ line 1_ru...
 		"line3_es"      	"sobrevivir pero uno de nosotros esta infectado y no sabemos quien es. El unico modo"
 		"line4_es"      	"de saberlo es tomar muestras de sangre, pero no tenemos lo articulos necesarios"
 		"line5_es"      	"para hacerlo. Nos ayudarias?"
+		"line1_pt"		"Obrigado por responder minha chamada de rádio! Nós somos 5 sobreviventes"
+		"line2_pt"		"presos em uma saferoom em Nova Orleans. Nós temos suprimento suficiente para"
+		"line3_pt"		"aguentar mas um de nós está infectado e não sabemos quem. O único jeito"
+		"line4_pt"		"de descobrir é por exames de sangue, mas não temos material necessário"
+		"line5_pt"		"para fazer isso. Pode nos ajudar?"
 		
 		"clines"		"1" //Completition lines
 		"cline1"		"Thanks for the help mate, keep in touch..."
                 "cline1_ru"             "Спасибо за помощь дружище,оставайся на связи..."
 		"cline1_es"    		"Gracias por tu ayuda companero, mantente en contacto...."
+		"cline1_pt"		"Obrigado pela ajuda amigo, mantenha contato..."
 		
 		"glines"	"2"
 		"gline1"	"-Collect a magnifying glass"
@@ -575,6 +642,8 @@ line 1_ru...
                 "gline2_ru"     "-Найди шприц"
 		"gline1_es"  	"-Consigue una Lupa"
 		"gline2_es"  	"-Consigue una Jeringa"
+		"gline1_pt"	"-Pegue 1 lupa"
+		"gline2_pt"	"-Pegue 1 seringa"
 		
 		"qitems"		"2"
 		"qitem1"		"27"
@@ -595,6 +664,7 @@ line 1_ru...
 		"name"			"Regeneration 2" //Quest Name
                 "name_ru"               "Регенерация 2" //Название квеста
 		"name_es"    		"Regeneracion 2"
+		"name_pt"		"Regeneração 2"
 		"id"			"11" //Quest Id
 		"qreq"			"10"
 		"cat"			"4" //Quest cat
@@ -619,11 +689,18 @@ line 1_ru...
 		"line4_es"      	"sus heridas sanaron muy rapido, y por supuesto se convirtio despues de un tiempo, pero"
 		"line5_es"      	"podriamos usar sus propiedades de regeneracion para sobrevivir, asi que, consiguenos algunos articulos"
 		"line6_es"      	"para investigar. Te daremos una cura, o lo que sea que descubramos!"
+		"line1_pt"		"Eaí de novo, nós descobrimos quem está infectado, e uma coisa engraçada aconteceu..."
+		"line2_pt"		"De fato, um de nós ficou nervoso e tentou matar alguém, e depois que batemos"
+		"line3_pt"		"um pouco nele, nós decidimos esperar até ele se converter. Mas, para nossa surpresa"
+		"line4_pt"		"as feridas dele curaram rapidamente, e claro ele se converteu depois de um tempo, mas"
+		"line5_pt"		"nós podemos usar essa regeneração para sobreviver, então, pegue uns itens pra gente"
+		"line6_pt"		"para pesquisa. Nós te daremos a cute, ou o que descobrirmos!"
 		
 		"clines"		"1" //Completition lines
 		"cline1"		"Awesome, we will let you know if we find anything..."
                 "cline1_ru"             "Круто,мы дадим тебе знать если что-то найдём..."
 		"cline1_es"    		"Asombroso, Te haremos saber si descubrimos algo..."
+		"cline1_pt"		"Legal, nós avisaremos se descobrirmos algo..."
 		
 		"glines"	"3"
 		"gline1"			"-Collect 5 bags of infected blood"
@@ -635,6 +712,9 @@ line 1_ru...
 		"gline1_es"      		"-Consigue 5 bolsas de sangre infectada"
 		"gline2_es"      		"-Consigue 2 Jeringas"
 		"gline3_es"      		"-Consigue 1 mascarilla medica"
+		"gline1_pt"			"-Pegue 5 Bolsas de Sangue Infectado"
+		"gline2_pt"			"-Pegue 2 Seringas"
+		"gline3_pt"			"-Pegue 1 Máscara Médica"
 		
 		"qitems"		"3"
 		"qitem1"		"4"
@@ -656,6 +736,7 @@ line 1_ru...
 		"name"			"Regeneration 3" //Quest Name
                 "name_ru"               "Регенерация 3 //Название квеста
 		"name_es"    		"Regeneracion 3"
+		"name_pt"		"Regeneração 3"
 		"id"			"12" //Quest Id
 		"qreq"			"11"
 		"cat"			"4" //Quest cat
@@ -684,6 +765,11 @@ line 1_ru...
 		"line3_es"      	"el mato a casi todos nosotros. Solo quedamos 3 de nosotros y hay cerca 30"
 		"line4_es"      	"o mas infectados alla afuera!. Estamos cerca a una tienda justo frente al Rio."
 		"line5_es"      	"Estamos en una cochera, asi que estate atento y ven rapido por favor!"
+		"line1_pt"		"Isso!, obrigado pela resposta. Alguma coisa terrível aconteceu, um de nós foi"
+		"line2_pt"		"pegar um item e foi mordido por um infectado. Ele não nos avisou e, depois que se converteu"
+		"line3_pt"		"quase matou a todos nós. Apenas 3 de nós restou, e aproximadamente"
+		"line4_pt"		"30 infectados lá fora! Nós estamos perto do mercado, bem em frente ao rio."
+		"line5_pt"		"Nós estamos em uma garagem, então fique de olho. Venha rápido, por favor!"
 		
 		"clines"		"3" //Completition lines
 		"cline1"		"Oh god bless you! The research is totally lost with the disaster"
@@ -695,6 +781,9 @@ line 1_ru...
 		"cline1_es"    		"Oh, Dios te bendiga! La investigacion esta totalmente perdida con el desastre"
 		"cline2_es"    		"asi que me temo que tendras que continuar sin ayuda. Nosotros cambiaremos de"
 		"cline3_es"    		"ubicacion, y si aun estamos vivos, te haremos saber..."
+		"cline1_pt"		"Deus te abençoe! A pesquisa foi totalmente perdida pelo desastre"
+		"cline2_pt"		"então estou com medo de continuar sem ajuda. Nós iremos mudar"
+		"cline3_pt"		"de lugar, então se estiver vivos, deixaremos você avisado..."
 		
 		"glines"	"2"
 		"gline1"			"-Kill 50 infected near the mentioned spot"
@@ -703,6 +792,8 @@ line 1_ru...
                 "gline2_ru"                     "-Место расположенно в компании Приход,первая карта"
 		"gline1_es"      		"-Mata 50 infectados cerca al area mencionada"
 		"gline2_es"      		"-El area esta ubicada en la Campana The Parish, en el primer mapa"
+		"gline1_pt"			"-Mate 50 infectados perto da área mencionada"
+		"gline2_pt"			"-A área é no primeiro mapa do The Parish"
 		
 		"qitems"		"0"
 		
@@ -718,6 +809,7 @@ line 1_ru...
 		"name"			"Memory" //Quest Name
                 "name_ru"               "Память" //Название квеста
 		"name_es"    		"Memoria"
+		"name_pt"		"Memória"
 		"id"			"13" //Quest Id
 		"qreq"			"12"
 		"cat"			"4" //Quest cat
@@ -746,6 +838,14 @@ line 1_ru...
 		"line6_es"      	"cuando el caos comenzo y me gustaria tener una fotografia de ella."
 		"line7_es"      	"Nuestra casa esta en la ciudad de Riverside, No se si es que conoscas..."
 		"line8_es"      	"Por favor, traeme la foto de vuelta..."
+		"line1_pt"		"Ei... é o Keith... os outros 2 caras... eles estão mortos"
+		"line2_pt"		"Tudo aconteceu tão rápido... nós pegamos um barco, eles entraram"
+		"line3_pt"		"e, meu Deus... um smoker pegou um deles enquanto outro"
+		"line4_pt"		"estava sendo comido... e... Deus. Eu duvido que estejam vivos."
+		"line5_pt"		"Eu tenho um pedido a você. Eu perdi minha filha"
+		"line6_pt"		"quando o caos começou e eu queria ter uma foto dela."
+		"line7_pt"		"Nossa casa é na cidade de Riverside, não sei se você conhece..."
+		"line8_pt"		"Por favor, me traga de volta..."
 		
 		"clines"		"4" //Completition lines
 		"cline1"		"Great. Too bad I cannot go for it, 3 tanks are outside the camp"
@@ -759,11 +859,16 @@ line 1_ru...
 		"cline2_es"    		"y estan apunto de entrar. Supongo que no vere a mi ninita"
 		"cline3_es"    		"antes de mi muerte. Ahora, deberias continuar tu camino, aun puedes sobrevivir!"
 		"cline4_es"    "	"Si encuentras algun otro...(*Transmision terminada*)"
+		"cline1_pt"		"Ótimo. Que pena que não posso ir, 3 tanks estão fora do campo"
+		"cline2_pt"		"e eles estão prestes a entrar. Acho que não verei minha querida"
+		"cline3_pt"		"antes de morrer. Agora, você deve ir, você ainda pode sobreviver!"
+		"cline4_pt"		"Se você achar outro... (*fim de transmissão*)"
 		
 		"glines"			"1"
 		"gline1"			"-Collect Keith's daughter picture"
                 "gline1_ru"                     "-Найди фотографию дочери Кита"
 		"gline1_es"      		"-Encuentra la Foto de la Hija de Keith"
+		"gline1_pt"			"-Pegue a foto da filha do Keith"
 		
 		"qitems"		"1"
 		"qitem1"		"30"
@@ -782,6 +887,7 @@ line 1_ru...
 		"name"			"Charity 1" //Quest Name
                 "name_ru"               "Милосердие 1" //Название квеста
 		"name_es"    		"Caridad 1"
+		"name_pt"		"Caridade 1"
 		"id"			"14" //Quest Id
 		"qreq"			"0"
 		"cat"			"5" //Quest cat
@@ -799,6 +905,10 @@ line 1_ru...
 		"line2_es"      	"sangrando! No estoy infectada! El edificio en el que estaba cuando la gripe"
 		"line3_es"      	"llego a la ciudad colapso, y fui herida por los escombros! Por favor, "
 		"line4_es"      	"ayudame! No tengo nada para darte, pero ayudame por favor!!!"
+		"line1_pt"		"Alô? ALÔ? Por favor, você tem que me ajudar, estou sozinho aqui e"
+		"line2_pt"		"sangrando! Eu não estou infectado! O prédio onde eu estava quando a gripe"
+		"line3_pt"		"atingiu a cidade, e os destroços me machucaram! Por favor,"
+		"line4_pt"		"me ajude! Eu não tenho nada a te dar, mas por favor, me ajude!"
 		
 		"clines"		"3"
 		"cline1"		"Supply box? Hey I can't even walk anymore, how am I supposed"
@@ -809,11 +919,15 @@ line 1_ru...
 		"cline_es"    		"Caja de suministros? Ni siquiera puedo ya caminar, como se supone que"
 		"cline2_es"    		"vaya por las vendas? Oh Dios, esto duele. hablame"
 		"cline3_es"    		"en 1 minuto por favor, improvisare...
+		"cline1_pt"		"Caixa de suprimento? Ei, eu não posso nem andar mais, como eu vou"
+		"cline2_pt"		"ter que ir pegar curativos? Como isso dói. Fale comigo"
+		"cline3_pt"		"por 1 minuto, por favor, eu irei improvisar..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 bandages for Sara"
                 "gline1_ru"             "-Собери 5 бинтов для Сары"
 		"glines1_es"    	"-Consigue 5 vendas para Sara"
+		"glines1_pt"		"-Pegue 5 curativos para Sara"
 		
 		"qitems"		"1"
 		"qitem1"		"43"
@@ -832,6 +946,7 @@ line 1_ru...
 		"name"			"Charity 2" //Quest Name
                 "name_ru"               "Милосердие 2"
 		"name_es"    		"Caridad 2"
+		"name_pt"		"Caridade 2"
 		"id"			"15" //Quest Id
 		"qreq"			"14"
 		"cat"			"5" //Quest cat
@@ -854,6 +969,12 @@ line 1_ru...
 		"line4_es"      	"RAPIDO, POR FAVOR AYUDAME A SALIR! AYUDAAAAA! ESTOY EN EL PARQUE...."
 		"line5_es"      	"AHHH, MALDITO ZOMBIE, ESTOY EN WHISPERING OAKS, CERCA A LA ENTRADA"
 		"line6_es"      	"CERCA AL JUEGO DONDE TIENES QUE DISPARAR CACAHUATES Y... AHHH AYUDA!"
+		"line1_pt"		"AH MEU DEUS! EU TENTEI ME CURAR E DAÍ ESTE ZUMBI AHHHHH"
+		"line2_pt"		"ESTÁ MORDENDO A PORRA DA MINHA PERNA, POR FAVOR VOCÊ TEM QUE VIR AQUI E AHHHH"
+		"line3_pt"		"EU NÃO POSSO ME LEVANTAR, EU NÃO CONSIGO LUTAR, POR FAVOR ME AJUDE"
+		"line4_pt"		"RÁPIDO, POR FAVOR ME AJUDE! SOCORRO! ESTOU NO PARQUE..."
+		"line5_pt"		"AHHH, PORRA DE ZUMBI, ESTOU NO WHISPERING OAKS, PERTO DA ENTRADA"
+		"line6_pt"		"PERTO DO JOGO QUE VOCÊ TEM QUE ATIRAR NO AMENDOIM E... AHHH SOCORRO!"
 		
 		"quest_loc_map"		"c2m2_fairgrounds"
 		"quest_loc_coord"	"3120.181885 -703.968750 62.031250"
@@ -874,6 +995,11 @@ line 1_ru...
 		"cline3_es"    		"companero, sere sincera. Somos mas experimentados que tu en esto"
 		"cline4_es"    		"y nos rehusamos a ayudar a novatos, y gente estupida como tu. Saca un poco"
 		"cline5_es"    		"de musculos y hablame despues... Hahahaha..."
+		"cline1_pt"		"Hahahahahaha! Seu besta! É tudo falso! Eu não acredito que você veio"
+		"cline2_pt"		"e tentou ajudar a 'pobre' Sara. Hahahaha, hilariante! Ok"
+		"cline3_pt"		"amigo, eu vou ser sincero. Todos nós somos mais espertos que você nisso"
+		"cline4_pt"		"e, nós recusamos a ajudar novatos, e pessoas idiotas que nem você. Cresça"
+		"cline5_pt"		"mais músculos e fala comigo depois... Hahahaha..."
 		
 		"glines"			"2"
 		"gline1"			"-Go help Sara"
@@ -882,6 +1008,8 @@ line 1_ru...
                 "gline2_ru"                     "-Локация в Мрачном карнавале,2 карта"
 		"gline1_es"      		"-Anda a ayudar a Sara"
 		"gline2_es"      		"-La localizacion esta en Dark Carnival, en el segundo mapa"
+		"gline1_pt"			"-Ajude Sara"
+		"gline2_pt"			"-Localização no segundo mapa do Dark Carnival"
 		
 		"qitems"		"0"
 		
@@ -897,6 +1025,7 @@ line 1_ru...
 		"name"			"Prove It 1" //Quest Name
                 "name_ru"               "Докажи это 1" //Название квеста
 		"name_es"    		"Pruebalo 1"
+		"name_pt"		"Prove Isso 1"
 		"id"			"16" //Quest Id
 		"qreq"			"15"
 		"cat"			"5" //Quest cat
@@ -921,6 +1050,12 @@ line 1_ru...
 		"line4_es"      	"con nosotros, debes probar que eres digno de cualquier habilidad que podamos ensenarte."
 		"line5_es"      	"Para empezar, hmmm, algo facil... Mata 50 Witchs venenosas. Hey, nosotros"
 		"line6_es"     		"hemos matado como 1000 hasta ahora, es facil. anda y hazlo rapido."
+		"line1_pt"		"Ah... É você de novo? Você acha que é forte suficiente para falar comigo?"
+		"line2_pt"		"AHHH O ZUMBI... Hahahaha, eu ainda me lembro daquilo, e imagino"
+		"line3_pt"		"sua expressão. Ok, vamos aos negócios. Antes de você fazer um acordo"
+		"line4_pt"		"com a gente, você tem que provar que vale a pena ensinarmos habilidades."
+		"line5_pt"		"Então, para começar, algo fácil... Mate 50 witches venenosas. Ei, nós"
+		"line6_pt"		"matamos mais de 1000 até agora, então é fácil. Vá, e rápido."
 		
 		"clines"		"2"
 		"cline1"		"Impressive... NOT. Ah, im tired of being rude with you"
@@ -929,11 +1064,14 @@ line 1_ru...
                 "cline2_ru"             "готов продолжить"
 		"cline1_es"   		"Admirable... NO. Ah, estoy cansada de ser ruda contigo"
 		"cline2_es"   		"Esta bien supongo... Avisame cuando creas que puedes continuar"
+		"cline1_pt"		"Impressionante... Nah. Ah, estou cansado de ser rude com você."
+		"cline2_pt"		"Está tudo bem, eu acho... Fale comigo quando achar que pode continuar"
 		
 		"glines"			"1"
 		"gline1"			"-Kill 50 Poisonus witches"
                 "gline1_ru"                     "-Убей 50 отравляющих ведьм"
 		"gline1_es"      		"-Mata 50 Witchs venenosas"
+		"gline1_pt"			"-Mate 50 Witches venenosas"
 		
 		"qitems"		"0"
 		
