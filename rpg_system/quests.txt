@@ -1088,6 +1088,7 @@ line 1_ru...
 		"name"			"Prove It 2" //Quest Name
                 "name_ru"               "Докажи это 2" //Название квеста
 		"name_es"    		"Pruebalo 2"
+		"name_pt"		"Prove Isso 2"
 		"id"			"17" //Quest Id
 		"qreq"			"16"
 		"cat"			"5" //Quest cat
@@ -1112,16 +1113,24 @@ line 1_ru...
 		"line4_es"      	"debes usar tambien tus oidos y no siempre tus ojos. Mata a 20 Jockeys, mientras ellos
 		"line5_es"      	"todavia estan invisibles. Espera, para anadir mas dificultad, Las matanzas con armas de cuerpo no cuentan""
 		"line6_es"      	"Buena suerte..."
-		
+		"line1_pt"		"Ok, você ainda tem que provar a si mesmo. Deixa eu pensar... Ah!, Carlos, um de"
+		"line2_pt"		"nossos caras teve uma ideia. Primeiro, nós ficamos assustados pra cacete sobre"
+		"line3_pt"		"os Jockeys invisíveis, e quase fomos mordidos por nossa estupidez. Bem, você"
+		"line4_pt"		"deve usar seus ouvidos, e nem sempre os olhos. Mate 20 Jockeys, enquanto eles"
+		"line5_pt"		"ainda estiverem invisíveis. Espera, para ficar mais difícil, ataques de melee não contarão."
+		"line6_pt"		"Boa sorte..."
+
 		"clines"		"1"
 		"cline1"		"Ok Ok, that's better. Talk to me when you feel ready to go"
                 "cline1_ru"             "Окей,так то лучше.Поговорим когда будешь готов продолжить"
 		"cline1_es"    		"Ok Ok, Eso esta mejor, Avisame cuando te sientas listo para seguir"
+		"cline1_pt"		"Ok Ok, está melhor. Fale comigo quando se sentir pronto pra it"
 		
 		"glines"			"1"
 		"gline1"			"-Kill 20 Invisible Jockeys without melee weapons"
                 "gline1_ru"                     "-Убей 20 невидимых жокеев без оружия ближнего боя"
 		"gline1_es"      		"-Mata 20 Jockeys invisibles sin usar armas de cuerpo"
+		"gline1_pt"			"-Mate 20 Jockeys invisíveis sem armas de corpo a corpo"
 		
 		"qitems"		"0"
 		
@@ -1138,6 +1147,7 @@ line 1_ru...
 		"name"			"Prove It 3" //Quest Name
                 "name_ru"               "Докажи это 3" //Название квеста
 		"name_es"    		"Pruebalo 3"
+		"name_pt"		"Prove Isso 3"
 		"id"			"18" //Quest Id
 		"qreq"			"17"
 		"cat"			"5" //Quest cat
@@ -1152,6 +1162,9 @@ line 1_ru...
 		"line1_es"      	"Ahora, el MAXIMO DESAFIO!!!. TAMBORES POR FAVOR WHOOOO, SHUUUHSH BOOOOM, TSSSS"
 		"line2_es"      	"WAAAAAA!!! Traenos algunos Snack por favor. Se que parece estupido, pero que"
 		"line3_es"      	"demonios, Estamos hambrientos aca. Ahora, mueve ese trasero..."
+		"line1_pt"		"Agora, O DESAFIO MÁXIMO!!! TAMBORES POR FAVOR WHOOOO, SHUUUUHS BOOOM, TSSSS"
+		"line2_pt"		"WAAAAAA!!! Traga nos snacks, por favor. Eu sei que parece idiota, mas, que se"
+		"line3_pt"		"dane, estamos morrendo de fome aqui. Agora, mexa-se..."
 		
 		"clines"		"2"
 		"cline1"		"Great, I think you are ready to go, train a bit more, and by"
@@ -1160,11 +1173,14 @@ line 1_ru...
                 "cline2_ru"             "свяжись со мной позже"
 		"cline1_es"    		"Grandioso, creo que estas listo para ir, entrena un poco mas y"
 		"cline2_es"    		"con eso me refiero, elimina algunos traseros de zombies y hablame despues"
+		"cline1_pt"		"Ótimo, eu acho que está pronto para ir, treine mais um pouco, e"
+		"cline2_pt"		"quando digo isso, quero dizer para matar zumbis e falar comigo depois."
 		
 		"glines"		"1"
 		"gline1"		"-Collect 20 Snacks for Sara and her team"
                 "gline1_ru"             "-Собери 20 закусок для Сары и её команды"
-		"gline1_es"    		"-Junta 30 Snacks para Sara y su equipo"
+		"gline1_es"    		"-Junta 20 Snacks para Sara y su equipo"
+		"gline1_pt"		"-Pegue 20 snacks para Sara e seu grupo"
 		
 		"qitems"		"1"
 		"qitem1"		"15"
@@ -1183,6 +1199,7 @@ line 1_ru...
 		"name"			"Power Crysis" //Quest Name
                 "name_ru"               "Кризис силы" //Название квеста
 		"name_es"    		"Crisis de Poder"
+		"name_pt"		"Crise de Poder"
 		"id"			"19" //Quest Id
 		"qreq"			"18"
 		"cat"			"5" //Quest cat
@@ -1208,6 +1225,13 @@ line 1_ru...
 		"line5_es"      	"generador que estabamos usando dejo de funcionar hace unos dias. No"
 		"line6_es"      	"se trata de gasolina, Esta danado. Podrias por favor traerme"
 		"line7_es"      	"las partes necesarias para repararlo? Gracias..."
+		"line1_pt"		"É você de novo! Fico feliz que está vivo. Obrigado pelos"
+		"line2_pt"		"snacks e belo trabalho com as missões anteriores. Agora que você está"
+		"line3_pt"		"com mais experiência, eu te ensinarei algumas habilidades que eu sei."
+		"line4_pt"		"Mas, antes disso, preciso de um favor. O"
+		"line5_pt"		"gerador que estamos usando no momento pifou uns dias atrás. Não"
+		"line6_pt"		"é a gasolina, apenas quebrou. Poderia nos trazer"
+		"line7_pt"		"as partes necessárias para consertar o gerador? Obrigado..."
 		
 		"clines"		"1"
 		"cline1"		"Great, I'll send Carlos for the parts then, thanks for your help!"
@@ -1218,11 +1242,15 @@ line 1_ru...
 		"cline1_es"    		"Grandioso, enviare a Carlos por las partes entonces, gracias por tu ayuda!"
 		"cline2_es"    		"Te llamare tan pronto como repare el generador, porque la bateria"
 		"cline3_es"    		"de la radio esta casi agotada tambien. Saludos..."
+		"cline1_pt"		"Ótimo, eu mandarei Carlos pegar as partes, obrigado pela ajuda!"
+		"cline2_pt"		"Eu falarei com você assim que arrumar o gerador, porque a bateria"
+		"cline3_pt"		"do rádio está quase acabando também. Obrigado..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect 1 generator replacement"
                 "gline1_ru"             "-Найди запасной генератор"
 		"gline1_es"    		"-Encuentra un Repuesto de Generador"
+		"gline1_pt"		"-Pegue 1 reposição de gerador"
 		
 		"qitems"		"1"
 		"qitem1"		"31"
@@ -1241,6 +1269,7 @@ line 1_ru...
 		"name"			"Good Bye, Friend" //Quest Name
                 "name_ru"               "Прощай друг!" //Название квеста
 		"name_es"    		"Adios, Amigo"
+		"name_pt"		"Adeus, Amigo"
 		"id"			"20" //Quest Id
 		"qreq"			"19"
 		"cat"			"5" //Quest cat
@@ -1262,6 +1291,11 @@ line 1_ru...
 		"line3_es"      	"piel antes que pudiesemos sacarlo de ahi. no creo que pueda vivir sin siquiera"
 		"line4_es"      	"hacerle un funeral decente. Todo esta listo para su funeral, Todo lo que necesitamos son flores."
 		"line5_es"      	"Traeme un poco, y cuidate..."
+		"line1_pt"		"É um dia triste para nós aqui. Bobby morreu, nosso cão de guarda. Nós estávamos brincando com ele"
+		"line2_pt"		"de repente uma Spitter desgraçada apareceu do nada. O ácido derreteu toda"
+		"line3_pt"		"a carne dele antes de podermos fazer algo. Não acho que posso viver sem pelo menos fazer"
+		"line4_pt"		"um funeral devente. Tudo está pronto para o enterro, tudo que precisamos é de flores."
+		"line5_pt"		"Me traga algumas, e fique atento..."
 		
 		"clines"		"2"
 		"cline1"		"Thank you, Carlos will go for them when zombies get a bit a way"
@@ -1270,11 +1304,14 @@ line 1_ru...
                 "cline2_ru"             "Свяжись со мной как только захочешь..."
 		"cline1_es"    		"Gracias, Carlos ira por las flores cuando los zombies se lo permitan"
 		"cline2_es"    		"Llamame cuando quieras...
+		"cline1_pt"		"Obrigado, Carlos vai pegá-las quando os zumbis se forem."
+		"cline2_pt"		"Fale comigo quando quiser..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect flowers for Bobby's funeral"
                 "gline1_ru"             "-Найди цветы для похорон Бобби"
 		"gline1_es"    		"-Encuentra Flores para el funeral de Bobby"
+		"gline1_pt"		"-Pegue flores para o funeral do Bobby"
 		
 		"qitems"		"1"
 		"qitem1"		"32"
@@ -1292,6 +1329,7 @@ line 1_ru...
 	{
 		"name"			"Final Trip" //Quest Name
 		"name_es"    		"Viaje FInal"
+		"name_pt"		"Viagem Final"
 		"id"			"21" //Quest Id
 		"qreq"			"20"
 		"cat"			"5" //Quest cat
@@ -1312,6 +1350,13 @@ line 1_ru...
 		"line5_es"      	"ser inmune, pero estoy segura que compartir nuestra comida, nuestros banos y"
 		"line6_es"      	"cualquier cosa que hagas, nos infectara. Necesito reparar nuestra Camioneta primero"
 		"line7_es"      	"Por favor, consigueme una rueda que funcione para poder largarnos de aqui!"
+		"line1_pt"		"Eaí de novo. A morte do Bobby afetou nosso grupo. Decidimos"
+		"line2_pt"		"parar de nos esconder. Nós iremos tentar chegar ao Canadá ou países sul-americanos"
+		"line3_pt"		"porque achamos que o vírus ou o que quer se seja, não aguenta climas"
+		"line4_pt"		"extremos... Quem sabe? É uma pena que não pode ir conosco. Você"
+		"line5_pt"		"pode ser imune, tenho certeza que dividindo nossa comida, banheiro e"
+		"line6_pt"		"o que fizer, nos infectará. Eu preciso consertar nossa van primeiro, então"
+		"line7_pt"		"por favor, pegue uma roda que preste para nós sairmos daqui!"
 		
 		"clines"		"4"
 		"cline1"		"I appreciate your help. I've left a book on the Supply box"
@@ -1322,10 +1367,15 @@ line 1_ru...
 		"cline2_es"    		"que estoy segura que te ayudara. Te ensenara como ser amigable"
 		"cline3_es"    		"con otras personas, y tal ves los sobrevivientes te perdonen"
 		"cline4_es"    		"incluso si les disparas. Debo irme ahora, cuidate..."
+		"cline1_pt"		"Eu aprecio a ajuda. Eu deixei um livro na caixa de suprimento"
+		"cline2_pt"		"que tenho certeza que vai ajudá-lo. Ele irá te ensinar como"
+		"cline3_pt"		"ser legal com as pessoas, e talvez sobreviventes irão te perdoar"
+		"cline4_pt"		"quando atirar nelas. Eu tenho que ir, se cuida..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect a Wheel for Sara's van"
 		"gline1_es"    		"-Consigue una Rueda para el van de Sara"
+		"gline1_pt"		"-Pegue uma roda para a van de Sara"
 		
 		"qitems"		"1"
 		"qitem1"		"33"
@@ -1343,6 +1393,7 @@ line 1_ru...
 	{
 		"name"			"The Beginner 1" //Quest Name
 		"name_es"    		"El Principiante 1"
+		"name_pt"		"O Iniciante 1"
 		"id"			"22" //Quest Id
 		"qreq"			"0"
 		"cat"			"6" //Quest cat
@@ -1361,16 +1412,25 @@ line 1_ru...
 		"line4_es"		"matar zombies en juegos de video, pero esto es demasiada Mier.. Ok tranquilo"
 		"line5_es"      	"Bryan, tranquilo. Deje mi guia de sobrevivencia en un centro comercial. Llevalo a.."
 		"line6_es"      	"demonios, lo olvide, algun tipo de caja militar y lo buscare despues!"
+		"line1_pt"		"Tem alguém aí? Como eu uso essa coisa? EI! Ei, você"
+		"line2_pt"		"pode me ouvir? Meu nome é Brian, tenho 19 anos e sim, isso é idiota."
+		"line3_pt"		"Ei, eu preciso de ajuda, sou muito novo pra essa merda, eu costumava"
+		"line4_pt"		"matar zumbis em jogos, mas essa merda é difícil. Ok, fique calmo"
+		"line5_pt"		"Brian, fique calmo. Eu deixei meu Guia de Sobrevivente no shopping. Pegue"
+		"line6_pt"		"e ponha na caixa de suprimento e eu pegarei depois!"
 		
 		"clines"		"2"
 		"cline1"		"Alright, thank you! I'll go for it, read it an everything will be"
 		"cline2"		"just fine. Oh, atleast you are on a team, I'm all alone!"
 		"cline1_es"    		"Muy bien, Gracias! Ire por el, lo leere y todo estara bien."
 		"cline2_es"    		"Al menos tu estas en un equipo, yo estoy completamente solo"
+		"cline1_pt"		"Tudo bem, obrigado! Eu vou nessa, ler tudo e ficarei"
+		"cline2_pt"		"bem. Ah, pelo menos você tem um time, e eu estou sozinho!"
 		
 		"glines"		"1"
 		"gline1"		"-Get Bryan's survival guide"
 		"gline1_es"    		"-Encuentra la Guia de Supervivencia de Bryan"
+		"gline1_pt"		"-Pegue o Guia de Sobrevivência para Brian"
 		
 		"qitems"		"1"
 		"qitem1"		"16"
@@ -1388,6 +1448,7 @@ line 1_ru...
 	{
 		"name"			"The Beginner 2" //Quest Name
 		"name_es"    		"El Principiante 2"
+		"name_pt"		"O Iniciante 2"
 		"id"			"23" //Quest Id
 		"qreq"			"22"
 		"cat"			"6" //Quest cat
@@ -1413,16 +1474,25 @@ line 1_ru...
 		"line4_es"      	"Mier.. Ellos siguen golpeando!!! Tienes que ayudarme. Elimina algunos zombies"
 		"line5_es"      	"en el area antes que ellos noten que estoy aqui. Lo ultimo que recuerdo, es"
 		"line6_es"      	"una fabrica de ladrillos y algunos camiones destrozados. Solo mata zombies en el area"
+		"line1_pt"		"Ei, é o Brian de novo. Bom, eu li o guia, e ele não tem nada"
+		"line2_pt"		"DE ÚTIL! Só me diz como cozinhar arroz. Por que diabos"
+		"line3_pt"		"eu iria querer comer arroz, quando tem 10000 zumbis lá fora?
+		"line4_pt"		"Porra, eles continuam batendo!!! Você tem que me ajudar. Mate uns zumbis"
+		"line5_pt"		"aqui antes que eles percebam que estou aqui dentro. Última coisa que lembro é"
+		"line6_pt"		"a fábrica de tijolos e caminhões quebrados. Apenas mate os zumbis no lugar."
 		
 		"clines"		"1"
 		"cline1"		"Cool, thanks. Now I can use my mind without all those knockins..."
-		"clines1"    		"Genial, Gracias. Ahora puedo pensar sin todos esos golpes..."
+		"cline1_es"    		"Genial, Gracias. Ahora puedo pensar sin todos esos golpes..."
+		"cline1_pt"		"Legal, obrigado. Agora posso pensar sem eles baterem..."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 150 infected on the specified location"
 		"gline2"		"-Location is at The Sacrifice campaign, second map"
 		"gline1_es"    		"-Mata 150 infectados en una ubicacion especifica"
 		"gline2_es"    		"-La localizacion esta en la campana The sacrifice, en el segundo mapa"
+		"gline1_pt"		"-Mate 150 infectados na área específica"
+		"gline2_pt"		"-Localização no segundo mapa da campanha The Sacrifice"
 		
 		"qitems"		"1"
 		"qitem1"		"33"
