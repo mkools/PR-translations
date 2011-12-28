@@ -1033,7 +1033,7 @@
                 "name_ru"       "Густая рвота"
 		"id"	"23"
 		"desc"	"Decreases the survivor speed while they are covered by your vomit"
-		"desc_es"	"Disminuye la velocidad de los obrevivientes cuando estan vomitados"
+		"desc_es"	"Disminuye la velocidad de los sobrevivientes cuando estan vomitados"
 		"desc_br"	"Diminui a velocidade dos sobreviventes cobertos pelo seu vomito"
                 "desc_ru"       "Снижает скорость выживших пока они обблёванны"
 		
@@ -1639,7 +1639,7 @@ sozinhos"
 		"name_es"	"|*| Caridad"
                 "name_ru"       "|*| Благотворительность"
 		"desc"	"The exp that you win, will be automatically shared with your team. No EXP loss."
-		"desc_es"	"La EXP que ganes, sera compartida con tu companeros de equipo sin que tu pierdas EXP.
+		"desc_es"	"La EXP que ganes, sera compartida con tu companeros de equipo sin que tu pierdas EXP."
                 "desc_ru"       "Вы будите делиться опытом,который получаете, с напарниками.
 		
 		"id" "37"
@@ -1819,7 +1819,7 @@ sozinhos"
 		"name_es"	"|*| Ira descontrolada"
                 "name_ru"       "|*| Берсерк"
 		"desc"	"Will enable berserker mode for 30 seconds when ready. (Crouch + Zoom + Walk buttons)"
-		"desc_es"	"Te permitira entrar en un estado de histeria por 30 segundos cuando este listo. (Ctrl + Zoom + Boton de caminar)
+		"desc_es"	"Te permitira entrar en un estado de histeria por 30 segundos cuando este listo. (Ctrl + Zoom + Boton de caminar)"
                 "desc_ru"       "Включает режим берсерка на 30 секунд.(ctrl+средняя кнопка мыши+клавишы движения)"
 		
 		"id" "41"
