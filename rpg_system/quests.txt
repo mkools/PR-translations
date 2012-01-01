@@ -2090,6 +2090,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Friend 1" //Quest Names
 		"name_es"    		"El amigo de Darwin 1"
+                "name_pt"               "O amigo de Darwin 1"
 		"id"			"36" //Quest Id
 		"qreq"			"35"
 		"cat"			"9" //Quest cat
@@ -2109,20 +2110,29 @@ line 1_ru...
 		"line4_es"      	"y el dijo que estaba atrapado cerca a un aeropuerto. El no sabe muy bien donde esta."
 		"line5_es"      	"Hazme un favor...  Limpia el area para que el pueda salir del aeropuerto"
 		"line6_es"      	"y tenga al menos una oportunidad para encontrarme aca. Gracias anticipadas"
+                "line1_pt"              "A garra de charger que me trouxeste era exactamente aquilo que eu precisava. A pesquisa ainda"
+                "line2_pt"              "não está pronta por isso terás de esperar. Enquanto a pesquisa está em progresso, eu quero"
+                "line3_pt"              "que me faças um favor. Eu comuniquei com um amigo ontem através do rádio"
+                "line4_pt"              "e ele disse que estava preso no aeroporto. Ele não sabe muito bem onde está"
+                "line5_pt"              "Faz-me um favor... Limpa a área para que ele seja capaz de escapar do aeroporto"
+                "line6_pt"              "e tenha pelo menos uma chance de se encontrar comigo aqui. Agradeço antecipadamente"
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c11m3_garage"
 		"quest_loc_range"	"50000.0"
 		
 		"clines"		"1"
-		"cline1"		"Good Job! I'll let him know that he's now able to leave. Thank you".
-		"cline1_es"    		"Buen Trabajo! Le hare saber que ahora ya puede salir. Gracias.
+		"cline1"		"Good Job! I'll let him know that he's now able to leave. Thank you."
+		"cline1_es"    		"Buen Trabajo! Le hare saber que ahora ya puede salir. Gracias."
+                "cline1_pt"             "Bom trabalho! Dizer-lhe-ei agora que é capaz de sair. Obrigado."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 350 infected on the specified area"
 		"gline2"		"-Location is at Dead Air campaign, unknown map"
 		"gline1_es"    "-Mata 350 Infectados en un area especifica"
 		"gline2_es"    "-La localizacion esta en la Campana Dead Air, se desconoce el mapa"
+                "gline1_pt"    "-Mata 350 infectados numa zona especifica"
+                "gline2_pt"    "A localização é na campanha Dead Air, mapa desconhecido"
 		
 		"qitems"		"0"
 		
@@ -2138,6 +2148,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Friend 2" //Quest Names
 		"name_es"    		"El Amigo de Darwin 2"
+                "name_pt"               "O amigo de Darwin 2"
 		"id"			"37" //Quest Id
 		"qreq"			"36"
 		"cat"			"9" //Quest cat
@@ -2157,16 +2168,25 @@ line 1_ru...
 		"line4_es"     	 	"infectados en la pista que empezaron a correr hacia el. El se las arreglo para"
 		"line5_es"     		"entrar en un jet privado y logro escapar de 2 Tanks y de 50 o mas infectados. El"
 		"line6_es"      	"perdio la comunicacion despues. Anda a revisar si el esta aun vivo por favor"
+                "line1_pt"              "Perdi contacto com o meu amigo. A última coisa que ele disse foi que ele conseguiu entrar"
+                "line2_pt"              "no aeroporto, e que ele ouviu muito ruído de armas de fogo. Antes que ele fosse sequer"
+                "line3_pt"              "capaz de perceber, um avião Militar estava a descolar e ele não conseguiu entrar. Havia tantos"
+                "line4_pt"              "infectados na pista que começaram a correr na direcção dele. Ele conseguiu entrar"
+                "line5_pt"              "num jacto privado  e escapar a 2 tanks e 50 ou mais infectados. Ele"
+                "line6_pt"              "perdeu depois a comunicação. Verifica por favor se ele ainda está vivo"
 		
 		"clines"		"2"
 		"cline1"		"Just found his ID? I'm afraid he's dead then. Thanks for the help, I'll let"
 		"cline2"		"you know if I find anything related to chargers"
 		"cline1_es"    		"Solo encontraste su identificacion? Me temo que esta muerto entonces. Gracias por la ayuda, te hare"
 		"cline2_es"    		"saber si es que encuentro algo relacionado con los Chargers"
+                "cline1_pt"             "Apenas encontras-te a identificação dele? Então receio que ele estaja morto. Obrigado pela ajuda, Dizer-te-ei"
+                "cline2_pt"             "se descobrir alguma coisa relacionada com Chargers"
 		
 		"glines"		"1"
 		"gline1"		"-Check if Darwin's friend is still alive"
 		"gline1_es"    		"-Revisa si el amigo de Darwin aun esta con vida"
+                "gline1_pt"             "-Verifica se o amigo de Darwin ainda está vivo"
 		
 		"qitems"		"1"
 		"qitem1"		"52"
@@ -2184,6 +2204,7 @@ line 1_ru...
 	{
 		"name"			"Charge Block" //Quest Names
 		"name_es"    		"Bloqueo de Carga"
+                "name_pt"               "Charge Block"
 		"id"			"38" //Quest Id
 		"qreq"			"37"
 		"cat"			"9" //Quest cat
@@ -2199,6 +2220,10 @@ line 1_ru...
 		"line2_es"      	"modo de bloquear el ataque principal de los chargers. Pero, antes que pueda dartelo"
 		"line3_es"      	"debes aprender a lidiar con ellos. Mata alguno Chargers y tendremos un"
 		"line4_es"      	"trato. buena Suerte!"
+                "line1_pt"              "Olá outra vez!. Descobri algo interessante sobre as garras. Há"
+                "line2_pt"              "uma maneira de bloquear a ataque principal do Charger. Mas, antes que to possa dar"
+                "line3_pt"              "tens de aprender a lidar com eles. Caça alguns Chargers e, depois teremos um acordo"
+                "line4_pt"              "Boa Sorte!"              
 		
 		"clines"		"3"
 		"cline1"		"Yes, you are now ready to learn the skill. I left a book with the charger"
@@ -2207,10 +2232,14 @@ line 1_ru...
 		"cline1_es"    		"Si, Ahora estas listo para aprender esta habilidad. Te deje un libro con los defectos del charger"
 		"cline2_es"    		"explicados en el. Leelo y estoy seguro que los Charger seran menos problematicos."
 		"cline3_es"    		"Mantente en contacto!"
+                "cline1_pt"             "Sim, agora estás preparado para aprenders a habilidade. Eu deixei um livro com"
+                "cline2_pt"             "os defeitos do Charger nele. Lê-o e estou certo que os Chargers serão menos irritantes"
+                "cline3_pt"             "Mantem-te em contacto"
 		
 		"glines"		"1"
 		"gline1"		"-Kill 30 Chargers"
 		"gline1_es"    		"-Mata a 30 Chargers"
+                "gline1_pt"             "-Mata 30 Chargers"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -2228,6 +2257,7 @@ line 1_ru...
 	{
 		"name"			"Thief's Whims 1" //Quest Names
 		"name_es"    		"Caprichos del Ladron 1"
+                "name_pt"               "Caprichos de Ladrão 1"
 		"id"			"39" //Quest Id
 		"qreq"			"0"
 		"cat"			"10" //Quest cat
@@ -2249,16 +2279,26 @@ line 1_ru...
 		"line5_es"      	"suplican por sus vidas, cuando la verdad son inutiles ahora. No me juzgues. Yo puedo"
 		"line6_es"      	"hacer lo que sea que quiera. Si... He robado un hermoso collar dorado de una mujer "
 		"line7_es"     		"y lo perdi escapando de un Tank. Traemelo de vuelta y te pagare."
+                "line1_pt"              "Outro sobrevivente sortudo... Não posso dizer-te o meu nome porque estou certo que"
+                "line2_pt"              "depois do caos acabar, Irei para a prisão pelo que fiz. Eu sei que devo apenas matar"
+                "line3_pt"              "os infectados, mas eu também gosto de disparar a sobreviventes desesperados á procura"
+                "line4_pt"              "de ajuda. O que eu gosto mais é disparar contra crianças e idosos, eles choram sempre e"
+                "line5_pt"              "e imploram pelas suas vidas, quando de facto eles são inúteis agora. Não me julgues, Eu"
+                "line6_pt"              "posso fazer o que quiser. Sim... Eu tinha roubado um Colar Dourado a uma"
+                "line7_pt"              "mulher e perdi-o quando fugia de um Tank. Trá-lo de volta, e eu pagar-te-ei"
 		
 		"clines"		"2"
 		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
 		"cline2"		"will pay with your blood."
 		"cline1_es"    		"Buenas noticias. Revisare la caja de suministros pronto. Si no lo encuentro, pagaras"
 		"cline2_es"    		"con tu propia sangre"
+                "cline1_pt"             "Boas notícias. Eu verificarei a caixa de mantimentos. Se não o encontrar"
+                "cline2_pt"             "pagarás com o teu próprio sangue"
 		
 		"glines"		"1"
 		"gline1"		"-Collect the Golden Necklace"
 		"gline1_es"    		"-Encuentra el Collar Dorado"
+                "gline1_pt"             "-Encontra o Colar Dourado"
 		
 		"qitems"		"1"
 		"qitem1"		"44"
