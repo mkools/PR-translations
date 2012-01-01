@@ -2138,6 +2138,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Friend 2" //Quest Names
 		"name_es"    		"El Amigo de Darwin 2"
+		"name_pt"		"O Amigo de Darwin 2"
 		"id"			"37" //Quest Id
 		"qreq"			"36"
 		"cat"			"9" //Quest cat
@@ -2157,16 +2158,25 @@ line 1_ru...
 		"line4_es"     	 	"infectados en la pista que empezaron a correr hacia el. El se las arreglo para"
 		"line5_es"     		"entrar en un jet privado y logro escapar de 2 Tanks y de 50 o mas infectados. El"
 		"line6_es"      	"perdio la comunicacion despues. Anda a revisar si el esta aun vivo por favor"
+		"line1_pt"		"Eu perdi contato com meu amigo. A última coisa que ele disse foi que conseguiu"
+		"line2_pt"		"entrar no aeroporto, e ouviu vários tiros. Antes de ele mesmo perceber, "
+		"line3_pt"		"um avião militar estava decolando e ele não pode ir. Havia tantos infectados"
+		"line4_pt"		"na pista que começaram a correr em direção dele. Ele conseguiu entrar"
+		"line5_pt"		"em um jato privativo e escapou de 2 tanks e uns 50 infectados. Ele"
+		"line6_pt"		"então perdeu contato. Vá ver se ele ainda está vivo, por favor."
 		
 		"clines"		"2"
 		"cline1"		"Just found his ID? I'm afraid he's dead then. Thanks for the help, I'll let"
 		"cline2"		"you know if I find anything related to chargers"
 		"cline1_es"    		"Solo encontraste su identificacion? Me temo que esta muerto entonces. Gracias por la ayuda, te hare"
 		"cline2_es"    		"saber si es que encuentro algo relacionado con los Chargers"
+		"cline1_pt"		"Apenas achou a identificação? Ele pode estar morto. Obrigado pela ajuda, eu"
+		"cline2_pt"		"te avisarei se achar algo sobre os Chargers"
 		
 		"glines"		"1"
 		"gline1"		"-Check if Darwin's friend is still alive"
 		"gline1_es"    		"-Revisa si el amigo de Darwin aun esta con vida"
+		"gline1_pt"		"-Procure pelo amigo do Darwin com ou sem vida"
 		
 		"qitems"		"1"
 		"qitem1"		"52"
@@ -2184,6 +2194,7 @@ line 1_ru...
 	{
 		"name"			"Charge Block" //Quest Names
 		"name_es"    		"Bloqueo de Carga"
+		"name_pt"		"Bloqueio de Charge"
 		"id"			"38" //Quest Id
 		"qreq"			"37"
 		"cat"			"9" //Quest cat
@@ -2199,6 +2210,10 @@ line 1_ru...
 		"line2_es"      	"modo de bloquear el ataque principal de los chargers. Pero, antes que pueda dartelo"
 		"line3_es"      	"debes aprender a lidiar con ellos. Mata alguno Chargers y tendremos un"
 		"line4_es"      	"trato. buena Suerte!"
+		"line1_pt"		"Olá de novo. Eu achei uma coisa interessante sobre as garras. Tem uma"
+		"line2_pt"		"maneira de bloquear o ataque principal dos Chargers. Mas antes de eu te dar"
+		"line3_pt"		"você deve aprendar a lidar com eles. Caçe alguns Chargers and teremos um"
+		"line4_pt"		"acordo. Boa sorte!"
 		
 		"clines"		"3"
 		"cline1"		"Yes, you are now ready to learn the skill. I left a book with the charger"
@@ -2207,10 +2222,14 @@ line 1_ru...
 		"cline1_es"    		"Si, Ahora estas listo para aprender esta habilidad. Te deje un libro con los defectos del charger"
 		"cline2_es"    		"explicados en el. Leelo y estoy seguro que los Charger seran menos problematicos."
 		"cline3_es"    		"Mantente en contacto!"
+		"cline1_pt"		"Isso, você está pronto para aprender a habilidade. Eu deixei um livro com"
+		"cline2_pt"		"as falhas dos Chargers explicando. Leia e tenho certeza que eles serão menos irritantes."
+		"cline3_pt"		"Mantenha contato!"
 		
 		"glines"		"1"
 		"gline1"		"-Kill 30 Chargers"
 		"gline1_es"    		"-Mata a 30 Chargers"
+		"gline1_pt"		"-Mate 30 Chargers"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -2228,6 +2247,7 @@ line 1_ru...
 	{
 		"name"			"Thief's Whims 1" //Quest Names
 		"name_es"    		"Caprichos del Ladron 1"
+		"name_pt"		"Capricho do Ladrão 1"
 		"id"			"39" //Quest Id
 		"qreq"			"0"
 		"cat"			"10" //Quest cat
@@ -2249,16 +2269,26 @@ line 1_ru...
 		"line5_es"      	"suplican por sus vidas, cuando la verdad son inutiles ahora. No me juzgues. Yo puedo"
 		"line6_es"      	"hacer lo que sea que quiera. Si... He robado un hermoso collar dorado de una mujer "
 		"line7_es"     		"y lo perdi escapando de un Tank. Traemelo de vuelta y te pagare."
+		"line1_pt"		"Outro sobrevivente sortudo... Eu não posso dizer meu nome porque depois que o"
+		"line2_pt"		"caos acabar, eu irei para a cadeia depois do que fiz. Eu sei que deveria matar"
+		"line3_pt"		"os infectados, mas eu curto atirar em sobreviventes desesperados procurando por"
+		"line4_pt"		"ajuda. Eu amo atirar em crianças e idosos principalmente, eles sempre choram e"
+		"line5_pt"		"imploram pela vida, quando eles são na verdade inúteis. Não me julgue, eu"
+		"line6_pt"		"posso fazer o que quiser. Sim... eu roubei um colar dourado de uma"
+		"line7_pt"		"mulher e perdi fugindo de um Tank. Me traga e irei recompensá-lo."
 		
 		"clines"		"2"
 		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
 		"cline2"		"will pay with your blood."
 		"cline1_es"    		"Buenas noticias. Revisare la caja de suministros pronto. Si no lo encuentro, pagaras"
 		"cline2_es"    		"con tu propia sangre"
+		"cline1_pt"		"Bela notícia. Eu irei olhar na caixa de suprimento. Se eu não achar, você"
+		"cline2_pt"		"irá pagar com seu sangue."
 		
 		"glines"		"1"
 		"gline1"		"-Collect the Golden Necklace"
 		"gline1_es"    		"-Encuentra el Collar Dorado"
+		"gline1_pt"		"-Pegue o Colar Dourado"
 		
 		"qitems"		"1"
 		"qitem1"		"44"
@@ -2276,6 +2306,7 @@ line 1_ru...
 	{
 		"name"			"Thief's Whims 2" //Quest Names
 		"name_es"    		"Caprichos del Ladron 2"
+		"name_pt"		"Capricho do Ladrão 2"
 		"id"			"40" //Quest Id
 		"qreq"			"39"
 		"cat"			"10" //Quest cat
@@ -2291,16 +2322,23 @@ line 1_ru...
 		"line2_es"      	"sucia. Traeme algun pantalon y lo que sea que encuentres. No"
 		"line3_es"      	"te pagare nada. Oh espera, tal vez esta piedra que tengo en mis manos ayudaria?"
 		"line4_es"      	"No puedo encontrarle ningun uso, pero tal vez tu si. Apurate..."
+		"line1_pt"		"Que sorte vocÊ tem, o colar estava lá. Obrigado. Agora, minhas roupas"
+		"line2_pt"		"estão sujar pra cacete. Me traga calças limpas e o que você achar. Eu"
+		"line3_pt"		"não irei lhe pagar nada. Ah, espera, talvez essa pedra que tenho em mãos ajude."
+		"line4_pt"		"Eu não vejo nada que possa fazer com ela, talvez você saiba. Agora, apresse-se..."
 		
 		"clines"		"2"
 		"cline1"		"Sweet news. I'll go check the Supply Box soon. If i don't find it, you"
 		"cline2"		"will pay with your blood."
 		"cline1_es"    		"Buenas noticias. Revisare la caja de suministros pronto. Si no lo encuentro, pagaras"
 		"cline2_es"    		"con tu propia sangre
+		"cline1_pt"		"Bela notícia. Eu irei olhar na caixa de suprimento. Se eu não achar, você"
+		"cline2_pt"		"irá pagar com seu sangue."
 		
 		"glines"		"1"
 		"gline1"		"-Collect Clean clothes for the thief"
 		"gline1_es"    		"-Encuentra ropa limpia para el Ladron"
+		"gline1_pt"		"-Pegue roupas limpas para o ladrão"
 		
 		"qitems"		"1"
 		"qitem1"		"53"
@@ -2318,6 +2356,7 @@ line 1_ru...
 	{
 		"name"			"Thief's Whims 3" //Quest Names
 		"name_es"    		"Caprichos del Ladron 3"
+		"name_pt"		"Capricho do Ladrão 3"
 		"id"			"41" //Quest Id
 		"qreq"			"40"
 		"cat"			"10" //Quest cat
@@ -2339,6 +2378,13 @@ line 1_ru...
 		"line5_es"      	"para cambiar comida y suministros.
 		"line6_es"     		"Traeme la bolsa y compartire un poco de las ganancias contigo"
  		"line7_es"     		"Ve con cuidado..."
+		"line1_pt"		"Ah sim, essas roupas são fantásticas. Mais uma coisa. Eu perdi uma bolsa"
+		"line2_pt"		"com umas gemas falsas quando fugindo do Tank. Eu posso usar as gemas falsas para"
+		"line3_pt"		"enganar sobreviventes procurando se aprimorarr. Você sabe, dólares estão"
+		"line4_pt"		"ficando inúteis hoje em dia, e as pessoas estão aceitando gemas e diamantes"
+		"line5_pt"		"em troca de comida e suprimento. Ganancioso, eu sei, é por isso que quero enganar"
+		"line6_pt"		"esses idiotas, eu também farei lucro. Me traga a bolsa e dividirei algum"
+		"line7_pt"		"lucro com você. Vá cuidado..."
 		
 		"clines"		"5"
 		"cline1"		"Haha you are such an idiot dude, I was right next the Supply Box! I'm far"
@@ -2351,10 +2397,16 @@ line 1_ru...
 		"cline3_es"    		"persona mas tonta que jamas haya conocido! Deberias suicidarte ahora y.... (*Grito de Tank*)"
 		"cline4_es"    		"OH MIER...(*Ruido de un objeto pesado*) AHHHH AYUDA AYUDDD.. LALDALWD..."
 		"cline5_es"    		"(*Transmision terminada*)"
+		"cline1_pt"		"Haha você é tão idiota cara, eu estava do lado da caixa de suprimento! Estou longe"
+		"cline2_pt"		"agora e não vou dividir merda algum com você! Hahaha hilariante, você é a"
+		"cline3_pt"		"pessoas mais burra que já conheci! Você deveria cometer suicídio agora e (*Grito de Tank*)"
+		"cline4_pt"		"AH MERD.....(*Som de esmagamento*) AHHH SOCORRO SOCOR LALDADALW..."
+		"cline5_pt"		"(*Fim de transmissão*)"
 		
 		"glines"		"1"
 		"gline1"		"-Collect Thief's Fake Gems Bag"
 		"gline1_es"    		"-Encuentra la bolsa de Gemas Falsas del Ladron"
+		"gline1_pt"		"-Pegue a bolsa de gemas falsas"
 		
 		"qitems"		"1"
 		"qitem1"		"54"
@@ -2372,6 +2424,7 @@ line 1_ru...
 	{
 		"name"			"Thief's Last Wishes 1" //Quest Names
 		"name_es"    		"Ultimos Deseos del Ladron 1"
+		"name_pt"		"Últimos Desejos 1"
 		"id"			"42" //Quest Id
 		"qreq"			"41"
 		"cat"			"10" //Quest cat
@@ -2389,16 +2442,24 @@ line 1_ru...
 		"line3_es"      	"ohhh a quien engano, me voy a morir! Tengo unos deseos antes de morir."
 		"line4_es"      	"Quiero venganza primero. Mata tantos Tanks como puedas, Te dare una gran"
 		"line5_es"      	"recompensa si lo haces. Anda ahora, antes que me desangre!!!"
+		"line1_pt"		"Ei de novo... Meu Deus, isso dói... Aquele tank desgraçado... Deus..."
+		"line2_pt"		"Eu estou provavelmente infectado... Droga, a dor, porra... Cara, eu preciso de analgésico"
+		"line3_pt"		"ohhh quem estou enganando, eu vou morrer! Eu tenho uns desejos antes da morte."
+		"line4_pt"		"Eu quero vingança primeiro, mate quantos Tanks conseguir, e irei te dar um prêmio"
+		"line5_pt"		"enorme. Agora vá, antes que eu volte a sangrar!"
 		
 		"clines"		"2"
 		"cline1"		"It's done?, oh fuck this is so god damn painfull. I can see my bones!! OH FUCK"
 		"cline2"		"I CAN SE MY FUCKING BONES! FUCK, I need a minute..."
 		"cline1_es"    		"Esta hecho? Mier.. Esto es tan doloroso. Puedo ver mi huesos!! OH MIER.."
 		"cline2_es"    		"PUEDO VER MIS HUESOS!!! MIER..!! Necesito un minuto..."
+		"cline1_pt"		"Acabou?, ah cacete isso é tão doloroso. Eu posso ver meu osso! AH MERDA"
+		"cline2_pt"		"EU POSSO VER A MERDA DO MEU OSSO! CACETE, eu preciso de um minuto..."
 		
 		"glines"		"1"
 		"gline1"		"-Kill 50 Tanks"
 		"gline1_es"    		"-Mata 50 Tanks"
+		"gline1_pt"		"-Mate 50 Tanks"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -2416,6 +2477,7 @@ line 1_ru...
 	{
 		"name"			"Thief's Last Wishes 2" //Quest Names
 		"name_es"    		"Ultimos Deseos del Ladron 2"
+		"name_pt"		"Últimos Desejos 2"
 		"id"			"43" //Quest Id
 		"qreq"			"42"
 		"cat"			"10" //Quest cat
@@ -2431,14 +2493,20 @@ line 1_ru...
 		"line2_es"      	"pero ellos siempre me rechazaron y... ESTO DUELE! Morire con dignidad! Traeme"
 		"line3_es"      	"un uniforme de soldado y morire en paz. Puedo darte algunas gemas"
 		"line4_es"      	"reales si lo haces por mi. Ahora anda antes que me desangre!"
+		"line1_pt"		"Antes de eu morrer, eu quero uma coisa. Eu sempre quis ser parte do exército"
+		"line2_pt"		"mas eles sempre me rejeitaram... ISSO DÓI! Eu irei morrer com dignidade! Traga"
+		"line3_pt"		"me um uniforme de soldado e morrerei em paz. Eu posso te dar gemas reais"
+		"line4_pt"		"se você fizer isso pra mim. Agora vá antes que sangre até morrer!"
 		
 		"clines"		"1"
 		"cline1"		"Ok... Take.... the fucking... gems now... and... go.. fuck... yours............"
 		"cline1_es"    		"Ok... Toma.... Las put... Gemas ahora... y andate.. a la.........."
+		"cline1_pt"		"Ok... Toma.... as merdas... das gemas agora... e... vá... se... fud............"
 		
 		"glines"		"1"
 		"gline1"		"-Collect a soldier's uniform"
 		"gline1_es"    		"-Consigue un uniforme de soldado"
+		"gline1_pt"		"-Pegue o uniforme de soldado"
 		
 		"qitems"		"1"
 		"qitem1"		"55"
@@ -2456,6 +2524,7 @@ line 1_ru...
 	{
 		"name"			"Join Forces 1" //Quest Names
 		"name_es"    		"Unir Fuerzas 1"
+		"name_pt"		"Forças Unidas 1"
 		"id"			"44" //Quest Id
 		"qreq"			"0"
 		"cat"			"11" //Quest cat
@@ -2475,10 +2544,17 @@ line 1_ru...
 		"line4_es"      	"que los que estan solos. Si quieres formar un clan, entonces "
 		"line5_es"      	"tienes que hacer algunas tareas para mi. Lo siento hijo, no es tan facil como parece."
 		"line6_es"      	"Debes ganar respeto antes de considerar comenzar tu propio clan."
+		"line1_pt"		"Se sentindo sozinho? Desde que o caos começou"
+		"line2_pt"		"os sobreviventes andaram formando guilds para sobreviver a infecção. Se você"
+		"line3_pt"		"formar ou se juntar a uma, você terá mais chances de sobreviver"
+		"line4_pt"		"do que ficar sozinho. Se você quiser formar uma guild, então você"		
+		"line5_pt"		"terá que fazer umas coisas pra mim. Desculpe filho, não é tão fácil quanto parece."
+		"line6_pt"		"Você tem que ganhar respeito antes de considerar abrir a própria guild."
 		
 		"glines"		"1"
 		"gline1"		"-Defeat 35 Paranoia Tanks"
 		"gline1_es"    		"-Derrota 35 Paranoia Tanks"
+		"gline1_pt"		"-Derrote 35 Tanks Paranóia"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -2496,6 +2572,7 @@ line 1_ru...
 	{
 		"name"			"Join Forces 2" //Quest Names
 		"name_es"    		"Unir Fuerzas 2"
+		"name_pt"		"Forças Unidas 2"
 		"id"			"45" //Quest Id
 		"qreq"			"44"
 		"cat"			"11" //Quest cat
@@ -2513,10 +2590,16 @@ line 1_ru...
 		"line3_es"     		"trabajo en equipo tienes un paso dado para formar tu clan"
 		"line4_es"      	"Demuestrale a otros que tu eres capaz de mantenerlos a salvo y ellos uniran fuerzas"
 		"line5_es"      	"contigo.
+		"line1_pt"		"Sabendo como atirar não garante sobrevivência. Você deve ajudar"
+		"line2_pt"		"seus companheiros, mais ainda se forem mais fracos. Se você entende a essência"
+		"line3_pt"		"de trabalho em equipe no apocalipse, você estará a frente de formar uma guild."
+		"line4_pt"		"Prove que você é capaz de mantê-los vivos, e forças unidas se juntarão"
+		"line5_pt"		"a você."
 		
 		"glines"		"1"
 		"gline1"		"-Escape 15 finales with all survivors alive"
 		"gline1_es"    		"-Sobrevivve a 15 finales con todos los sobrevivientes a salvo"
+		"gline1_pt"		"-Escape de 15 finales com todos os sobreviventes vivos"
 		
 		"qitems"		"0"
 		"qitem1"		"0"
@@ -2534,6 +2617,7 @@ line 1_ru...
 	{
 		"name"			"Join Forces 4" //Quest Names
 		"name_es"    		"unir Fuerzas 4"
+		"name_pt"		"Forças Unidas 4"
 		"id"			"46" //Quest Id
 		"qreq"			"45"
 		"cat"			"11" //Quest cat
@@ -2542,7 +2626,7 @@ line 1_ru...
 		"goal"			"0"
 		"tlines"		"5" //Total desc lines
 		"line1"			"Almost there. The maximum proof of your abilies to be a leader"
-		"line2"			"is having what we call a 'Guild Stone'. This stone ban be obtained"
+		"line2"			"is having what we call a 'Guild Stone'. This stone can be obtained"
 		"line3"			"by defeating a Shaman Tank. You must be fast and smart, because"
 		"line4"			"others will be there when it drops. Due to the hard fight, it "
 		"line5"			"will drop a broken guild stone. I can repair it for you. Now go"
@@ -2551,14 +2635,21 @@ line 1_ru...
 		"line3_es"      	"derrotando al Shaman Tank. Debes ser rapido e inteligente, porque"
 		"line4_es"      	"otros estaran ahi cuando caiga. Debido a la dificil pelea, el Shaman Tank "
 		"line5_es"     		"botara una Piedra de Clan Rota. Yo puedo repararla para ti, ahora ve."
+		"line1_pt"		"Quase lá. A prova máxima que suas habilidades de líder"
+		"line2_pt"		"é ter a chamada 'Pedra de Guild'. Essa pedra pode ser obtida"
+		"line3_pt"		"matando o Tank Shaman. Você deve ser rápido e inteligente, porque"
+		"line4_pt"		"outros estarão lá quando a pedra aparecer. Devida a luta dura, ele"
+		"line5_pt"		"irá largar uma pedra de guild quebrada. Eu posso consertá-la. Agora vá."
 		
 		"clines"		"1"
 		"cline1"		"-Good news. I will leave the repaired stone on the Supply Box. Good luck now..."
 		"cline1_es"    		"-Buenas noticias. Dejare la Piedra de Clan reparada en la caja de suministros. Buena suerte ahora.
+		"cline1_pt"		"-Boas notícias. Eu irei deixar a pedra na Caixa de Suprimento. Boa sorte agora..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect a Broken Guild Stone"
 		"gline1_es"    		"-Consigue una Piedra de Clan Rota"
+		"gline1_pt"		"-Pegue a Pedra de Guild quebrada"
 		
 		"qitems"		"1"
 		"qitem1"		"50"
