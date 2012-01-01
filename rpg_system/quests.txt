@@ -1510,6 +1510,7 @@ line 1_ru...
 	{
 		"name"			"The Beginner 3" //Quest Name
 		"name_es"    		"El Principiante 3"
+		"name_pt"		"O Iniciante 3"
 		"id"			"24" //Quest Id
 		"qreq"			"23"
 		"cat"			"6" //Quest cat
@@ -1527,14 +1528,21 @@ line 1_ru...
 		"line3_es"      	"La Guia de Supervivencia nunca se equivoca'... Que paradoja... En fin"
 		"line4_es"      	"deja el arroz en la caja de suministros e ire por ellos tan pronto como los"
 		"line5_es"      	"infectados te persigan... Hehehe..."
+		"line1_pt"		"Ei, desculpe te irritar de novo, mas poderia me trazer arroz?"
+		"line2_pt"		"Eu estou com fome agora, e acho que o manual está certo:"
+		"line3_pt"		"'O guia do sobrevivente nunca está errado'... Que paradoxo... Enfim"
+		"line4_pt"		"deixe o arroz na caixa de suprimento, e irei pegar assim que"
+		"line5_pt"		"os infectados te perseguirem... Hehehe..."
 		
 		"clines"		"1"
 		"cline1"		"Cool, thanks. Now I can use my mind without all those knockins..."
 		"Cline1_es"    		"Genial, Gracias.
+		"cline1_pt"		"Legal, obrigado. Agora posso pensar sem eles baterem na porta..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 Rice boxes for Bryan"
 		"gline1_es"    		"-Consigue 5 Cajas de Arroz para Bryan"
+		"gline1_pt"		"-Pegue 5 caixas de arroz para Brian"
 		
 		"qitems"		"1"
 		"qitem1"		"34"
@@ -1552,6 +1560,7 @@ line 1_ru...
 	{
 		"name"			"Missing Sister 1" //Quest Name
 		"name_es"    		"Hermana Perdida 1"
+		"name_pt"		"Irmã Perdida 1"
 		"id"			"25" //Quest Id
 		"qreq"			"24"
 		"cat"			"6" //Quest cat
@@ -1571,14 +1580,21 @@ line 1_ru...
 		"line4_es"      	"telefono celular en alguna parte, tal vez pueda usarlo para hablar con ella. Si lo encuentras... "
 		"line5_es"      	"podrias traermelo?"
 		"line6_es"      	"Gracias por adelantado"
-		
+		"line1_pt"		"E aí! Bom, eu estou começando a me preocupar com minha irmã. Nos separamos"
+		"line2_pt"		"quando um tank apareceu da linha de inspeção da CEDA. Eu tenho certeza que"
+		"line3_pt"		"ela está bem, mas eu não consigo falar com ela através do rádio. Eu perdi meu"
+		"line4_pt"		"celular em algum lugar, talvez eu possa falar com ela. Se você achar..."
+		"line5_pt"		"Poderia trazer o celular pra mim?"
+		"line6_pt"		"Agradeço adiantado"
 		"clines"		"1"
 		"cline1"		"Wow you really found it? Thaaanks! Hope you ain't scamming me..."
 		"cline1_es"    		"Vaya! en serio lo encontraste? Graaaaacias!! Espero que no me estes mintiendo..."
+		"cline1_pt"		"Você achou mesmo? Obrigado! Espero que não esteja me extorquindo..."
 		
 		"glines"		"1"
 		"gline1"		"-Find Bryan's cellphone"
 		"gline1_es"    		"-Encuentra el celular de Bryan"
+		"gline1_pt"		"-Encontre o celular"
 		
 		"qitems"		"1"
 		"qitem1"		"19"
@@ -1596,6 +1612,7 @@ line 1_ru...
 	{
 		"name"			"Missing Sister 2" //Quest Name
 		"name_es"    		"Hermana Perdida 2"
+		"name_pt"		"Irmã Perdida 2"
 		"id"			"26" //Quest Id
 		"qreq"			"25"
 		"cat"			"6" //Quest cat
@@ -1609,6 +1626,9 @@ line 1_ru...
 		"line1_es"      	"Hey! Me comunique con mi hermana, ella esta bien. Quiero estar con ella"
 		"line2_es"      	"en el refugio en el que ella se encuentra en este momento, pero los zombies han regresado"
 		"line3_es"      	"a mi ubicacion. Podrias limpiar el area?"
+		"line1_pt"		"Ei! Eu falei com minha irmã, ela está bem. Eu queria me juntar a ela"
+		"line2_pt"		"na saferoom e ela está morrendo de fome agora, mas os zumbis voltaram"
+		"line3_pt"		"onde eu estou. Você pode limpar a área?"
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c7m2_barge"
@@ -1618,12 +1638,15 @@ line 1_ru...
 		"clines"		"1"
 		"cline1"		"Thanks, I'll meet my sister then. Wish me luck, and of course, good luck to you..."
 		"cline1_es"    		"Gracias, Me unire a mi hermana entonces. Deseame suerte, y por supuesto, suerte para ti..."
+		"cline1_pt"		"Obrigado, eu encontrarei minha irmã. Deseje-me sorte, e claro, boa sorte para você..."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 250 infected from the specified location"
 		"gline2"		"-Location is at The Sacrifice campaign, second map"
 		"gline1_es"    		"-Mata 250 infectados de un area especifica"
 		"gline2_es"    		"-La localizacion esta en la campana The Sacrifice, en el segundo mapa"
+		"gline1_pt"		"-Mate 250 infectados na área específica"
+		"gline2_pt"		"-O local é na campanha The Sacrifice, segundo mapa"
 		
 		"qitems"		"1"
 		"qitem1"		"19"
@@ -1641,6 +1664,7 @@ line 1_ru...
 	{
 		"name"			"Supplies" //Quest Name
 		"name_es"    		"Provisiones"
+		"name_pt"		"Suprimentos"
 		"id"			"27" //Quest Id
 		"qreq"			"26"
 		"cat"			"6" //Quest cat
@@ -1652,18 +1676,24 @@ line 1_ru...
 		"line2"			"are running out of food and water here. Can you get us some supplies?"
 		"line1_es"      	"Hola, ya estoy con mi hermana. Gracias por ayudarme a salir, pero estamos"
 		"line2_es"      	"sin comida ni agua aqui. Podrias traernos unas provisiones?"
+		"line1_pt"		"Oi. Eu estou com minha irmã agora, obrigado pela ajuda. Agora, nós"
+		"line2_pt"		"estamos ficando sem comida e água aqui. Você pode conseguir suprimentos?"
 		
 		"clines"		"2"
 		"cline1"		"Thanks! From now on, my sister will talk with you. Her name is Theodora."
 		"cline2"		"I'm so tired and dizzy right now, hope I'm not infected..."
 		"cline1_es"    		"Gracias! De ahora en adelante, mi hermana hablara contigo. Su nombre es Theodora."
 		"cline2_es"    		"Estoy tan cansado y mareado, espero no estar infectado..."
-		
+		"cline1_pt"		"Obrigado! Agora em diante, minha irmã falará com você. O nome dela é Theodora."
+		"cline2_pt"		"Estou tão cansado e tonto agora, espero não estar infectado..."
+
 		"glines"		"2"
 		"gline1"		"-Collect 15 Bottles of water"
 		"gline2"		"-Collect 1 Food box"
 		"gline1_es"    		"-Consigue 15 botellas de agua"
 		"gline2_es"    		"-Consigue una caja de comida"
+		"gline1_pt"		"-Pegue 15 garrafas de água"
+		"gline2_pt"		"-Pegue 1 caixa de comida"
 		
 		"qitems"		"2"
 		"qitem1"		"18"
@@ -1683,6 +1713,7 @@ line 1_ru...
 	{
 		"name"			"Hunting" //Quest Name
 		"name_es"    		"Cazeria"
+		"name_pt"		"Caçando"
 		"id"			"28" //Quest Id
 		"qreq"			"0"
 		"cat"			"7" //Quest cat
@@ -1702,12 +1733,20 @@ line 1_ru...
 		"line4_es"      	"un pedido para ti. Quiero terminar mi coleccion con la cabeza de los infectados especiales"
 		"line5_es"      	"en mi pared. Puedo pagarte realmente bien, asi vas a poder mejorar tus articulos o pagar"
 		"line6_es"      	"por alguna puta zombie si lo deseas. Estas interesado?"
+		"line1_pt		"Olá. Meu nome é William e sou um reconhecido caçador de animais na área local."
+		"line2_pt"		"Desde a infecção e morte de minha esposa, eu ando caçando ratos e alguns"
+		"line3_pt"		"animais aleatórios, mas estou cansado de caçar coisas fáceis. Então, eu tenho"
+		"line4_pt"		"um desafio a você. Eu quero completar minha coleção, com cabeças de infectados"
+		"line5_pt"		"especiais em minha parede. Eu posso te pagar muito bem, para aprimorar seus itens ou"
+		"line6_pt"		"para umas prostitutas zumbis se quiser. Interessado?"
 		
 		"clines"		"2"
 		"cline1"		"Great. The money is just next to the radio, enjoy it..."
 		"cline2"		"The collection is complete, I can now die in peace (*Shoot Noise*)"
 		"cline1_es"    		"Bien, El dinero esta justo al lado de la radio disfrutalo..."
 		"cline2_es"    		"La coleccion esta completa, Ahora puedo morir en paz (*Ruido de un disparo*)"
+		"cline1_pt"		"Ótimo. O dinheiro está perto do rádio, aproveite..."
+		"cline2_pt"		"A coleção está completa, agora posso morrer em paz (*Som de tiro*)"
 		
 		"glines"		"7"
 		"gline1"		"-Collect Hunter Head"
@@ -1724,6 +1763,13 @@ line 1_ru...
 		"gline5_es"    		"-Consigue la cabeza de una Spitter"
 		"gline6_es"    		"-Consigue la cabeza de un Smoker"
 		"gline7_es"    		"-Consigue la cabeza de un Tank"
+		"gline1_pt"		"-Pegue a cabeça do Hunter"
+		"gline2_pt"		"-Pegue a cabeça do Jockey"
+		"gline3_pt"		"-Pegue a cabeça do Boomer"
+		"gline4_pt"		"-Pegue a cabeça do Charger"
+		"gline5_pt"		"-Pegue a cabeça da Spitter"
+		"gline6_pt"		"-Pegue a cabeça do Smoker"
+		"gline7_pt"		"-Pegue a cabeça do Tank"
 		
 		"qitems"		"7"
 		"qitem1"		"36"
@@ -1754,6 +1800,7 @@ line 1_ru...
 	{
 		"name"			"Inseparable 1" //Quest Name
 		"name_es"    		"Inseparables 1"
+		"name_pt"		"Inseparáveis 1"
 		"id"			"29" //Quest Id
 		"qreq"			"27"
 		"cat"			"8" //Quest cat
@@ -1775,16 +1822,26 @@ line 1_ru...
 		"line5_es"      	"fiebre no desaparece. El esta empezando a sudar mucho y ya no puede reconocerme."
 		"line6_es"      	"No se si es que esta infectado, pero el es mi hermano menor y yo no lo dejare"
 		"line7_es"      	"solo. Podrias por favor traerme algo para la fiebre?"
+		"line1_pt"		"Olá! Meu nome é Theodora, irmão do Brian. Eu tenho que te agradecer"
+		"line2_pt"		"por nos ajudar, e aprecio os suprimentos. Mas tem um problema."
+		"line3_pt"		"Meu irmão está com uma febre alta. Eu tentei lhe dar água e qualquer"
+		"line4_pt"		"outro método que pude lembrar para ajudá-lo, mas é inútil, a febre"
+		"line5_pt"		"continua. Ele está começando a suar muito e não me reconhece mais."
+		"line6_pt"		"Eu não sei se ele está infectado, mas ele é meu irmão e eu não o"
+		"line7_pt"		"deixarei. Você poderia me trazer algo para a febre?"
 		
 		"clines"		"1"
 		"cline1"		"Thank you! I'll try to get to the Supply Box and get the items. Keep in contact"
 		"cline1_es"    		"Gracias! Intentare llegar a la caja de suministros y sacar los articulos. Mantente en contacto"
+		"cline1_pt"		"Obrigado! Eu tentarei ir na caixa de suprimento e pegar os itens. Mantenha contato."
 		
 		"glines"		"2"
 		"gline1"		"-Collect 2 Towels"
 		"gline2"		"-Collect 5 Antibiotics"
 		"gline1_es"    		"-Consigue 2 Toallas"
 		"gline2_es"    		"-Consigue 5 antibioticos"
+		"gline1_pt"		"-Pegue 2 toalhas"
+		"gline2_pt"		"-Pegue 5 antibióticos"
 		
 		"qitems"		"2"
 		"qitem1"		"45"
@@ -1805,6 +1862,7 @@ line 1_ru...
 	{
 		"name"			"Inseparable 2" //Quest Name
 		"name_es"    		"Inseparables 2"
+		"name_pt"		"Inseparáveis 2"
 		"id"			"30" //Quest Id
 		"qreq"			"29"
 		"cat"			"8" //Quest cat
@@ -1824,16 +1882,25 @@ line 1_ru...
 		"line4_es"      	"atrajo algunos infectados. Tengo Pistolas silenciosas y unos pocos SmGs, asi que puedo"
 		"line5_es"      	"pelear con los infectados. El problema es que se me esta empezando a acabar la municion y estas"
 		"line6_es"      	"armas son muy raras. Consigueme algo de municion por favor"
+		"line1_pt"		"Oi de novo! Os itens que você me trouxe ajudaram um pouco. Pelo menos, ele"
+		"line2_pt"		"está um pouco melhor que antes e me reconhece. Infelizmente, na noite passada"
+		"line3_pt"		"enquanto ele dormia, ele acordou de um pesadelo e começou a gritar, que"
+		"line4_pt"		"atraiu infectados. Eu tenho pistolas silenciadas e algumas SMGs, então posso"
+		"line5_pt"		"lutar contra os infectados. O problema é, estou ficando sem munição e essas"
+		"line6_pt"		"armas são raras. Pegue munição para mim por favor."
 		
 		"clines"		"2"
 		"cline1"		"Thanks for your help mate, I'm able to upgrade any kind of weapons, talk"
 		"cline2"		"to me if you are interested"
 		"cline1_es"    		"Gracias por tu ayuda companero. Yo puedo mejorar cualquier tipo de armas, avisame"
 		"cline2_es"    		"si estas interesado"
+		"cline1_pt"		"Obrigado pela ajuda, amigo. Eu posso aprimorar suas armas, fale"
+		"cline2_pt"		"comigo quando estiver interessado."
 		
 		"glines"		"2"
 		"gline1"		"-Collect 5 Rounds of special ammo"
 		"gline1_es"    		"-Consigue 5 Rondas de Municion Especial"
+		"gline1_pt"		"-Pegue 5 Munições especiais"
 		
 		"qitems"		"1"
 		"qitem1"		"47"
@@ -1852,6 +1919,7 @@ line 1_ru...
 	{
 		"name"			"Inseparable 3" //Quest Name
 		"name_es"    		"Inseparables 3"
+		"name_pt"		"Inseparáveis 3"
 		"id"			"31" //Quest Id
 		"qreq"			"30"
 		"cat"			"8" //Quest cat
@@ -1869,16 +1937,24 @@ line 1_ru...
 		"line3_es"      	"para ti. Hara mas dano y con un poco de polvora, borrara a los infectados comunes"
 		"line4_es"      	"de este continente. Consigue los articulos necesarios y yo"
 		"line5_es"      	"lo hare en cuestion de nada."
+		"line1_pt"		"Nós estamos indo bem até agora. A febre do meu irmão está quase passando e eu tenho"
+		"line2_pt"		"munição suficiente para 2 semanas. Para te agradecer, eu decidi criar um avançado"
+		"line3_pt"		"rifle para você. Ele causará mais dano, e um pouco de pó, ele irá matar"
+		"line4_pt"		"infectados especiais para fora do continente. Pegue os itens necessários e irei"
+		"line5_pt"		"fazê-lo em tempo."
 		
 		"clines"		"1"
 		"cline1"		"Great, I'll leave the rifle on the Supply Box. Hope we meet again"
 		"cline1_es"    		"Bien, Dejare el rifle en la caja de suministros. Espero que nos encontremos de nuevo"
+		"cline1_pt"		"Bom, eu deixarei o rifle na caixa de suprimentos. Espero te encontrar de novo."
 		
 		"glines"		"2"
 		"gline1"		"-Collect 1 Broken Rifle"
 		"gline2"		"-Collect Powder"
 		"gline1_es"    		"-Consigue un Rifle Danado"
 		"gline2_es"    		"-Consigue Polvora"
+		"gline1_pt"		"-Pegue 1 Rifle Danificado"
+		"gline2_pt"		"-Pegue Pólvora"
 		
 		"qitems"		"2"
 		"qitem1"		"1"
@@ -1899,6 +1975,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Lab 1" //Quest Name
 		"name_es"    		"Laboratorio de Darwin"
+		"name_pt"		"Laboratório do Darwin 1"
 		"id"			"32" //Quest Id
 		"qreq"			"0"
 		"cat"			"9" //Quest cat
@@ -1920,14 +1997,24 @@ line 1_ru...
 		"line5_es"      	"En fin, Estoy investigando dentro de este refugio para hallar una cura, pero perdi"
 		"line6_es"      	"los apuntes que habia tomado cuando estaba analizando algunas personas."
 		"line7_es"      	"Deberia estar cerca de los trailers de la CEDA. Traemelos de vuelta y te recompensare"
+		"line1_pt"		"Olá sobrevivente. Meu nome é Doutor Darwing, e sou cientista. Eu costumava"
+		"line2_pt"		"trabalhar para a unidade especial CEDA, até eles decidirem me executar"
+		"line3_pt"		"me expulsando da instalação. Eles são bobos, os infectados conseguiram"
+		"line4_pt"		"entrar no prédio e mataram todos eles, mas eu consegui sobreviver."
+		"line5_pt"		"Enfim, estou pesquisando a cura dentro da saferoom, mas eu perdi"
+		"line6_pt"		"as anotações que escrevi quando estava analisando as pessoas. Elas"
+		"line7_pt"		"devem estar perto dos trailers da CEDA. Me traga de volta e irei te recompensar."
+		
 		
 		"clines"		"1"
 		"cline1"		"Just awesome, talk to me again soon, I have more request for you"
 		"cline1_es"    		"Simplemente asombroso, llamame pronto. Tengo algunas peticiones mas que hacerte"
+		"cline1_pt"		"Simplesmente incrível, fale comigo em breve. Eu tenho mais pedidos a você."
 		
 		"glines"		"1"
 		"gline1"		"-Collect Darwin's notes"
 		"gline1_es"    		"-Encuentra los Apuntes de Darwin"
+		"gline1_pt"		"-Pegue os Apontamentos/Notas de Darwin"
 		
 		"qitems"		"1"
 		"qitem1"		"48"
@@ -1948,6 +2035,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Lab 2" //Quest Name
 		"name_es"    		"Laboratorio de Darwin 2"
+		"name_pt"		"Laboratório de Darwin 2"
 		"id"			"33" //Quest Id
 		"qreq"			"32"
 		"cat"			"9" //Quest cat
@@ -1971,14 +2059,24 @@ line 1_ru...
 		"line6_es"     	 	"el veneno no afecta demasiado a sobrevivientes inmunes. De todos modos, me gustaria crear una"
 		"line7_es"      	"cura para el veneno. Traeme algunos materiales de investigacion, y lo compartire"
 		"line8_es"     		"contigo."
+		"line1_pt"		"Olá novamente, Doutor Darwin falando. Eu andei assistindo fitas dos"
+		"line2_pt"		"infectados especiais chamadas Witches. A primeira vez que vi uma,"
+		"line3_pt"		"ela estava lá, chorando em um canto, e nunca nos atacou."
+		"line4_pt"		"Mais tarde, as witches desenvolveram agressão a quem se aproximava, e"
+		"line5_pt"		"agora elas estão produzindo um veneno forte para paralizar as pessoas. Mas"
+		"line6_pt"		"o veneno não afeta sobreviventes imunes. Enfim, eu gostaria de"
+		"line7_pt"		"criar a cura para o veneno. Me traga material de pesquisa, e irei dividir"
+		"line8_pt"		"com você."
 		
 		"clines"		"1"
 		"cline1"		"Great, I'll let you know if I need anything else for my research"
 		"cline1_es"    		"Genial, Te avisare si necesito algo mas para mi investigacion"
+		"cline1_pt"		"Excelente, eu irei te informas se precisar de mais alguma coisa."
 		
 		"glines"		"1"
 		"gline1"		"-Collect 5 Samples of Witch's poison"
 		"gline1_es"    		"-Consigue 5 muestras del veneno de la Witch"
+		"gline1_pt"		"-Pegue 5 amostras de veneno"
 		
 		"qitems"		"1"
 		"qitem1"		"49"
@@ -1999,6 +2097,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Lab 3" //Quest Names
 		"name_es"    		"Laboratorio de Darwin 3"
+		"name_pt"		"Laboratório do Darwin 3"
 		"id"			"34" //Quest Id
 		"qreq"			"33"
 		"cat"			"9" //Quest cat
@@ -2016,6 +2115,11 @@ line 1_ru...
 		"line3_es"      	"limpiar el area antes que me atrapen? Despues te entregare el antidoto a traves de la caja de suministros."
 		"line4_es"      	"Estoy entre un centro comercial y un Hotel. Havannah, creo que ese es el nombre del hotel. Limpia el area"
 		"line5_es"      	"entera por favor."
+		"line1_pt"		"Olá mais uma vez. A pesquisa está quase pronta, mas eu tenho um problema. Veneno em"
+		"line2_pt"		"alta concentração para atrair vários infectados especiais. Você poderia por favor"
+		"line3_pt"		"limpar a área antes de me pegarem? Eu irei entregar o antídoto em uma caixa de suprimento."
+		"line4_pt"		"Estou entre um shopping e um hotel. Havannah é o nome do hotel. Apenas limpe"
+		"line5_pt"		"a área toda, por favor."
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c1m2_streets"
@@ -2025,12 +2129,15 @@ line 1_ru...
 		"clines"		"1"
 		"cline1"		"Fantastic, I'll deliver the poison antidote as soon as I can..."
 		"cline1_es"    		"Fantastico, Te entregare el antidoto del veneno tan pronto como pueda..."
+		"cline1_pt"		"Fantástico, eu irei entregar o antídoto do veneno assim que puder..."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 50 Special infected on the specified area"
 		"gline2"		"-Location is at Dead Center campaign, second map"
 		"gline1_es"    		"-Mata 50 Infectados Especiales en un area especifica"
 		"gline2_es"    		"-La localizacion esta en la campana Dead Center, en el segundo mapa"
+		"gline1_pt"		"-Mate 50 Infectados Especiais na área"
+		"gline2_pt"		"-A localização é na campanha Dead Center, segundo mapa"
 		
 		"qitems"		"0"
 		
@@ -2046,6 +2153,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Lab 4" //Quest Names
 		"name_es"    		"Laboratorio de Darwin 4"
+		"name_pt"		"Laboratório do Darwin 4"
 		"id"			"35" //Quest Id
 		"qreq"			"34"
 		"cat"			"9" //Quest cat
@@ -2067,14 +2175,23 @@ line 1_ru...
 		"line5_es"      	"estudiar a los charger correctamente, necesito una muestra de su garra. Pero espera, debe ser de uno
 		"line6_es"      	"de los primeros Charger que aparecieron. Anda al pantano y traeme la garra"
 		"line7_es"      	"del Charger por favor"
+		"line1_pt"		"Olá sobrevivente! É o doutor Darwin de novo. Eu espero que esteja gostando do antídoto"
+		"line2_pt"		"que fiz para você. eu gostaria de continuar com a pesquisa, e talvez farei a cura para"
+		"line3_pt"		"essa infecção. As coisas estão calmas aqui, eu não andei vendo muitos infectados"
+		"line4_pt"		"então acho que serei capaz de coletar material para pesquisa. No entanto, em ordem"
+		"line5_pt"		"de estudar Chargers corretamente, eu preciso de uma garra. Mas calma, ela deve ser"
+		"line6_pt"		"do primeiro Charger que aparecer. Vá para o pântano, e me traga a"
+		"line7_pt"		"garra do Charger, por favor."
 		
 		"clines"		"1"
 		"cline1"		"Great, leave the claw on a supply box and I'll go for it as soon as i can..."
 		"cline1_es"    		"Genial, deja la garra en una caja de suministros e ire por el tan pronto como pueda..."
+		"cline1_pt"		"Legal, deixe a garra na caixa de suprimento e irei pegá-la assim que puder..."
 		
 		"glines"		"1"
 		"gline1"		"-Collect the claw from the first Charger that appeared in the swamp"
 		"gline1_es"    		"-Consigue la garra de el primer Charger que aparecio en el pantano"
+		"gline1_pt"		"-Pegue a garra do primeiro Charger que aparecer no pântano"
 		
 		"qitems"		"0"
 		
@@ -2090,6 +2207,7 @@ line 1_ru...
 	{
 		"name"			"Darwin's Friend 1" //Quest Names
 		"name_es"    		"El amigo de Darwin 1"
+		"name_pt"		"O amigo de Darwin 1"
 		"id"			"36" //Quest Id
 		"qreq"			"35"
 		"cat"			"9" //Quest cat
@@ -2109,6 +2227,12 @@ line 1_ru...
 		"line4_es"      	"y el dijo que estaba atrapado cerca a un aeropuerto. El no sabe muy bien donde esta."
 		"line5_es"      	"Hazme un favor...  Limpia el area para que el pueda salir del aeropuerto"
 		"line6_es"      	"y tenga al menos una oportunidad para encontrarme aca. Gracias anticipadas"
+		"line1_pt"		"A garra do Charger que você trouxe era exatamente o que precisávamos. A pesquisa"
+		"line2_pt"		"ainda não está pronta, então terá de esperar. Enquanto isso, eu quero que você"
+		"line3_pt"		"faça um favor. Eu falei com meu amigo ontem através do rádio e ele disse"
+		"line4_pt"		"que ele estava preso no aeroporto. Ele não sabe muito bem onde ele está."
+		"line5_pt"		"Faça-me um favor... Limpe a área para que ele possa sair do aeroporto e"
+		"line6_pt"		"tenha a chance de me encontrar aqui. Agradeço adiantado."
 		
 		"quest_loc"			"1"
 		"quest_loc_map"		"c11m3_garage"
@@ -2117,12 +2241,15 @@ line 1_ru...
 		"clines"		"1"
 		"cline1"		"Good Job! I'll let him know that he's now able to leave. Thank you".
 		"cline1_es"    		"Buen Trabajo! Le hare saber que ahora ya puede salir. Gracias.
+		"cline1_pt"		"Bom trabalho! Eu irei contar a ele que ele pode sair. Obrigado."
 		
 		"glines"		"2"
 		"gline1"		"-Kill 350 infected on the specified area"
 		"gline2"		"-Location is at Dead Air campaign, unknown map"
 		"gline1_es"    "-Mata 350 Infectados en un area especifica"
 		"gline2_es"    "-La localizacion esta en la Campana Dead Air, se desconoce el mapa"
+		"gline1_pt"		"-Mate 350 infectados na área específica"
+		"gline2_pt"		"-Localização na campanha Dead Air, mapa desconhecido"
 		
 		"qitems"		"0"
 		
