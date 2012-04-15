@@ -54,6 +54,7 @@
 		"name_es"	"Headshots en cadena: "
                 "name_pt"       "Combo de Headshots: "
                 "name_ru"       "Серия выстрелов в голову: "
+		"name_gr"	"Βολή στο κεφάλι σε σειρά: "
 	}
 	
 	//A Player kills X amount of common infected (Specified on sourcemod/l4d2_rpg_system.cfg)
@@ -66,6 +67,7 @@
 		"name_es"	"Asesinatos en Cadena: "
                 "name_pt"       "Combo de Assassinatos: "
                 "name_ru"       "Серия убийств: "
+		"name_gr"	"Δολοφονίες σε σειρά: "
 	}
 	
 	//A Player kills a special infected
@@ -78,6 +80,7 @@
 		"name_es"	"Infectado Especial Asesinado: "
                 "name_pt"       "Infectado Especial Assassinado"
                 "name_ru"       "Особый заражённый убит: "
+		"name_gr"	"Δολοφονία Ειδικού Μολυσμένου: "
 	}
 	
 	//A Player kills a special infected with a headshot
@@ -90,6 +93,7 @@
 		"name_es"	"Headshot a Infectado Especial: "
                 "name_pt"       "Headshot Infectado Especial: "
                 "name_ru"       "Выстрел в голову особому заражённому: "
+		"name_gr"	"Βολή στο κεφάλι ενος Ειδικού Μολυσμένου: "
 	}
 	
 	//A Player gives another adrenaline or pain_pills
@@ -110,6 +114,7 @@
 		"name_es"	"Companero Curado: "
                 "name_pt"       "Companheiro Curado: "
                 "name_ru"       "Вылечил напарника: "
+		"name_gr"	"Γιάτρεψες Συμπαίκτη: "
 	}
 	
 	//A Player heals a temamate and is harvesting (Harvest = heal another when unnecessary)
@@ -122,6 +127,7 @@
 		"name_es"	"Companero Curado (NO FUERCES PUNTOS!): "
                 "name_pt"       "Companheiro Curado (NÃO CULTIVES PONTOS): "
                 "name_ru"       "Вылечил напарника (В ЭТОМ НЕ БЫЛО НЕОБХОДИМОСТИ!): " 
+		"name_gr"	"Γιάτρεψες Συμπαίκτη (ΜΗΝ ΨΑΡΕΥΕΤΕ ΠΟΝΤΟΥΣ): "
 	} 
 	
 	//Revives an incapacitated survivor
@@ -134,6 +140,7 @@
 		"name_es"	"Companero Asistido: "
                 "name_pt"       "Companheiro Assistido: "
                 "name_ru"       "Поднял выжившего: "
+		"name_gr"	"Σώσατε Συμπαίκτη: "
 	}
 	
 	//Uses a defibrillator to bring a mate back
@@ -146,6 +153,7 @@
 		"name_es"	"Companero Revivido: "
                 "name_pt"       "Companheiro Ressuscitado: "
                 "name_ru"       "Оживил напарника: "
+		"name_gr"	"Έσωσες συμπαίκτη σου με Απινιδωτή"
 	}
 	
 	//User protects a mate once
@@ -166,6 +174,7 @@
 		"name_es"	"Companero Protegido: "
                 "name_pt"       "Companheiro Protegido: "
                 "name_ru"       "Защитил напарника: "
+		"name_gr"	"Προστατέψατε Συμπαίκτη: "
 	}
 	
 	//The user survives a normal round
@@ -178,6 +187,7 @@
 		"name_es"	"Round Sobrevivido: "
                 "name_pt"       "Round Sobrevivida: "
                 "name_ru"       "Выжил в этом раунде: "
+		"name_gr"	"Επιβιώσατε τον Γύρο: "
 	}
 	
 	//The user survives a finale AKA: Escapes
@@ -190,6 +200,7 @@
 		"name_es"	"Final Sobrevivida: "
                 "name_pt"       "Final Escapado: "
                 "name_ru"       "Спасение: "
+		"name_gr"	"Απόδραση απ'το Φινάλε: "
 	}
 	
 	//The user kills a witch
@@ -202,6 +213,7 @@
 		"name_es"	"Witch Asesinada: "
                 "name_pt"       "Witch Assassinada: "
                 "name_ru"       "Убил ведьму: "    
+		"name_gr"	"Σκοτωσατε την Witch: "
 	}
 	
 	//The user crowns a witch
@@ -214,6 +226,7 @@
 		"name_es"	"Witch Asesinada de un disparo: "
                 "name_pt"       "Witch Cr0wned: "
                 "name_ru"       "Разбудил ведьму: "
+		"name_gr"	"Σκοτωσατε Απευθείας την Witch: "
 	}  
 
 	//The user ignites a witch
@@ -226,6 +239,7 @@
 		"name_es"	"Witch Quemada: "
                 "name_pt"       "Witch Queimada: "
                 "name_ru"       "Поджёг ведьму: "
+		"name_gr"	"Κάψατε την Witch: "
 	}
 
 	//The user ignites a tank
@@ -238,6 +252,7 @@
 		"name_es"	"Tank Quemado: "
                 "name_pt"       "Tank Queimado: "
                 "name_ru"       "Поджёг танка: "
+		"name_gr"	"Κάψατε το Tank: "
 	}
 	
 	//The user biles a tank
@@ -250,6 +265,7 @@
 		"name_es"	"Tank Vomitado: "
                 "name_pt"       "Tank Vomitado: "
                 "name_ru"       "Кинул банку с блевотой на танка: "
+		"name_gr"	"Ρίξατε χολή στο Tank: "
 	}
 	
 	//The user kills a tank (Or the team does)
@@ -262,6 +278,7 @@
 		"name_es"	"Tank Asesinado: "
                 "name_pt"       "Tank Assassinado: "
                 "name_ru"       "Убил танка: "
+		"name_gr"	"Σκοτώσατε το Tank: "
 	}
 	
 	//The user kills a tank ALONE
@@ -274,6 +291,7 @@
 		"name_es"	"Tank Asesinado Solo: "
                 "name_pt"       "Tank Assassinado Sozinho"
                 "name_ru"       "Убил танка в одиночку: "
+		"name_gr"	"Σκοτώσατε το Tank ΜΟΝΟΙ ΣΑΣ: "
 	}
 	
 	//The user triggers a panic event (Unknown source, car alarms, cresendos, anything)
@@ -302,6 +320,7 @@
 		"name_es"	"Companero Ayudado: "
                 "name_pt"       "Companheiro Ajudado. "
                 "name_ru"       "Поднял напарника: "
+		"name_gr"	"Σώσατε Συμπαίκτη: "
 	}
 	
 	//The player dies
@@ -330,6 +349,7 @@
 		"name_es" "COMPANERO INCAPACITADO"
                 "name_pt" "COMPANHEIRO INCAPACITADO: "
                 "name_ru" "ВЫВЕЛ ИЗ СТРОЯ НАПАРНИКА: "
+		"name_gr" "ΚΑΤΕΒΑΣΑΤΕ ΣΥΜΠΑΙΚΤΗ: "
 	}
 	
 	//The player kills a teammate
@@ -342,6 +362,7 @@
 		"name_es"	"COMPANERO ASESINADO: "
                 "name_pt"       "COMPANHEIRO ASSASSINADO: "
                 "name_ru"       "УБИЛ ТОВАРИЩА ПО КОМАНДЕ: "
+		"name_gr"	"ΣΚΟΤΩΣΑΤΕ ΣΥΜΠΑΙΚΤΗ: "
                 
 	}
 	
@@ -357,6 +378,7 @@
 		"name_es"	"Sobreviviente Incapacitado: "
                 "name_pt"       "Sobrevivente Incapacitado: "
                 "name_ru"       "ВЫВЕЛ ИЗ СТРОЯ ВЫЖИВШЕГО: "
+		"name_gr"	"Κατεβάσατε επιζώντα: "
         }
 	
 	//The user kills a survivor
@@ -369,6 +391,7 @@
 		"name_es"	"Sobreviviente Asesinado: "
                 "name_pt"       "Sobrevivente Assassinado: "
                 "name_ru"       "УБИЛ ВЫЖИВШЕГО: "
+		"name_gr"	"Σκοτώσατε επιζωντα: "
 	}
 	
 	//The user damages a survivor for the specified amount on sourcemod/l4d2_rpg_system.cfg
@@ -381,6 +404,7 @@
 		"name_es"	"Dano Multiple: "
                 "name_pt"       "Múltiplo Dano: "
                 "name_ru"       "Огромный урон: "
+		"name_gr"	"Πολλαπλή ζημιά: "
 	}
 	
 	//The user successfully pounces a survivor
@@ -393,6 +417,7 @@
 		"name_es"	"Sobreviviente Embestido: "
                 "name_pt"       "Pounced Sobrevivente: "
                 "name_ru"       "Набросился на выжившего: "
+		"name_gr"	"Ξαφνική επίθεση σε επιζώντα: "
 	}
 	
 	//The user succesfully pounces a survivor for the max damage. Note, previous event points might get joined
@@ -405,6 +430,7 @@
 		"name_es"	"Maximo Dano de Salto: "
                 "name_pt"       "Máximo Dano Pounce: "
                 "name_ru"       "Максимальный урон от прыжка: "
+		"name_gr"	"Μέγιστη ζημιά ξαφνικής επίθεσης: "
 	}
 	
 	//The user successfully rides a survivor
@@ -417,6 +443,7 @@
 		"name_es"	"Sobreviviente Cabalgado"
                 "name_pt"       "Sobrevivente Montado: "
                 "name_ru"       "Проехался на выжившем: "
+		"name_gr"	"Καβαλήσατε επιζώντα: "
 	}
 	
 	//The user successfully begins choking a survivor
@@ -429,6 +456,7 @@
 		"name_es"	"Sobreviviente Tomado: "
                 "name_es"	"Sobreviviente Atrapado: "
                 "name_ru"       "Схватил выжившего: "
+		"name_gr"	"Αρπάξατε επιζώντα: "
 	}
 	
 	//The user successfully vomits on a survivor
@@ -441,6 +469,7 @@
 		"name_es"	"Sobreviviente Vomitado: "
                 "name_pt"       "Sobrevivente Vomitado: "
                 "name_ru"       "Наблевал на выжившего: "
+		"name_gr"	"Ξεράσατε πάνω σε επιζώντα: "
 	}
 	
 	//The user successfully charges a survivor
@@ -453,6 +482,7 @@
 		"name_es"	"Sobreviviente Cargado: "
                 "name_pt"       "Sobrevivente Carregado: "
                 "name_ru"       "Протащил выжившего: "
+		"name_gr"	"Εφοδεύσατε επιζώντα: "
 	}
 	
 	//The user successfully impacts a survivor while charging another
@@ -465,6 +495,7 @@
 		"name_es"	"Impacto: "
                 "name_pt"       "Impacto: "
                 "name_ru"       "Столкновение: "
+		"name_gr"	"Σύγκρουση Εφόδου: "
 	}
 	
 	//The user successfully pummels a survivor
@@ -489,6 +520,7 @@
 		"name_es"	"CARGA FATAL: "
                 "name_pt"       "CARGADA KARMA"
                 "name_ru"       "ФАТАЛЬНАЯ АТАКА: "
+		"name_gr"	"ΕΦΟΔΟΣ ΚΑΡΜΑ: "
 	}
 	
 	//The user deals a KARMA BITCH SLAP
@@ -500,7 +532,8 @@
 		"name"		"KARMA SLAP: "
 		"name_es"	"BOFETADA FATAL: "
                 "name_pt"       "BOFETADA KARMA: "
-                "name_ru"       "ПИНОК: " 
+                "name_ru"       "ПИНОК: "
+		"name_gr"	"ΚΑΡΜΑ ΣΦΑΛΙΑΡΑ: "
 	}
 	
 	//The user successfully spits on a survivor - BUG
@@ -513,6 +546,7 @@
 		"name_es"	"Sobreviviente Escupido: "
                 "name_pt"       "Sobrevivente Cuspido: "
                 "name_ru"       "Плюнул в выжившего: "
+		"name_gr"	"Φτύσατε σε επιζώνtα: "
 	}
 	
 	//The player loses tank control
