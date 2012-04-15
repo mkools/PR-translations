@@ -15,6 +15,7 @@
 		"name_es"	"Maquina Expendedora"
                 "name_ru"       "Торговый автомат"
                 "name_pt"       "Vending Machine"
+		"name_gr"	"Μηχανή πώλησης"
 	}
 	
 	"gem"
@@ -24,6 +25,7 @@
 		"name_es"	"Gema"
                 "name_ru"       "Кристалл"
                 "name_pt"       "Gema"
+		"name_gr"	"Πετράδι"
 	}
 	
 	"exp_package"
@@ -33,6 +35,7 @@
 		"name_es"	"Paquete de Exp Doble"
                 "name_ru"       "Двойной умножитель опыта"
                 "name_pt"       "Pacote de Exp Dupla"
+		"name_gr"	"Πακέτο διπλής εμπειρίας"
 	}
 	
 	"points"
@@ -42,6 +45,7 @@
 		"name_es"	"Mega Pack de Puntos"
                 "name_ru"       "Большое количество очков"
                 "name_pt"       "Mega Pacote de Pontos"
+		"name_gr"	"Πακέτο μέγιστων πόντων"
 	}
 	
 	"exp"
@@ -51,6 +55,7 @@
 		"name_es"	"Mega Pack de Exp"
                 "name_ru"       "Большой пакет опыта"
                 "name_pt"       "Mega Pacote de Exp"
+		"name_gr"	"Πακετο μέγιστης εμπειρίας"
 	}
 	
 	"starter_account"
@@ -60,6 +65,7 @@
 		"name_es"	"Activador de Cuenta Novata"
                 "name_ru"       "Аккаунт новичка"
                 "name_pt"       "Activador de Conta de Inicinate"
+		"name_gr"	"Κλήτης Αρχικού Λογαριασμού"
 	}
 	
 	"vending_machine_gold"
@@ -69,5 +75,6 @@
 		"name_es"	"Maquina Expendedora Premium"
                 "name_ru"       "Премиум автомат"
                 "name_pt" "Premium Vending Machine"
+		"name_gr" "Προνομοιακό μηχάνημα πώλησης"
 	}
 }
