@@ -8,6 +8,7 @@
 		"guild"		"0"
                 "name_ru"       "Кайл"
                 "name_pt"       "kyle"
+		"name_gr"	"Κάιλ"
 	}
 	"cat2"
 	{
@@ -17,6 +18,7 @@
 		"guild"		"0"
                 "name_ru"       "Роджер"
                 "name_pt"       "Roger"
+		"name_gr"	"Ρότζερ"
 	}
 	"cat3"
 	{
@@ -27,6 +29,7 @@
 		"guild"		"1"
                 "name_ru"       "Голос"
                 "name_pt"       "A Voz"
+		"name_gr"	"Η φωνή"
 	}
 	"cat4"
 	{
@@ -35,6 +38,7 @@
 		"min_lvl"	"15"
                 "name_ru"       "Кит"
                 "name_pt"       "Keith"
+		"name_gr"	"Κέιθ"
 	}
 	"cat5"
 	{
@@ -43,6 +47,7 @@
 		"min_lvl"	"10"
                 "name_ru"       "Сара"
                 "nmae_pt"       "Sara"
+		"name_gr"	"Σάρρα"
 	}
 	"cat6"
 	{
@@ -51,6 +56,7 @@
 		"min_lvl"	"20"
                 "name_ru"       "Брайан"
                 "name_pt"       "Bryan"
+		"name_gr"	"Μπράιαν"
 	}
 	"cat7"
 	{
@@ -59,6 +65,7 @@
 		"min_lvl"	"50"
                 "name_ru"       "Уильям"
                 "name_pt"       "william"
+		"name_gr"	"Γουίλιαμ"
 	}
 	"cat8"
 	{
@@ -67,6 +74,7 @@
 		"min_lvl"		"40"
                 "name_ru"       "Теодора"
                 "name_pt"       "Theodora"
+		"name_gr"	"Θεωδώρα"
 	}
 	"cat9"
 	{
@@ -75,6 +83,7 @@
 		"min_lvl"	"65"
                 "name_ru"       "Дарвин"
                 "name_pt"       "Darwin"
+		"name_gr"	"Δαρβίνος"
 	}
 	"cat10"
 	{
@@ -84,6 +93,7 @@
 		"min_lvl"	"57"
                 "name_ru"       "Вор"
                 "name_pt"       "Ladrão"
+		"name_gr"	"Κλέφτης"
 	}
 	"cat11"
 	{
@@ -92,6 +102,7 @@
 		"min_lvl"	"100"
                 "name_ru"       "Уил"
                 "name_pt"       "Will"
+		"name_gr"	"Γουίλ"
 	}
 	"cat12"
 	{
@@ -99,6 +110,7 @@
 		"id"		"12"
 		"min_lvl"	"40"
                 "name_ru"       "Дэвид"
+		"name_gr"	"Δαβιδ"
 	}
 	"cat13"
 	{
@@ -106,6 +118,7 @@
 		"id"		"13"
 		"min_lvl"	"67"
                 "name_ru"       "Снуки"
+		"name_gr"	"Σνούκι"
 	}
 	"cat14"
 	{
@@ -113,6 +126,7 @@
 		"id"		"14"
 		"min_lvl"	"150"
                 "name_ru"       "Райан"
+		"name_gr"	"Ράιαν"
 	}
 	"cat15"
 	{
@@ -120,5 +134,6 @@
 		"id"		"15"
 		"min_lvl"	"135"
                 "name_ru"       "Уолтер"
+		"name_gr"	"Γουάλτερ"
 	}
 }
