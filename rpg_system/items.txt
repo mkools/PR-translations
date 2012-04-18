@@ -1,828 +1,882 @@
 //
-//					I T E M S 			F I L E
+// I T E M S F I L E
 //
 // ***************************************************************************
-//	This file contain the data related to the bounty purchase menu. Similar
-//	to l4d2_points_system.
+// This file contain the data related to the bounty purchase menu. Similar
+// to l4d2_points_system.
 //
-//	The structure:
+// The structure:
 //
-//	"first_aid_kit" //This is the item name. Is not recommended to edit this, just add new items
-//	{
-//		"enabled"	"1"			//Should the item be shown on the menu?
-//		"name"		"Medkit"	//Name displayed
-//		"cost"		"10"		//Bounty cost of the item
-//		"cat"		"1"			//Category ID of the item. See categories.txt for more info
-//		"cmd"		"give"		//Command casted when the item is bought. In this example 'give first_aid_kit' will be enforced
-//		"param"		""			//Additional command parameter. Put "auto" here for infected items. Example: z_spawn boomer auto
-//	}
+// "first_aid_kit" //This is the item name. Is not recommended to edit this, just add new items
+// {
+// "enabled" "1" //Should the item be shown on the menu?
+// "name" "Medkit" //Name displayed
+// "cost" "10" //Bounty cost of the item
+// "cat" "1" //Category ID of the item. See categories.txt for more info
+// "cmd" "give" //Command casted when the item is bought. In this example 'give first_aid_kit' will be enforced
+// "param" "" //Additional command parameter. Put "auto" here for infected items. Example: z_spawn boomer auto
+// }
 //
-//	Misc:
+// Misc:
 //
-//	function::panic //Trigger a panic event
-//	function::killattacker //Kills pounce, choke, ride, etc attacker
-//	function::vomit		   //Param: surv or inf
-//	function::createspit   //Create Spit
-//	function::removeinf		//Removes common infected
+// function::panic //Trigger a panic event
+// function::killattacker //Kills pounce, choke, ride, etc attacker
+// function::vomit //Param: surv or inf
+// function::createspit //Create Spit
+// function::removeinf //Removes common infected
 //
-//  Note: not all functions might be functional, use at own risk
+// Note: not all functions might be functional, use at own risk
 //
 "items"
 {
-	//Melee
-	"baseball_bat"
-	{
-		"name"	"Baseball Bat"
-		"name_es"	"Bate de Baseball"
-		"name_pt"	"Bastão de Baseball"
-                "name_ru"       "Бейсбольная бита"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"chainsaw"
-	{
-		"name"	"Chainsaw"
-		"name_es"	"Motosierra"
-		"name_pt"	"Motosserra"
-                "name_ru"       "Бензопила"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"cricket_bat"
-	{
-		"name"	"Cricket Bat"
-		"name_es"	"Bate de Cricket"
-		"name_pt"	"Bastão de Criquete"
-                "name_ru"       "Бита для крикета"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"crowbar"
-	{
-		"name"	"Crowbar"
-		"name_es"	"Palanca"
-		"name_pt"	"Pé de Cabra"
-                "name_ru"       "Лом"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"electric_guitar"
-	{
-		"name"	"Electric Guitar"
-		"name_es"	"Guitarra Electrica"
-		"name_pt"	"Guitarra"
-                "name_ru"       "Электро-гитара"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"fireaxe"
-	{
-		"name"	"Fire Axe"
-		"name_es"	"Hacha"
-		"name_pt"	"Machado"
-                "name_ru        "Топор"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"frying_pan"
-	{
-		"name"	"Frying Pan"
-		"name_es"	"Sarten"
-		"name_pt"	"Frigideira"
-                "name_ru"       "Сковородка"
-		"enabled"	"1"
-		"cost"		"4"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"golfclub"
-	{
-		"name"	"Golfclub"
-		"name_es"	"Palo de Golf"
-		"name_pt"	"Taco de Golfe"
-                "name_ru"       "Клюшка для гольфа"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"katana"
-	{
-		"name"	"Katana"
-		"name_es"	"Katana"
-		"name_pt"	"Katana"
-                "name_ru"       "Катана"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"machete"
-	{
-		"name"	"Machete"
-		"name_es"	"Machete"
-		"name_pt"	"Facão"
-                "name_ru"       "Мачете"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	"tonfa"
-	{
-		"name"	"Tonfa"
-		"name_es"	"Tonfa"
-		"name_pt"	"Cacetete"
-                "name_ru"       "Тонфа"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"2"
-		"cmd"		"give"
-	}
-	
-	//Rest
-	"adrenaline"
-	{
-		"name"	"Adrenaline Shot"
-		"name_es"	"Adrenalina"
-		"name_pt"	"Adrenalina"
-                "name_ru"       "Адреналин"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"ammo"
-	{
-		"name"	"Ammunition"
-		"name_es"	"Municion"
-		"name_pt"	"Munição"
-                "name_ru"       "Боеприпасы"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"autoshotgun"
-	{
-		"name"	"Auto Shotgun"
-		"name_es"	"Auto Shotgun"
-		"name_pt"	"Auto Shotgun"
-                "name_ru"       "Дробовик"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"cola_bottles"
-	{
-		"name"	"Cola Bottles"
-		"name_es"	"Botellas de Cola"
-		"name_pt"	"Garrafas de Cola"
-                "name_ru"       "Бутылки колы"
-		"enabled"	"0"
-		"cost"		"150"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"defibrillator"
-	{
-		"name"	"Defibrillator"
-		"name_es"	"Desfibrilador"
-		"name_pt"	"Desfibrilador"
-                "name_ru"       "Дефибриллятор"
-		"enabled"	"1"
-		"cost"		"20"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"fireworkcrate"
-	{
-		"name"	"Fire Works Crate"
-		"name_es"	"Fuego Artificiales"
-		"name_pt"	"Fogos de Artifício"
-                "name_ru"       "фейрверки"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"first_aid_kit"
-	{
-		"name"	"First Aid Kit"
-		"name_es"	"Botiquin"
-		"name_pt"	"Kit de Primeiros Socorros"
-                "name_ru"       "Аптечка"
-		"enabled"	"1"
-		"cost"		"17"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"gascan"
-	{
-		"name"	"Gasoline Can"
-		"name_es"	"Gasolina"
-		"name_pt"	"Gasolina"
-                "name_ru"       "Канистра бензина"
-		"enabled"	"1"
-		"cost"		"75"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"gnome"
-	{
-		"name"	"Gnome"
-		"name_es"	"Gnomo"
-		"name_pt"	"Gnomo"
-                "name_ru"       "Гном Чомпски!"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"grenade_launcher"
-	{
-		"name"	"Grenade Launcher"
-		"name_es"	"Lanzagranadas"
-		"name_pt"	"Lançador de Granadas"
-                "name_ru"       "Гранатомёт"
-		"enabled"	"1"
-		"cost"		"50"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"health"
-	{
-		"name"	"Full Health"
-		"name_es"	"Vida al maximo"
-		"name_pt"	"Cura completa"
-                "name_ru"       "Полное здоровье"
-		"enabled"	"1"
-		"cost"		"20"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"hunting_rifle"
-	{
-		"name"	"Hunting Rifle"
-		"name_es"	"Rifle de Caza"
-		"name_pt"	"Rifle de Caça"
-                "name_ru"       "Охотничья винтовка"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"molotov"
-	{
-		"name"	"Molotov"
-		"name_es"	"Molotov"
-		"name_pt"	"Molotov"
-                "name_ru"       "Коктейль молотова"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"3"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"oxygentank"
-	{
-		"name"	"Oxygen Tank"
-		"name_es"	"Tanque de Oxigeno"
-		"name_pt"	"Tanque de Oxigénio"
-                "name_ru"       "Баллон с кислородом"
-		"enabled"	"1"
-		"cost"		"2"
-		"cat"		"5"
-		"cmd"		"give"
-	}
-	
-	"pain_pills"
-	{
-		"name"	"Pills"
-		"name_es"	"Pildoras"
-		"name_pt"	"Comprimidos"
-                "name_ru"       "Таблетки"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pipe_bomb"
-	{
-		"name"	"Pipe Bomb"
-		"name_es"	"Bomba Casera"
-		"name_pt"	"Pipe Bomb"
-                "name_ru"       "Самодельная бомба"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"3"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pistol"
-	{
-		"name"	"Pistol"
-		"name_es"	"Pistola"
-		"name_pt"	"Pistola"
-                "name_ru"       "Пистолет"
-		"enabled"	"1"
-		"cost"		"5"
-		"cat"		"1"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pistol_magnum"
-	{
-		"name"	"Pistol - Magnum"
-		"name_es"	"Magnum"
-		"name_pt"	"Magnum"
-                "name_ru"       "Магнум"
-		"enabled"	"1"
-		"cost"		"6"
-		"cat"		"1"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"propanetank"
-	{
-		"name"	"Propane Tank"
-		"name_es"	"Tanque de Propano"
-		"name_pt"	"Tanque de Propano"
-                "name_ru"       "Баллон с пропаном"
-		"enabled"	"1"
-		"cost"		"3"
-		"cat"		"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"pumpshotgun"
-	{
-		"name"	"Pump Shotgun"
-		"name_es" "Escopeta a Bombeo"
-		"name_pt" "Pump Shotgun"
+//Melee
+"baseball_bat"
+{
+"name" "Baseball Bat"
+"name_es" "Bate de Baseball"
+"name_pt" "Bastão de Baseball"
+                "name_ru" "Бейсбольная бита"
+"name_gr" "Ρόπαλο του Μπέισμπολ"
+"enabled" "1"
+"cost" "4"
+"cat" "2"
+"cmd" "give"
+}
+
+"chainsaw"
+{
+"name" "Chainsaw"
+"name_es" "Motosierra"
+"name_pt" "Motosserra"
+                "name_ru" "Бензопила"
+"name_gr" "Αλυσοπρίονο"
+"enabled" "1"
+"cost" "10"
+"cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"cricket_bat"
+{
+"name" "Cricket Bat"
+"name_es" "Bate de Cricket"
+"name_pt" "Bastão de Criquete"
+                "name_ru" "Бита для крикета"
+"name_gr" "Ρόπαλο του Κρίκετ"
+"enabled" "1"
+"cost" "4"
+"cat" "2"
+"cmd" "give"
+}
+
+"crowbar"
+{
+"name" "Crowbar"
+"name_es" "Palanca"
+"name_pt" "Pé de Cabra"
+                "name_ru" "Лом"
+"name_gr" "Λοστός"
+"enabled" "1"
+"cost" "4"
+"cat" "2"
+"cmd" "give"
+}
+
+"electric_guitar"
+{
+"name" "Electric Guitar"
+"name_es" "Guitarra Electrica"
+"name_pt" "Guitarra"
+                "name_ru" "Электро-гитара"
+"name_gr" "Κιθάρα"
+"enabled" "1"
+"cost" "4"
+"cat" "2"
+"cmd" "give"
+}
+
+"fireaxe"
+{
+"name" "Fire Axe"
+"name_es" "Hacha"
+"name_pt" "Machado"
+                "name_ru" "Топор"
+"name_gr" "Τσεκούρι"
+"enabled" "1"
+"cost" "4"
+"cat" "2"
+"cmd" "give"
+}
+
+"frying_pan"
+{
+"name" "Frying Pan"
+"name_es" "Sarten"
+"name_pt" "Frigideira"
+                "name_ru" "Сковородка"
+"name_gr" "Τιγάνι"
+"enabled" "1"
+"cost" "4"
+"cat" "2"
+"cmd" "give"
+}
+
+"golfclub"
+{
+"name" "Golfclub"
+"name_es" "Palo de Golf"
+"name_pt" "Taco de Golfe"
+                "name_ru" "Клюшка для гольфа"
+"name_gr" "Μπαστούνι του Γκόλφ"
+"enabled" "1"
+"cost" "6"
+"cat" "2"
+"cmd" "give"
+}
+
+"katana"
+{
+"name" "Katana"
+"name_es" "Katana"
+"name_pt" "Katana"
+                "name_ru" "Катана"
+"name_gr" "Κατάνα"
+"enabled" "1"
+"cost" "6"
+"cat" "2"
+"cmd" "give"
+}
+
+"machete"
+{
+"name" "Machete"
+"name_es" "Machete"
+"name_pt" "Facão"
+                "name_ru" "Мачете"
+"name_gr" "Χασαπομάχαιρο"
+"enabled" "1"
+"cost" "6"
+"cat" "2"
+"cmd" "give"
+}
+
+"tonfa"
+{
+"name" "Tonfa"
+"name_es" "Tonfa"
+"name_pt" "Cacetete"
+                "name_ru" "Тонфа"
+"name_gr" "Τάνφα"
+"enabled" "1"
+"cost" "6"
+"cat" "2"
+"cmd" "give"
+}
+
+//Rest
+"adrenaline"
+{
+"name" "Adrenaline Shot"
+"name_es" "Adrenalina"
+"name_pt" "Adrenalina"
+                "name_ru" "Адреналин"
+"name_gr" "Ένεση Αδρεναλίνης
+"enabled" "1"
+"cost" "10"
+"cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"ammo"
+{
+"name" "Ammunition"
+"name_es" "Municion"
+"name_pt" "Munição"
+                "name_ru" "Боеприпасы"
+"name_gr" "Σφαίρες"
+"enabled" "1"
+"cost" "10"
+"cat" "3"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"autoshotgun"
+{
+"name" "Auto Shotgun"
+"name_es" "Auto Shotgun"
+"name_pt" "Auto Shotgun"
+                "name_ru" "Дробовик"
+"name_gr" "Αυτόματη Καραμπίνα"
+"enabled" "1"
+"cost" "10"
+"cat" "1"
+"sub_cat" "3"
+"cmd" "give"
+"param" ""
+}
+
+"cola_bottles"
+{
+"name" "Cola Bottles"
+"name_es" "Botellas de Cola"
+"name_pt" "Garrafas de Cola"
+                "name_ru" "Бутылки колы"
+"name_gr" "Μπουκάλια κόκα-κόλας"
+"enabled" "0"
+"cost" "150"
+"cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"defibrillator"
+{
+"name" "Defibrillator"
+"name_es" "Desfibrilador"
+"name_pt" "Desfibrilador"
+                "name_ru" "Дефибриллятор"
+"name_gr" "Απεινηδωτής"
+"enabled" "1"
+"cost" "20"
+"cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"fireworkcrate"
+{
+"name" "Fire Works Crate"
+"name_es" "Fuego Artificiales"
+"name_pt" "Fogos de Artifício"
+                "name_ru" "фейрверки"
+"name_gr" "Κυβώτιο με πυροτεχνήματα"
+"enabled" "1"
+"cost" "6"
+"cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"first_aid_kit"
+{
+"name" "First Aid Kit"
+"name_es" "Botiquin"
+"name_pt" "Kit de Primeiros Socorros"
+                "name_ru" "Аптечка"
+"name_gr" "Κουτί πρώτων βοηθειών"
+"enabled" "1"
+"cost" "17"
+"cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"gascan"
+{
+"name" "Gasoline Can"
+"name_es" "Gasolina"
+"name_pt" "Gasolina"
+                "name_ru" "Канистра бензина"
+"name_gr" "Μπετόνι Βενζίνης
+"enabled" "1"
+"cost" "75"
+"cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"gnome"
+{
+"name" "Gnome"
+"name_es" "Gnomo"
+"name_pt" "Gnomo"
+                "name_ru" "Гном Чомпски!"
+"name_gr" "Γκνόμε"
+"enabled" "1"
+"cost" "8"
+"cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"grenade_launcher"
+{
+"name" "Grenade Launcher"
+"name_es" "Lanzagranadas"
+"name_pt" "Lançador de Granadas"
+                "name_ru" "Гранатомёт"
+"name_gr" "Εκτοξευτής Χειροβομβιδών"
+"enabled" "1"
+"cost" "50"
+"cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"health"
+{
+"name" "Full Health"
+"name_es" "Vida al maximo"
+"name_pt" "Cura completa"
+                "name_ru" "Полное здоровье"
+"name_gr" "Γέμισμα Ζωής"
+"enabled" "1"
+"cost" "20"
+"cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"hunting_rifle"
+{
+"name" "Hunting Rifle"
+"name_es" "Rifle de Caza"
+"name_pt" "Rifle de Caça"
+                "name_ru" "Охотничья винтовка"
+"name_gr" "Κυνηγετικό όπλο"
+"enabled" "1"
+"cost" "10"
+"cat" "1"
+"sub_cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"molotov"
+{
+"name" "Molotov"
+"name_es" "Molotov"
+"name_pt" "Molotov"
+                "name_ru" "Коктейль молотова"
+"name_gr" "Μολότοβ"
+"enabled" "1"
+"cost" "8"
+"cat" "3"
+"sub_cat" "1"
+"cmd" "give"
+"param" ""
+}
+
+"oxygentank"
+{
+"name" "Oxygen Tank"
+"name_es" "Tanque de Oxigeno"
+"name_pt" "Tanque de Oxigénio"
+                "name_ru" "Баллон с кислородом"
+"name_gr" "Γκαζάκι"
+"enabled" "1"
+"cost" "2"
+"cat" "5"
+"cmd" "give"
+}
+
+"pain_pills"
+{
+"name" "Pills"
+"name_es" "Pildoras"
+"name_pt" "Comprimidos"
+                "name_ru" "Таблетки"
+"name_gr" "Χάπια"
+"enabled" "1"
+"cost" "10"
+"cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"pipe_bomb"
+{
+"name" "Pipe Bomb"
+"name_es" "Bomba Casera"
+"name_pt" "Pipe Bomb"
+                "name_ru" "Самодельная бомба"
+"name_gr" "Βόμβα Σωλήνας"
+"enabled" "1"
+"cost" "8"
+"cat" "3"
+"sub_cat" "1"
+"cmd" "give"
+"param" ""
+}
+
+"pistol"
+{
+"name" "Pistol"
+"name_es" "Pistola"
+"name_pt" "Pistola"
+                "name_ru" "Пистолет"
+"name_gr" "Πιστόλι"
+"enabled" "1"
+"cost" "5"
+"cat" "1"
+"sub_cat" "1"
+"cmd" "give"
+"param" ""
+}
+
+"pistol_magnum"
+{
+"name" "Pistol - Magnum"
+"name_es" "Magnum"
+"name_pt" "Magnum"
+                "name_ru" "Магнум"
+"name_gr" "Μάγκνουμ"
+"enabled" "1"
+"cost" "6"
+"cat" "1"
+"sub_cat" "1"
+"cmd" "give"
+"param" ""
+}
+
+"propanetank"
+{
+"name" "Propane Tank"
+"name_es" "Tanque de Propano"
+"name_pt" "Tanque de Propano"
+                "name_ru" "Баллон с пропаном"
+"name_gr" "Βαρέλι Φυσικού Αερίου"
+"enabled" "1"
+"cost" "3"
+"cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"pumpshotgun"
+{
+"name" "Pump Shotgun"
+"name_es" "Escopeta a Bombeo"
+"name_pt" "Pump Shotgun"
                 "name_ru" "Помповый дробовик"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle"
-	{
-		"name"	"Rifle M16"
-		"name_es"	"Rifle M16"
-		"name_pt"	"M16"
-                "name_ru"       "М16"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_ak47"
-	{
-		"name"	"Rifle AK47"
-		"name_es"	"Rifle AK47"
-		"name_pt"	"AK47"
-                "name_ru"       "Автомат Калашникова"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_desert"
-	{
-		"name"	"Rifle Desert"
-		"name_es"	"Rifle Militar"
-		"name_pt"	"Rifle Militar"
-                "name_ru"       "Винтовка военных"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_m60"
-	{
-		"name"	"Rifle M60"
-		"name_es"	"Rifle M60"
-		"name_pt"	"M60"
-                "name_ru"       "М60"
-		"enabled"	"1"
-		"cost"		"50"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"rifle_sg552"
-	{
-		"name"	"Rifle SG552"
-		"name_es"	"Rifle SG552"
-		"name_pt"	"SG552"
-                "name_ru"       "Штурмовая винтовка SG552"
-		"enabled"	"1"
-		"cost"		"12"
-		"cat"		"1"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"shotgun_chrome"
-	{
-		"name"	"Chrome Shotgun"
-		"name_es"	"Escopeta de Cromo"
-		"name_pt"	"Chrome Shotgun"
-                "name_ru"       "Хромированный дробовик"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"shotgun_spas"
-	{
-		"name"	"Spas Shotgun"
-		"name_es"	"Escopeta Spas"
-		"name_pt"	"Spas Shotgun"
-                "name_ru"       "Дробовик Спас"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"3"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"smg"
-	{
-		"name"	"SMG"
-		"name_es"	"SMG"
-		"name_pt"	"SMG"
-                "name_ru"       "Пистолет-пулемёт"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"smg_mp5"
-	{
-		"name"	"SMG - MP5"
-		"name_es"	"SMG MP5"
-		"name_pt"	"SMG MP5"
-                "name_ru"       "Пистолет-пулемёт MP5"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"smg_silenced"
-	{
-		"name"	"SMG - Silenced"
-		"name_es"	"SMG Silenciada"
-		"name_pt"	"SMG Silenciada"
-                "name_ru"       "Пистолет-пулемёт с глушителем"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"1"
-		"sub_cat"	"4"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"sniper_awp"
-	{
-		"name"	"Sniper - Awp"
-		"name_es"	"Francotirador AWP"
-		"name_pt"	"Sniper - AWP"
-                "name_ru"       "Снайперская винтовка"
-		"enabled"	"1"
-		"cost"		"15"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"sniper_military"
-	{
-		"name"	"Snipe - Military"
-		"name_es"	"Francotirador Militar"
-		"name_pt"	"Sniper Militar"
-                "name_ru"       "Военная винтовка"
-		"enabled"	"1"
-		"cost"		"14"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"sniper_scout"
-	{
-		"name"	"Sniper - Scout"
-		"name_es"	"Francotirador Scout"
-		"name_pt"	"Scout"
-                "name_ru"       "Винтовка скаута"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"1"
-		"sub_cat"	"5"
-		"cmd"		"give"
-		"param"		""
-	}
-	"explosive_ammo"
-	{
-		"name"	"Explosive Ammo"
-		"name_es"	"Municion Explosiva"
-		"name_pt"	"Munição Explosiva"
-                "name_ru"	"Разрывные патроны"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"upgrade_add"
-		"param"		""
-	}
-	"upgradepack_explosive"
-	{
-		"name"	"Explosive Ammo Pack"
-		"name_es"	"Paquete de Municion Explosiva"
-		"name_pt"	"Pacote de Munição Explosiva"
-                "name_ru"       "Ящик с разрывными патронами"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"incendiary_ammo"
-	{
-		"name"	"Incendiary Ammo"
-		"name_es"	"Municion Incendiaria"
-		"name_pt"	"Munição Incendiária"
-                "name_ru"       "Зажигательные патроны"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"upgrade_add"
-		"param"		""
-	}
-	
-	"upgradepack_incendiary"
-	{
-		"name"	"Incendiary Ammo Pack"
-		"name_es"	"Paquete de Municion Incendiaria"
-		"name_pt"	"Pacote de Munição Incendiária"
-                "name_ru"       "Ящик с зажигательными патронами"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"laser_sight"
-	{
-		"name"	"Laser Sight"
-		"name_es"	"Mira Laser"
-		"name_pt"	"Mira Laser"
-                "name_ru"       "Лазерный прицел"
-		"enabled"	"1"
-		"cost"		"7"
-		"cat"		"3"
-		"sub_cat"	"2"
-		"cmd"		"upgrade_add"
-		"param"		""
-	}
-	
-	"vomitjar"
-	{
-		"name"	"Vomit Jar"
-		"name_es"	"Frasco de Bilis"
-		"name_pt"	"Jarra de Vómito"
-                "name_ru"       "Банка с рвотой"
-		"enabled"	"1"
-		"cost"		"8"
-		"cat"		"3"
-		"sub_cat"	"1"
-		"cmd"		"give"
-		"param"		""
-	}
-	
-	"health "
-	{
-		"name"	"Heal"
-		"name_es"	"Curacion"
-		"name_pt"	"Curar"
-                "name_ru"       "Лечение"
-		"enabled"	"1"
-		"cost"		"50"
-		"cat"		"0"
-		"cmd"		"give"
-	}
-	
-	"boomer"
-	{
-		"name"	"Boomer"
-		"enabled"	"0"
-		"cost"		"30"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"charger"
-	{
-		"name"	"Charger"
-		"enabled"	"0"
-		"cost"		"6"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"hunter"
-	{
-		"name"	"Hunter"
-		"enabled"	"0"
-		"cost"		"4"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"jockey"
-	{
-		"name"	"Jockey"
-		"enabled"	"0"
-		"cost"		"6"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"smoker"
-	{
-		"name"	"Smoker"
-		"enabled"	"0"
-		"cost"		"4"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"spitter"
-	{
-		"name"	"Spitter"
-		"enabled"	"0"
-		"cost"		"6"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"tank"
-	{
-		"name"	"Tank"
-		"enabled"	"1"
-		"cost"		"60"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"witch"
-	{
-		"name"	"Witch"
-		"enabled"	"1"
-		"cost"		"25"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"mob"
-	{
-		"name"	"Horde"
-		"name_es"	"Horda"
-		"name_pt"	"Horda"
-                "name_ru"       "Орда"
-		"enabled"	"1"
-		"cost"		"10"
-		"cat"		"0"
-		"cmd"		"z_spawn"
-		"param"		"auto"
-	}
-	
-	"panic_event"
-	{
-		"name"	"Panic Event"
-		"name_es"	"Horda Masiva"
-		"name_pt"	"Evento de Pânico"
-                "name_ru"       "Массивная орда"
-		"enabled"	"1"
-		"cost"		"15"
-		"cat"		"0"
-		"cmd"		"function::panic"
-		"param"		""
-	}
-	
-	"vomit_survivors"
-	{
-		"name"	 "Bile Shower (Vomit All)"
-		"name_es"	"Ducha de Vomito (Vomitar a Todos)"
-		"name_pt"	"Banho de Vómito (Vomitar a Todos)"
-                "name_ru"       "Душ из рвоты" (действует на всех)"
-		"enabled"	"1"
-		"cost"		"30"
-		"cat"		"0"
-		"cmd"		"function::vomit"
-		"param"		"surv"
-	}
+"name_gr" "Καραμπίνα"
+"enabled" "1"
+"cost" "7"
+"cat" "1"
+"sub_cat" "3"
+"cmd" "give"
+"param" ""
+}
+
+"rifle"
+{
+"name" "Rifle M16"
+"name_es" "Rifle M16"
+"name_pt" "M16"
+                "name_ru" "М16"
+"name_gr" "Μ16"
+"enabled" "1"
+"cost" "12"
+"cat" "1"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"rifle_ak47"
+{
+"name" "Rifle AK47"
+"name_es" "Rifle AK47"
+"name_pt" "AK47"
+                "name_ru" "Автомат Калашникова"
+"name_gr" "Καλάσνικοφ ΑΚ47"
+"enabled" "1"
+"cost" "12"
+"cat" "1"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"rifle_desert"
+{
+"name" "Rifle Desert"
+"name_es" "Rifle Militar"
+"name_pt" "Rifle Militar"
+                "name_ru" "Винтовка военных"
+"name_gr" "Όπλο Desert"
+"enabled" "1"
+"cost" "12"
+"cat" "1"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"rifle_m60"
+{
+"name" "Rifle M60"
+"name_es" "Rifle M60"
+"name_pt" "M60"
+                "name_ru" "М60"
+"name_gr" "Μ60"
+"enabled" "1"
+"cost" "50"
+"cat" "1"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"rifle_sg552"
+{
+"name" "Rifle SG552"
+"name_es" "Rifle SG552"
+"name_pt" "SG552"
+                "name_ru" "Штурмовая винтовка SG552"
+"name_gr" "SG552"
+"enabled" "1"
+"cost" "12"
+"cat" "1"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"shotgun_chrome"
+{
+"name" "Chrome Shotgun"
+"name_es" "Escopeta de Cromo"
+"name_pt" "Chrome Shotgun"
+                "name_ru" "Хромированный дробовик"
+"name_gr" "Καραμπίνα Χρωμίου"
+"enabled" "1"
+"cost" "7"
+"cat" "1"
+"sub_cat" "3"
+"cmd" "give"
+"param" ""
+}
+
+"shotgun_spas"
+{
+"name" "Spas Shotgun"
+"name_es" "Escopeta Spas"
+"name_pt" "Spas Shotgun"
+                "name_ru" "Дробовик Спас"
+"name_gr" "SPAS-12"
+"enabled" "1"
+"cost" "10"
+"cat" "1"
+"sub_cat" "3"
+"cmd" "give"
+"param" ""
+}
+
+"smg"
+{
+"name" "SMG"
+"name_es" "SMG"
+"name_pt" "SMG"
+                "name_ru" "Пистолет-пулемёт"
+"name_gr" "Οπλοπολυβόλο"
+"enabled" "1"
+"cost" "7"
+"cat" "1"
+"sub_cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"smg_mp5"
+{
+"name" "SMG - MP5"
+"name_es" "SMG MP5"
+"name_pt" "SMG MP5"
+                "name_ru" "Пистолет-пулемёт MP5"
+"name_gr" "MP5"
+"enabled" "1"
+"cost" "7"
+"cat" "1"
+"sub_cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"smg_silenced"
+{
+"name" "SMG - Silenced"
+"name_es" "SMG Silenciada"
+"name_pt" "SMG Silenciada"
+                "name_ru" "Пистолет-пулемёт с глушителем"
+"name_gr" "SMG με σιγαστήρα"
+"enabled" "1"
+"cost" "7"
+"cat" "1"
+"sub_cat" "4"
+"cmd" "give"
+"param" ""
+}
+
+"sniper_awp"
+{
+"name" "Sniper - Awp"
+"name_es" "Francotirador AWP"
+"name_pt" "Sniper - AWP"
+                "name_ru" "Снайперская винтовка"
+"name_gr" "Σκοπευτικό - AWP"
+"enabled" "1"
+"cost" "15"
+"cat" "1"
+"sub_cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"sniper_military"
+{
+"name" "Snipe - Military"
+"name_es" "Francotirador Militar"
+"name_pt" "Sniper Militar"
+                "name_ru" "Военная винтовка"
+"name_gr" "Σκοπευτικό του στρατού"
+"enabled" "1"
+"cost" "14"
+"cat" "1"
+"sub_cat" "5"
+"cmd" "give"
+"param" ""
+}
+
+"sniper_scout"
+{
+"name" "Sniper - Scout"
+"name_es" "Francotirador Scout"
+"name_pt" "Scout"
+                "name_ru" "Винтовка скаута"
+"name_gr" "Σκοπευτικό του εξερευνιτή"
+"enabled" "1"
+"cost" "10"
+"cat" "1"
+"sub_cat" "5"
+"cmd" "give"
+"param" ""
+}
+"explosive_ammo"
+{
+"name" "Explosive Ammo"
+"name_es" "Municion Explosiva"
+"name_pt" "Munição Explosiva"
+                "name_ru" "Разрывные патроны"
+"name_gr" "Εκρηκτικές Σφαίρες
+"enabled" "1"
+"cost" "7"
+"cat" "3"
+"sub_cat" "2"
+"cmd" "upgrade_add"
+"param" ""
+}
+"upgradepack_explosive"
+{
+"name" "Explosive Ammo Pack"
+"name_es" "Paquete de Municion Explosiva"
+"name_pt" "Pacote de Munição Explosiva"
+                "name_ru" "Ящик с разрывными патронами"
+"name_gr" "Πακέτο εκρηκτικών σφαιρών"
+"enabled" "1"
+"cost" "10"
+"cat" "3"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"incendiary_ammo"
+{
+"name" "Incendiary Ammo"
+"name_es" "Municion Incendiaria"
+"name_pt" "Munição Incendiária"
+                "name_ru" "Зажигательные патроны"
+"name_gr" "Φλεγόμενες Σφαίρες"
+"enabled" "1"
+"cost" "7"
+"cat" "3"
+"sub_cat" "2"
+"cmd" "upgrade_add"
+"param" ""
+}
+
+"upgradepack_incendiary"
+{
+"name" "Incendiary Ammo Pack"
+"name_es" "Paquete de Municion Incendiaria"
+"name_pt" "Pacote de Munição Incendiária"
+                "name_ru" "Ящик с зажигательными патронами"
+"name_gr" "Πακέτο φλεγούμενων Σφαίρων"
+"enabled" "1"
+"cost" "10"
+"cat" "3"
+"sub_cat" "2"
+"cmd" "give"
+"param" ""
+}
+
+"laser_sight"
+{
+"name" "Laser Sight"
+"name_es" "Mira Laser"
+"name_pt" "Mira Laser"
+                "name_ru" "Лазерный прицел"
+"name_gr" "Λέισερ
+"enabled" "1"
+"cost" "7"
+"cat" "3"
+"sub_cat" "2"
+"cmd" "upgrade_add"
+"param" ""
+}
+
+"vomitjar"
+{
+"name" "Vomit Jar"
+"name_es" "Frasco de Bilis"
+"name_pt" "Jarra de Vómito"
+                "name_ru" "Банка с рвотой"
+"name_gr" "Βάζο εμετού"
+"enabled" "1"
+"cost" "8"
+"cat" "3"
+"sub_cat" "1"
+"cmd" "give"
+"param" ""
+}
+
+"health "
+{
+"name" "Heal"
+"name_es" "Curacion"
+"name_pt" "Curar"
+                "name_ru" "Лечение"
+"name_gr" "Γιάτρεμα"
+"enabled" "1"
+"cost" "50"
+"cat" "0"
+"cmd" "give"
+}
+
+"boomer"
+{
+"name" "Boomer"
+"enabled" "0"
+"cost" "30"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"charger"
+{
+"name" "Charger"
+"enabled" "0"
+"cost" "6"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"hunter"
+{
+"name" "Hunter"
+"enabled" "0"
+"cost" "4"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"jockey"
+{
+"name" "Jockey"
+"enabled" "0"
+"cost" "6"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"smoker"
+{
+"name" "Smoker"
+"enabled" "0"
+"cost" "4"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"spitter"
+{
+"name" "Spitter"
+"enabled" "0"
+"cost" "6"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"tank"
+{
+"name" "Tank"
+"enabled" "1"
+"cost" "60"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"witch"
+{
+"name" "Witch"
+"enabled" "1"
+"cost" "25"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"mob"
+{
+"name" "Horde"
+"name_es" "Horda"
+"name_pt" "Horda"
+                "name_ru" "Орда"
+"name_gr" "Πλήθος"
+"enabled" "1"
+"cost" "10"
+"cat" "0"
+"cmd" "z_spawn"
+"param" "auto"
+}
+
+"panic_event"
+{
+"name" "Panic Event"
+"name_es" "Horda Masiva"
+"name_pt" "Evento de Pânico"
+                "name_ru" "Массивная орда"
+"name_gr" "Πανικός"
+"enabled" "1"
+"cost" "15"
+"cat" "0"
+"cmd" "function::panic"
+"param" ""
+}
+
+"vomit_survivors"
+{
+"name" "Bile Shower (Vomit All)"
+"name_es" "Ducha de Vomito (Vomitar a Todos)"
+"name_pt" "Banho de Vómito (Vomitar a Todos)"
+                "name_ru" "Душ из рвоты" (действует на всех)"
+"name_gr" "Ντουζ χολής" (Ξέρασμα σε όλους)"
+"enabled" "1"
+"cost" "30"
+"cat" "0"
+"cmd" "function::vomit"
+"param" "surv"
+}
 }
